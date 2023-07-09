@@ -354,13 +354,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileScanTarget: {fileID: 1700038481}
   tileMap: {fileID: 2800000, guid: 9eb9a17c0689d2f41ba5b10590515b93, type: 3}
-  biomeMap: {fileID: 0}
-  heightMap: {fileID: 2800000, guid: 36fb1a284cbe20d4aab634de765eb292, type: 3}
-  temperatureMap: {fileID: 2800000, guid: b4584d46aa34ab6489bb769bb820ced0, type: 3}
+  tileAreaMap: {fileID: 2800000, guid: ad3dddf4f254e904581c9493b3160379, type: 3}
+  provinceMap: {fileID: 2800000, guid: 949a96c716054ec4c924329c6c2159c6, type: 3}
   languageMap: {fileID: 2800000, guid: c513d8fd8a83f9645926626f81baee7d, type: 3}
+  biomeMap: {fileID: 2800000, guid: c596a196bb1d6f14fa0c76fc5884bad1, type: 3}
+  heightMap: {fileID: 2800000, guid: 36fb1a284cbe20d4aab634de765eb292, type: 3}
+  populationMap: {fileID: 0}
   continentMap: {fileID: 2800000, guid: 221e1e57c1d310b4686daf4a99df0efc, type: 3}
-  timezoneMap: {fileID: 2800000, guid: 9a6e1e74b71c7994ba36ab1480a06d6a, type: 3}
   newGenerate: 1
+  bodyCircumferanceKilometres: 3769.911
+  populationScaler: 1
+  continents: []
 --- !u!114 &661798360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,14 +379,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedTile:
     HexCode: 
-    Temperature: 0
-    Biome: 
-    Language: 
-    Continent: 
-    Altitude: 
+    Culture:
+      HexCode: 
+      Dialect: 
+      Language: 
+      Group: 
+      Family: 
+    Coordinates: {x: 0, y: 0}
     Position: {x: 0, y: 0}
+    Altitude: 0
+    Terrain: 
     Area: 0
-    pxArea: 0
+    Population: 0
+    ProvinceParent:
+      Tiles: []
+      HexCode: 
+      ContinentParent:
+        HexCode: 
+        Provinces: []
+      Area: 0
+      Population: 0
+    ClaimValue: 0
+  selectedName: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

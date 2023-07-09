@@ -17,261 +17,546 @@ using System.Xml.Linq;
 using static UnityEditor.Timeline.TimelinePlaybackControls;
 using System.Diagnostics;
 using UnityEngine.Analytics;
+using UnityEditor;
+using System.Drawing;
+using UnityEngine.UIElements;
 
 //this method handles click detection action and the stages involved in generating map data
 public class MapGen : MonoBehaviour
 {
+    #region Accessibles
     [SerializeField] public GameObject tileScanTarget;
     [SerializeField] public Texture2D tileMap;
-    [SerializeField] private Texture2D biomeMap;
-    [SerializeField] private Texture2D heightMap;
-    [SerializeField] private Texture2D temperatureMap;
+    [SerializeField] private Texture2D tileAreaMap;
+    [SerializeField] public Texture2D provinceMap;
     [SerializeField] private Texture2D languageMap;
+    [SerializeField] public Texture2D biomeMap;
+    [SerializeField] private Texture2D heightMap;
+    [SerializeField] private Texture2D populationMap;
     [SerializeField] public Texture2D continentMap;
-    [SerializeField] private Texture2D timezoneMap;
 
+    // When true will produce new definitions from the map, takes ages
     [SerializeField] private bool newGenerate = true;
-    private Color[] pixels;
+    // Defined map scaling
+    private float pixelWidthKilometres;
+    public float bodyCircumferanceKilometres = 3769.911f;
+    private int width;
+    private int height;
+    // Other Scalers
+    [SerializeField] private int populationScaler = 1;
+    #endregion
 
-    List<TileData> tilesDoren, tilesKolus, tilesKafrica, tilesVeiid, tilesFiresvar, tilesCaledon;
+    private List<Color> tileColoursRemaining = new List<Color>();
+
+    // The actual data
+    public List<ContinentData> continents = new List<ContinentData>();
+    // Localisation
+    private List<MapLocalisation> continentNames = new List<MapLocalisation>();
+    private List<MapLocalisation> provinceNames = new List<MapLocalisation>();
 
     // Start is called before the first frame update
     void Start()
     {
+        width = tileMap.width;
+        height = tileMap.height;
+
+        // Import Localisation in both cases
+        continentNames = ImportNamesJson(Application.dataPath + "/Maps/Localisation/Continents.json");
+        provinceNames = ImportNamesJson(Application.dataPath + "/Maps/Localisation/Provinces.json");
+
         if (newGenerate)
         {
-            //create new map data using images
-            Debug.Log("Generating New TileData");
+            // Create new map data using images
+            Debug.Log("Generating Map Data");
             GenerateConfigs();
         }
         else
         {
-            //load data from config files
-            Debug.Log("Loading Existing TileData");
-            tilesDoren = ImportTilesJson("Doren.json");
-            tilesKolus = ImportTilesJson("Kolus.json");
-            tilesKafrica = ImportTilesJson("Kafrica.json");
-            tilesVeiid = ImportTilesJson("Veiid.json");
-            tilesFiresvar = ImportTilesJson("Firesvar.json");
-            tilesCaledon = ImportTilesJson("Caledon.json");
+            // Load dmap ata from config files
+            Debug.Log("Loading Map Data");
+            ImportContinentsJson(Application.dataPath + "/Maps/MapData/Tiles/");
+            SaveNamesJson();
         }
 
     }
-    void Update()
-    {
-        
-    }
-    
+
     void GenerateConfigs()
     {
-        // If we're generating tile config files we need to create empties
-        tilesDoren = new List<TileData>();
-        tilesKolus = new List<TileData>();
-        tilesKafrica = new List<TileData>();
-        tilesVeiid = new List<TileData>();
-        tilesFiresvar = new List<TileData>();
-        tilesCaledon = new List<TileData>();
-
-        // Generate list of map hexcodes
-        pixels = tileMap.GetPixels();
-        List<Color> tileColours = GetUniqueHexColors(pixels);
+        // Store map scale
+        pixelWidthKilometres = bodyCircumferanceKilometres / tileMap.width;
         // For each create a tile definition and chuck it into a doc
-        StartCoroutine(delayBuild(tileColours));
-
-
+        StartCoroutine(delayBuild());
     }
 
-    IEnumerator delayBuild(List<Color> tileColours)
+    IEnumerator delayBuild()
     {
-        Color newColor;
-        int tileProgress = 0;
-        int tileCount = tileColours.Count;
+        // Generate Continents
+        List<Color> continentPixels = SerialiseMap(continentMap.GetPixels());
+        List<Color> continentColours = UniqueMapColours(RemoveMapAlpha(continentPixels));
+        // Define Each Continent
+        int continentCount = continentColours.Count;
+        Debug.Log("Continents: " + continentCount);
+        for (int i = 0; i < continentCount; i++)
+        {
+            DefineContinent(continentColours[i]);
+        }
 
+        // Give a little buffer
+        yield return new WaitForSeconds(0.01f);
+
+
+        // Generate Provinces
+        List<Color> provincePixels = SerialiseMap(provinceMap.GetPixels());
+        List<Color> provinceColours = UniqueMapColours(RemoveMapAlpha(provincePixels));
+        // Define Each Province
+        int provinceCount = provinceColours.Count;
+        int provinceProgress = 0;
+        Debug.Log("Provinces: " + provinceCount);
+        for (int i = 0; i < provinceCount; i++)
+        {
+            provinceProgress++;
+            Debug.Log(provinceProgress + " / " + provinceCount);
+
+            DefineProvince(provinceColours[i], provincePixels);
+            // Give a little buffer
+            yield return new WaitForSeconds(0.01f);
+        }
+
+
+        // write all to json
+        WriteToJson(Application.dataPath + "/Maps/MapData/Tiles/");
+
+        // Generate Tiles
+        // Equal Area for size getting
+        tileColoursRemaining = RemoveMapAlpha(SerialiseMap(tileAreaMap.GetPixels()));
+        tileColoursRemaining.Reverse();
+        // Equirectangular for global position
+        List<Color> tilePixels = SerialiseMap(tileMap.GetPixels());
+        List<Color> tileColours = UniqueMapColours(RemoveMapAlpha(tilePixels));
+        //Define Each Tile
+        int tileCount = tileColours.Count;
+        int tileProgress = 0;
         Debug.Log("Colours: " + tileCount);
         for (int i = 0; i < tileCount; i++)
         {
             tileProgress++;
-
-            newColor = tileColours[i];
-            if (tileColours.IndexOf(newColor) > 5) break; //temporary
-            DefineTile(newColor);
-            yield return new WaitForSeconds(0.01f);
-
             Debug.Log(tileProgress + " / " + tileCount);
+            // ***
+            if (i > 150) break; //temporary
+            // ***
+            DefineTile(tileColours[i], tilePixels);
+
+            // Give a little buffer
+            yield return new WaitForSeconds(0.01f);
         }
 
-
-        
-        Debug.Log("Writing Tiles to New Config Files");
         // write all to json
-        WriteToJson(tilesDoren, "Doren.json");
-        WriteToJson(tilesKolus, "Kolus.json");
-        WriteToJson(tilesKafrica, "Kafrica.json");
-        WriteToJson(tilesVeiid, "Veiid.json");
-        WriteToJson(tilesFiresvar, "Firesvar.json");
-        WriteToJson(tilesCaledon, "Caledon.json");
+        WriteToJson(Application.dataPath + "/Maps/MapData/Tiles/");
 
         yield return null;
     }
 
-
-    public void WriteToJson(List<TileData> tilesGroup, string endFile)
+    #region Definitions
+    void DefineContinent(Color targetColor)
     {
-        string filePath = Application.dataPath + "/Maps/MapData/Tiles/" + endFile;
+        string newHex = ColorUtility.ToHtmlStringRGB(targetColor);
+        // Create the continent object
+        ContinentData newContinent = new ContinentData
+        {
+            HexCode = newHex,
+            Provinces = new List<ProvinceData>(),
+        };
+        // Add to list
+        continents.Add(newContinent);
+
+        // Check for localisation
+        string returnedName = RetrieveName(true, newHex);
+        // If no value found add it in, if found no need
+        if ( returnedName == "{}") 
+        { 
+            MapLocalisation localisation = new MapLocalisation { HexCode = newHex, Name = returnedName };
+            continentNames.Add(localisation);
+        }
+    }
+
+    void DefineProvince(Color targetColor, List<Color> provincePixels)
+    {
+        int firstX = 0;
+        int firstY = 0;
+
+        string newHex = ColorUtility.ToHtmlStringRGB(targetColor);
+        int pixelCount = provincePixels.Count;
+        // Get the x y position of the first matching pixel
+        for (int y = 0; y < height; y++)
+        {
+            for (int x = 0; x < width; x++)
+            {
+                int pixelIndex = y * width + x;
+
+                if (provincePixels[pixelIndex].Equals(targetColor))
+                {
+                    firstX = x;
+                    firstY = y;
+                }
+            }
+        }
+
+        // Find the continent using the first matching pixel
+        ContinentData newParent = getContinentParent(firstX, firstY);
+
+        // Create the province object
+        ProvinceData newProvince = new ProvinceData
+        {
+            HexCode = newHex,
+            ContinentParent = newParent,
+            Tiles = new List<TileData>(),
+        };
+
+        // Chuck Province into right continent
+        newParent.Provinces.Add(newProvince);
+
+        // Check for localisation
+        string returnedName = RetrieveName(true, newHex);
+        // If no value found add it in, if found no need
+        if (returnedName == "{}")
+        {
+            MapLocalisation localisation = new MapLocalisation { HexCode = newHex, Name = returnedName };
+            provinceNames.Add(localisation);
+        }
+    }
+
+    void DefineTile(Color targetColor, List<Color> tilePixels)
+    {
+        // Count the number of pixels that match the target color
+        int matchingPixels = 0;
+        float totalX = 0f;
+        float totalY = 0f;
+
+
+        // Get area using the true area map
+        for (int i = tileColoursRemaining.Count - 1; i >= 0; i--)
+        {
+            if (targetColor == tileColoursRemaining[i])
+            {
+                matchingPixels++;
+                // Remove the matching element from the array to cut down subsequent searches
+                tileColoursRemaining.RemoveAt(i);
+            }
+        }
+        // Convert the number to area
+        float newArea = matchingPixels * (pixelWidthKilometres * pixelWidthKilometres);
+
+        // This is massively inefficent even still but the position is good to know
+        for (int y = 0; y < height; y++)
+        {
+            for (int x = 0; x < width; x++)
+            {
+                int pixelIndex = y * width + x;
+
+                if (tilePixels[pixelIndex].Equals(targetColor))
+                {
+                    totalX += x;
+                    totalY += y;
+                }
+            }
+        }
+        // Get mean pixel position for tile center
+        int meanX = Mathf.RoundToInt(totalX / matchingPixels);
+        int meanY = Mathf.RoundToInt(totalY / matchingPixels);
+        // TODO: Convert pixel position to lat and long
+        float latitude = 0;
+        float longitude = 0;
+
+        // Get Culture by finding the undertile value in a comparitive object
+        Color cultureValue = languageMap.GetPixel(meanX, meanY);
+        CultureDef newCulture = FindCulture(ColorUtility.ToHtmlStringRGB(cultureValue));
+        // Get altitude by converting the heightmap brightness
+        int colorValue = (int)(heightMap.GetPixel(meanX, meanY).r * 255);
+        float newAlt = colorValue * 50f;
+        // Get Biome by comparing the biomemap with a dictionary
+        Color biomeValue = biomeMap.GetPixel(meanX, meanY);
+        string newTerrain = biomeCodeMappings[ColorUtility.ToHtmlStringRGB(biomeValue)];
+        // Get Population of the tile by scaling the true area against the heatmap
+        //Color heatValue = populationMap.GetPixel(meanX, meanY);
+        int newPopulation = (int)(30 * populationScaler * newArea); //30 is a standin heatmap value for persons per km
+        // Get Province of the tile
+        ProvinceData newParent = getProvinceParent(meanX, meanY);
+
+        // Claim Value is an aggregate of local values
+        int claimValue = 5;
+
+        // Create a new tile object and set values
+        TileData newTile = new TileData
+        {
+            HexCode = ColorUtility.ToHtmlStringRGB(targetColor),
+            Culture = newCulture,
+            Coordinates = new Vector2(latitude, longitude),
+            Position = new Vector2(meanX, meanY),
+            Altitude = newAlt,
+            Terrain = newTerrain,
+            Area = newArea,
+            Population = newPopulation,
+            ProvinceParent = newParent,
+            // Claim Value is an aggregate of local values
+            ClaimValue = claimValue,
+        };
+
+        // Chuck tile into right province
+        newParent.Tiles.Add(newTile);
+        // Add tile area to province area
+        newParent.Area += newArea;
+        newParent.Population += newPopulation;
+    }
+    #endregion
+
+    #region Find Objects
+    public ProvinceData getProvinceParent(int x, int y)
+    {
+        string continentColour = ColorUtility.ToHtmlStringRGB(continentMap.GetPixel(x, y));
+        string provinceColour = ColorUtility.ToHtmlStringRGB(provinceMap.GetPixel(x, y));
+
+        //method searches an appropriate subdatabase for the right province
+        // Find right continent
+        foreach (ContinentData c in continents)
+        {
+            if (c.HexCode != continentColour) continue;
+            // Find right province inside continent
+            foreach (ProvinceData p in c.Provinces)
+            {
+                if (p.HexCode != provinceColour) continue;
+                return p;
+            }
+        }
+
+        Debug.Log("Province not Found");
+        return null;
+    }
+
+    public ContinentData getContinentParent(int x, int y)
+    {
+        string continentColour = ColorUtility.ToHtmlStringRGB(continentMap.GetPixel(x, y));
+
+        // Find right continent
+        foreach (ContinentData c in continents)
+        {
+            if (c.HexCode != continentColour) continue;
+            return c;
+        }
+
+        Debug.Log("Continent not Found");
+        return null;
+    }
+    #endregion
+
+    #region Localisation
+    public void SaveNamesJson()
+    {
+        Debug.Log("Writing Localisation to Files");
+
+        // Write Continents File
+        string filePath = Application.dataPath + "/Maps/Localisation/Continents.json";
         FileStream fileStream = new FileStream(filePath, FileMode.Create);
-        // Turn the arraylists into usable outputs
-        string jsonOutput = JsonHelper.ToJson<TileData>(tilesGroup.ToArray(), true);
+        string jsonOutput = JsonHelper.ToJson<MapLocalisation>(continentNames.ToArray(), true);
 
         // Create a new filestream and write the usable json to it
         using (StreamWriter writer = new StreamWriter(fileStream))
         {
             writer.Write(jsonOutput);
         }
+
+        // Write Provinces File
+        string filePath2 = Application.dataPath + "/Maps/Localisation/Provinces.json";
+        FileStream nordStream2 = new FileStream(filePath2, FileMode.Create);
+        string jsonOutput2 = JsonHelper.ToJson<MapLocalisation>(provinceNames.ToArray(), true);
+
+        // Create a new filestream and write the usable json to it
+        using (StreamWriter writer = new StreamWriter(nordStream2))
+        {
+            writer.Write(jsonOutput2);
+        }
     }
 
-    List<TileData> ImportTilesJson(string sourceFile)
+    List<MapLocalisation> ImportNamesJson(string filePath)
     {
-        string filePath = Application.dataPath + "/Maps/MapData/Tiles/" + sourceFile;
         string content;
-
         if (File.Exists(filePath))
         {
             using (StreamReader reader = new StreamReader(filePath))
             {
                 content = reader.ReadToEnd();
             }
-        } 
+
+            // Process the file contents...
+            if (!string.IsNullOrEmpty(content) && content != "{}")
+            {
+                return JsonHelper.FromJson<MapLocalisation>(content).ToList();
+            } 
+        }
+        // If file doesn't exist or is invalid return an empty list
+        return new List<MapLocalisation>();
+    }
+
+    public string RetrieveName(bool Continents, string hexCode)
+    {
+        int searchCount;
+        if (Continents)
+        {
+            searchCount = continentNames.Count;
+            for (int i = 0; i < searchCount; i++)
+            {
+                if (continentNames[i].HexCode == hexCode) return continentNames[i].Name;
+            }
+        }
         else
         {
-            // If no read file create an empty and send that back
-            return new List<TileData>();
-        }
-
-        if (string.IsNullOrEmpty(content) || content == "{}")
-        {
-            // If the file is blank or empty send back an empty
-            return new List<TileData>();
-        }
-
-        // Parse any valid content to an arraylist and return it
-        List<TileData> data = JsonHelper.FromJson<TileData>(content).ToList();
-        return data;
-    }
-
-    public static List<Color> GetUniqueHexColors(Color[] pixels)
-    {
-        HashSet<Color> uniqueColorsHash = new HashSet<Color>();
-
-        // Loop through each pixel of the texture
-        for (int i = 0; i < pixels.Length; i++)
-        {
-            Color color = pixels[i];
-            // Check if the color is not transparent
-            if (color.a > 0f)
+            searchCount = provinceNames.Count;
+            for (int i = 0; i < searchCount; i++)
             {
-                // Add the color to the set of unique colors
-                uniqueColorsHash.Add(color);
+                if (provinceNames[i].HexCode == hexCode) return provinceNames[i].Name;
             }
         }
-
-        return uniqueColorsHash.ToList();
+        return "{}";
     }
+    #endregion
 
-    void DefineTile(Color targetColor)
+    void ImportContinentsJson(string filePath)
     {
-        // Count the number of pixels that match the target color
-        int matchingPixels = 0;
-        float totalX = 0f;
-        float totalY = 0f;
-        int width = tileMap.width;
-        int height = tileMap.height;
+        string[] files = System.IO.Directory.GetFiles(filePath, $"*.json");
+        string content;
+        continents = new List<ContinentData>();
 
-        // Create a new tile object and set some values
-        TileData newTile = new TileData{ HexCode = ColorUtility.ToHtmlStringRGB(targetColor) };
 
-        // This is massively inefficent even still
-        for (int y = 0; y < height; y++)
+        foreach (string file in files)
         {
-            for (int x = 0; x < width; x++)
+            if (File.Exists(file))
             {
-                int pixelIndex = y * width + x;
-                Color pixelColor = pixels[pixelIndex];
-
-                if (pixelColor.Equals(targetColor))
+                using (StreamReader reader = new StreamReader(filePath))
                 {
-                    totalX += x;
-                    totalY += y;
-                    matchingPixels++;
+                    content = reader.ReadToEnd();
                 }
             }
+            else
+            {
+                // If no read file create an empty and send that back
+                content = "{}";
+            }
+
+            // Process the file contents...
+            if (!string.IsNullOrEmpty(content) && content != "{}")
+            {
+                continents.AddRange(JsonHelper.FromJson<ContinentData>(content).ToList());
+            }
         }
-        //get mean pixel position for tile center
-        int meanX = Mathf.RoundToInt(totalX / matchingPixels);
-        int meanY = Mathf.RoundToInt(totalY / matchingPixels);
-
-        newTile.pxArea = matchingPixels;
-        newTile.Position = new Vector2(meanX, meanY);
-
-
-        Debug.Log("#" + newTile.HexCode + "\nArea: " + matchingPixels + "px");
-        //public float Area;
-        //public float Temperature;
-        //public string Biome;
-        //public string Language;
-        //public string Altitude;
-
-
-        // get Continent of the mean position
-        Color continentColor = continentMap.GetPixel(meanX, meanY);
-
-
-        int colorValue =
-            ((int)(continentColor.r * 255) << 16) |
-            ((int)(continentColor.g * 255) << 8) |
-            (int)(continentColor.b * 255); //this is sus but it as least keeps the door open for smaller divisions
-
-        getTileList(colorValue).Add(newTile);
     }
-    public List<TileData> getTileList(int colorValue)
+    public void WriteToJson(string filePath)
     {
-        //method to feed the integer of a continent colour from the map and return its tile list
-        switch (colorValue)
+        Debug.Log("Writing Data to New Config Files");
+        foreach (ContinentData c in continents)
         {
-            case 16711680: // Doren
-                return tilesDoren;
-            case 255: // Kolus
-                return tilesKolus;
-            case 65280: // Kafrica
-                return tilesKafrica;
-            case 16711935: // Veiid
-                return tilesVeiid;
-            case 16777215: // Firesvar
-                return tilesFiresvar;
-            case 65535: // Caledon
-                return tilesCaledon;
-            default:
-                return new List<TileData>();
+            //string fileName = RetrieveName(true, c.HexCode);
+            string fileName = c.HexCode;
+
+            string newPath = filePath + fileName + ".json";
+            FileStream fileStream = new FileStream(newPath, FileMode.Create);
+            // Turn the arraylists into usable outputs
+
+            ContinentData[] toSend = new ContinentData[1];
+            toSend[0] = c;
+
+            string jsonOutput = JsonHelper.ToJson<ContinentData>(toSend, true);
+            // Create a new filestream and write the usable json to it
+            using (StreamWriter writer = new StreamWriter(fileStream))
+            {
+                writer.Write(jsonOutput);
+            }
         }
     }
+
+    #region Colours
+    List<Color> SerialiseMap(Color[] pixels)
+    {
+        List<Color> colors = new List<Color>();
+        int pixelCount = pixels.Length;
+        // Loop through each pixel of the texture
+        for (int i = 0; i < pixelCount; i++)
+        {
+            Color color = pixels[i];
+            // Add the color to the set of colors
+            colors.Add(color);
+        }
+
+        return colors;
+    }
+
+    List<Color> RemoveMapAlpha(List<Color> colors) 
+    {
+        List<Color> newList = new List<Color>();
+        int colourCount = colors.Count;
+        // Check every pixel
+        for (int i = 0; i < colourCount; i++)
+        {
+            Color color = colors[i];
+            // Check if the color is not transparent
+            if (color.a > 0f) newList.Add(color);
+        }
+        // Return new list that's only opaque
+        return newList;
+    }
+
+    List<Color> UniqueMapColours(List<Color> colors)
+    {
+        HashSet<Color> uniqueColoursHash = new HashSet<Color>(colors);
+        return new List<Color>(uniqueColoursHash);
+    }
+    #endregion
+
+    private CultureDef FindCulture(string hexCode)
+    {
+        //TODO: Create cultural data structures
+        return new CultureDef 
+        {
+            HexCode = hexCode,
+            Dialect = "Kr*man",
+            Language = "Kr*man",
+            Group = "Kr*man",
+            Family = "Kr*man",
+        };
+    }
+    private Dictionary<string, string> biomeCodeMappings = new Dictionary<string, string>()
+    {
+        { "3762AB", "Ocean" },
+        { "4A85E2", "Shallows" },
+        { "5498FF", "Freshwater" },
+        { "A7A7A7", "Mountain" },
+        { "C78FDF", "Tundra" },
+        { "D8D8D8", "Ice Cap" },
+        { "E4FDFF", "Ice Sheet" },
+        { "EABF6F", "Desert" },
+        { "974F23", "Badlands" },
+        { "83BC2E", "Grasslands" },
+        { "5D852A", "Highlands" },
+        { "FAF2B7", "Shores" },
+    };
 }
+
 public static class JsonHelper
 {
     public static T[] FromJson<T>(string json)
     {
         JsonWrapper<T> wrapper = JsonUtility.FromJson<JsonWrapper<T>>(json);
-        return wrapper.Items;
+        return wrapper.Content;
     }
 
     public static string ToJson<T>(T[] array, bool prettyPrint)
     {
         JsonWrapper<T> wrapper = new JsonWrapper<T>();
-        wrapper.Items = array;
+        wrapper.Content = array;
         return JsonUtility.ToJson(wrapper, prettyPrint);
     }
 
     [Serializable]
     private class JsonWrapper<T>
     {
-        public T[] Items;
+        public T[] Content;
     }
 }
