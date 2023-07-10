@@ -16,7 +16,9 @@ public class TileData
     // Size
     public float Area;
     public int Population;
-    public ProvinceData ProvinceParent;
+    // Positional
+    public String ProvinceParent;
+    public String ContinentParent;
     // Claim Value is an aggregate of local values
     public int ClaimValue;
 }
@@ -27,7 +29,7 @@ public class ProvinceData
     public List<TileData> Tiles = new List<TileData>();
     public string HexCode;
     // Positional
-    public ContinentData ContinentParent;
+    public String ContinentParent;
     // Size for portion of values
     public float Area;
     public int Population;

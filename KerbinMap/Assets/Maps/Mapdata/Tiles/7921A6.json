@@ -1,0 +1,1083 @@
+{
+    "Content": [
+        {
+            "HexCode": "7921A6",
+            "Provinces": [
+                {
+                    "Tiles": [
+                        {
+                            "HexCode": "2F1EE8",
+                            "Culture": {
+                                "HexCode": "3C5970",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 879.0,
+                                "y": 274.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1411.0716552734375,
+                            "Population": 42332,
+                            "ProvinceParent": "174ECD",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "7B02F4",
+                            "Culture": {
+                                "HexCode": "3C5970",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 594.0,
+                                "y": 350.0
+                            },
+                            "Altitude": 4650.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1078.4403076171875,
+                            "Population": 32353,
+                            "ProvinceParent": "174ECD",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "5590E2",
+                            "Culture": {
+                                "HexCode": "3C5970",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 985.0,
+                                "y": 423.0
+                            },
+                            "Altitude": 1650.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1268.736083984375,
+                            "Population": 38062,
+                            "ProvinceParent": "174ECD",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        }
+                    ],
+                    "HexCode": "174ECD",
+                    "ContinentParent": "7921A6",
+                    "Area": 3758.248046875,
+                    "Population": 112747
+                },
+                {
+                    "Tiles": [
+                        {
+                            "HexCode": "0042C8",
+                            "Culture": {
+                                "HexCode": "3C5970",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 1356.0,
+                                "y": 348.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 2305.248046875,
+                            "Population": 69157,
+                            "ProvinceParent": "FC2150",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        }
+                    ],
+                    "HexCode": "FC2150",
+                    "ContinentParent": "7921A6",
+                    "Area": 2305.248046875,
+                    "Population": 69157
+                },
+                {
+                    "Tiles": [
+                        {
+                            "HexCode": "86BD0E",
+                            "Culture": {
+                                "HexCode": "3C5970",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 1837.0,
+                                "y": 383.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1757.6790771484375,
+                            "Population": 52730,
+                            "ProvinceParent": "183634",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        }
+                    ],
+                    "HexCode": "183634",
+                    "ContinentParent": "7921A6",
+                    "Area": 1757.6790771484375,
+                    "Population": 52730
+                },
+                {
+                    "Tiles": [
+                        {
+                            "HexCode": "7EAE86",
+                            "Culture": {
+                                "HexCode": "00335B",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 2603.0,
+                                "y": 410.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1176.7144775390625,
+                            "Population": 35301,
+                            "ProvinceParent": "FE62FF",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        }
+                    ],
+                    "HexCode": "FE62FF",
+                    "ContinentParent": "7921A6",
+                    "Area": 1176.7144775390625,
+                    "Population": 35301
+                },
+                {
+                    "Tiles": [
+                        {
+                            "HexCode": "5E0306",
+                            "Culture": {
+                                "HexCode": "5983A5",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 1558.0,
+                                "y": 490.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Highlands",
+                            "Area": 534.5491943359375,
+                            "Population": 16036,
+                            "ProvinceParent": "E789AF",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        }
+                    ],
+                    "HexCode": "E789AF",
+                    "ContinentParent": "7921A6",
+                    "Area": 534.5491943359375,
+                    "Population": 16036
+                },
+                {
+                    "Tiles": [
+                        {
+                            "HexCode": "B081A7",
+                            "Culture": {
+                                "HexCode": "00335B",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 2095.0,
+                                "y": 517.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Tundra",
+                            "Area": 953.3909912109375,
+                            "Population": 28601,
+                            "ProvinceParent": "37853F",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "038ABE",
+                            "Culture": {
+                                "HexCode": "00335B",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 2348.0,
+                                "y": 503.0
+                            },
+                            "Altitude": 1650.0,
+                            "Terrain": "Tundra",
+                            "Area": 330.7187805175781,
+                            "Population": 9921,
+                            "ProvinceParent": "37853F",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        }
+                    ],
+                    "HexCode": "37853F",
+                    "ContinentParent": "7921A6",
+                    "Area": 1284.1097412109375,
+                    "Population": 38522
+                },
+                {
+                    "Tiles": [
+                        {
+                            "HexCode": "35AB2E",
+                            "Culture": {
+                                "HexCode": "3C5970",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 286.0,
+                                "y": 529.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1338.028076171875,
+                            "Population": 40140,
+                            "ProvinceParent": "1BBE85",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        }
+                    ],
+                    "HexCode": "1BBE85",
+                    "ContinentParent": "7921A6",
+                    "Area": 1338.028076171875,
+                    "Population": 40140
+                },
+                {
+                    "Tiles": [
+                        {
+                            "HexCode": "5557B5",
+                            "Culture": {
+                                "HexCode": "3C5970",
+                                "Dialect": "Kr*man",
+                                "Language": "Kr*man",
+                                "Group": "Kr*man",
+                                "Family": "Kr*man"
+                            },
+                            "Coordinates": {
+                                "x": 0.0,
+                                "y": 0.0
+                            },
+                            "Position": {
+                                "x": 1095.0,
+                                "y": 525.0
+                            },
+                            "Altitude": 900.0,
+                            "Terrain": "Highlands",
+                            "Area": 642.3123168945313,
+                            "Population": 19269,
+                            "ProvinceParent": "2CB655",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 5
+                        }
+                    ],
+                    "HexCode": "2CB655",
+                    "ContinentParent": "7921A6",
+                    "Area": 642.3123168945313,
+                    "Population": 19269
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2EEB4B",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "F4CEB1",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7D5D3C",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2ACCA8",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "541DE8",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "3B8509",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "56E216",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "279193",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A78B7",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "737AF7",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E7BDB",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "8F633E",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A0C49",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0045D2",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "05CC5A",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "96C763",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "01ABCD",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "008423",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "1FA379",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2ACF85",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7B8E7E",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "548747",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B02798",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "08065A",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "22A875",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "F93F1A",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "554774",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "8427ED",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0018B4",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00245A",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "32EBEE",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A603A",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "DBBADA",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "70A88A",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7CBDCF",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "685F78",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "D1520E",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "732111",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "46BA1E",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "AB4218",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C9DF00",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "D2A327",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E1BAE",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A82AD4",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "1EA2F8",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5E827A",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "DE28A7",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "55D680",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "20953E",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0BD5FD",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B5F0B5",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "D86906",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "1FA5FE",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5AABEF",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C6B67D",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5FE55C",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A54D52",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C7B7FD",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "601FEC",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "6F5A14",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0C770F",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "6B6DA0",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "448E5D",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "673C44",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5D578D",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A1B395",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5A346F",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "BC6064",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0A5D3B",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "722F2B",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "244C4A",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "543910",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5ECBEE",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "39C236",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "77B1D1",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "8B9510",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A909E",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B12184",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "4ED3FE",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "971E6C",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E6918",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "94EBA0",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "57E5AE",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7BB917",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "8FECCC",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "CA6E1C",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "AD83D1",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C193B3",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "274D2E",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "E55C43",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "067B82",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "FB2C02",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "18E4B7",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "E24B68",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "17D0BF",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "AE9577",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "F298A9",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B59496",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C9AE7A",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B657CD",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "6F798E",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "57A7AF",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0FA67E",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "163808",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "AE3030",
+                    "ContinentParent": "7921A6",
+                    "Area": 0.0,
+                    "Population": 0
+                }
+            ]
+        }
+    ]
+}

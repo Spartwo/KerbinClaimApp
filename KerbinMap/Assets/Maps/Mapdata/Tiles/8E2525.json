@@ -1,0 +1,1493 @@
+{
+    "Content": [
+        {
+            "HexCode": "8E2525",
+            "Provinces": [
+                {
+                    "Tiles": [],
+                    "HexCode": "5A3FBF",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "AE5443",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "3B4F3F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "99F6F8",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C6E8CC",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "AC7BCF",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "4DED6F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "546C1F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00D28C",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2AA53F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B36BB1",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "007E05",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "549C83",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5F8452",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "1B3802",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A66C1",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0078E1",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2290B1",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "009CA0",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "DEB9B7",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "000655",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A860C0",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C46544",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E2754",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2DF1BE",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00AE00",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A89C61",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "25CFF8",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "4BBE72",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7EA863",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A6B522",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7EC604",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "8F2B7B",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "82DB62",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A8F84F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A8AEC0",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0FC66C",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A8185",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "002AAA",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B72FB2",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7EA522",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "408DDF",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "004B5A",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "10D12C",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2AABC6",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A86334",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7EB4A4",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A8B725",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "4C8FEA",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "029348",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "005114",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A7D002",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "54785B",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A803D4",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "F64723",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "945D10",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "DD58E2",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A81E2F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "383D77",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "947D0B",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "50572F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "540FC9",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A80648",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00B7C8",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "14730C",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "E19351",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "89B82E",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "6B43E3",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "001ED2",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A726FD",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "3C9CA9",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A3CAD",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "54A5E2",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C163A3",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "D2DB8F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B15B13",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E789A",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "6242C7",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A2153",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A86FD9",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "FA22F4",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "FA4EC1",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "54931F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "4233AB",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C3F30E",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A89643",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A368F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00CC05",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2AA262",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0099D6",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A83F11",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "1F6616",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "000687",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "AA5657",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2AD2C6",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E99E0",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "3C38E8",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "3DE9EB",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00C0C3",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "1E5B58",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "9C7E21",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A8244D",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "54C6C4",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "165745",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "F5A545",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C97875",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A8C984",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C07AA0",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "4B91AF",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A50B20",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2CCE74",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7EC945",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0544EB",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00150A",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A04760",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00725A",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "AEABDD",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "543C51",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "54C0A6",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "4D78BD",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "155944",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A2430",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A6317",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "863F40",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "BD570A",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "009FE1",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A188A",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A890BB",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0027CD",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A2A4E",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E5A95",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "DF332D",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0F41B0",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "CBE083",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "342C7D",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A7A508",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "540C88",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E8A5E",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "46A0B1",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "F570F7",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "6720F4",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A6658",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E9CBD",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2ABD26",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "3AD5AF",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "189307",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "327826",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "21ADB3",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "32C3B2",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "AC491E",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "E9C2A6",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A699E",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "542DCE",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5232F1",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00CFAF",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "F7A838",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5278DF",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B07502",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "6A00EC",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "262525",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "08EA2C",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7243EA",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "323E8E",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "CB1EFC",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A73B87",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E4E54",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "65BD72",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "255C89",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "EDD642",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "F42327",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "F6ECDD",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E2A31",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A833CF",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E3C90",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "92313E",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A872B6",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "C7CBEC",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7EAE54",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2AE699",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A8CCC5",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0FAA15",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0015D7",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5EC23B",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00B141",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A89F3E",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "5469D8",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "862A9F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "66C7CB",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E7EC3",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E519A",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A7299",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "A8B448",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2EB4CE",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "008D1E",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7E663B",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "7200F8",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2C5EFD",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "CA5D41",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "00CF46",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "DB2635",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B36C26",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "2A5BE6",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "663BFE",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "07B4DF",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "16A630",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "0FDAB0",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "EA6EFC",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "B3A9D2",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "9AE3E8",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "867E90",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "715E17",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                },
+                {
+                    "Tiles": [],
+                    "HexCode": "E45933",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0
+                }
+            ]
+        }
+    ]
+}

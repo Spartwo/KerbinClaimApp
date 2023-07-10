@@ -36,13 +36,16 @@ public class MapGen : MonoBehaviour
     [SerializeField] public Texture2D continentMap;
 
     // When true will produce new definitions from the map, takes ages
-    [SerializeField] private bool newGenerate = true;
+    [SerializeField] private bool generateMap = true;
     // Defined map scaling
     private float pixelWidthKilometres;
     public float bodyCircumferanceKilometres = 3769.911f;
     private int width;
     private int height;
+    private int mapSize; //Pixel area
     // Other Scalers
+    [SerializeField] private int searchIncriment = 100;
+    private int searchOffset = 0;
     [SerializeField] private int populationScaler = 1;
     #endregion
 
@@ -64,7 +67,7 @@ public class MapGen : MonoBehaviour
         continentNames = ImportNamesJson(Application.dataPath + "/Maps/Localisation/Continents.json");
         provinceNames = ImportNamesJson(Application.dataPath + "/Maps/Localisation/Provinces.json");
 
-        if (newGenerate)
+        if (generateMap)
         {
             // Create new map data using images
             Debug.Log("Generating Map Data");
@@ -75,7 +78,6 @@ public class MapGen : MonoBehaviour
             // Load dmap ata from config files
             Debug.Log("Loading Map Data");
             ImportContinentsJson(Application.dataPath + "/Maps/MapData/Tiles/");
-            SaveNamesJson();
         }
 
     }
@@ -92,39 +94,42 @@ public class MapGen : MonoBehaviour
     {
         // Generate Continents
         List<Color> continentPixels = SerialiseMap(continentMap.GetPixels());
-        List<Color> continentColours = UniqueMapColours(RemoveMapAlpha(continentPixels));
+        List<Color> continentOpaque = RemoveMapAlpha(continentPixels);
+        List<Color> continentColours = UniqueMapColours(continentPixels);
+
+        // Generate search scaling
+        mapSize = continentOpaque.Count;
+        int roundedNumber = Mathf.RoundToInt(mapSize / (float)searchIncriment) * searchIncriment;
+        searchOffset = mapSize - roundedNumber;
+
         // Define Each Continent
         int continentCount = continentColours.Count;
-        Debug.Log("Continents: " + continentCount);
+        Debug.Log("Continents: " + (continentCount - 1));
         for (int i = 0; i < continentCount; i++)
         {
             DefineContinent(continentColours[i]);
         }
-
         // Give a little buffer
         yield return new WaitForSeconds(0.01f);
 
 
         // Generate Provinces
-        List<Color> provincePixels = SerialiseMap(provinceMap.GetPixels());
-        List<Color> provinceColours = UniqueMapColours(RemoveMapAlpha(provincePixels));
+        List<Color> provincePixels = RemoveMapAlpha(SerialiseMap(provinceMap.GetPixels()));
+        List<Color> provinceColours = UniqueMapColours(provincePixels);
         // Define Each Province
         int provinceCount = provinceColours.Count;
-        int provinceProgress = 0;
         Debug.Log("Provinces: " + provinceCount);
+        int provinceProgress = 0;
         for (int i = 0; i < provinceCount; i++)
         {
             provinceProgress++;
             Debug.Log(provinceProgress + " / " + provinceCount);
 
-            DefineProvince(provinceColours[i], provincePixels);
+            DefineProvince(provinceColours[i], provincePixels, continentOpaque);
             // Give a little buffer
             yield return new WaitForSeconds(0.01f);
         }
 
-
-        // write all to json
-        WriteToJson(Application.dataPath + "/Maps/MapData/Tiles/");
 
         // Generate Tiles
         // Equal Area for size getting
@@ -136,13 +141,13 @@ public class MapGen : MonoBehaviour
         //Define Each Tile
         int tileCount = tileColours.Count;
         int tileProgress = 0;
-        Debug.Log("Colours: " + tileCount);
+        Debug.Log("Tiles: " + tileCount);
         for (int i = 0; i < tileCount; i++)
         {
             tileProgress++;
             Debug.Log(tileProgress + " / " + tileCount);
             // ***
-            if (i > 150) break; //temporary
+            if (i > 10) break; //temporary for only short test generations
             // ***
             DefineTile(tileColours[i], tilePixels);
 
@@ -150,8 +155,10 @@ public class MapGen : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
         }
 
+
         // write all to json
         WriteToJson(Application.dataPath + "/Maps/MapData/Tiles/");
+        SaveNamesJson();
 
         yield return null;
     }
@@ -172,43 +179,51 @@ public class MapGen : MonoBehaviour
         // Check for localisation
         string returnedName = RetrieveName(true, newHex);
         // If no value found add it in, if found no need
-        if ( returnedName == "{}") 
+        if (returnedName == "Undefined") 
         { 
-            MapLocalisation localisation = new MapLocalisation { HexCode = newHex, Name = returnedName };
+            MapLocalisation localisation = new MapLocalisation { HexCode = newHex, Name = newHex };
             continentNames.Add(localisation);
         }
     }
 
-    void DefineProvince(Color targetColor, List<Color> provincePixels)
+    void DefineProvince(Color targetColor, List<Color> provinceColours, List<Color> continentColours)
     {
-        int firstX = 0;
-        int firstY = 0;
+        string parentContinent = "000000";
+        ContinentData newParent = new ContinentData();
 
-        string newHex = ColorUtility.ToHtmlStringRGB(targetColor);
-        int pixelCount = provincePixels.Count;
-        // Get the x y position of the first matching pixel
-        for (int y = 0; y < height; y++)
+        bool found = false;
+        
+        // Get the index position of the first matching pixel
+        for (int i = 0; i < mapSize; i += searchIncriment)
         {
-            for (int x = 0; x < width; x++)
+            if (found) break; // It should be breaking on its own from the lowest loop right?
+            if (provinceColours[i] == targetColor)
             {
-                int pixelIndex = y * width + x;
-
-                if (provincePixels[pixelIndex].Equals(targetColor))
+                string contPixel = ColorUtility.ToHtmlStringRGB(continentColours[i]);
+                // Find the continent using the first matching pixel
+                foreach (ContinentData c in continents)
                 {
-                    firstX = x;
-                    firstY = y;
+                    // If the colours are what's being looked for, get this object and exit the loop
+                    if (c.HexCode == contPixel)
+                    {
+                        newParent = c;
+                        parentContinent = c.HexCode;
+                        found = true;
+                        break;
+                    }
                 }
             }
         }
+        // If default value continent wasn't found
+        if (parentContinent.Equals("000000")) Debug.Log("Province Continent not found");
 
-        // Find the continent using the first matching pixel
-        ContinentData newParent = getContinentParent(firstX, firstY);
 
+        string newHex = ColorUtility.ToHtmlStringRGB(targetColor);
         // Create the province object
         ProvinceData newProvince = new ProvinceData
         {
             HexCode = newHex,
-            ContinentParent = newParent,
+            ContinentParent = parentContinent,
             Tiles = new List<TileData>(),
         };
 
@@ -216,11 +231,11 @@ public class MapGen : MonoBehaviour
         newParent.Provinces.Add(newProvince);
 
         // Check for localisation
-        string returnedName = RetrieveName(true, newHex);
-        // If no value found add it in, if found no need
-        if (returnedName == "{}")
+        string returnedName = RetrieveName(false, newHex);
+        // If no value found add it in with a continent identifier to help find it, if found no need
+        if (returnedName == "Undefined")
         {
-            MapLocalisation localisation = new MapLocalisation { HexCode = newHex, Name = returnedName };
+            MapLocalisation localisation = new MapLocalisation { HexCode = newHex, Name = newHex + "-" + parentContinent };
             provinceNames.Add(localisation);
         }
     }
@@ -229,8 +244,13 @@ public class MapGen : MonoBehaviour
     {
         // Count the number of pixels that match the target color
         int matchingPixels = 0;
+        int matchingArea = 0;
         float totalX = 0f;
         float totalY = 0f;
+        // First for retrieving province, centre of tile can sometimes be a lake
+        bool firstFound = false;
+        int firstX = 0;
+        int firstY = 0;
 
 
         // Get area using the true area map
@@ -238,13 +258,13 @@ public class MapGen : MonoBehaviour
         {
             if (targetColor == tileColoursRemaining[i])
             {
-                matchingPixels++;
+                matchingArea++;
                 // Remove the matching element from the array to cut down subsequent searches
                 tileColoursRemaining.RemoveAt(i);
             }
         }
         // Convert the number to area
-        float newArea = matchingPixels * (pixelWidthKilometres * pixelWidthKilometres);
+        float newArea = matchingArea * (pixelWidthKilometres * pixelWidthKilometres);
 
         // This is massively inefficent even still but the position is good to know
         for (int y = 0; y < height; y++)
@@ -257,6 +277,14 @@ public class MapGen : MonoBehaviour
                 {
                     totalX += x;
                     totalY += y;
+                    matchingPixels++;
+
+                    if(!firstFound) 
+                    {
+                        firstX = x;
+                        firstY = y;
+                        firstFound = true;
+                    }
                 }
             }
         }
@@ -269,7 +297,8 @@ public class MapGen : MonoBehaviour
 
         // Get Culture by finding the undertile value in a comparitive object
         Color cultureValue = languageMap.GetPixel(meanX, meanY);
-        CultureDef newCulture = FindCulture(ColorUtility.ToHtmlStringRGB(cultureValue));
+        CultureDef newCulture = new CultureDef();
+        newCulture = FindCulture(ColorUtility.ToHtmlStringRGB(cultureValue));
         // Get altitude by converting the heightmap brightness
         int colorValue = (int)(heightMap.GetPixel(meanX, meanY).r * 255);
         float newAlt = colorValue * 50f;
@@ -280,7 +309,7 @@ public class MapGen : MonoBehaviour
         //Color heatValue = populationMap.GetPixel(meanX, meanY);
         int newPopulation = (int)(30 * populationScaler * newArea); //30 is a standin heatmap value for persons per km
         // Get Province of the tile
-        ProvinceData newParent = getProvinceParent(meanX, meanY);
+        ProvinceData newParent = getProvinceParent(firstX, firstY);
 
         // Claim Value is an aggregate of local values
         int claimValue = 5;
@@ -296,7 +325,8 @@ public class MapGen : MonoBehaviour
             Terrain = newTerrain,
             Area = newArea,
             Population = newPopulation,
-            ProvinceParent = newParent,
+            ProvinceParent = newParent.HexCode,
+            ContinentParent = newParent.ContinentParent,
             // Claim Value is an aggregate of local values
             ClaimValue = claimValue,
         };
@@ -315,6 +345,8 @@ public class MapGen : MonoBehaviour
         string continentColour = ColorUtility.ToHtmlStringRGB(continentMap.GetPixel(x, y));
         string provinceColour = ColorUtility.ToHtmlStringRGB(provinceMap.GetPixel(x, y));
 
+        Debug.Log("Searching\nCon: " + continentColour + "\tProv:" + provinceColour);
+
         //method searches an appropriate subdatabase for the right province
         // Find right continent
         foreach (ContinentData c in continents)
@@ -329,21 +361,6 @@ public class MapGen : MonoBehaviour
         }
 
         Debug.Log("Province not Found");
-        return null;
-    }
-
-    public ContinentData getContinentParent(int x, int y)
-    {
-        string continentColour = ColorUtility.ToHtmlStringRGB(continentMap.GetPixel(x, y));
-
-        // Find right continent
-        foreach (ContinentData c in continents)
-        {
-            if (c.HexCode != continentColour) continue;
-            return c;
-        }
-
-        Debug.Log("Continent not Found");
         return null;
     }
     #endregion
@@ -415,7 +432,7 @@ public class MapGen : MonoBehaviour
                 if (provinceNames[i].HexCode == hexCode) return provinceNames[i].Name;
             }
         }
-        return "{}";
+        return "Undefined";
     }
     #endregion
 
@@ -453,10 +470,7 @@ public class MapGen : MonoBehaviour
         Debug.Log("Writing Data to New Config Files");
         foreach (ContinentData c in continents)
         {
-            //string fileName = RetrieveName(true, c.HexCode);
-            string fileName = c.HexCode;
-
-            string newPath = filePath + fileName + ".json";
+            string newPath = filePath + c.HexCode + ".json";
             FileStream fileStream = new FileStream(newPath, FileMode.Create);
             // Turn the arraylists into usable outputs
 

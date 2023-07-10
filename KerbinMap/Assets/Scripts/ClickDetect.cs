@@ -52,7 +52,7 @@ public class ClickDetect : MonoBehaviour
 
                 selectedTile = SelectTile(x, y);
                 // Get the localised name from the MapGen script
-                selectedName = mapSource.RetrieveName(false, selectedTile.HexCode);
+                selectedName = mapSource.RetrieveName(false, selectedTile.ProvinceParent);
             }
         }
     }
