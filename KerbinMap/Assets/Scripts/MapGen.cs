@@ -45,7 +45,6 @@ public class MapGen : MonoBehaviour
     private int mapSize; //Pixel area
     // Other Scalers
     [SerializeField] private int searchIncriment = 100;
-    private int searchOffset = 0;
     [SerializeField] private int populationScaler = 1;
     #endregion
 
@@ -99,8 +98,6 @@ public class MapGen : MonoBehaviour
 
         // Generate search scaling
         mapSize = continentOpaque.Count;
-        int roundedNumber = Mathf.RoundToInt(mapSize / (float)searchIncriment) * searchIncriment;
-        searchOffset = mapSize - roundedNumber;
 
         // Define Each Continent
         int continentCount = continentColours.Count;
