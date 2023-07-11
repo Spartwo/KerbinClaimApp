@@ -26,20 +26,21 @@ public class TileData
 [Serializable]
 public class ProvinceData
 {
-    public List<TileData> Tiles = new List<TileData>();
     public string HexCode;
     // Positional
     public String ContinentParent;
     // Size for portion of values
     public float Area;
     public int Population;
+    // Down bottom for json readablity
+    public List<TileData> Tiles = new List<TileData>();
 }
 
 [Serializable]
 public class ContinentData
 {
     public string HexCode;
-    // Size
+    // Down bottom for json readablity
     public List<ProvinceData> Provinces = new List<ProvinceData>();
 }
 
@@ -56,6 +57,7 @@ public class CultureDef
     public string HexCode;
     public string Dialect;
     public string Language;
+    public string SubGroup;
     public string Group;
     public string Family;
 }

@@ -200,7 +200,7 @@ Transform:
   m_GameObject: {fileID: 317257712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1390, y: 1, z: 600}
+  m_LocalScale: {x: 2457.6, y: 1, z: 611.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 339491689}
@@ -352,7 +352,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d7d76953e2dbd4e89cfef8ff3b314f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileScanTarget: {fileID: 1700038481}
   tileMap: {fileID: 2800000, guid: 9eb9a17c0689d2f41ba5b10590515b93, type: 3}
   tileAreaMap: {fileID: 2800000, guid: ad3dddf4f254e904581c9493b3160379, type: 3}
   provinceMap: {fileID: 2800000, guid: 949a96c716054ec4c924329c6c2159c6, type: 3}
@@ -361,8 +360,9 @@ MonoBehaviour:
   heightMap: {fileID: 2800000, guid: 36fb1a284cbe20d4aab634de765eb292, type: 3}
   populationMap: {fileID: 0}
   continentMap: {fileID: 2800000, guid: 221e1e57c1d310b4686daf4a99df0efc, type: 3}
-  newGenerate: 1
+  generateMap: 0
   bodyCircumferanceKilometres: 3769.911
+  searchIncriment: 100
   populationScaler: 1
   continents: []
 --- !u!114 &661798360
@@ -377,12 +377,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4727b553103d5344e93f9a6688db5106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileScanTarget: {fileID: 1700038481}
   selectedTile:
     HexCode: 
     Culture:
       HexCode: 
       Dialect: 
       Language: 
+      SubGroup: 
       Group: 
       Family: 
     Coordinates: {x: 0, y: 0}
@@ -391,14 +393,8 @@ MonoBehaviour:
     Terrain: 
     Area: 0
     Population: 0
-    ProvinceParent:
-      Tiles: []
-      HexCode: 
-      ContinentParent:
-        HexCode: 
-        Provinces: []
-      Area: 0
-      Population: 0
+    ProvinceParent: 
+    ContinentParent: 
     ClaimValue: 0
   selectedName: 
 --- !u!1 &963194225
@@ -463,7 +459,7 @@ Camera:
   far clip plane: 300
   field of view: 60
   orthographic: 1
-  orthographic size: 4000
+  orthographic size: 7000
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -589,7 +585,7 @@ Transform:
   m_GameObject: {fileID: 1700038481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1390, y: 1, z: 600}
+  m_LocalScale: {x: 2457.6, y: 1, z: 611.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 339491689}

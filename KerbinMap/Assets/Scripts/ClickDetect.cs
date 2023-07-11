@@ -17,11 +17,11 @@ using System.Diagnostics;
 //this method handles click detection action and the stages involved in generating map data
 public class ClickDetect : MonoBehaviour
 {
+    [SerializeField] private GameObject tileScanTarget;
     public TileData selectedTile;
     public string selectedName;
 
     private MapGen mapSource;
-    private GameObject tileScanTarget;
     private Texture2D tileMap;
 
 
@@ -29,7 +29,6 @@ public class ClickDetect : MonoBehaviour
     void Start()
     {
         mapSource = GetComponent<MapGen>();
-        tileScanTarget = mapSource.tileScanTarget;
         tileMap = mapSource.tileMap;
     }
 
@@ -47,7 +46,7 @@ public class ClickDetect : MonoBehaviour
                 //get the position where the ray hit
                 Vector2 textureCoord = hit.textureCoord;
                 // Convert texture coordinates to pixel coordinates
-                int x = Mathf.RoundToInt(textureCoord.x * tileMap.width);
+                int x = Mathf.RoundToInt(textureCoord.x * tileMap.width * 2);
                 int y = Mathf.RoundToInt(textureCoord.y * tileMap.height);
 
                 selectedTile = SelectTile(x, y);
@@ -95,7 +94,7 @@ public class ClickDetect : MonoBehaviour
             }
         }
 
-        Debug.Log("Tile not Found");
+        Debug.Log("Tile " + tileColour + " not Found");
         return null;
     }
 

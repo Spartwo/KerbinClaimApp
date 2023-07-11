@@ -4,123 +4,123 @@
             "HexCode": "A69658",
             "Provinces": [
                 {
-                    "Tiles": [],
                     "HexCode": "4ACDB2",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "14E767",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "854D2B",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "D28CC2",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "17920D",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "BF6047",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "531EF7",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "E67D42",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "AC2D39",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "FCBB48",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "56C9E2",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "3DD166",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "1BD67D",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "E39DAB",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "57EE42",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "5E5AB8",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 },
                 {
-                    "Tiles": [],
                     "HexCode": "3D98CD",
                     "ContinentParent": "A69658",
                     "Area": 0.0,
-                    "Population": 0
+                    "Population": 0,
+                    "Tiles": []
                 }
             ]
         }

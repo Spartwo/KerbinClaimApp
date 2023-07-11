@@ -25,7 +25,6 @@ using UnityEngine.UIElements;
 public class MapGen : MonoBehaviour
 {
     #region Accessibles
-    [SerializeField] public GameObject tileScanTarget;
     [SerializeField] public Texture2D tileMap;
     [SerializeField] private Texture2D tileAreaMap;
     [SerializeField] public Texture2D provinceMap;
@@ -442,9 +441,10 @@ public class MapGen : MonoBehaviour
 
         foreach (string file in files)
         {
+            Debug.Log("Loading " + file);
             if (File.Exists(file))
             {
-                using (StreamReader reader = new StreamReader(filePath))
+                using (StreamReader reader = new StreamReader(file))
                 {
                     content = reader.ReadToEnd();
                 }
@@ -530,6 +530,7 @@ public class MapGen : MonoBehaviour
             Dialect = "Kr*man",
             Language = "Kr*man",
             Group = "Kr*man",
+            SubGroup = "Kr*man",
             Family = "Kr*man",
         };
     }
