@@ -52,8 +52,9 @@ public class MapGen : MonoBehaviour
     // The actual data
     public List<ContinentData> continents = new List<ContinentData>();
     // Localisation
-    private List<MapLocalisation> continentNames = new List<MapLocalisation>();
-    private List<MapLocalisation> provinceNames = new List<MapLocalisation>();
+    public List<MapLocalisation> continentNames = new List<MapLocalisation>();
+    public List<MapLocalisation> provinceNames = new List<MapLocalisation>();
+    public List<CultureDef> culturesList = new List<CultureDef>();
 
     // Start is called before the first frame update
     void Start()
@@ -293,8 +294,7 @@ public class MapGen : MonoBehaviour
 
         // Get Culture by finding the undertile value in a comparitive object
         Color cultureValue = languageMap.GetPixel(meanX, meanY);
-        CultureDef newCulture = new CultureDef();
-        newCulture = FindCulture(ColorUtility.ToHtmlStringRGB(cultureValue));
+        string newCulture = ColorUtility.ToHtmlStringRGB(cultureValue);
         // Get altitude by converting the heightmap brightness
         int colorValue = (int)(heightMap.GetPixel(meanX, meanY).r * 255);
         float newAlt = colorValue * 50f;
@@ -388,7 +388,25 @@ public class MapGen : MonoBehaviour
             writer.Write(jsonOutput2);
         }
     }
+    List<CultureDef> ImportCultureJson(string filePath)
+    {
+        string content;
+        if (File.Exists(filePath))
+        {
+            using (StreamReader reader = new StreamReader(filePath))
+            {
+                content = reader.ReadToEnd();
+            }
 
+            // Process the file contents...
+            if (!string.IsNullOrEmpty(content) && content != "{}")
+            {
+                return JsonHelper.FromJson<CultureDef>(content).ToList();
+            }
+        }
+        // If file doesn't exist or is invalid return an empty list
+        return new List<CultureDef>();
+    }
     List<MapLocalisation> ImportNamesJson(string filePath)
     {
         string content;
@@ -521,19 +539,7 @@ public class MapGen : MonoBehaviour
     }
     #endregion
 
-    private CultureDef FindCulture(string hexCode)
-    {
-        //TODO: Create cultural data structures
-        return new CultureDef 
-        {
-            HexCode = hexCode,
-            Dialect = "Kr*man",
-            Language = "Kr*man",
-            Group = "Kr*man",
-            SubGroup = "Kr*man",
-            Family = "Kr*man",
-        };
-    }
+    
     private Dictionary<string, string> biomeCodeMappings = new Dictionary<string, string>()
     {
         { "3762AB", "Ocean" },

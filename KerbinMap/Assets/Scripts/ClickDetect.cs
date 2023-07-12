@@ -19,10 +19,14 @@ public class ClickDetect : MonoBehaviour
 {
     [SerializeField] private GameObject tileScanTarget;
     public TileData selectedTile;
-    public string selectedName;
+    public CultureDef selectedTileCulture;
+    public string selectedProvName;
+    public string selectedContName;
 
     private MapGen mapSource;
     private Texture2D tileMap;
+
+    private List<CultureDef> culturesList = new List<CultureDef>();
 
 
     // Start is called before the first frame update
@@ -30,6 +34,8 @@ public class ClickDetect : MonoBehaviour
     {
         mapSource = GetComponent<MapGen>();
         tileMap = mapSource.tileMap;
+        // Import Culture Definitions
+        culturesList = mapSource.culturesList;
     }
 
     void Update()
@@ -50,8 +56,10 @@ public class ClickDetect : MonoBehaviour
                 int y = Mathf.RoundToInt(textureCoord.y * tileMap.height);
 
                 selectedTile = SelectTile(x, y);
+                selectedTileCulture = FindCulture(selectedTile.Culture);
                 // Get the localised name from the MapGen script
-                selectedName = mapSource.RetrieveName(false, selectedTile.ProvinceParent);
+                selectedProvName = mapSource.RetrieveName(false, selectedTile.ProvinceParent);
+                selectedContName = mapSource.RetrieveName(true, selectedTile.ContinentParent);
             }
         }
     }
@@ -97,5 +105,21 @@ public class ClickDetect : MonoBehaviour
         Debug.Log("Tile " + tileColour + " not Found");
         return null;
     }
-
+    private CultureDef FindCulture(string hexCode)
+    {
+        foreach (CultureDef c in culturesList)
+        {
+            if (c.HexCode == hexCode) return c;
+        }
+        //If nothing return undefined values
+        return new CultureDef
+        {
+            HexCode = hexCode,
+            Dialect = "Undefined",
+            Language = "Undefined",
+            Group = "Undefined",
+            SubGroup = "Undefined",
+            Family = "Undefined",
+        };
+    }
 }

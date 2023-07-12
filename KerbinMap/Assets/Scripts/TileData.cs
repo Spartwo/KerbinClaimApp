@@ -6,7 +6,7 @@ public class TileData
 {
     public string HexCode;
     // Conditions
-    public CultureDef Culture;
+    public string Culture;
     // Positional
     public UnityEngine.Vector2 Coordinates;
     public UnityEngine.Vector2 Position;

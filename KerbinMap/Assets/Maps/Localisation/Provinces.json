@@ -1,2732 +1,687 @@
 {
     "Content": [
-        {
-            "HexCode": "174ECD",
-            "Name": "174ECD"
-        },
-        {
-            "HexCode": "FC2150",
-            "Name": "FC2150"
-        },
-        {
-            "HexCode": "183634",
-            "Name": "183634"
-        },
-        {
-            "HexCode": "FE62FF",
-            "Name": "FE62FF"
-        },
-        {
-            "HexCode": "E789AF",
-            "Name": "E789AF"
-        },
-        {
-            "HexCode": "37853F",
-            "Name": "37853F"
-        },
-        {
-            "HexCode": "1BBE85",
-            "Name": "1BBE85"
-        },
-        {
-            "HexCode": "2CB655",
-            "Name": "2CB655"
-        },
-        {
-            "HexCode": "2EEB4B",
-            "Name": "2EEB4B"
-        },
-        {
-            "HexCode": "F4CEB1",
-            "Name": "F4CEB1"
-        },
-        {
-            "HexCode": "7D5D3C",
-            "Name": "7D5D3C"
-        },
-        {
-            "HexCode": "4ACDB2",
-            "Name": "4ACDB2"
-        },
-        {
-            "HexCode": "14E767",
-            "Name": "14E767"
-        },
-        {
-            "HexCode": "5A3FBF",
-            "Name": "5A3FBF"
-        },
-        {
-            "HexCode": "2ACCA8",
-            "Name": "2ACCA8"
-        },
-        {
-            "HexCode": "541DE8",
-            "Name": "541DE8"
-        },
-        {
-            "HexCode": "3B8509",
-            "Name": "3B8509"
-        },
-        {
-            "HexCode": "56E216",
-            "Name": "56E216"
-        },
-        {
-            "HexCode": "279193",
-            "Name": "279193"
-        },
-        {
-            "HexCode": "2A78B7",
-            "Name": "2A78B7"
-        },
-        {
-            "HexCode": "737AF7",
-            "Name": "737AF7"
-        },
-        {
-            "HexCode": "7E7BDB",
-            "Name": "7E7BDB"
-        },
-        {
-            "HexCode": "8F633E",
-            "Name": "8F633E"
-        },
-        {
-            "HexCode": "AE5443",
-            "Name": "AE5443"
-        },
-        {
-            "HexCode": "2A0C49",
-            "Name": "2A0C49"
-        },
-        {
-            "HexCode": "0045D2",
-            "Name": "0045D2"
-        },
-        {
-            "HexCode": "05CC5A",
-            "Name": "05CC5A"
-        },
-        {
-            "HexCode": "96C763",
-            "Name": "96C763"
-        },
-        {
-            "HexCode": "01ABCD",
-            "Name": "01ABCD"
-        },
-        {
-            "HexCode": "3B4F3F",
-            "Name": "3B4F3F"
-        },
-        {
-            "HexCode": "008423",
-            "Name": "008423"
-        },
-        {
-            "HexCode": "1FA379",
-            "Name": "1FA379"
-        },
-        {
-            "HexCode": "2ACF85",
-            "Name": "2ACF85"
-        },
-        {
-            "HexCode": "7B8E7E",
-            "Name": "7B8E7E"
-        },
-        {
-            "HexCode": "548747",
-            "Name": "548747"
-        },
-        {
-            "HexCode": "B02798",
-            "Name": "B02798"
-        },
-        {
-            "HexCode": "08065A",
-            "Name": "08065A"
-        },
-        {
-            "HexCode": "22A875",
-            "Name": "22A875"
-        },
-        {
-            "HexCode": "F93F1A",
-            "Name": "F93F1A"
-        },
-        {
-            "HexCode": "554774",
-            "Name": "554774"
-        },
-        {
-            "HexCode": "8427ED",
-            "Name": "8427ED"
-        },
-        {
-            "HexCode": "99F6F8",
-            "Name": "99F6F8"
-        },
-        {
-            "HexCode": "0018B4",
-            "Name": "0018B4"
-        },
-        {
-            "HexCode": "854D2B",
-            "Name": "854D2B"
-        },
-        {
-            "HexCode": "00245A",
-            "Name": "00245A"
-        },
-        {
-            "HexCode": "D28CC2",
-            "Name": "D28CC2"
-        },
-        {
-            "HexCode": "32EBEE",
-            "Name": "32EBEE"
-        },
-        {
-            "HexCode": "C6E8CC",
-            "Name": "C6E8CC"
-        },
-        {
-            "HexCode": "2A603A",
-            "Name": "2A603A"
-        },
-        {
-            "HexCode": "DBBADA",
-            "Name": "DBBADA"
-        },
-        {
-            "HexCode": "17920D",
-            "Name": "17920D"
-        },
-        {
-            "HexCode": "70A88A",
-            "Name": "70A88A"
-        },
-        {
-            "HexCode": "7CBDCF",
-            "Name": "7CBDCF"
-        },
-        {
-            "HexCode": "BF6047",
-            "Name": "BF6047"
-        },
-        {
-            "HexCode": "685F78",
-            "Name": "685F78"
-        },
-        {
-            "HexCode": "D1520E",
-            "Name": "D1520E"
-        },
-        {
-            "HexCode": "732111",
-            "Name": "732111"
-        },
-        {
-            "HexCode": "531EF7",
-            "Name": "531EF7"
-        },
-        {
-            "HexCode": "AC7BCF",
-            "Name": "AC7BCF"
-        },
-        {
-            "HexCode": "46BA1E",
-            "Name": "46BA1E"
-        },
-        {
-            "HexCode": "E67D42",
-            "Name": "E67D42"
-        },
-        {
-            "HexCode": "AC2D39",
-            "Name": "AC2D39"
-        },
-        {
-            "HexCode": "4DED6F",
-            "Name": "4DED6F"
-        },
-        {
-            "HexCode": "FCBB48",
-            "Name": "FCBB48"
-        },
-        {
-            "HexCode": "56C9E2",
-            "Name": "56C9E2"
-        },
-        {
-            "HexCode": "546C1F",
-            "Name": "546C1F"
-        },
-        {
-            "HexCode": "AB4218",
-            "Name": "AB4218"
-        },
-        {
-            "HexCode": "3DD166",
-            "Name": "3DD166"
-        },
-        {
-            "HexCode": "C9DF00",
-            "Name": "C9DF00"
-        },
-        {
-            "HexCode": "D2A327",
-            "Name": "D2A327"
-        },
-        {
-            "HexCode": "7E1BAE",
-            "Name": "7E1BAE"
-        },
-        {
-            "HexCode": "00D28C",
-            "Name": "00D28C"
-        },
-        {
-            "HexCode": "A82AD4",
-            "Name": "A82AD4"
-        },
-        {
-            "HexCode": "1EA2F8",
-            "Name": "1EA2F8"
-        },
-        {
-            "HexCode": "5E827A",
-            "Name": "5E827A"
-        },
-        {
-            "HexCode": "2AA53F",
-            "Name": "2AA53F"
-        },
-        {
-            "HexCode": "1BD67D",
-            "Name": "1BD67D"
-        },
-        {
-            "HexCode": "B36BB1",
-            "Name": "B36BB1"
-        },
-        {
-            "HexCode": "E39DAB",
-            "Name": "E39DAB"
-        },
-        {
-            "HexCode": "DE28A7",
-            "Name": "DE28A7"
-        },
-        {
-            "HexCode": "007E05",
-            "Name": "007E05"
-        },
-        {
-            "HexCode": "57EE42",
-            "Name": "57EE42"
-        },
-        {
-            "HexCode": "549C83",
-            "Name": "549C83"
-        },
-        {
-            "HexCode": "5F8452",
-            "Name": "5F8452"
-        },
-        {
-            "HexCode": "5E5AB8",
-            "Name": "5E5AB8"
-        },
-        {
-            "HexCode": "55D680",
-            "Name": "55D680"
-        },
-        {
-            "HexCode": "1B3802",
-            "Name": "1B3802"
-        },
-        {
-            "HexCode": "2A66C1",
-            "Name": "2A66C1"
-        },
-        {
-            "HexCode": "20953E",
-            "Name": "20953E"
-        },
-        {
-            "HexCode": "0078E1",
-            "Name": "0078E1"
-        },
-        {
-            "HexCode": "2290B1",
-            "Name": "2290B1"
-        },
-        {
-            "HexCode": "0BD5FD",
-            "Name": "0BD5FD"
-        },
-        {
-            "HexCode": "009CA0",
-            "Name": "009CA0"
-        },
-        {
-            "HexCode": "9B2BF6",
-            "Name": "9B2BF6"
-        },
-        {
-            "HexCode": "DEB9B7",
-            "Name": "DEB9B7"
-        },
-        {
-            "HexCode": "000655",
-            "Name": "000655"
-        },
-        {
-            "HexCode": "B5F0B5",
-            "Name": "B5F0B5"
-        },
-        {
-            "HexCode": "A860C0",
-            "Name": "A860C0"
-        },
-        {
-            "HexCode": "C46544",
-            "Name": "C46544"
-        },
-        {
-            "HexCode": "D86906",
-            "Name": "D86906"
-        },
-        {
-            "HexCode": "7E2754",
-            "Name": "7E2754"
-        },
-        {
-            "HexCode": "2DF1BE",
-            "Name": "2DF1BE"
-        },
-        {
-            "HexCode": "1FA5FE",
-            "Name": "1FA5FE"
-        },
-        {
-            "HexCode": "00AE00",
-            "Name": "00AE00"
-        },
-        {
-            "HexCode": "A89C61",
-            "Name": "A89C61"
-        },
-        {
-            "HexCode": "25CFF8",
-            "Name": "25CFF8"
-        },
-        {
-            "HexCode": "4BBE72",
-            "Name": "4BBE72"
-        },
-        {
-            "HexCode": "7EA863",
-            "Name": "7EA863"
-        },
-        {
-            "HexCode": "A6B522",
-            "Name": "A6B522"
-        },
-        {
-            "HexCode": "7EC604",
-            "Name": "7EC604"
-        },
-        {
-            "HexCode": "8F2B7B",
-            "Name": "8F2B7B"
-        },
-        {
-            "HexCode": "82DB62",
-            "Name": "82DB62"
-        },
-        {
-            "HexCode": "5AABEF",
-            "Name": "5AABEF"
-        },
-        {
-            "HexCode": "C6B67D",
-            "Name": "C6B67D"
-        },
-        {
-            "HexCode": "5FE55C",
-            "Name": "5FE55C"
-        },
-        {
-            "HexCode": "A8F84F",
-            "Name": "A8F84F"
-        },
-        {
-            "HexCode": "A8AEC0",
-            "Name": "A8AEC0"
-        },
-        {
-            "HexCode": "A54D52",
-            "Name": "A54D52"
-        },
-        {
-            "HexCode": "C7B7FD",
-            "Name": "C7B7FD"
-        },
-        {
-            "HexCode": "0FC66C",
-            "Name": "0FC66C"
-        },
-        {
-            "HexCode": "2A8185",
-            "Name": "2A8185"
-        },
-        {
-            "HexCode": "601FEC",
-            "Name": "601FEC"
-        },
-        {
-            "HexCode": "002AAA",
-            "Name": "002AAA"
-        },
-        {
-            "HexCode": "B72FB2",
-            "Name": "B72FB2"
-        },
-        {
-            "HexCode": "6F5A14",
-            "Name": "6F5A14"
-        },
-        {
-            "HexCode": "0C770F",
-            "Name": "0C770F"
-        },
-        {
-            "HexCode": "7EA522",
-            "Name": "7EA522"
-        },
-        {
-            "HexCode": "408DDF",
-            "Name": "408DDF"
-        },
-        {
-            "HexCode": "004B5A",
-            "Name": "004B5A"
-        },
-        {
-            "HexCode": "10D12C",
-            "Name": "10D12C"
-        },
-        {
-            "HexCode": "2AABC6",
-            "Name": "2AABC6"
-        },
-        {
-            "HexCode": "6B6DA0",
-            "Name": "6B6DA0"
-        },
-        {
-            "HexCode": "A86334",
-            "Name": "A86334"
-        },
-        {
-            "HexCode": "7EB4A4",
-            "Name": "7EB4A4"
-        },
-        {
-            "HexCode": "448E5D",
-            "Name": "448E5D"
-        },
-        {
-            "HexCode": "A8B725",
-            "Name": "A8B725"
-        },
-        {
-            "HexCode": "673C44",
-            "Name": "673C44"
-        },
-        {
-            "HexCode": "4C8FEA",
-            "Name": "4C8FEA"
-        },
-        {
-            "HexCode": "029348",
-            "Name": "029348"
-        },
-        {
-            "HexCode": "005114",
-            "Name": "005114"
-        },
-        {
-            "HexCode": "5D578D",
-            "Name": "5D578D"
-        },
-        {
-            "HexCode": "A7D002",
-            "Name": "A7D002"
-        },
-        {
-            "HexCode": "54785B",
-            "Name": "54785B"
-        },
-        {
-            "HexCode": "A803D4",
-            "Name": "A803D4"
-        },
-        {
-            "HexCode": "F64723",
-            "Name": "F64723"
-        },
-        {
-            "HexCode": "945D10",
-            "Name": "945D10"
-        },
-        {
-            "HexCode": "DD58E2",
-            "Name": "DD58E2"
-        },
-        {
-            "HexCode": "A1B395",
-            "Name": "A1B395"
-        },
-        {
-            "HexCode": "A81E2F",
-            "Name": "A81E2F"
-        },
-        {
-            "HexCode": "383D77",
-            "Name": "383D77"
-        },
-        {
-            "HexCode": "947D0B",
-            "Name": "947D0B"
-        },
-        {
-            "HexCode": "50572F",
-            "Name": "50572F"
-        },
-        {
-            "HexCode": "540FC9",
-            "Name": "540FC9"
-        },
-        {
-            "HexCode": "5A346F",
-            "Name": "5A346F"
-        },
-        {
-            "HexCode": "BC6064",
-            "Name": "BC6064"
-        },
-        {
-            "HexCode": "0A5D3B",
-            "Name": "0A5D3B"
-        },
-        {
-            "HexCode": "722F2B",
-            "Name": "722F2B"
-        },
-        {
-            "HexCode": "A80648",
-            "Name": "A80648"
-        },
-        {
-            "HexCode": "00B7C8",
-            "Name": "00B7C8"
-        },
-        {
-            "HexCode": "14730C",
-            "Name": "14730C"
-        },
-        {
-            "HexCode": "244C4A",
-            "Name": "244C4A"
-        },
-        {
-            "HexCode": "E19351",
-            "Name": "E19351"
-        },
-        {
-            "HexCode": "89B82E",
-            "Name": "89B82E"
-        },
-        {
-            "HexCode": "6B43E3",
-            "Name": "6B43E3"
-        },
-        {
-            "HexCode": "001ED2",
-            "Name": "001ED2"
-        },
-        {
-            "HexCode": "A726FD",
-            "Name": "A726FD"
-        },
-        {
-            "HexCode": "3C9CA9",
-            "Name": "3C9CA9"
-        },
-        {
-            "HexCode": "2A3CAD",
-            "Name": "2A3CAD"
-        },
-        {
-            "HexCode": "54A5E2",
-            "Name": "54A5E2"
-        },
-        {
-            "HexCode": "C163A3",
-            "Name": "C163A3"
-        },
-        {
-            "HexCode": "D2DB8F",
-            "Name": "D2DB8F"
-        },
-        {
-            "HexCode": "543910",
-            "Name": "543910"
-        },
-        {
-            "HexCode": "5ECBEE",
-            "Name": "5ECBEE"
-        },
-        {
-            "HexCode": "39C236",
-            "Name": "39C236"
-        },
-        {
-            "HexCode": "77B1D1",
-            "Name": "77B1D1"
-        },
-        {
-            "HexCode": "8B9510",
-            "Name": "8B9510"
-        },
-        {
-            "HexCode": "B15B13",
-            "Name": "B15B13"
-        },
-        {
-            "HexCode": "7E789A",
-            "Name": "7E789A"
-        },
-        {
-            "HexCode": "6242C7",
-            "Name": "6242C7"
-        },
-        {
-            "HexCode": "2A2153",
-            "Name": "2A2153"
-        },
-        {
-            "HexCode": "A86FD9",
-            "Name": "A86FD9"
-        },
-        {
-            "HexCode": "FA22F4",
-            "Name": "FA22F4"
-        },
-        {
-            "HexCode": "9B669F",
-            "Name": "9B669F"
-        },
-        {
-            "HexCode": "FA4EC1",
-            "Name": "FA4EC1"
-        },
-        {
-            "HexCode": "54931F",
-            "Name": "54931F"
-        },
-        {
-            "HexCode": "2A909E",
-            "Name": "2A909E"
-        },
-        {
-            "HexCode": "4233AB",
-            "Name": "4233AB"
-        },
-        {
-            "HexCode": "B12184",
-            "Name": "B12184"
-        },
-        {
-            "HexCode": "4ED3FE",
-            "Name": "4ED3FE"
-        },
-        {
-            "HexCode": "C3F30E",
-            "Name": "C3F30E"
-        },
-        {
-            "HexCode": "A89643",
-            "Name": "A89643"
-        },
-        {
-            "HexCode": "1D98C5",
-            "Name": "1D98C5"
-        },
-        {
-            "HexCode": "3D98CD",
-            "Name": "3D98CD"
-        },
-        {
-            "HexCode": "2A368F",
-            "Name": "2A368F"
-        },
-        {
-            "HexCode": "36C1CB",
-            "Name": "36C1CB"
-        },
-        {
-            "HexCode": "00CC05",
-            "Name": "00CC05"
-        },
-        {
-            "HexCode": "2AA262",
-            "Name": "2AA262"
-        },
-        {
-            "HexCode": "E6EA19",
-            "Name": "E6EA19"
-        },
-        {
-            "HexCode": "0099D6",
-            "Name": "0099D6"
-        },
-        {
-            "HexCode": "399B88",
-            "Name": "399B88"
-        },
-        {
-            "HexCode": "971E6C",
-            "Name": "971E6C"
-        },
-        {
-            "HexCode": "7E6918",
-            "Name": "7E6918"
-        },
-        {
-            "HexCode": "94EBA0",
-            "Name": "94EBA0"
-        },
-        {
-            "HexCode": "A83F11",
-            "Name": "A83F11"
-        },
-        {
-            "HexCode": "1F6616",
-            "Name": "1F6616"
-        },
-        {
-            "HexCode": "B3A6CA",
-            "Name": "B3A6CA"
-        },
-        {
-            "HexCode": "000687",
-            "Name": "000687"
-        },
-        {
-            "HexCode": "AA5657",
-            "Name": "AA5657"
-        },
-        {
-            "HexCode": "2AD2C6",
-            "Name": "2AD2C6"
-        },
-        {
-            "HexCode": "140536",
-            "Name": "140536"
-        },
-        {
-            "HexCode": "B32ECF",
-            "Name": "B32ECF"
-        },
-        {
-            "HexCode": "57E5AE",
-            "Name": "57E5AE"
-        },
-        {
-            "HexCode": "7E99E0",
-            "Name": "7E99E0"
-        },
-        {
-            "HexCode": "3C38E8",
-            "Name": "3C38E8"
-        },
-        {
-            "HexCode": "17856F",
-            "Name": "17856F"
-        },
-        {
-            "HexCode": "7BB917",
-            "Name": "7BB917"
-        },
-        {
-            "HexCode": "8FECCC",
-            "Name": "8FECCC"
-        },
-        {
-            "HexCode": "3DE9EB",
-            "Name": "3DE9EB"
-        },
-        {
-            "HexCode": "00C0C3",
-            "Name": "00C0C3"
-        },
-        {
-            "HexCode": "1E5B58",
-            "Name": "1E5B58"
-        },
-        {
-            "HexCode": "C829F1",
-            "Name": "C829F1"
-        },
-        {
-            "HexCode": "89DB24",
-            "Name": "89DB24"
-        },
-        {
-            "HexCode": "65F472",
-            "Name": "65F472"
-        },
-        {
-            "HexCode": "24C561",
-            "Name": "24C561"
-        },
-        {
-            "HexCode": "CA6E1C",
-            "Name": "CA6E1C"
-        },
-        {
-            "HexCode": "9C7E21",
-            "Name": "9C7E21"
-        },
-        {
-            "HexCode": "A8244D",
-            "Name": "A8244D"
-        },
-        {
-            "HexCode": "AD83D1",
-            "Name": "AD83D1"
-        },
-        {
-            "HexCode": "5A2C69",
-            "Name": "5A2C69"
-        },
-        {
-            "HexCode": "C193B3",
-            "Name": "C193B3"
-        },
-        {
-            "HexCode": "274D2E",
-            "Name": "274D2E"
-        },
-        {
-            "HexCode": "BA4C7F",
-            "Name": "BA4C7F"
-        },
-        {
-            "HexCode": "E55C43",
-            "Name": "E55C43"
-        },
-        {
-            "HexCode": "067B82",
-            "Name": "067B82"
-        },
-        {
-            "HexCode": "FB2C02",
-            "Name": "FB2C02"
-        },
-        {
-            "HexCode": "7B783A",
-            "Name": "7B783A"
-        },
-        {
-            "HexCode": "18E4B7",
-            "Name": "18E4B7"
-        },
-        {
-            "HexCode": "848572",
-            "Name": "848572"
-        },
-        {
-            "HexCode": "54C6C4",
-            "Name": "54C6C4"
-        },
-        {
-            "HexCode": "165745",
-            "Name": "165745"
-        },
-        {
-            "HexCode": "F5A545",
-            "Name": "F5A545"
-        },
-        {
-            "HexCode": "2B7B7C",
-            "Name": "2B7B7C"
-        },
-        {
-            "HexCode": "C97875",
-            "Name": "C97875"
-        },
-        {
-            "HexCode": "A8C984",
-            "Name": "A8C984"
-        },
-        {
-            "HexCode": "E24B68",
-            "Name": "E24B68"
-        },
-        {
-            "HexCode": "C07AA0",
-            "Name": "C07AA0"
-        },
-        {
-            "HexCode": "4B91AF",
-            "Name": "4B91AF"
-        },
-        {
-            "HexCode": "A50B20",
-            "Name": "A50B20"
-        },
-        {
-            "HexCode": "D1BFA8",
-            "Name": "D1BFA8"
-        },
-        {
-            "HexCode": "17D0BF",
-            "Name": "17D0BF"
-        },
-        {
-            "HexCode": "AE9577",
-            "Name": "AE9577"
-        },
-        {
-            "HexCode": "2CCE74",
-            "Name": "2CCE74"
-        },
-        {
-            "HexCode": "7EC945",
-            "Name": "7EC945"
-        },
-        {
-            "HexCode": "0544EB",
-            "Name": "0544EB"
-        },
-        {
-            "HexCode": "2B9D3A",
-            "Name": "2B9D3A"
-        },
-        {
-            "HexCode": "00150A",
-            "Name": "00150A"
-        },
-        {
-            "HexCode": "F298A9",
-            "Name": "F298A9"
-        },
-        {
-            "HexCode": "B59496",
-            "Name": "B59496"
-        },
-        {
-            "HexCode": "C9AE7A",
-            "Name": "C9AE7A"
-        },
-        {
-            "HexCode": "4577B7",
-            "Name": "4577B7"
-        },
-        {
-            "HexCode": "A04760",
-            "Name": "A04760"
-        },
-        {
-            "HexCode": "B657CD",
-            "Name": "B657CD"
-        },
-        {
-            "HexCode": "00725A",
-            "Name": "00725A"
-        },
-        {
-            "HexCode": "AEABDD",
-            "Name": "AEABDD"
-        },
-        {
-            "HexCode": "F3B381",
-            "Name": "F3B381"
-        },
-        {
-            "HexCode": "87C0C1",
-            "Name": "87C0C1"
-        },
-        {
-            "HexCode": "543C51",
-            "Name": "543C51"
-        },
-        {
-            "HexCode": "54C0A6",
-            "Name": "54C0A6"
-        },
-        {
-            "HexCode": "4D78BD",
-            "Name": "4D78BD"
-        },
-        {
-            "HexCode": "B2565F",
-            "Name": "B2565F"
-        },
-        {
-            "HexCode": "155944",
-            "Name": "155944"
-        },
-        {
-            "HexCode": "6F798E",
-            "Name": "6F798E"
-        },
-        {
-            "HexCode": "2A2430",
-            "Name": "2A2430"
-        },
-        {
-            "HexCode": "2A6317",
-            "Name": "2A6317"
-        },
-        {
-            "HexCode": "863F40",
-            "Name": "863F40"
-        },
-        {
-            "HexCode": "47AD6F",
-            "Name": "47AD6F"
-        },
-        {
-            "HexCode": "17A4DF",
-            "Name": "17A4DF"
-        },
-        {
-            "HexCode": "BD570A",
-            "Name": "BD570A"
-        },
-        {
-            "HexCode": "945FBF",
-            "Name": "945FBF"
-        },
-        {
-            "HexCode": "AE3020",
-            "Name": "AE3020"
-        },
-        {
-            "HexCode": "57A7AF",
-            "Name": "57A7AF"
-        },
-        {
-            "HexCode": "0FA67E",
-            "Name": "0FA67E"
-        },
-        {
-            "HexCode": "009FE1",
-            "Name": "009FE1"
-        },
-        {
-            "HexCode": "163808",
-            "Name": "163808"
-        },
-        {
-            "HexCode": "5A968D",
-            "Name": "5A968D"
-        },
-        {
-            "HexCode": "63F10F",
-            "Name": "63F10F"
-        },
-        {
-            "HexCode": "2A188A",
-            "Name": "2A188A"
-        },
-        {
-            "HexCode": "A890BB",
-            "Name": "A890BB"
-        },
-        {
-            "HexCode": "0027CD",
-            "Name": "0027CD"
-        },
-        {
-            "HexCode": "2A2A4E",
-            "Name": "2A2A4E"
-        },
-        {
-            "HexCode": "7E5A95",
-            "Name": "7E5A95"
-        },
-        {
-            "HexCode": "DF332D",
-            "Name": "DF332D"
-        },
-        {
-            "HexCode": "0F41B0",
-            "Name": "0F41B0"
-        },
-        {
-            "HexCode": "27D907",
-            "Name": "27D907"
-        },
-        {
-            "HexCode": "CBE083",
-            "Name": "CBE083"
-        },
-        {
-            "HexCode": "E7C53D",
-            "Name": "E7C53D"
-        },
-        {
-            "HexCode": "023914",
-            "Name": "023914"
-        },
-        {
-            "HexCode": "342C7D",
-            "Name": "342C7D"
-        },
-        {
-            "HexCode": "A7A508",
-            "Name": "A7A508"
-        },
-        {
-            "HexCode": "E5A48C",
-            "Name": "E5A48C"
-        },
-        {
-            "HexCode": "5C96E3",
-            "Name": "5C96E3"
-        },
-        {
-            "HexCode": "4EDF99",
-            "Name": "4EDF99"
-        },
-        {
-            "HexCode": "56A83D",
-            "Name": "56A83D"
-        },
-        {
-            "HexCode": "AE922B",
-            "Name": "AE922B"
-        },
-        {
-            "HexCode": "E17A6E",
-            "Name": "E17A6E"
-        },
-        {
-            "HexCode": "AE3030",
-            "Name": "AE3030"
-        },
-        {
-            "HexCode": "2D2BD7",
-            "Name": "2D2BD7"
-        },
-        {
-            "HexCode": "540C88",
-            "Name": "540C88"
-        },
-        {
-            "HexCode": "7E8A5E",
-            "Name": "7E8A5E"
-        },
-        {
-            "HexCode": "46A0B1",
-            "Name": "46A0B1"
-        },
-        {
-            "HexCode": "F570F7",
-            "Name": "F570F7"
-        },
-        {
-            "HexCode": "03B1FD",
-            "Name": "03B1FD"
-        },
-        {
-            "HexCode": "96EBF5",
-            "Name": "96EBF5"
-        },
-        {
-            "HexCode": "6720F4",
-            "Name": "6720F4"
-        },
-        {
-            "HexCode": "2A6658",
-            "Name": "2A6658"
-        },
-        {
-            "HexCode": "FF6BA3",
-            "Name": "FF6BA3"
-        },
-        {
-            "HexCode": "67818C",
-            "Name": "67818C"
-        },
-        {
-            "HexCode": "E9130C",
-            "Name": "E9130C"
-        },
-        {
-            "HexCode": "D659ED",
-            "Name": "D659ED"
-        },
-        {
-            "HexCode": "D4CBD8",
-            "Name": "D4CBD8"
-        },
-        {
-            "HexCode": "0C75A2",
-            "Name": "0C75A2"
-        },
-        {
-            "HexCode": "7E9CBD",
-            "Name": "7E9CBD"
-        },
-        {
-            "HexCode": "2ABD26",
-            "Name": "2ABD26"
-        },
-        {
-            "HexCode": "3AD5AF",
-            "Name": "3AD5AF"
-        },
-        {
-            "HexCode": "189307",
-            "Name": "189307"
-        },
-        {
-            "HexCode": "327826",
-            "Name": "327826"
-        },
-        {
-            "HexCode": "AE9B45",
-            "Name": "AE9B45"
-        },
-        {
-            "HexCode": "AEBA93",
-            "Name": "AEBA93"
-        },
-        {
-            "HexCode": "21ADB3",
-            "Name": "21ADB3"
-        },
-        {
-            "HexCode": "32C3B2",
-            "Name": "32C3B2"
-        },
-        {
-            "HexCode": "068728",
-            "Name": "068728"
-        },
-        {
-            "HexCode": "CF69D7",
-            "Name": "CF69D7"
-        },
-        {
-            "HexCode": "317E12",
-            "Name": "317E12"
-        },
-        {
-            "HexCode": "62C596",
-            "Name": "62C596"
-        },
-        {
-            "HexCode": "AC491E",
-            "Name": "AC491E"
-        },
-        {
-            "HexCode": "DE241E",
-            "Name": "DE241E"
-        },
-        {
-            "HexCode": "E9C2A6",
-            "Name": "E9C2A6"
-        },
-        {
-            "HexCode": "64CCF7",
-            "Name": "64CCF7"
-        },
-        {
-            "HexCode": "63C697",
-            "Name": "63C697"
-        },
-        {
-            "HexCode": "112BD5",
-            "Name": "112BD5"
-        },
-        {
-            "HexCode": "2A699E",
-            "Name": "2A699E"
-        },
-        {
-            "HexCode": "BA577B",
-            "Name": "BA577B"
-        },
-        {
-            "HexCode": "542DCE",
-            "Name": "542DCE"
-        },
-        {
-            "HexCode": "5232F1",
-            "Name": "5232F1"
-        },
-        {
-            "HexCode": "5D6077",
-            "Name": "5D6077"
-        },
-        {
-            "HexCode": "6EC5F3",
-            "Name": "6EC5F3"
-        },
-        {
-            "HexCode": "00CFAF",
-            "Name": "00CFAF"
-        },
-        {
-            "HexCode": "5A1B9C",
-            "Name": "5A1B9C"
-        },
-        {
-            "HexCode": "09C8B7",
-            "Name": "09C8B7"
-        },
-        {
-            "HexCode": "7BF709",
-            "Name": "7BF709"
-        },
-        {
-            "HexCode": "A054A2",
-            "Name": "A054A2"
-        },
-        {
-            "HexCode": "5A0F5B",
-            "Name": "5A0F5B"
-        },
-        {
-            "HexCode": "FE9D42",
-            "Name": "FE9D42"
-        },
-        {
-            "HexCode": "30C3D5",
-            "Name": "30C3D5"
-        },
-        {
-            "HexCode": "F7A838",
-            "Name": "F7A838"
-        },
-        {
-            "HexCode": "5278DF",
-            "Name": "5278DF"
-        },
-        {
-            "HexCode": "30A8AD",
-            "Name": "30A8AD"
-        },
-        {
-            "HexCode": "D6DD3E",
-            "Name": "D6DD3E"
-        },
-        {
-            "HexCode": "CEA9A1",
-            "Name": "CEA9A1"
-        },
-        {
-            "HexCode": "01BAE5",
-            "Name": "01BAE5"
-        },
-        {
-            "HexCode": "4CFECE",
-            "Name": "4CFECE"
-        },
-        {
-            "HexCode": "B07502",
-            "Name": "B07502"
-        },
-        {
-            "HexCode": "8F1C50",
-            "Name": "8F1C50"
-        },
-        {
-            "HexCode": "6A00EC",
-            "Name": "6A00EC"
-        },
-        {
-            "HexCode": "062A3C",
-            "Name": "062A3C"
-        },
-        {
-            "HexCode": "DC5BB6",
-            "Name": "DC5BB6"
-        },
-        {
-            "HexCode": "26B576",
-            "Name": "26B576"
-        },
-        {
-            "HexCode": "34C3B5",
-            "Name": "34C3B5"
-        },
-        {
-            "HexCode": "262525",
-            "Name": "262525"
-        },
-        {
-            "HexCode": "08EA2C",
-            "Name": "08EA2C"
-        },
-        {
-            "HexCode": "7243EA",
-            "Name": "7243EA"
-        },
-        {
-            "HexCode": "7C97DB",
-            "Name": "7C97DB"
-        },
-        {
-            "HexCode": "323E8E",
-            "Name": "323E8E"
-        },
-        {
-            "HexCode": "D539A4",
-            "Name": "D539A4"
-        },
-        {
-            "HexCode": "4C2B6B",
-            "Name": "4C2B6B"
-        },
-        {
-            "HexCode": "CB1EFC",
-            "Name": "CB1EFC"
-        },
-        {
-            "HexCode": "E4C671",
-            "Name": "E4C671"
-        },
-        {
-            "HexCode": "30C094",
-            "Name": "30C094"
-        },
-        {
-            "HexCode": "2AB819",
-            "Name": "2AB819"
-        },
-        {
-            "HexCode": "9EE3D2",
-            "Name": "9EE3D2"
-        },
-        {
-            "HexCode": "DEB71C",
-            "Name": "DEB71C"
-        },
-        {
-            "HexCode": "9B1476",
-            "Name": "9B1476"
-        },
-        {
-            "HexCode": "A73B87",
-            "Name": "A73B87"
-        },
-        {
-            "HexCode": "7E4E54",
-            "Name": "7E4E54"
-        },
-        {
-            "HexCode": "65BD72",
-            "Name": "65BD72"
-        },
-        {
-            "HexCode": "9CD775",
-            "Name": "9CD775"
-        },
-        {
-            "HexCode": "DB6359",
-            "Name": "DB6359"
-        },
-        {
-            "HexCode": "F76D43",
-            "Name": "F76D43"
-        },
-        {
-            "HexCode": "F79CA7",
-            "Name": "F79CA7"
-        },
-        {
-            "HexCode": "255C89",
-            "Name": "255C89"
-        },
-        {
-            "HexCode": "347025",
-            "Name": "347025"
-        },
-        {
-            "HexCode": "67B41E",
-            "Name": "67B41E"
-        },
-        {
-            "HexCode": "5AC656",
-            "Name": "5AC656"
-        },
-        {
-            "HexCode": "EDD642",
-            "Name": "EDD642"
-        },
-        {
-            "HexCode": "676091",
-            "Name": "676091"
-        },
-        {
-            "HexCode": "F42327",
-            "Name": "F42327"
-        },
-        {
-            "HexCode": "CFE329",
-            "Name": "CFE329"
-        },
-        {
-            "HexCode": "3E0E8D",
-            "Name": "3E0E8D"
-        },
-        {
-            "HexCode": "B6ADAE",
-            "Name": "B6ADAE"
-        },
-        {
-            "HexCode": "3DF85E",
-            "Name": "3DF85E"
-        },
-        {
-            "HexCode": "F6ECDD",
-            "Name": "F6ECDD"
-        },
-        {
-            "HexCode": "7E2A31",
-            "Name": "7E2A31"
-        },
-        {
-            "HexCode": "219902",
-            "Name": "219902"
-        },
-        {
-            "HexCode": "A833CF",
-            "Name": "A833CF"
-        },
-        {
-            "HexCode": "54A84E",
-            "Name": "54A84E"
-        },
-        {
-            "HexCode": "2AAB63",
-            "Name": "2AAB63"
-        },
-        {
-            "HexCode": "2C5AC2",
-            "Name": "2C5AC2"
-        },
-        {
-            "HexCode": "7E3C90",
-            "Name": "7E3C90"
-        },
-        {
-            "HexCode": "92313E",
-            "Name": "92313E"
-        },
-        {
-            "HexCode": "2B4D4F",
-            "Name": "2B4D4F"
-        },
-        {
-            "HexCode": "A872B6",
-            "Name": "A872B6"
-        },
-        {
-            "HexCode": "C7CBEC",
-            "Name": "C7CBEC"
-        },
-        {
-            "HexCode": "7EAE54",
-            "Name": "7EAE54"
-        },
-        {
-            "HexCode": "2AE699",
-            "Name": "2AE699"
-        },
-        {
-            "HexCode": "0E5275",
-            "Name": "0E5275"
-        },
-        {
-            "HexCode": "AEB40C",
-            "Name": "AEB40C"
-        },
-        {
-            "HexCode": "EC85F5",
-            "Name": "EC85F5"
-        },
-        {
-            "HexCode": "412B78",
-            "Name": "412B78"
-        },
-        {
-            "HexCode": "83648C",
-            "Name": "83648C"
-        },
-        {
-            "HexCode": "E030ED",
-            "Name": "E030ED"
-        },
-        {
-            "HexCode": "D042FD",
-            "Name": "D042FD"
-        },
-        {
-            "HexCode": "AC690C",
-            "Name": "AC690C"
-        },
-        {
-            "HexCode": "A8CCC5",
-            "Name": "A8CCC5"
-        },
-        {
-            "HexCode": "0FAA15",
-            "Name": "0FAA15"
-        },
-        {
-            "HexCode": "21DBDE",
-            "Name": "21DBDE"
-        },
-        {
-            "HexCode": "FC8066",
-            "Name": "FC8066"
-        },
-        {
-            "HexCode": "0015D7",
-            "Name": "0015D7"
-        },
-        {
-            "HexCode": "5F440E",
-            "Name": "5F440E"
-        },
-        {
-            "HexCode": "BFC032",
-            "Name": "BFC032"
-        },
-        {
-            "HexCode": "5EC23B",
-            "Name": "5EC23B"
-        },
-        {
-            "HexCode": "00B141",
-            "Name": "00B141"
-        },
-        {
-            "HexCode": "7F20B1",
-            "Name": "7F20B1"
-        },
-        {
-            "HexCode": "9E29C7",
-            "Name": "9E29C7"
-        },
-        {
-            "HexCode": "4CE37D",
-            "Name": "4CE37D"
-        },
-        {
-            "HexCode": "B2F6F9",
-            "Name": "B2F6F9"
-        },
-        {
-            "HexCode": "FDECCA",
-            "Name": "FDECCA"
-        },
-        {
-            "HexCode": "A89F3E",
-            "Name": "A89F3E"
-        },
-        {
-            "HexCode": "69D1B4",
-            "Name": "69D1B4"
-        },
-        {
-            "HexCode": "5469D8",
-            "Name": "5469D8"
-        },
-        {
-            "HexCode": "5AD297",
-            "Name": "5AD297"
-        },
-        {
-            "HexCode": "1D7F59",
-            "Name": "1D7F59"
-        },
-        {
-            "HexCode": "1761AE",
-            "Name": "1761AE"
-        },
-        {
-            "HexCode": "FB27EB",
-            "Name": "FB27EB"
-        },
-        {
-            "HexCode": "862A9F",
-            "Name": "862A9F"
-        },
-        {
-            "HexCode": "845F73",
-            "Name": "845F73"
-        },
-        {
-            "HexCode": "66C7CB",
-            "Name": "66C7CB"
-        },
-        {
-            "HexCode": "06159B",
-            "Name": "06159B"
-        },
-        {
-            "HexCode": "2E229D",
-            "Name": "2E229D"
-        },
-        {
-            "HexCode": "7E7EC3",
-            "Name": "7E7EC3"
-        },
-        {
-            "HexCode": "FD92A2",
-            "Name": "FD92A2"
-        },
-        {
-            "HexCode": "38D6EE",
-            "Name": "38D6EE"
-        },
-        {
-            "HexCode": "21CCA6",
-            "Name": "21CCA6"
-        },
-        {
-            "HexCode": "7FD154",
-            "Name": "7FD154"
-        },
-        {
-            "HexCode": "F5CAFD",
-            "Name": "F5CAFD"
-        },
-        {
-            "HexCode": "D6C5AA",
-            "Name": "D6C5AA"
-        },
-        {
-            "HexCode": "58AE01",
-            "Name": "58AE01"
-        },
-        {
-            "HexCode": "7E519A",
-            "Name": "7E519A"
-        },
-        {
-            "HexCode": "6692E2",
-            "Name": "6692E2"
-        },
-        {
-            "HexCode": "79F1EB",
-            "Name": "79F1EB"
-        },
-        {
-            "HexCode": "2A7299",
-            "Name": "2A7299"
-        },
-        {
-            "HexCode": "A8B448",
-            "Name": "A8B448"
-        },
-        {
-            "HexCode": "2EB4CE",
-            "Name": "2EB4CE"
-        },
-        {
-            "HexCode": "008D1E",
-            "Name": "008D1E"
-        },
-        {
-            "HexCode": "448377",
-            "Name": "448377"
-        },
-        {
-            "HexCode": "9091BD",
-            "Name": "9091BD"
-        },
-        {
-            "HexCode": "EEEDA5",
-            "Name": "EEEDA5"
-        },
-        {
-            "HexCode": "7B7A1D",
-            "Name": "7B7A1D"
-        },
-        {
-            "HexCode": "344471",
-            "Name": "344471"
-        },
-        {
-            "HexCode": "307508",
-            "Name": "307508"
-        },
-        {
-            "HexCode": "653582",
-            "Name": "653582"
-        },
-        {
-            "HexCode": "5354DD",
-            "Name": "5354DD"
-        },
-        {
-            "HexCode": "44B117",
-            "Name": "44B117"
-        },
-        {
-            "HexCode": "4B9249",
-            "Name": "4B9249"
-        },
-        {
-            "HexCode": "C39E7F",
-            "Name": "C39E7F"
-        },
-        {
-            "HexCode": "7E663B",
-            "Name": "7E663B"
-        },
-        {
-            "HexCode": "7200F8",
-            "Name": "7200F8"
-        },
-        {
-            "HexCode": "2C5EFD",
-            "Name": "2C5EFD"
-        },
-        {
-            "HexCode": "E3CCA2",
-            "Name": "E3CCA2"
-        },
-        {
-            "HexCode": "A9D791",
-            "Name": "A9D791"
-        },
-        {
-            "HexCode": "BA31D6",
-            "Name": "BA31D6"
-        },
-        {
-            "HexCode": "840018",
-            "Name": "840018"
-        },
-        {
-            "HexCode": "B2D8BF",
-            "Name": "B2D8BF"
-        },
-        {
-            "HexCode": "CA5D41",
-            "Name": "CA5D41"
-        },
-        {
-            "HexCode": "60C4E4",
-            "Name": "60C4E4"
-        },
-        {
-            "HexCode": "06BD14",
-            "Name": "06BD14"
-        },
-        {
-            "HexCode": "6E32F5",
-            "Name": "6E32F5"
-        },
-        {
-            "HexCode": "4A2E7D",
-            "Name": "4A2E7D"
-        },
-        {
-            "HexCode": "00CF46",
-            "Name": "00CF46"
-        },
-        {
-            "HexCode": "8890E7",
-            "Name": "8890E7"
-        },
-        {
-            "HexCode": "A90367",
-            "Name": "A90367"
-        },
-        {
-            "HexCode": "D92F13",
-            "Name": "D92F13"
-        },
-        {
-            "HexCode": "DB2635",
-            "Name": "DB2635"
-        },
-        {
-            "HexCode": "9A3044",
-            "Name": "9A3044"
-        },
-        {
-            "HexCode": "0AAF29",
-            "Name": "0AAF29"
-        },
-        {
-            "HexCode": "38D6D1",
-            "Name": "38D6D1"
-        },
-        {
-            "HexCode": "4C5015",
-            "Name": "4C5015"
-        },
-        {
-            "HexCode": "51BB0C",
-            "Name": "51BB0C"
-        },
-        {
-            "HexCode": "433CE1",
-            "Name": "433CE1"
-        },
-        {
-            "HexCode": "036B6F",
-            "Name": "036B6F"
-        },
-        {
-            "HexCode": "6731CE",
-            "Name": "6731CE"
-        },
-        {
-            "HexCode": "B36C26",
-            "Name": "B36C26"
-        },
-        {
-            "HexCode": "2A5BE6",
-            "Name": "2A5BE6"
-        },
-        {
-            "HexCode": "AEB536",
-            "Name": "AEB536"
-        },
-        {
-            "HexCode": "50AFE7",
-            "Name": "50AFE7"
-        },
-        {
-            "HexCode": "FE7FF6",
-            "Name": "FE7FF6"
-        },
-        {
-            "HexCode": "6F70B9",
-            "Name": "6F70B9"
-        },
-        {
-            "HexCode": "76E045",
-            "Name": "76E045"
-        },
-        {
-            "HexCode": "1D5049",
-            "Name": "1D5049"
-        },
-        {
-            "HexCode": "663BFE",
-            "Name": "663BFE"
-        },
-        {
-            "HexCode": "50A8B5",
-            "Name": "50A8B5"
-        },
-        {
-            "HexCode": "2077A9",
-            "Name": "2077A9"
-        },
-        {
-            "HexCode": "54AE47",
-            "Name": "54AE47"
-        },
-        {
-            "HexCode": "74D41F",
-            "Name": "74D41F"
-        },
-        {
-            "HexCode": "07B4DF",
-            "Name": "07B4DF"
-        },
-        {
-            "HexCode": "579984",
-            "Name": "579984"
-        },
-        {
-            "HexCode": "5D8BA1",
-            "Name": "5D8BA1"
-        },
-        {
-            "HexCode": "929D01",
-            "Name": "929D01"
-        },
-        {
-            "HexCode": "5A99CE",
-            "Name": "5A99CE"
-        },
-        {
-            "HexCode": "194FA3",
-            "Name": "194FA3"
-        },
-        {
-            "HexCode": "45C311",
-            "Name": "45C311"
-        },
-        {
-            "HexCode": "E47CF1",
-            "Name": "E47CF1"
-        },
-        {
-            "HexCode": "52E272",
-            "Name": "52E272"
-        },
-        {
-            "HexCode": "097C28",
-            "Name": "097C28"
-        },
-        {
-            "HexCode": "0D33C9",
-            "Name": "0D33C9"
-        },
-        {
-            "HexCode": "AE7248",
-            "Name": "AE7248"
-        },
-        {
-            "HexCode": "16A630",
-            "Name": "16A630"
-        },
-        {
-            "HexCode": "89B344",
-            "Name": "89B344"
-        },
-        {
-            "HexCode": "0FDAB0",
-            "Name": "0FDAB0"
-        },
-        {
-            "HexCode": "5BD710",
-            "Name": "5BD710"
-        },
-        {
-            "HexCode": "B7ABFF",
-            "Name": "B7ABFF"
-        },
-        {
-            "HexCode": "7E32CA",
-            "Name": "7E32CA"
-        },
-        {
-            "HexCode": "EB2BF7",
-            "Name": "EB2BF7"
-        },
-        {
-            "HexCode": "EA6EFC",
-            "Name": "EA6EFC"
-        },
-        {
-            "HexCode": "A7C918",
-            "Name": "A7C918"
-        },
-        {
-            "HexCode": "DADF0F",
-            "Name": "DADF0F"
-        },
-        {
-            "HexCode": "12ACCB",
-            "Name": "12ACCB"
-        },
-        {
-            "HexCode": "9758E0",
-            "Name": "9758E0"
-        },
-        {
-            "HexCode": "A12DE7",
-            "Name": "A12DE7"
-        },
-        {
-            "HexCode": "32B1ED",
-            "Name": "32B1ED"
-        },
-        {
-            "HexCode": "FDD43A",
-            "Name": "FDD43A"
-        },
-        {
-            "HexCode": "3A78D7",
-            "Name": "3A78D7"
-        },
-        {
-            "HexCode": "6C603C",
-            "Name": "6C603C"
-        },
-        {
-            "HexCode": "B3A9D2",
-            "Name": "B3A9D2"
-        },
-        {
-            "HexCode": "7E871D",
-            "Name": "7E871D"
-        },
-        {
-            "HexCode": "A6AF9E",
-            "Name": "A6AF9E"
-        },
-        {
-            "HexCode": "9AE3E8",
-            "Name": "9AE3E8"
-        },
-        {
-            "HexCode": "2A84C6",
-            "Name": "2A84C6"
-        },
-        {
-            "HexCode": "1F4790",
-            "Name": "1F4790"
-        },
-        {
-            "HexCode": "867E90",
-            "Name": "867E90"
-        },
-        {
-            "HexCode": "54C0C8",
-            "Name": "54C0C8"
-        },
-        {
-            "HexCode": "008146",
-            "Name": "008146"
-        },
-        {
-            "HexCode": "6938BF",
-            "Name": "6938BF"
-        },
-        {
-            "HexCode": "AF3777",
-            "Name": "AF3777"
-        },
-        {
-            "HexCode": "745D68",
-            "Name": "745D68"
-        },
-        {
-            "HexCode": "36DE02",
-            "Name": "36DE02"
-        },
-        {
-            "HexCode": "D07956",
-            "Name": "D07956"
-        },
-        {
-            "HexCode": "A5D857",
-            "Name": "A5D857"
-        },
-        {
-            "HexCode": "715E17",
-            "Name": "715E17"
-        },
-        {
-            "HexCode": "906720",
-            "Name": "906720"
-        },
-        {
-            "HexCode": "7E12B3",
-            "Name": "7E12B3"
-        },
-        {
-            "HexCode": "D78AD4",
-            "Name": "D78AD4"
-        },
-        {
-            "HexCode": "E45933",
-            "Name": "E45933"
-        },
-        {
-            "HexCode": "143632",
-            "Name": "143632"
-        },
-        {
-            "HexCode": "B8EBD8",
-            "Name": "B8EBD8"
-        },
-        {
-            "HexCode": "2A0908",
-            "Name": "2A0908"
-        },
-        {
-            "HexCode": "39C976",
-            "Name": "39C976"
-        },
-        {
-            "HexCode": "7678FD",
-            "Name": "7678FD"
-        },
-        {
-            "HexCode": "EC6AFD",
-            "Name": "EC6AFD"
-        },
-        {
-            "HexCode": "C267D8",
-            "Name": "C267D8"
-        },
-        {
-            "HexCode": "545715",
-            "Name": "545715"
-        },
-        {
-            "HexCode": "2B8293",
-            "Name": "2B8293"
-        },
-        {
-            "HexCode": "EB5822",
-            "Name": "EB5822"
-        },
-        {
-            "HexCode": "8768C9",
-            "Name": "8768C9"
-        },
-        {
-            "HexCode": "9AE61F",
-            "Name": "9AE61F"
-        },
-        {
-            "HexCode": "A8272A",
-            "Name": "A8272A"
-        },
-        {
-            "HexCode": "B155D8",
-            "Name": "B155D8"
-        },
-        {
-            "HexCode": "7E72E0",
-            "Name": "7E72E0"
-        },
-        {
-            "HexCode": "F5AF9B",
-            "Name": "F5AF9B"
-        },
-        {
-            "HexCode": "2A5927",
-            "Name": "2A5927"
-        },
-        {
-            "HexCode": "A80307",
-            "Name": "A80307"
-        },
-        {
-            "HexCode": "BD5F50",
-            "Name": "BD5F50"
-        },
-        {
-            "HexCode": "A744B9",
-            "Name": "A744B9"
-        },
-        {
-            "HexCode": "2A27DA",
-            "Name": "2A27DA"
-        },
-        {
-            "HexCode": "8E63B0",
-            "Name": "8E63B0"
-        },
-        {
-            "HexCode": "55919E",
-            "Name": "55919E"
-        },
-        {
-            "HexCode": "3FEDE2",
-            "Name": "3FEDE2"
-        },
-        {
-            "HexCode": "A81289",
-            "Name": "A81289"
-        },
-        {
-            "HexCode": "9C295E",
-            "Name": "9C295E"
-        },
-        {
-            "HexCode": "39986E",
-            "Name": "39986E"
-        },
-        {
-            "HexCode": "D979A9",
-            "Name": "D979A9"
-        },
-        {
-            "HexCode": "57C6CB",
-            "Name": "57C6CB"
-        },
-        {
-            "HexCode": "39E086",
-            "Name": "39E086"
-        },
-        {
-            "HexCode": "2A4E44",
-            "Name": "2A4E44"
-        },
-        {
-            "HexCode": "00D25A",
-            "Name": "00D25A"
-        },
-        {
-            "HexCode": "026D0B",
-            "Name": "026D0B"
-        },
-        {
-            "HexCode": "B35C11",
-            "Name": "B35C11"
-        },
-        {
-            "HexCode": "29B5FC",
-            "Name": "29B5FC"
-        },
-        {
-            "HexCode": "A88A9D",
-            "Name": "A88A9D"
-        },
-        {
-            "HexCode": "82D79E",
-            "Name": "82D79E"
-        },
-        {
-            "HexCode": "FD780A",
-            "Name": "FD780A"
-        },
-        {
-            "HexCode": "582B2D",
-            "Name": "582B2D"
-        },
-        {
-            "HexCode": "5D4470",
-            "Name": "5D4470"
-        },
-        {
-            "HexCode": "CB5A0B",
-            "Name": "CB5A0B"
-        },
-        {
-            "HexCode": "00A8AF",
-            "Name": "00A8AF"
-        },
-        {
-            "HexCode": "20AEEE",
-            "Name": "20AEEE"
-        },
-        {
-            "HexCode": "DA3756",
-            "Name": "DA3756"
-        },
-        {
-            "HexCode": "A82459",
-            "Name": "A82459"
-        },
-        {
-            "HexCode": "BEBC63",
-            "Name": "BEBC63"
-        },
-        {
-            "HexCode": "115AD4",
-            "Name": "115AD4"
-        },
-        {
-            "HexCode": "5DE1C2",
-            "Name": "5DE1C2"
-        },
-        {
-            "HexCode": "A5B738",
-            "Name": "A5B738"
-        },
-        {
-            "HexCode": "2A8D2B",
-            "Name": "2A8D2B"
-        },
-        {
-            "HexCode": "FE98DE",
-            "Name": "FE98DE"
-        },
-        {
-            "HexCode": "96B5DB",
-            "Name": "96B5DB"
-        },
-        {
-            "HexCode": "5A23E7",
-            "Name": "5A23E7"
-        },
-        {
-            "HexCode": "8AD274",
-            "Name": "8AD274"
-        },
-        {
-            "HexCode": "6E78B0",
-            "Name": "6E78B0"
-        },
-        {
-            "HexCode": "479DA9",
-            "Name": "479DA9"
-        },
-        {
-            "HexCode": "927A02",
-            "Name": "927A02"
-        },
-        {
-            "HexCode": "86C84B",
-            "Name": "86C84B"
-        },
-        {
-            "HexCode": "0BCA31",
-            "Name": "0BCA31"
-        },
-        {
-            "HexCode": "6E3860",
-            "Name": "6E3860"
-        },
-        {
-            "HexCode": "74C7DC",
-            "Name": "74C7DC"
-        },
-        {
-            "HexCode": "22D536",
-            "Name": "22D536"
-        },
-        {
-            "HexCode": "8A417F",
-            "Name": "8A417F"
-        },
-        {
-            "HexCode": "BB57FB",
-            "Name": "BB57FB"
-        },
-        {
-            "HexCode": "4D3445",
-            "Name": "4D3445"
-        },
-        {
-            "HexCode": "0B9BE5",
-            "Name": "0B9BE5"
-        },
-        {
-            "HexCode": "71D2AC",
-            "Name": "71D2AC"
-        },
-        {
-            "HexCode": "6CADEE",
-            "Name": "6CADEE"
-        },
-        {
-            "HexCode": "E13989",
-            "Name": "E13989"
-        },
-        {
-            "HexCode": "80B51E",
-            "Name": "80B51E"
-        },
-        {
-            "HexCode": "3224C7",
-            "Name": "3224C7"
-        },
-        {
-            "HexCode": "8E4855",
-            "Name": "8E4855"
-        },
-        {
-            "HexCode": "E45E7E",
-            "Name": "E45E7E"
-        },
-        {
-            "HexCode": "8C5A04",
-            "Name": "8C5A04"
-        },
-        {
-            "HexCode": "767902",
-            "Name": "767902"
-        },
-        {
-            "HexCode": "2A5A85",
-            "Name": "2A5A85"
-        },
-        {
-            "HexCode": "7D857B",
-            "Name": "7D857B"
-        },
-        {
-            "HexCode": "CBD769",
-            "Name": "CBD769"
-        },
-        {
-            "HexCode": "B998C1",
-            "Name": "B998C1"
-        },
-        {
-            "HexCode": "54271A",
-            "Name": "54271A"
-        },
-        {
-            "HexCode": "1A6CE5",
-            "Name": "1A6CE5"
-        },
-        {
-            "HexCode": "CB88CA",
-            "Name": "CB88CA"
-        },
-        {
-            "HexCode": "45D0C5",
-            "Name": "45D0C5"
-        },
-        {
-            "HexCode": "AFB963",
-            "Name": "AFB963"
-        },
-        {
-            "HexCode": "19C7F5",
-            "Name": "19C7F5"
-        },
-        {
-            "HexCode": "2D481F",
-            "Name": "2D481F"
-        },
-        {
-            "HexCode": "3209DA",
-            "Name": "3209DA"
-        },
-        {
-            "HexCode": "AA28A2",
-            "Name": "AA28A2"
-        },
-        {
-            "HexCode": "F1938F",
-            "Name": "F1938F"
-        },
-        {
-            "HexCode": "9ACD24",
-            "Name": "9ACD24"
-        },
-        {
-            "HexCode": "32E0CE",
-            "Name": "32E0CE"
-        },
-        {
-            "HexCode": "2D3287",
-            "Name": "2D3287"
-        },
-        {
-            "HexCode": "B039C5",
-            "Name": "B039C5"
-        },
-        {
-            "HexCode": "F863C3",
-            "Name": "F863C3"
-        },
-        {
-            "HexCode": "0F6A5B",
-            "Name": "0F6A5B"
-        },
-        {
-            "HexCode": "6F74AE",
-            "Name": "6F74AE"
-        },
-        {
-            "HexCode": "74D000",
-            "Name": "74D000"
-        },
-        {
-            "HexCode": "D8358E",
-            "Name": "D8358E"
-        },
-        {
-            "HexCode": "8C610C",
-            "Name": "8C610C"
-        },
-        {
-            "HexCode": "25D5A4",
-            "Name": "25D5A4"
-        },
-        {
-            "HexCode": "86A590",
-            "Name": "86A590"
-        },
-        {
-            "HexCode": "329CB2",
-            "Name": "329CB2"
-        },
-        {
-            "HexCode": "5C5783",
-            "Name": "5C5783"
-        },
-        {
-            "HexCode": "FD73BA",
-            "Name": "FD73BA"
-        },
-        {
-            "HexCode": "549660",
-            "Name": "549660"
-        },
-        {
-            "HexCode": "B69D29",
-            "Name": "B69D29"
-        },
-        {
-            "HexCode": "65C353",
-            "Name": "65C353"
-        },
-        {
-            "HexCode": "00933C",
-            "Name": "00933C"
-        },
-        {
-            "HexCode": "85B4AC",
-            "Name": "85B4AC"
-        },
-        {
-            "HexCode": "759E61",
-            "Name": "759E61"
-        },
-        {
-            "HexCode": "54993D",
-            "Name": "54993D"
-        },
-        {
-            "HexCode": "ED56AD",
-            "Name": "ED56AD"
-        },
-        {
-            "HexCode": "085182",
-            "Name": "085182"
-        },
-        {
-            "HexCode": "5433BF",
-            "Name": "5433BF"
-        },
-        {
-            "HexCode": "177A25",
-            "Name": "177A25"
-        },
-        {
-            "HexCode": "9B9E14",
-            "Name": "9B9E14"
-        },
-        {
-            "HexCode": "325403",
-            "Name": "325403"
-        },
-        {
-            "HexCode": "61E80C",
-            "Name": "61E80C"
-        },
-        {
-            "HexCode": "089932",
-            "Name": "089932"
-        },
-        {
-            "HexCode": "863645",
-            "Name": "863645"
+        { "HexCode": "A8C984", "Name": "Broat" }, 
+		{ "HexCode": "A890BB", "Name": "Ucra" }, 
+		{ "HexCode": "2A6658", "Name": "Crough" }, 
+		{ "HexCode": "009FE1", "Name": "Almat" }, 
+		{ "HexCode": "A89643", "Name": "Esperi" }, 
+		{ "HexCode": "863F40", "Name": "Pilgas" }, 
+		{ "HexCode": "0027CD", "Name": "Pollus" }, 
+		{ "HexCode": "C07AA0", "Name": "Zhastram" }, 
+		{ "HexCode": "00725A", "Name": "Cofken" }, 
+		{ "HexCode": "2ABD26", "Name": "Nagan" }, 
+		{ "HexCode": "C163A3", "Name": "Gambla" }, 
+		{ "HexCode": "2A699E", "Name": "Ofkey" }, 
+		{ "HexCode": "7E9CBD", "Name": "Endel" }, 
+		{ "HexCode": "262525", "Name": "Tryos" }, 
+		{ "HexCode": "001ED2", "Name": "Tiop" }, 
+		{ "HexCode": "00B7C8", "Name": "Chalieu" }, 
+		{ "HexCode": "2A2153", "Name": "Biyek" }, 
+		{ "HexCode": "6242C7", "Name": "Fengyang" }, 
+		{ "HexCode": "3C38E8", "Name": "Shuhan" }, 
+		{ "HexCode": "00C0C3", "Name": "Lauth" }, 
+		{ "HexCode": "0099D6", "Name": "Xao" }, 
+		{ "HexCode": "00CC05", "Name": "Ghour" }, 
+		{ "HexCode": "A83F11", "Name": "Haichong" }, 
+		{ "HexCode": "3C9CA9", "Name": "Metovia" }, 
+		{ "HexCode": "2A2430", "Name": "Pirov" }, 
+		{ "HexCode": "F5A545", "Name": "Koniguas" }, 
+		{ "HexCode": "543C51", "Name": "Xaoxin" }, 
+		{ "HexCode": "A50B20", "Name": "Izama" }, 
+		{ "HexCode": "00150A", "Name": "Shanyang" }, 
+		{ "HexCode": "2A188A", "Name": "Bytei" }, 
+		{ "HexCode": "CBE083", "Name": "Kaskei" }, 
+		{ "HexCode": "00CFAF", "Name": "Sintrier" }, 
+		{ "HexCode": "540C88", "Name": "Versbi" }, 
+		{ "HexCode": "4D78BD", "Name": "Konig" }, 
+		{ "HexCode": "7E519A", "Name": "Kand" }, 
+		{ "HexCode": "A89F3E", "Name": "Arbek" }, 
+		{ "HexCode": "7E7EC3", "Name": "Bogg" }, 
+		{ "HexCode": "0FAA15", "Name": "Arkaya" }, 
+		{ "HexCode": "A8AEC0", "Name": "Corain" }, 
+		{ "HexCode": "F42327", "Name": "Orenia" }, 
+		{ "HexCode": "7E5A95", "Name": "Tokela'o" }, 
+		{ "HexCode": "7E3C90", "Name": "Ulyanov" }, 
+		{ "HexCode": "5232F1", "Name": "Dodur" }, 
+		{ "HexCode": "0FC66C", "Name": "Moxus" }, 
+		{ "HexCode": "255C89", "Name": "Comberth" }, 
+		{ "HexCode": "08EA2C", "Name": "Cascadus" }, 
+		{ "HexCode": "AC491E", "Name": "Aurich" }, 
+		{ "HexCode": "E9C2A6", "Name": "Avell" }, 
+		{ "HexCode": "46A0B1", "Name": "Canas" }, 
+		{ "HexCode": "BD570A", "Name": "Tioga" }, 
+		{ "HexCode": "0F41B0", "Name": "Spaseniye" }, 
+		{ "HexCode": "CA5D41", "Name": "Psylet Islands" }, 
+		{ "HexCode": "07B4DF", "Name": "Ander" }, 
+		{ "HexCode": "DB2635", "Name": "Arcovy" }, 
+		{ "HexCode": "8FECCC", "Name": "Fenghei" }, 
+		{ "HexCode": "AD83D1", "Name": "Oufei" }, 
+		{ "HexCode": "3AD5AF", "Name": "Meridonalis }, 
+		{ "HexCode": "CA6E1C", "Name": "Gorodsky" }, 
+		{ "HexCode": "FB2C02", "Name": "Zyrkova" }, 
+		{ "HexCode": "F298A9", "Name": "Brytna" }, 
+		{ "HexCode": "B657CD", "Name": "Novumyn" }, 
+		{ "HexCode": "57A7AF", "Name": "Veta" }, 
+		{ "HexCode": "C9AE7A", "Name": "Yurvan" }, 
+		{ "HexCode": "5278DF", "Name": "Pontem" }, 
+		{ "HexCode": "6720F4", "Name": "Stagnum" }, 
+		{ "HexCode": "327826", "Name": "Zaror" }, 
+		{ "HexCode": "F7A838", "Name": "Secat" }, 
+		{ "HexCode": "B07502", "Name": "Ganis" }, 
+		{ "HexCode": "CB1EFC", "Name": "Culta" }, 
+		{ "HexCode": "A73B87", "Name": "Mourek" }, 
+		{ "HexCode": "92313E", "Name": "Kaichira" }, 
+		{ "HexCode": "7EAE54", "Name": "Breynabri" }, 
+		{ "HexCode": "5EC23B", "Name": "Priyenat" }, 
+		{ "HexCode": "7E4E54", "Name": "Yibeyte" }, 
+		{ "HexCode": "65BD72", "Name": "Larkuno" }, 
+		{ "HexCode": "A872B6", "Name": "Narcello" }, 
+		{ "HexCode": "C7CBEC", "Name": "Col" }, 
+		{ "HexCode": "00B141", "Name": "Gepsetti" }, 
+		{ "HexCode": "66C7CB", "Name": "Bredov" }, 
+		{ "HexCode": "862A9F", "Name": "Asbyi" }, 
+		{ "HexCode": "2EB4CE", "Name": "Adrosyet" }, 
+		{ "HexCode": "2C5EFD", "Name": "Krotz" }, 
+		{ "HexCode": "00CF46", "Name": "Toppan" }, 
+		{ "HexCode": "7200F8", "Name": "Abilith" }, 
+		{ "HexCode": "B36C26", "Name": "Bresnt" }, 
+		{ "HexCode": "A8B448", "Name": "Mer" }, 
+		{ "HexCode": "7E663B", "Name": "Jaynudra" }, 
+		{ "HexCode": "2A7299", "Name": "Bolkar" }, 
+		{ "HexCode": "008D1E", "Name": "Kobyeda" }, 
+		{ "HexCode": "0015D7", "Name": "Rimi" }, 
+		{ "HexCode": "A833CF", "Name": "Illiadol" }, 
+		{ "HexCode": "7E2A31", "Name": "Boryet" }, 
+		{ "HexCode": "323E8E", "Name": "Siligo" }, 
+		{ "HexCode": "7243EA", "Name": "Noval" }, 
+		{ "HexCode": "F6ECDD", "Name": "Nadyaran" }, 
+		{ "HexCode": "6A00EC", "Name": "Littorial" }, 
+		{ "HexCode": "EDD642", "Name": "Zyey" }, 
+		{ "HexCode": "A8CCC5", "Name": "Kyesdet" }, 
+		{ "HexCode": "5469D8", "Name": "Prabis" }, 
+		{ "HexCode": "16A630", "Name": "Pandara" }, 
+		{ "HexCode": "9AE3E8", "Name": "Ferh" }, 
+		{ "HexCode": "715E17", "Name": "Thanis" }, 
+		{ "HexCode": "B3A9D2", "Name": "Neder" }, 
+		{ "HexCode": "663BFE", "Name": "Gomlon" }, 
+		{ "HexCode": "2A5BE6", "Name": "Tohn" }, 
+		{ "HexCode": "EA6EFC", "Name": "Sybiet" }, 
+		{ "HexCode": "0FDAB0", "Name": "Koga" }, 
+		{ "HexCode": "E45933", "Name": "Atica" }, 
+		{ "HexCode": "867E90", "Name": "Vojarn" }, 
+		{ "HexCode": "2AE699", "Name": "Huturoa" }, 
+		{ "HexCode": "10D12C", "Name": "Laroc" }, 
+		{ "HexCode": "000687", "Name": "Tefaru" }, 
+		{ "HexCode": "383D77", "Name": "Avelt" }, 
+		{ "HexCode": "4C8FEA", "Name": "Galeony" }, 
+		{ "HexCode": "2AD2C6", "Name": "Changleping" }, 
+		{ "HexCode": "2AA262", "Name": "Hapit" }, 
+		{ "HexCode": "A86FD9", "Name": "Zhonglai" }, 
+		{ "HexCode": "A81E2F", "Name": "Tigez" }, 
+		{ "HexCode": "54A5E2", "Name": "Banlek" }, 
+		{ "HexCode": "7EB4A4", "Name": "Anci" }, 
+		{ "HexCode": "A8244D", "Name": "Grapte" }, 
+		{ "HexCode": "002AAA", "Name": "Darapsi" }, 
+		{ "HexCode": "A86334", "Name": "Taeep" }, 
+		{ "HexCode": "540FC9", "Name": "Champaung" }, 
+		{ "HexCode": "A7D002", "Name": "Dua" }, 
+		{ "HexCode": "A8B725", "Name": "Zukra" }, 
+		{ "HexCode": "004B5A", "Name": "Jirkof" }, 
+		{ "HexCode": "00AE00", "Name": "Vavatch" }, 
+		{ "HexCode": "009CA0", "Name": "Telren" }, 
+		{ "HexCode": "A89C61", "Name": "Fimyaa" }, 
+		{ "HexCode": "C46544", "Name": "Polechii" }, 
+		{ "HexCode": "2A8185", "Name": "Nollas" }, 
+		{ "HexCode": "4BBE72", "Name": "Yastha" }, 
+		{ "HexCode": "2A66C1", "Name": "Chelree" }, 
+		{ "HexCode": "00D28C", "Name": "Mahoma" }, 
+		{ "HexCode": "546C1F", "Name": "Basukai" }, 
+		{ "HexCode": "2A3CAD", "Name": "Gamstal" }, 
+		{ "HexCode": "A80648", "Name": "Adria" }, 
+		{ "HexCode": "005114", "Name": "Halosan" }, 
+		{ "HexCode": "00075B", "Name": "Kadipura" }, 
+		{ "HexCode": "2AABC6", "Name": "Vitcuda" }, 
+		{ "HexCode": "54785B", "Name": "Laienau" }, 
+		{ "HexCode": "2AA53F", "Name": "Yata" }, 
+		{ "HexCode": "25CFF8", "Name": "Rucappe" }, 
+		{ "HexCode": "7EC604", "Name": "Minyxa" }, 
+		{ "HexCode": "0078E1", "Name": "Kiuta" }, 
+		{ "HexCode": "7E2754", "Name": "Granxia" }, 
+		{ "HexCode": "7EC945", "Name": "Lisov" }, 
+		{ "HexCode": "7EA522", "Name": "Chone" }, 
+		{ "HexCode": "A6B522", "Name": "Kalida" }, 
+		{ "HexCode": "000655", "Name": "Rhus" }, 
+		{ "HexCode": "007E05", "Name": "Taopui" }, 
+		{ "HexCode": "A726FD", "Name": "Amerb" }, 
+		{ "HexCode": "5A3FBF", "Name": "Beagan Archipelago" }, 
+		{ "HexCode": "7EA863", "Name": "Onifelge" }, 
+		{ "HexCode": "AE5443", "Name": "Erus" }, 
+		{ "HexCode": "3B4F3F", "Name": "Gratenia" }, 
+		{ "HexCode": "99F6F8", "Name": "Metar" }, 
+		{ "HexCode": "C6E8CC", "Name": "Zamoa" }, 
+		{ "HexCode": "AC7BCF", "Name": "Eurp" }, 
+		{ "HexCode": "4DED6F", "Name": "Yaeng" }, 
+		{ "HexCode": "B36BB1", "Name": "Forsetti Islands Placeholder" }, 
+		{ "HexCode": "A860C0", "Name": "Ponpin" }, 
+		{ "HexCode": "82DB62", "Name": "Anglerland" }, 
+		{ "HexCode": "5F8452", "Name": "Homb" }, 
+		{ "HexCode": "2290B1", "Name": "Del" }, 
+		{ "HexCode": "2DF1BE", "Name": "Blythi" }, 
+		{ "HexCode": "947D0B", "Name": "Aosta" }, 
+		{ "HexCode": "945D10", "Name": "Autmalga" }, 
+		{ "HexCode": "A8F84F", "Name": "Scharvian" }, 
+		{ "HexCode": "155944", "Name": "Sangrie" }, 
+		{ "HexCode": "6B43E3", "Name": "Onvall" }, 
+		{ "HexCode": "9C7E21", "Name": "Parznet" }, 
+		{ "HexCode": "2CCE74", "Name": "Gary" }, 
+		{ "HexCode": "971E6C", "Name": "Rewe-Meggi" }, 
+		{ "HexCode": "E24B68", "Name": "Svarsk" }, 
+		{ "HexCode": "AE9577", "Name": "Bravis" }, 
+		{ "HexCode": "BF6047", "Name": "Anthannia" }, 
+		{ "HexCode": "E67D42", "Name": "Calidoria" }, 
+		{ "HexCode": "5E5AB8", "Name": "Karinian Islands" }, 
+		{ "HexCode": "FCBB48", "Name": "Orania" }, 
+		{ "HexCode": "14E767", "Name": "Soltem" }, 
+		{ "HexCode": "57EE42", "Name": "Viridia" }, 
+		{ "HexCode": "854D2B", "Name": "Aguada" }, 
+		{ "HexCode": "D28CC2", "Name": "Verulia" }, 
+		{ "HexCode": "17920D", "Name": "Mannia" }, 
+		{ "HexCode": "531EF7", "Name": "Synisteria" }, 
+		{ "HexCode": "3DD166", "Name": "Armentus" }, 
+		{ "HexCode": "AC2D39", "Name": "Corrigon" }, 
+		{ "HexCode": "1BD67D", "Name": "Auria" }, 
+		{ "HexCode": "E39DAB", "Name": "Syllian Outliers" }, 
+		{ "HexCode": "3DE9EB", "Name": "Manhai" }, 
+		{ "HexCode": "56C9E2", "Name": "Varia" }, 
+		{ "HexCode": "4ACDB2", "Name": "Minivi'ivi" }, 
+		{ "HexCode": "D2A327", "Name": "Hook Islands" }, 
+		{ "HexCode": "0018B4", "Name": "Baskay Placeholder #2" }, 
+		{ "HexCode": "00245A", "Name": "Verwelm" }, 
+		{ "HexCode": "D2DB8F", "Name": "Tassenzi" }, 
+		{ "HexCode": "548747", "Name": "Baskay Placeholder #1" }, 
+		{ "HexCode": "4B91AF", "Name": "Vairao" }, 
+		{ "HexCode": "2ACF85", "Name": "Baske" }, 
+		{ "HexCode": "008423", "Name": "Tao" }, 
+		{ "HexCode": "54931F", "Name": "Lanu" }, 
+		{ "HexCode": "0045D2", "Name": "Alania" }, 
+		{ "HexCode": "2A0C49", "Name": "Osten" }, 
+		{ "HexCode": "7E7BDB", "Name": "Egro" }, 
+		{ "HexCode": "2A78B7", "Name": "Dravas" }, 
+		{ "HexCode": "2ACCA8", "Name": "Fish Island" }, 
+		{ "HexCode": "325403", "Name": "Norfylk" }, 
+		{ "HexCode": "085182", "Name": "Nyskiftland" }, 
+		{ "HexCode": "00933C", "Name": "Drablavs" }, 
+		{ "HexCode": "5C5783", "Name": "Vesten" }, 
+		{ "HexCode": "FD73BA", "Name": "Cæroen" }, 
+		{ "HexCode": "B039C5", "Name": "Puranolad" }, 
+		{ "HexCode": "3209DA", "Name": "Icopit" }, 
+		{ "HexCode": "86A590", "Name": "Alesia" }, 
+		{ "HexCode": "329CB2", "Name": "Skȧre" }, 
+		{ "HexCode": "85B4AC", "Name": "Ichønd" }, 
+		{ "HexCode": "65C353", "Name": "Shæros" }, 
+		{ "HexCode": "5433BF", "Name": "Ozmi" }, 
+		{ "HexCode": "767902", "Name": "Øl" }, 
+		{ "HexCode": "19C7F5", "Name": "Krønshu" }, 
+		{ "HexCode": "1A6CE5", "Name": "Lathanhagen" }, 
+		{ "HexCode": "22D536", "Name": "Abcain" }, 
+		{ "HexCode": "74C7DC", "Name": "Helacia" }, 
+		{ "HexCode": "54271A", "Name": "Tullinisk" }, 
+		{ "HexCode": "1B3802", "Name": "Phaeg" }, 
+		{ "HexCode": "00A8AF", "Name": "Cryos" }, 
+		{ "HexCode": "2A4E44", "Name": "Averisan" }, 
+		{ "HexCode": "542DCE", "Name": "Lavesk" }, 
+		{ "HexCode": "57C6CB", "Name": "Molan" }, 
+		{ "HexCode": "8AD274", "Name": "Enzar" }, 
+		{ "HexCode": "E45E7E", "Name": "Thuisc" }, 
+		{ "HexCode": "39E086", "Name": "Dolora" }, 
+		{ "HexCode": "FE98DE", "Name": "Hndar" }, 
+		{ "HexCode": "ED56AD", "Name": "Tentomero" }, 
+		{ "HexCode": "759E61", "Name": "Envilmia" }, 
+		{ "HexCode": "32E0CE", "Name": "Burun" }, 
+		{ "HexCode": "F1938F", "Name": "Lagan" }, 
+		{ "HexCode": "CBD769", "Name": "Rankin" }, 
+		{ "HexCode": "2D481F", "Name": "En" }, 
+		{ "HexCode": "25D5A4", "Name": "Prenkey" }, 
+		{ "HexCode": "F863C3", "Name": "Timor" }, 
+		{ "HexCode": "AA28A2", "Name": "Vinola" }, 
+		{ "HexCode": "74D000", "Name": "Lenova" }, 
+		{ "HexCode": "6F74AE", "Name": "Kivitook" }, 
+		{ "HexCode": "AA5657", "Name": "Rairch" }, 
+		{ "HexCode": "177A25", "Name": "Korduga" }, 
+		{ "HexCode": "0B9BE5", "Name": "Iglic" }, 
+		{ "HexCode": "115AD4", "Name": "Sanicalak" }, 
+		{ "HexCode": "9C295E", "Name": "Nanis" }, 
+		{ "HexCode": "C267D8", "Name": "Killiniq" }, 
+		{ "HexCode": "55919E", "Name": "Kugaruuk" }, 
+		{ "HexCode": "D979A9", "Name": "Naujaat" }, 
+		{ "HexCode": "8E63B0", "Name": "Kugluk" }, 
+		{ "HexCode": "A5B738", "Name": "Larus" }, 
+		{ "HexCode": "5A23E7", "Name": "Kimmirut" }, 
+		{ "HexCode": "9B9E14", "Name": "Iqaluit" }, 
+		{ "HexCode": "45D0C5", "Name": "Krasnol" }, 
+		{ "HexCode": "026D0B", "Name": "Tatunah" }, 
+		{ "HexCode": "479DA9", "Name": "Ihly" }, 
+		{ "HexCode": "A81289", "Name": "Tugayi" }, 
+		{ "HexCode": "A88A9D", "Name": "Coch" }, 
+		{ "HexCode": "029348", "Name": "Ahcurt" }, 
+		{ "HexCode": "2A5A85", "Name": "Wenge" }, 
+		{ "HexCode": "8A417F", "Name": "Halcon" }, 
+		{ "HexCode": "6CADEE", "Name": "Wiyakon" }, 
+		{ "HexCode": "2D3287", "Name": "Ozzak" }, 
+		{ "HexCode": "61E80C", "Name": "Kainikka" }, 
+		{ "HexCode": "B69D29", "Name": "Usona" }, 
+		{ "HexCode": "54993D", "Name": "Alubia" }, 
+		{ "HexCode": "549660", "Name": "Othya" }, 
+		{ "HexCode": "9ACD24", "Name": "Dravan" }, 
+		{ "HexCode": "549C83", "Name": "Syx Island" }, 
+		{ "HexCode": "AFB963", "Name": "Waidnisk" }, 
+		{ "HexCode": "0F6A5B", "Name": "Deep North Placeholder #1" }, 
+		{ "HexCode": "8C610C", "Name": "Deep North Placeholder #3" }, 
+		{ "HexCode": "3224C7", "Name": "Deep North Placeholder #4" }, 
+		{ "HexCode": "E13989", "Name": "Deep North Placeholder #5" }, 
+		{ "HexCode": "2B8293", "Name": "Keo" }, 
+		{ "HexCode": "B35C11", "Name": "Vatea" }, 
+		{ "HexCode": "9AE61F", "Name": "Kortica" }, 
+		{ "HexCode": "008146", "Name": "Yamahashi" }, 
+		{ "HexCode": "74D41F", "Name": "Misaki" }, 
+		{ "HexCode": "2A84C6", "Name": "Hokuwan" }, 
+		{ "HexCode": "54AE47", "Name": "Azamanku" }, 
+		{ "HexCode": "38D6EE", "Name": "Eamesto" }, 
+		{ "HexCode": "7E72E0", "Name": "Koutitochi" }, 
+		{ "HexCode": "54C0A6", "Name": "Raifatu" }, 
+		{ "HexCode": "582B2D", "Name": "Poloas" }, 
+		{ "HexCode": "CB5A0B", "Name": "Kolin" }, 
+		{ "HexCode": "7E789A", "Name": "Hanval" }, 
+		{ "HexCode": "2A8D2B", "Name": "Lesk" }, 
+		{ "HexCode": "00D25A", "Name": "Sakai" }, 
+		{ "HexCode": "86C84B", "Name": "Pobrezie" }, 
+		{ "HexCode": "7D857B", "Name": "Targiers" }, 
+		{ "HexCode": "BB57FB", "Name": "Stolska" }, 
+		{ "HexCode": "6E3860", "Name": "Pupilgia" }, 
+		{ "HexCode": "B998C1", "Name": "Barkad" }, 
+		{ "HexCode": "0BCA31", "Name": "Radoun" }, 
+		{ "HexCode": "20AEEE", "Name": "Rutra" }, 
+		{ "HexCode": "745D68", "Name": "Bayconn" }, 
+		{ "HexCode": "2A27DA", "Name": "Nehikyi" }, 
+		{ "HexCode": "7E12B3", "Name": "Makav" }, 
+		{ "HexCode": "7E871D", "Name": "Artak" }, 
+		{ "HexCode": "545715", "Name": "Marovice" }, 
+		{ "HexCode": "2A2A4E", "Name": "Talyoak" }, 
+		{ "HexCode": "097C28", "Name": "Oppel" }, 
+		{ "HexCode": "7E8A5E", "Name": "Ainak" }, 
+		{ "HexCode": "BFC032", "Name": "Kenoa" }, 
+		{ "HexCode": "7E99E0", "Name": "Sursamen" }, 
+		{ "HexCode": "2A368F", "Name": "Slovent" }, 
+		{ "HexCode": "B7ABFF", "Name": "Arivat" }, 
+		{ "HexCode": "52E272", "Name": "Iyonas" }, 
+		{ "HexCode": "2A0908", "Name": "Temisk" }, 
+		{ "HexCode": "A8272A", "Name": "Pangtung" }, 
+		{ "HexCode": "A80307", "Name": "Siquat" }, 
+		{ "HexCode": "6938BF", "Name": "Hagel" }, 
+		{ "HexCode": "DA3756", "Name": "Gume" }, 
+		{ "HexCode": "A803D4", "Name": "Anidem" }, 
+		{ "HexCode": "863645", "Name": "Edvan Placeholder #1" }, 
+		{ "HexCode": "96EBF5", "Name": "Grestin" }, 
+		{ "HexCode": "D659ED", "Name": "Faucks" }, 
+		{ "HexCode": "63C697", "Name": "Bodle" }, 
+		{ "HexCode": "E9130C", "Name": "Nura" }, 
+		{ "HexCode": "5A968D", "Name": "Sopost" }, 
+		{ "HexCode": "63F10F", "Name": "Pogo" }, 
+		{ "HexCode": "B2565F", "Name": "Slen" }, 
+		{ "HexCode": "AE922B", "Name": "Vargo" }, 
+		{ "HexCode": "317E12", "Name": "Angus" }, 
+		{ "HexCode": "7BF709", "Name": "Ferrea" }, 
+		{ "HexCode": "D6DD3E", "Name": "Larnach" }, 
+		{ "HexCode": "5A0F5B", "Name": "Diosca" }, 
+		{ "HexCode": "4CFECE", "Name": "Bal" }, 
+		{ "HexCode": "8F1C50", "Name": "Alleghany" }, 
+		{ "HexCode": "DEB71C", "Name": "Rinn" }, 
+		{ "HexCode": "9CD775", "Name": "Zambillia" }, 
+		{ "HexCode": "676091", "Name": "Kin" }, 
+		{ "HexCode": "DEB9B7", "Name": "Nomlas" }, 
+		{ "HexCode": "2B4D4F", "Name": "Thiar" }, 
+		{ "HexCode": "DF332D", "Name": "Ri'igata" }, 
+		{ "HexCode": "8F2B7B", "Name": "Taroka" }, 
+		{ "HexCode": "1761AE", "Name": "Cael" }, 
+		{ "HexCode": "E030ED", "Name": "Teorann" }, 
+		{ "HexCode": "1D7F59", "Name": "Bown" }, 
+		{ "HexCode": "79F1EB", "Name": "Nagaya" }, 
+		{ "HexCode": "9091BD", "Name": "Dapper" }, 
+		{ "HexCode": "5AD297", "Name": "Claí" }, 
+		{ "HexCode": "3DF85E", "Name": "Cath" }, 
+		{ "HexCode": "F79CA7", "Name": "Mullach" }, 
+		{ "HexCode": "30C094", "Name": "Cailte" }, 
+		{ "HexCode": "112BD5", "Name": "Skivet" }, 
+		{ "HexCode": "5AC656", "Name": "Ambargo" }, 
+		{ "HexCode": "0E5275", "Name": "Leid" }, 
+		{ "HexCode": "B2F6F9", "Name": "Parp" }, 
+		{ "HexCode": "EC85F5", "Name": "Artoas" }, 
+		{ "HexCode": "F76D43", "Name": "Cnoc" }, 
+		{ "HexCode": "FDECCA", "Name": "Raan" }, 
+		{ "HexCode": "FD92A2", "Name": "Adharc" }, 
+		{ "HexCode": "F5CAFD", "Name": "Epane" }, 
+		{ "HexCode": "50AFE7", "Name": "Kedna" }, 
+		{ "HexCode": "FE7FF6", "Name": "Paciff" }, 
+		{ "HexCode": "F64723", "Name": "Chiark" }, 
+		{ "HexCode": "50A8B5", "Name": "Palce" }, 
+		{ "HexCode": "A7C918", "Name": "Arkeri" }, 
+		{ "HexCode": "45C311", "Name": "Westray1" }, 
+		{ "HexCode": "8890E7", "Name": "Mogotrevo" }, 
+		{ "HexCode": "44B117", "Name": "Wew" }, 
+		{ "HexCode": "344471", "Name": "Wesned" }, 
+		{ "HexCode": "FB27EB", "Name": "Exillia" }, 
+		{ "HexCode": "9E29C7", "Name": "Dakron" }, 
+		{ "HexCode": "448377", "Name": "Westray2" }, 
+		{ "HexCode": "BA31D6", "Name": "Lapica" }, 
+		{ "HexCode": "E47CF1", "Name": "Cheshoe" }, 
+		{ "HexCode": "EB2BF7", "Name": "Zirot" }, 
+		{ "HexCode": "D07956", "Name": "Saaskva" }, 
+		{ "HexCode": "0AAF29", "Name": "Spous" }, 
+		{ "HexCode": "76E045", "Name": "Gdarsk" }, 
+		{ "HexCode": "143632", "Name": "Dinsmark" }, 
+		{ "HexCode": "AE7248", "Name": "Egerce" }, 
+		{ "HexCode": "2077A9", "Name": "Ruman" }, 
+		{ "HexCode": "5354DD", "Name": "Kanz" }, 
+		{ "HexCode": "14730C", "Name": "Tamakia" }, 
+		{ "HexCode": "89B344", "Name": "Agara" }, 
+		{ "HexCode": "AEB536", "Name": "Oured" }, 
+		{ "HexCode": "307508", "Name": "Lenápe" }, 
+		{ "HexCode": "06BD14", "Name": "Rostef" }, 
+		{ "HexCode": "89B82E", "Name": "Calyx" }, 
+		{ "HexCode": "036B6F", "Name": "Comer" }, 
+		{ "HexCode": "194FA3", "Name": "Fofellia" }, 
+		{ "HexCode": "E3CCA2", "Name": "Lanchósc" }, 
+		{ "HexCode": "4A2E7D", "Name": "Lód" }, 
+		{ "HexCode": "5D8BA1", "Name": "Bá" }, 
+		{ "HexCode": "5A99CE", "Name": "Egren" }, 
+		{ "HexCode": "38D6D1", "Name": "Archai" }, 
+		{ "HexCode": "A9D791", "Name": "Arcmah" }, 
+		{ "HexCode": "6692E2", "Name": "Morvia" }, 
+		{ "HexCode": "433CE1", "Name": "Sabhail" }, 
+		{ "HexCode": "579984", "Name": "Tokk" }, 
+		{ "HexCode": "840018", "Name": "Wessen" }, 
+		{ "HexCode": "C39E7F", "Name": "Ruthys" }, 
+		{ "HexCode": "21CCA6", "Name": "Antim" }, 
+		{ "HexCode": "7F20B1", "Name": "Wizholt" }, 
+		{ "HexCode": "C3F30E", "Name": "Chen" }, 
+		{ "HexCode": "BFC02E", "Name": "Axio" }, 
+		{ "HexCode": "183634", "Name": "Scoti" }, 
+		{ "HexCode": "412B78", "Name": "Doend" }, 
+		{ "HexCode": "06159B", "Name": "Neidon" }, 
+		{ "HexCode": "2AB819", "Name": "Rhean" }, 
+		{ "HexCode": "4233AB", "Name": "Qazan" }, 
+		{ "HexCode": "9B1476", "Name": "Koikon" }, 
+		{ "HexCode": "30C3D5", "Name": "Kengl" }, 
+		{ "HexCode": "62C596", "Name": "Ekend" }, 
+		{ "HexCode": "8B9510", "Name": "Zyver" }, 
+		{ "HexCode": "BEBC63", "Name": "Vassago" }, 
+		{ "HexCode": "4D3445", "Name": "Silcona" }, 
+		{ "HexCode": "80B51E", "Name": "Rahab" }, 
+		{ "HexCode": "5D4470", "Name": "Iaby" }, 
+		{ "HexCode": "96B5DB", "Name": "Procel" }, 
+		{ "HexCode": "29B5FC", "Name": "Gemia" }, 
+		{ "HexCode": "8768C9", "Name": "Wolfe" }, 
+		{ "HexCode": "B155D8", "Name": "Haziel" }, 
+		{ "HexCode": "5DE1C2", "Name": "Negation" }, 
+		{ "HexCode": "2A5927", "Name": "Cryslan" }, 
+		{ "HexCode": "B15B13", "Name": "Rotu" }, 
+		{ "HexCode": "FD780A", "Name": "Vasco" }, 
+		{ "HexCode": "A744B9", "Name": "Ostlich" }, 
+		{ "HexCode": "BD5F50", "Name": "Stelia" }, 
+		{ "HexCode": "39C976", "Name": "Elnvair" }, 
+		{ "HexCode": "A5D857", "Name": "Damabrath" }, 
+		{ "HexCode": "A7A508", "Name": "Pihiro Nui" }, 
+		{ "HexCode": "6C603C", "Name": "Bayzal" }, 
+		{ "HexCode": "9758E0", "Name": "Chamuel" }, 
+		{ "HexCode": "36DE02", "Name": "Krakain" }, 
+		{ "HexCode": "82D79E", "Name": "Gjoa" }, 
+		{ "HexCode": "3FEDE2", "Name": "Hordus" }, 
+		{ "HexCode": "EC6AFD", "Name": "Kokabiel" }, 
+		{ "HexCode": "7678FD", "Name": "Wagshee" }, 
+		{ "HexCode": "1F4790", "Name": "Leet" }, 
+		{ "HexCode": "408DDF", "Name": "Kenslav" }, 
+		{ "HexCode": "DADF0F", "Name": "Harton" }, 
+		{ "HexCode": "54C0C8", "Name": "Porka" }, 
+		{ "HexCode": "906720", "Name": "Tungford" }, 
+		{ "HexCode": "1F6616", "Name": "Geraki" }, 
+		{ "HexCode": "F5AF9B", "Name": "Norn" }, 
+		{ "HexCode": "3A78D7", "Name": "Gorealm" }, 
+		{ "HexCode": "54C6C4", "Name": "Tavani" }, 
+		{ "HexCode": "D8358E", "Name": "Kareda" }, 
+		{ "HexCode": "71D2AC", "Name": "Shoj" }, 
+		{ "HexCode": "CB88CA", "Name": "Jale" }, 
+		{ "HexCode": "927A02", "Name": "Bau" }, 
+		{ "HexCode": "8C5A04", "Name": "Iostach" }, 
+		{ "HexCode": "A82459", "Name": "Caucus" }, 
+		{ "HexCode": "8E4855", "Name": "Rath" }, 
+		{ "HexCode": "6E78B0", "Name": "Cerfessa" }, 
+		{ "HexCode": "39986E", "Name": "Alber" }, 
+		{ "HexCode": "EB5822", "Name": "Fargol" }, 
+		{ "HexCode": "FDD43A", "Name": "Arcton" }, 
+		{ "HexCode": "089932", "Name": "Beidao" }, 
+		{ "HexCode": "5ECBEE", "Name": "Teza" }, 
+		{ "HexCode": "543910", "Name": "Covska" }, 
+		{ "HexCode": "BC6064", "Name": "Dijsum" }, 
+		{ "HexCode": "5D578D", "Name": "Nrida" }, 
+		{ "HexCode": "5A346F", "Name": "Vojvodia" }, 
+		{ "HexCode": "6B6DA0", "Name": "Karjina" }, 
+		{ "HexCode": "6F5A14", "Name": "Pecovia" }, 
+		{ "HexCode": "A54D52", "Name": "Dolinia" }, 
+		{ "HexCode": "5AABEF", "Name": "Sokovo" }, 
+		{ "HexCode": "55D680", "Name": "Kosna" }, 
+		{ "HexCode": "B12184", "Name": "Rotok" }, 
+		{ "HexCode": "4ED3FE", "Name": "Radz" }, 
+		{ "HexCode": "0BD5FD", "Name": "Ceno" }, 
+		{ "HexCode": "7BB917", "Name": "Gagril" }, 
+		{ "HexCode": "E55C43", "Name": "Vukodolje" }, 
+		{ "HexCode": "274D2E", "Name": "Bokatija" }, 
+		{ "HexCode": "57E5AE", "Name": "Podgorika" }, 
+		{ "HexCode": "C7B7FD", "Name": "Andolia1" }, 
+		{ "HexCode": "C6B67D", "Name": "Andolia2" }, 
+		{ "HexCode": "D86906", "Name": "Andolia3" }, 
+		{ "HexCode": "1EA2F8", "Name": "Andolia4" }, 
+		{ "HexCode": "732111", "Name": "Andolia5" }, 
+		{ "HexCode": "D1520E", "Name": "Andolia6" }, 
+		{ "HexCode": "DE28A7", "Name": "Andolia7" }, 
+		{ "HexCode": "46BA1E", "Name": "Andolia8" }, 
+		{ "HexCode": "20953E", "Name": "Andolia9" }, 
+		{ "HexCode": "22A875", "Name": "Dreidos" }, 
+		{ "HexCode": "8427ED", "Name": "Givet" }, 
+		{ "HexCode": "1BBE85", "Name": "Cermia" }, 
+		{ "HexCode": "3B8509", "Name": "Trenzh" }, 
+		{ "HexCode": "737AF7", "Name": "Maklar" }, 
+		{ "HexCode": "2CB655", "Name": "Angra" }, 
+		{ "HexCode": "279193", "Name": "Vychod" }, 
+		{ "HexCode": "7D5D3C", "Name": "Kerocus" }, 
+		{ "HexCode": "37853F", "Name": "Felisk" }, 
+		{ "HexCode": "FE62FF", "Name": "Ketan" }, 
+		{ "HexCode": "541DE8", "Name": "Carthia1" }, 
+		{ "HexCode": "E789AF", "Name": "Carthia2" }, 
+		{ "HexCode": "56E216", "Name": "Carthia3" }, 
+		{ "HexCode": "2EEB4B", "Name": "Carthia4" }, 
+		{ "HexCode": "174ECD", "Name": "Carthia5" }, 
+		{ "HexCode": "FC2150", "Name": "Carthia6" }, 
+		{ "HexCode": "1B3D3A", "Name": "Carthia7" }, 
+		{ "HexCode": "F4CEB1", "Name": "Carthia8" }, 
+		{ "HexCode": "5E827A", "Name": "Camalis" }, 
+		{ "HexCode": "A82AD4", "Name": "Zerban" }, 
+		{ "HexCode": "F570F7", "Name": "Hakura" }, 
+		{ "HexCode": "685F78", "Name": "Dzeuthe" }, 
+		{ "HexCode": "189307", "Name": "Hahuai'i" }, 
+		{ "HexCode": "AB4218", "Name": "Karka" }, 
+		{ "HexCode": "2A603A", "Name": "Okal" }, 
+		{ "HexCode": "F93F1A", "Name": "Kardagiv" }, 
+		{ "HexCode": "05CC5A", "Name": "Jyfael" }, 
+		{ "HexCode": "1FA379", "Name": "Fedithe" }, 
+		{ "HexCode": "FA22F4", "Name": "Ichelica" }, 
+		{ "HexCode": "B02798", "Name": "Ulkam" }, 
+		{ "HexCode": "FA4EC1", "Name": "Hinaro" }, 
+		{ "HexCode": "2A6317", "Name": "Ventris" }, 
+		{ "HexCode": "08065A", "Name": "Awthenia" }, 
+		{ "HexCode": "DBBADA", "Name": "Laythi" }, 
+		{ "HexCode": "AE3030", "Name": "Ur" }, 
+		{ "HexCode": "163808", "Name": "Naga" }, 
+		{ "HexCode": "B59496", "Name": "Tyrrhen" }, 
+		{ "HexCode": "067B82", "Name": "Irsmu" }, 
+		{ "HexCode": "6F798E", "Name": "Bitsup" }, 
+		{ "HexCode": "165745", "Name": "Galitan" }, 
+		{ "HexCode": "17D0BF", "Name": "Ghirt" }, 
+		{ "HexCode": "C193B3", "Name": "Kurdu" }, 
+		{ "HexCode": "7E6918", "Name": "Etan" }, 
+		{ "HexCode": "94EBA0", "Name": "Crnojević" }, 
+		{ "HexCode": "2A909E", "Name": "Nhysler" }, 
+		{ "HexCode": "949E11", "Name": "Malent" }, 
+		{ "HexCode": "18E4B7", "Name": "Osterra1" }, 
+		{ "HexCode": "0FA67E", "Name": "Osterra2" }, 
+		{ "HexCode": "244C4A", "Name": "Adamas" }, 
+		{ "HexCode": "39C236", "Name": "Wileif" }, 
+		{ "HexCode": "448E5D", "Name": "Olum" }, 
+		{ "HexCode": "A1B395", "Name": "Lyn" }, 
+		{ "HexCode": "722F2B", "Name": "Seltreem" }, 
+		{ "HexCode": "673C44", "Name": "Kad" }, 
+		{ "HexCode": "0C770F", "Name": "Bahutmo" }, 
+		{ "HexCode": "1FA5FE", "Name": "Garuf" }, 
+		{ "HexCode": "601FEC", "Name": "Stayle" }, 
+		{ "HexCode": "77B1D1", "Name": "Cenov" }, 
+		{ "HexCode": "0A5D3B", "Name": "Cai" }, 
+		{ "HexCode": "5FE55C", "Name": "Veiid1" }, 
+		{ "HexCode": "B5F0B5", "Name": "Veiid2" }, 
+		{ "HexCode": "70A88A", "Name": "Vesus" }, 
+		{ "HexCode": "7CBDCF", "Name": "Medsous" }, 
+		{ "HexCode": "C9DF00", "Name": "Castasus" }, 
+		{ "HexCode": "554774", "Name": "Ferram" }, 
+		{ "HexCode": "8F633E", "Name": "Deltora1" }, 
+		{ "HexCode": "01ABCD", "Name": "Deltora2" }, 
+		{ "HexCode": "32EBEE", "Name": "Deltora3" }, 
+		{ "HexCode": "96C763", "Name": "Stell" }, 
+		{ "HexCode": "7B8E7E", "Name": "Stalpe" }, 
+		{ "HexCode": "DC5BB6", "Name": "Saomhús" }, 
+		{ "HexCode": "342C7D", "Name": "Algize" }, 
+		{ "HexCode": "FF6BA3", "Name": "Deir" }, 
+		{ "HexCode": "E4C671", "Name": "Delt" }, 
+		{ "HexCode": "D539A4", "Name": "Choss" }, 
+		{ "HexCode": "DD58D9", "Name": "Aerfel" }, 
+		{ "HexCode": "67B41E", "Name": "Bis" }, 
+		{ "HexCode": "DD58E2", "Name": "Dziak" }, 
+		{ "HexCode": "2C5AC2", "Name": "Ria" }, 
+		{ "HexCode": "9EE3D2", "Name": "Thuaidh" }, 
+		{ "HexCode": "B6ADAE", "Name": "Sabri" }, 
+		{ "HexCode": "FE9D42", "Name": "Gaineamh" }, 
+		{ "HexCode": "5D6077", "Name": "Gaen" }, 
+		{ "HexCode": "A04760", "Name": "Pihiro Iti" }, 
+		{ "HexCode": "AEBA93", "Name": "Gcóst" }, 
+		{ "HexCode": "B72FB2", "Name": "Rimor" }, 
+		{ "HexCode": "5A1B9C", "Name": "Slèibh" }, 
+		{ "HexCode": "6EC5F3", "Name": "Lar" }, 
+		{ "HexCode": "347025", "Name": "Naev" }, 
+		{ "HexCode": "21DBDE", "Name": "Rokfor" }, 
+		{ "HexCode": "A054A2", "Name": "Maslov" }, 
+		{ "HexCode": "64CCF7", "Name": "Mede" }, 
+		{ "HexCode": "2AAB63", "Name": "Alkan" }, 
+		{ "HexCode": "219902", "Name": "Taewe" }, 
+		{ "HexCode": "34C3B5", "Name": "Adish" }, 
+		{ "HexCode": "DE241E", "Name": "Iro" }, 
+		{ "HexCode": "DB6359", "Name": "Pocka" }, 
+		{ "HexCode": "21ADB3", "Name": "Pegan" }, 
+		{ "HexCode": "FC8066", "Name": "Baile" }, 
+		{ "HexCode": "09C8B7", "Name": "Bandal" }, 
+		{ "HexCode": "BA577B", "Name": "Netas" }, 
+		{ "HexCode": "67818C", "Name": "Taul" }, 
+		{ "HexCode": "83648C", "Name": "Kimish" }, 
+		{ "HexCode": "56A83D", "Name": "Tahu" }, 
+		{ "HexCode": "E7C53D", "Name": "M'lay Islands" }, 
+		{ "HexCode": "4577B7", "Name": "Wuste" }, 
+		{ "HexCode": "F3B381", "Name": "Irde" }, 
+		{ "HexCode": "27D907", "Name": "Ostwurst" }, 
+		{ "HexCode": "2D2BD7", "Name": "Vanad" }, 
+		{ "HexCode": "03B1FD", "Name": "Puge" }, 
+		{ "HexCode": "0C75A2", "Name": "Tatar" }, 
+		{ "HexCode": "D1BFA8", "Name": "Vuchalla" }, 
+		{ "HexCode": "87C0C1", "Name": "Sabanna" }, 
+		{ "HexCode": "0544EB", "Name": "Aveiti" }, 
+		{ "HexCode": "023914", "Name": "Weisst" }, 
+		{ "HexCode": "848572", "Name": "Obtund" }, 
+		{ "HexCode": "17856F", "Name": "Belaters" }, 
+		{ "HexCode": "1D98C5", "Name": "Comasas" }, 
+		{ "HexCode": "9B669F", "Name": "Geis" }, 
+		{ "HexCode": "399B88", "Name": "Bastio" }, 
+		{ "HexCode": "3D98CD", "Name": "Rhudbeal" }, 
+		{ "HexCode": "1E5B58", "Name": "Bizmi" }, 
+		{ "HexCode": "54A84E", "Name": "Kies" }, 
+		{ "HexCode": "CFE329", "Name": "Ezekia" }, 
+		{ "HexCode": "062A3C", "Name": "Graenland" }, 
+		{ "HexCode": "01BAE5", "Name": "Monta" }, 
+		{ "HexCode": "30A8AD", "Name": "Haley" }, 
+		{ "HexCode": "068728", "Name": "Cotmark" }, 
+		{ "HexCode": "AE9B45", "Name": "Hochland" }, 
+		{ "HexCode": "E17A6E", "Name": "Hegland" }, 
+		{ "HexCode": "4EDF99", "Name": "Grail" }, 
+		{ "HexCode": "945FBF", "Name": "Ward" }, 
+		{ "HexCode": "E19351", "Name": "Herm" }, 
+		{ "HexCode": "17A4DF", "Name": "Hierat" }, 
+		{ "HexCode": "AEABDD", "Name": "Aturai" }, 
+		{ "HexCode": "89DB24", "Name": "Schrschnell" }, 
+		{ "HexCode": "50572F", "Name": "Saporo" }, 
+		{ "HexCode": "65F472", "Name": "Kolfaun" }, 
+		{ "HexCode": "B3A6CA", "Name": "Bulge" }, 
+		{ "HexCode": "2B9D3A", "Name": "Aridia" }, 
+		{ "HexCode": "47AD6F", "Name": "Neyrinne" }, 
+		{ "HexCode": "5A2C69", "Name": "Debul" }, 
+		{ "HexCode": "7B783A", "Name": "Kothenia" }, 
+		{ "HexCode": "B32ECF", "Name": "Fatflug" }, 
+		{ "HexCode": "36C1CB", "Name": "Horto" }, 
+		{ "HexCode": "C829F1", "Name": "Faus" }, 
+		{ "HexCode": "E6EA19", "Name": "Valen" }, 
+		{ "HexCode": "24C561", "Name": "Algand" }, 
+		{ "HexCode": "140536", "Name": "Notillian" }, 
+		{ "HexCode": "C97875", "Name": "Katekatu" }, 
+		{ "HexCode": "7C97DB", "Name": "Boomerang" }, 
+		{ "HexCode": "CF69D7", "Name": "Jutland" }, 
+		{ "HexCode": "5C96E3", "Name": "Charum" }, 
+		{ "HexCode": "26B576", "Name": "Avalon" }, 
+		{ "HexCode": "BA4C7F", "Name": "Korfu" }, 
+		{ "HexCode": "2B7B7C", "Name": "Nautilus" }, 
+		{ "HexCode": "A12DE7", "Name": "Ungby" }, 
+		{ "HexCode": "D78AD4", "Name": "Rendt" }, 
+		{ "HexCode": "AF3777", "Name": "Brone" }, 
+		{ "HexCode": "5F440E", "Name": "Mohav" }, 
+		{ "HexCode": "653582", "Name": "Abhainn" }, 
+		{ "HexCode": "7FD154", "Name": "Inclina" }, 
+		{ "HexCode": "7B7A1D", "Name": "Khosa" }, 
+		{ "HexCode": "B2D8BF", "Name": "Henshi" }, 
+		{ "HexCode": "58AE01", "Name": "Avienne" }, 
+		{ "HexCode": "5BD710", "Name": "Kyrat" }, 
+		{ "HexCode": "1D5049", "Name": "Yaran" }, 
+		{ "HexCode": "A90367", "Name": "Canten" }, 
+		{ "HexCode": "6731CE", "Name": "Flustrom" }, 
+		{ "HexCode": "CBCDD0", "Name": "Bordova" }, 
+		{ "HexCode": "AC690C", "Name": "Tollund" }, 
+		{ "HexCode": "4CE37D", "Name": "Schnabel" }, 
+		{ "HexCode": "4B9249", "Name": "Noria" }, 
+		{ "HexCode": "D042FD", "Name": "Noelind" }, 
+		{ "HexCode": "3E0E8D", "Name": "Vandite" }, 
+		{ "HexCode": "4C2B6B", "Name": "Glocken" }, 
+		{ "HexCode": "AEB40C", "Name": "Narvat" }, 
+		{ "HexCode": "6F70B9", "Name": "Ostograd" }, 
+		{ "HexCode": "9A3044", "Name": "Zeroth" }, 
+		{ "HexCode": "845F73", "Name": "Zappen" }, 
+		{ "HexCode": "D6C5AA", "Name": "Pruvia" }, 
+		{ "HexCode": "60C4E4", "Name": "Drekevak" }, 
+		{ "HexCode": "2E229D", "Name": "Bogen" }, 
+		{ "HexCode": "69D1B4", "Name": "Rovol" }, 
+		{ "HexCode": "32B1ED", "Name": "Orisse" }, 
+		{ "HexCode": "7E32CA", "Name": "Amajuak" }, 
+		{ "HexCode": "B8EBD8", "Name": "Grebe" }, 
+		{ "HexCode": "A6AF9E", "Name": "Zoleka" }, 
+		{ "HexCode": "32C3B2", "Name": "Rostrum" }, 
+		{ "HexCode": "12ACCB", "Name": "Synkrousi" }, 
+		{ "HexCode": "0D33C9", "Name": "Margen" }, 
+		{ "HexCode": "4C5015", "Name": "Reposia" }, 
+		{ "HexCode": "51BB0C", "Name": "Mangozu" }, 
+		{ "HexCode": "929D01", "Name": "Nex" }, 
+		{ "HexCode": "6E32F5", "Name": "Gigye" }, 
+		{ "HexCode": "D92F13", "Name": "Shokon" }, 
+		{ "HexCode": "CEA9A1", "Name": "Langweiig" }
         }
     ]
 }
