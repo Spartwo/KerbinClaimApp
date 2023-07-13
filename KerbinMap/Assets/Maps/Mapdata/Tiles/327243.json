@@ -11,7 +11,7 @@
                     "Tiles": []
                 },
                 {
-                    "HexCode": "AE3020",
+                    "HexCode": "63F10F",
                     "ContinentParent": "327243",
                     "Area": 0.0,
                     "Population": 0,
@@ -25,14 +25,14 @@
                     "Tiles": []
                 },
                 {
-                    "HexCode": "63F10F",
+                    "HexCode": "E5A48C",
                     "ContinentParent": "327243",
                     "Area": 0.0,
                     "Population": 0,
                     "Tiles": []
                 },
                 {
-                    "HexCode": "E5A48C",
+                    "HexCode": "8B9510",
                     "ContinentParent": "327243",
                     "Area": 0.0,
                     "Population": 0,
@@ -165,6 +165,13 @@
                     "Tiles": []
                 },
                 {
+                    "HexCode": "9B1476",
+                    "ContinentParent": "327243",
+                    "Area": 0.0,
+                    "Population": 0,
+                    "Tiles": []
+                },
+                {
                     "HexCode": "9CD775",
                     "ContinentParent": "327243",
                     "Area": 0.0,
@@ -194,6 +201,13 @@
                 },
                 {
                     "HexCode": "676091",
+                    "ContinentParent": "327243",
+                    "Area": 0.0,
+                    "Population": 0,
+                    "Tiles": []
+                },
+                {
+                    "HexCode": "183634",
                     "ContinentParent": "327243",
                     "Area": 0.0,
                     "Population": 0,
@@ -242,7 +256,7 @@
                     "Tiles": []
                 },
                 {
-                    "HexCode": "BFC032",
+                    "HexCode": "BFC02E",
                     "ContinentParent": "327243",
                     "Area": 0.0,
                     "Population": 0,

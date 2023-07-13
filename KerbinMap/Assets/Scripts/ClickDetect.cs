@@ -26,7 +26,7 @@ public class ClickDetect : MonoBehaviour
     private MapGen mapSource;
     private Texture2D tileMap;
 
-    private List<CultureDef> culturesList = new List<CultureDef>();
+    private List<CultureDef> culturesList;
 
 
     // Start is called before the first frame update

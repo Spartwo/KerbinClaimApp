@@ -8,7 +8,31 @@
                     "ContinentParent": "8E2525",
                     "Area": 0.0,
                     "Population": 0,
-                    "Tiles": []
+                    "Tiles": [
+                        {
+                            "HexCode": "8F2DC8",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": 108.8671875,
+                                "y": -71.54296875
+                            },
+                            "Position": {
+                                "x": 9860.0,
+                                "y": 630.0
+                            },
+                            "FirstPosition": {
+                                "x": 9860.0,
+                                "y": 630.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 9.88300609588623,
+                            "Population": 0,
+                            "ProvinceParent": "5A3FBF",
+                            "ContinentParent": "8E2525",
+                            "ClaimValue": 0
+                        }
+                    ]
                 },
                 {
                     "HexCode": "AE5443",
@@ -354,6 +378,13 @@
                     "Tiles": []
                 },
                 {
+                    "HexCode": "00075B",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0,
+                    "Tiles": []
+                },
+                {
                     "HexCode": "005114",
                     "ContinentParent": "8E2525",
                     "Area": 0.0,
@@ -607,6 +638,13 @@
                 },
                 {
                     "HexCode": "2A368F",
+                    "ContinentParent": "8E2525",
+                    "Area": 0.0,
+                    "Population": 0,
+                    "Tiles": []
+                },
+                {
+                    "HexCode": "DD58D9",
                     "ContinentParent": "8E2525",
                     "Area": 0.0,
                     "Population": 0,

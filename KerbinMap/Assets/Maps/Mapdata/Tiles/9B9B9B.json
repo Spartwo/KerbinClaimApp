@@ -81,6 +81,13 @@
                     "Tiles": []
                 },
                 {
+                    "HexCode": "BFC032",
+                    "ContinentParent": "9B9B9B",
+                    "Area": 0.0,
+                    "Population": 0,
+                    "Tiles": []
+                },
+                {
                     "HexCode": "7E12B3",
                     "ContinentParent": "9B9B9B",
                     "Area": 0.0,
@@ -684,13 +691,6 @@
                 },
                 {
                     "HexCode": "61E80C",
-                    "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
-                },
-                {
-                    "HexCode": "089932",
                     "ContinentParent": "9B9B9B",
                     "Area": 0.0,
                     "Population": 0,

@@ -6,350 +6,432 @@
                 {
                     "HexCode": "174ECD",
                     "ContinentParent": "7921A6",
-                    "Area": 4808.9765625,
-                    "Population": 144268,
+                    "Area": 0.0,
+                    "Population": 0,
                     "Tiles": [
                         {
                             "HexCode": "2F1EE8",
-                            "Culture": {
-                                "HexCode": "3C5970",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": -36.6796875,
+                                "y": -82.939453125
                             },
                             "Position": {
-                                "x": 4919.0,
-                                "y": 346.0
+                                "x": 4892.0,
+                                "y": 241.0
                             },
-                            "Altitude": 3300.0,
-                            "Terrain": "Ice Cap",
+                            "FirstPosition": {
+                                "x": 4892.0,
+                                "y": 241.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 1805.578125,
-                            "Population": 54167,
+                            "Population": 0,
                             "ProvinceParent": "174ECD",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
                         },
                         {
                             "HexCode": "7B02F4",
-                            "Culture": {
-                                "HexCode": "3C5970",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": -42.7734375,
+                                "y": -81.005859375
                             },
                             "Position": {
-                                "x": 4634.0,
-                                "y": 422.0
+                                "x": 4684.0,
+                                "y": 307.0
                             },
-                            "Altitude": 1050.0,
-                            "Terrain": "Ice Cap",
+                            "FirstPosition": {
+                                "x": 4684.0,
+                                "y": 307.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 1379.9500732421875,
-                            "Population": 41398,
+                            "Population": 0,
                             "ProvinceParent": "174ECD",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
                         },
                         {
                             "HexCode": "5590E2",
-                            "Culture": {
-                                "HexCode": "3C5970",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": -29.4140625,
+                                "y": -78.427734375
                             },
                             "Position": {
-                                "x": 5025.0,
-                                "y": 495.0
+                                "x": 5140.0,
+                                "y": 395.0
                             },
-                            "Altitude": 1200.0,
-                            "Terrain": "Ice Cap",
+                            "FirstPosition": {
+                                "x": 5140.0,
+                                "y": 395.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 1623.448486328125,
-                            "Population": 48703,
+                            "Population": 0,
                             "ProvinceParent": "174ECD",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
                         }
                     ]
                 },
                 {
                     "HexCode": "FC2150",
                     "ContinentParent": "7921A6",
-                    "Area": 2949.747802734375,
-                    "Population": 88492,
+                    "Area": 0.0,
+                    "Population": 0,
                     "Tiles": [
                         {
                             "HexCode": "0042C8",
-                            "Culture": {
-                                "HexCode": "3C5970",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": -28.2421875,
+                                "y": -82.236328125
                             },
                             "Position": {
-                                "x": 5396.0,
-                                "y": 420.0
+                                "x": 5180.0,
+                                "y": 265.0
                             },
-                            "Altitude": 2300.0,
-                            "Terrain": "Ice Cap",
+                            "FirstPosition": {
+                                "x": 5180.0,
+                                "y": 265.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 2949.747802734375,
-                            "Population": 88492,
+                            "Population": 0,
                             "ProvinceParent": "FC2150",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
                         }
                     ]
                 },
                 {
-                    "HexCode": "183634",
+                    "HexCode": "1B3D3A",
                     "ContinentParent": "7921A6",
-                    "Area": 2249.08984375,
-                    "Population": 67472,
+                    "Area": 0.0,
+                    "Population": 0,
                     "Tiles": [
                         {
                             "HexCode": "86BD0E",
-                            "Culture": {
-                                "HexCode": "3C5970",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": -7.1484375,
+                                "y": -80.478515625
                             },
                             "Position": {
-                                "x": 5877.0,
-                                "y": 455.0
+                                "x": 5900.0,
+                                "y": 325.0
                             },
-                            "Altitude": 1200.0,
-                            "Terrain": "Ice Cap",
+                            "FirstPosition": {
+                                "x": 5900.0,
+                                "y": 325.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 2249.08984375,
-                            "Population": 67472,
-                            "ProvinceParent": "183634",
+                            "Population": 0,
+                            "ProvinceParent": "1B3D3A",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
                         }
                     ]
                 },
                 {
                     "HexCode": "FE62FF",
                     "ContinentParent": "7921A6",
-                    "Area": 1505.699462890625,
-                    "Population": 45170,
+                    "Area": 0.0,
+                    "Population": 0,
                     "Tiles": [
                         {
                             "HexCode": "7EAE86",
-                            "Culture": {
-                                "HexCode": "00335B",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": 19.1015625,
+                                "y": -78.779296875
                             },
                             "Position": {
-                                "x": 6643.0,
-                                "y": 482.0
+                                "x": 6796.0,
+                                "y": 383.0
                             },
-                            "Altitude": 1050.0,
-                            "Terrain": "Ice Cap",
+                            "FirstPosition": {
+                                "x": 6796.0,
+                                "y": 383.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 1505.699462890625,
-                            "Population": 45170,
+                            "Population": 0,
                             "ProvinceParent": "FE62FF",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
                         }
                     ]
                 },
                 {
                     "HexCode": "E789AF",
                     "ContinentParent": "7921A6",
-                    "Area": 683.9981689453125,
-                    "Population": 20519,
+                    "Area": 0.0,
+                    "Population": 0,
                     "Tiles": [
                         {
                             "HexCode": "5E0306",
-                            "Culture": {
-                                "HexCode": "5983A5",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": -15.1171875,
+                                "y": -75.52734375
                             },
                             "Position": {
-                                "x": 5598.0,
-                                "y": 562.0
+                                "x": 5628.0,
+                                "y": 494.0
                             },
-                            "Altitude": 1750.0,
-                            "Terrain": "Highlands",
+                            "FirstPosition": {
+                                "x": 5628.0,
+                                "y": 494.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 683.9981689453125,
-                            "Population": 20519,
+                            "Population": 0,
                             "ProvinceParent": "E789AF",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
+                        },
+                        {
+                            "HexCode": "8BA670",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": -19.921875,
+                                "y": -73.2421875
+                            },
+                            "Position": {
+                                "x": 5464.0,
+                                "y": 572.0
+                            },
+                            "FirstPosition": {
+                                "x": 5464.0,
+                                "y": 572.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 987.2652587890625,
+                            "Population": 0,
+                            "ProvinceParent": "E789AF",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
                         }
                     ]
                 },
                 {
                     "HexCode": "37853F",
                     "ContinentParent": "7921A6",
-                    "Area": 1643.120361328125,
-                    "Population": 49293,
+                    "Area": 0.0,
+                    "Population": 0,
                     "Tiles": [
                         {
                             "HexCode": "B081A7",
-                            "Culture": {
-                                "HexCode": "00335B",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": -2.34375,
+                                "y": -75.439453125
                             },
                             "Position": {
-                                "x": 6135.0,
-                                "y": 589.0
+                                "x": 6064.0,
+                                "y": 497.0
                             },
-                            "Altitude": 800.0,
-                            "Terrain": "Tundra",
+                            "FirstPosition": {
+                                "x": 6064.0,
+                                "y": 497.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 1219.939453125,
-                            "Population": 36598,
+                            "Population": 0,
                             "ProvinceParent": "37853F",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
                         },
                         {
                             "HexCode": "038ABE",
-                            "Culture": {
-                                "HexCode": "00335B",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": 9.7265625,
+                                "y": -74.677734375
                             },
                             "Position": {
-                                "x": 6387.0,
-                                "y": 575.0
+                                "x": 6476.0,
+                                "y": 523.0
                             },
-                            "Altitude": 4500.0,
-                            "Terrain": "Tundra",
+                            "FirstPosition": {
+                                "x": 6476.0,
+                                "y": 523.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 423.180908203125,
-                            "Population": 12695,
+                            "Population": 0,
                             "ProvinceParent": "37853F",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
+                        },
+                        {
+                            "HexCode": "2F0685",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": 8.671875,
+                                "y": -72.568359375
+                            },
+                            "Position": {
+                                "x": 6440.0,
+                                "y": 595.0
+                            },
+                            "FirstPosition": {
+                                "x": 6440.0,
+                                "y": 595.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 492.1737060546875,
+                            "Population": 0,
+                            "ProvinceParent": "37853F",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
+                        },
+                        {
+                            "HexCode": "073CA5",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": 5.0390625,
+                                "y": -71.89453125
+                            },
+                            "Position": {
+                                "x": 6316.0,
+                                "y": 618.0
+                            },
+                            "FirstPosition": {
+                                "x": 6316.0,
+                                "y": 618.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 294.231201171875,
+                            "Population": 0,
+                            "ProvinceParent": "37853F",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
                         }
                     ]
                 },
                 {
                     "HexCode": "1BBE85",
                     "ContinentParent": "7921A6",
-                    "Area": 1712.1131591796875,
-                    "Population": 51363,
+                    "Area": 0.0,
+                    "Population": 0,
                     "Tiles": [
                         {
                             "HexCode": "35AB2E",
-                            "Culture": {
-                                "HexCode": "3C5970",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": -53.203125,
+                                "y": -74.794921875
                             },
                             "Position": {
-                                "x": 4325.0,
-                                "y": 601.0
+                                "x": 4328.0,
+                                "y": 519.0
                             },
-                            "Altitude": 5200.0,
-                            "Terrain": "Grasslands",
+                            "FirstPosition": {
+                                "x": 4328.0,
+                                "y": 519.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 1712.1131591796875,
-                            "Population": 51363,
+                            "Population": 0,
                             "ProvinceParent": "1BBE85",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
                         }
                     ]
                 },
                 {
                     "HexCode": "2CB655",
                     "ContinentParent": "7921A6",
-                    "Area": 821.8895874023438,
-                    "Population": 24656,
+                    "Area": 0.0,
+                    "Population": 0,
                     "Tiles": [
                         {
                             "HexCode": "5557B5",
-                            "Culture": {
-                                "HexCode": "3C5970",
-                                "Dialect": "Kr*man",
-                                "Language": "Kr*man",
-                                "SubGroup": "Kr*man",
-                                "Group": "Kr*man",
-                                "Family": "Kr*man"
-                            },
+                            "Culture": "",
                             "Coordinates": {
-                                "x": 0.0,
-                                "y": 0.0
+                                "x": -28.0078125,
+                                "y": -74.6484375
                             },
                             "Position": {
-                                "x": 5135.0,
-                                "y": 597.0
+                                "x": 5188.0,
+                                "y": 524.0
                             },
-                            "Altitude": 1200.0,
-                            "Terrain": "Highlands",
+                            "FirstPosition": {
+                                "x": 5188.0,
+                                "y": 524.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
                             "Area": 821.8895874023438,
-                            "Population": 24656,
+                            "Population": 0,
                             "ProvinceParent": "2CB655",
                             "ContinentParent": "7921A6",
-                            "ClaimValue": 5
+                            "ClaimValue": 0
+                        },
+                        {
+                            "HexCode": "8069C2",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": -23.0859375,
+                                "y": -74.23828125
+                            },
+                            "Position": {
+                                "x": 5356.0,
+                                "y": 538.0
+                            },
+                            "FirstPosition": {
+                                "x": 5356.0,
+                                "y": 538.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 1081.38916015625,
+                            "Population": 0,
+                            "ProvinceParent": "2CB655",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
+                        },
+                        {
+                            "HexCode": "DE6285",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": -33.8671875,
+                                "y": -71.71875
+                            },
+                            "Position": {
+                                "x": 4988.0,
+                                "y": 624.0
+                            },
+                            "FirstPosition": {
+                                "x": 4988.0,
+                                "y": 624.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 1090.61328125,
+                            "Population": 0,
+                            "ProvinceParent": "2CB655",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
                         }
                     ]
                 },
@@ -358,21 +440,162 @@
                     "ContinentParent": "7921A6",
                     "Area": 0.0,
                     "Population": 0,
-                    "Tiles": []
+                    "Tiles": [
+                        {
+                            "HexCode": "BAED8A",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": -40.6640625,
+                                "y": -74.23828125
+                            },
+                            "Position": {
+                                "x": 4756.0,
+                                "y": 538.0
+                            },
+                            "FirstPosition": {
+                                "x": 4756.0,
+                                "y": 538.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 1037.7156982421875,
+                            "Population": 0,
+                            "ProvinceParent": "2EEB4B",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
+                        },
+                        {
+                            "HexCode": "03635A",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": -39.9609375,
+                                "y": -74.1796875
+                            },
+                            "Position": {
+                                "x": 4780.0,
+                                "y": 540.0
+                            },
+                            "FirstPosition": {
+                                "x": 4780.0,
+                                "y": 540.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 1007.9724731445313,
+                            "Population": 0,
+                            "ProvinceParent": "2EEB4B",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
+                        },
+                        {
+                            "HexCode": "7F2109",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": -47.4609375,
+                                "y": -72.36328125
+                            },
+                            "Position": {
+                                "x": 4524.0,
+                                "y": 602.0
+                            },
+                            "FirstPosition": {
+                                "x": 4524.0,
+                                "y": 602.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 864.5277099609375,
+                            "Population": 0,
+                            "ProvinceParent": "2EEB4B",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
+                        }
+                    ]
                 },
                 {
                     "HexCode": "F4CEB1",
                     "ContinentParent": "7921A6",
                     "Area": 0.0,
                     "Population": 0,
-                    "Tiles": []
+                    "Tiles": [
+                        {
+                            "HexCode": "2D85F5",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": -3.75,
+                                "y": -74.091796875
+                            },
+                            "Position": {
+                                "x": 6016.0,
+                                "y": 543.0
+                            },
+                            "FirstPosition": {
+                                "x": 6016.0,
+                                "y": 543.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 1006.1841430664063,
+                            "Population": 0,
+                            "ProvinceParent": "F4CEB1",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
+                        }
+                    ]
                 },
                 {
                     "HexCode": "7D5D3C",
                     "ContinentParent": "7921A6",
                     "Area": 0.0,
                     "Population": 0,
-                    "Tiles": []
+                    "Tiles": [
+                        {
+                            "HexCode": "E9BBBE",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": -12.1875,
+                                "y": -73.330078125
+                            },
+                            "Position": {
+                                "x": 5728.0,
+                                "y": 569.0
+                            },
+                            "FirstPosition": {
+                                "x": 5728.0,
+                                "y": 569.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 565.6844482421875,
+                            "Population": 0,
+                            "ProvinceParent": "7D5D3C",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
+                        },
+                        {
+                            "HexCode": "AD8A5C",
+                            "Culture": "",
+                            "Coordinates": {
+                                "x": -10.078125,
+                                "y": -71.689453125
+                            },
+                            "Position": {
+                                "x": 5800.0,
+                                "y": 625.0
+                            },
+                            "FirstPosition": {
+                                "x": 5800.0,
+                                "y": 625.0
+                            },
+                            "Altitude": 0.0,
+                            "Terrain": "",
+                            "Area": 767.1094970703125,
+                            "Population": 0,
+                            "ProvinceParent": "7D5D3C",
+                            "ContinentParent": "7921A6",
+                            "ClaimValue": 0
+                        }
+                    ]
                 },
                 {
                     "HexCode": "2ACCA8",
@@ -648,13 +871,6 @@
                     "Tiles": []
                 },
                 {
-                    "HexCode": "7E1BAE",
-                    "ContinentParent": "7921A6",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
-                },
-                {
                     "HexCode": "A82AD4",
                     "ContinentParent": "7921A6",
                     "Area": 0.0,
@@ -879,7 +1095,7 @@
                     "Tiles": []
                 },
                 {
-                    "HexCode": "8B9510",
+                    "HexCode": "949E11",
                     "ContinentParent": "7921A6",
                     "Area": 0.0,
                     "Population": 0,
