@@ -87,11 +87,12 @@ public class MapGen : MonoBehaviour
         }
         else
         {
-            // Load dmap ata from config files
+            // Load map data from config files
             Debug.Log("Loading Map Data");
             ImportContinentsJson(Application.dataPath + "/Maps/MapData/Tiles/");
         }
 
+        // This cannot be enabled simultaneous with generateMap
         if (refreshData)
         {
             Debug.Log("Updating Map Data");
@@ -126,7 +127,7 @@ public class MapGen : MonoBehaviour
 
         // Generate Provinces
         List<Color> provincePixels = SerialiseMap(provinceMap.GetPixels());
-        List<Color> provinceColours = UniqueMapColours(RemoveMapAlpha(provincePixels));
+        List<Color> provinceColours = RemoveMapAlpha(UniqueMapColours(provincePixels));
         // Define Each Province
         int provinceCount = provinceColours.Count;
         Debug.Log("Provinces: " + provinceCount);
@@ -145,28 +146,43 @@ public class MapGen : MonoBehaviour
         // Generate Tiles
         // Equal Area for size getting
         tileColoursRemaining = RemoveMapAlpha(SerialiseMap(tileAreaMap.GetPixels()));
-        tileColoursRemaining.Reverse();
         // Equirectangular for global position
         List<Color> tilePixels = SerialiseMap(tileMap.GetPixels());
-        List<Color> tileColours = UniqueMapColours(RemoveMapAlpha(tilePixels));
+        List<Color> tileColours = RemoveMapAlpha(UniqueMapColours(tilePixels));
         //Define Each Tile
         int tileCount = tileColours.Count;
 
-        tilePixels.Reverse(); // needa try get the looped ones early on
-
         Debug.Log("Tiles: " + tileCount);
         int tileProgress = 0;
-        for (int i = 0; i < tileCount; i++)
+        for (int i = tileCount - 1; i >= 0; i--)
         {
             tileProgress++;
             Debug.Log(tileProgress + " / " + tileCount);
             // ***
-            if (i > 30) break; //temporary for only short test generations
+            if (i < tileCount - 30) break; //temporary for only short test generations
             // ***
             DefineTile(tileColours[i], tilePixels);
 
             // Give a little buffer
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.01f);
+        }
+
+        // Give a little buffer
+        yield return new WaitForSeconds(0.1f);
+        //Adjust position of edge tiles
+        List<Color> edgeColours = GetEdgeTiles(tilePixels);
+        int edgeCount = edgeColours.Count;
+
+        Debug.Log("Edge Tiles: " + edgeCount);
+        int edgeProgress = 0;
+        for (int i = 0; i < edgeCount; i++)
+        {
+            edgeProgress++;
+            Debug.Log(edgeProgress + " / " + tileCount);
+            OffsetMean(BruteFindTile(edgeColours[i]));
+
+            // Give a little buffer
+            yield return new WaitForSeconds(0.01f);
         }
 
 
@@ -241,10 +257,9 @@ public class MapGen : MonoBehaviour
     {
         // Count the number of pixels that match the target color
         int matchingArea = 0;
+        int matchingPixels = 0;
         float totalX = 0f;
         float totalY = 0f;
-        //bool onEdge = false;
-        //bool on1Edge = false;
         // First for retrieving province, centre of tile can sometimes be a lake
 
         // Get area using the true area map
@@ -259,7 +274,7 @@ public class MapGen : MonoBehaviour
         }
         // Convert the number to area
         float newArea = matchingArea * (pixelWidthKilometres * pixelWidthKilometres);
-
+        Debug.Log("Area: " + matchingArea + "px / "+ newArea + "km^2");
 
         // Calculate the mean position of the tile
         // Find a matching pixel somewhere, try increasing levels of detail 
@@ -267,11 +282,6 @@ public class MapGen : MonoBehaviour
         if (firstPosition == Vector2.zero) firstPosition = pixelSweep(tilePixels, targetColor, mapArea, searchIncriment/2, 0.25f);
         if (firstPosition == Vector2.zero) firstPosition = pixelSweep(tilePixels, targetColor, mapArea, searchIncriment/10, 0.5f);
         if (firstPosition == Vector2.zero) firstPosition = pixelSweep(tilePixels, targetColor, mapArea, 1, 0);
-
-        if(firstPosition.x == width || firstPosition.x == 0) 
-        { 
-            Debug.Log(ColorUtility.ToHtmlStringRGB(targetColor) + " is on the edge ");
-        }
 
         // This is massively inefficent even still but the position is good to know
         /*for (int x = 0; x < width; x++)
@@ -286,31 +296,36 @@ public class MapGen : MonoBehaviour
                     totalY += y;
                     matchingPixels++;
                     break;
-                    //if(x >= 1) on0Edge = true;
-                    //if (x <= width - 1) on1Edge = true;
+                }
+            }
+        }*/
 
+        // Adjust the search area around the first position
+        int startX = Mathf.RoundToInt(firstPosition.x) - (int)biggestTile.x;
+        int endX = startX + ((int)biggestTile.x * 2);
+        int startY = Mathf.Max(Mathf.RoundToInt(firstPosition.y) - (int)biggestTile.y, 0);
+        int endY = Mathf.Min(startY + ((int)biggestTile.y*2), height);
+
+        // This is massively inefficient even still but the position is good to know
+        for (int x = startX; x < endX; x++)
+        {
+            for (int y = startY; y < endY; y++)
+            {
+                int pixelIndex = y * width + x;
+
+                if (tilePixels[pixelIndex] == targetColor)
+                {
+                    totalX += x;
+                    totalY += y;
+                    matchingPixels++;
+                    break;
                 }
             }
         }
         // Get mean pixel position for tile center
-        int meanX = Mathf.RoundToInt(totalX / matchingPixels);
-        int meanY = Mathf.RoundToInt(totalY / matchingPixels);*/
-
-        // If tile exists on both edges it's a looper
-        /*if (on0Edge && on1Edge)
-        {
-            // Adjust the mean position if the target group crosses the loop boundary
-            meanX += (int)(width * 0.5f);
-            // if the mean now extends past the edge bring it to the opposite
-            if (meanX >= width)
-            {
-                meanX -= width;
-            }
-        }*/
-
-        Vector2 meanPositionFloat = firstPosition;
-        // Round off the xy values
-        Vector2 meanPosition = new Vector2((int)meanPositionFloat.x, (int)meanPositionFloat.y);
+        float meanX = Mathf.RoundToInt(totalX / matchingPixels);
+        float meanY = Mathf.RoundToInt(totalY / matchingPixels);
+        Vector2 meanPosition = new Vector2(meanX, meanY);
 
         // Get Province of the tile
         ProvinceData newParent = getProvinceParent(firstPosition);
@@ -319,7 +334,6 @@ public class MapGen : MonoBehaviour
         TileData newTile = new TileData
         {
             HexCode = ColorUtility.ToHtmlStringRGB(targetColor),
-            Coordinates = getCoordinates(meanPositionFloat),
             Position = meanPosition,
             FirstPosition = firstPosition,
             Area = newArea,
@@ -362,21 +376,31 @@ public class MapGen : MonoBehaviour
                 p.Area = 0;
                 foreach (TileData t in p.Tiles)
                 {
-
+                    // Use first position as the data peg if the mean position is over water
                     Vector2 position = t.Position;
-                    int meanX = (int)position.x;
-                    int meanY = (int)position.y;
+                    int baseX = (int)position.x;
+                    int baseY = (int)position.y;
 
+                    // If transparent(not land)
+                    if (continentMap.GetPixel(baseX, baseY).a < 0.5f) 
+                    {
+                        position = t.FirstPosition;
+                        baseX = (int)position.x;
+                        baseY = (int)position.y;
+                    }
+
+                    // Correct the kerbin coordinates of the man, regardless of water
+                    t.Coordinates = getCoordinates(t.Position);
                     // Add tile area to province area
                     p.Area += t.Area;
                     // Get Culture by finding the undertile value in a comparitive object
-                    Color cultureValue = languageMap.GetPixel(meanX, meanY);
+                    Color cultureValue = languageMap.GetPixel(baseX, baseY);
                     t.Culture = ColorUtility.ToHtmlStringRGB(cultureValue);
                     // Get altitude by converting the heightmap brightness
-                    int colorValue = (int)(heightMap.GetPixel(meanX, meanY).r * 255);
+                    int colorValue = (int)(heightMap.GetPixel(baseX, baseY).r * 255);
                     t.Altitude = colorValue * 50f;
                     // Get Biome by comparing the biomemap with a dictionary
-                    Color biomeValue = biomeMap.GetPixel(meanX, meanY);
+                    Color biomeValue = biomeMap.GetPixel(baseX, baseY);
                     t.Terrain = biomeCodeMappings[ColorUtility.ToHtmlStringRGB(biomeValue)];
                     // Get Population of the tile by scaling the true area against the heatmap
                     //Color heatValue = populationMap.GetPixel(meanX, meanY);
@@ -429,6 +453,57 @@ public class MapGen : MonoBehaviour
 
         Debug.Log("Province not Found");
         return null;
+    }
+    
+    private void OffsetMean(TileData t)
+    {
+        Vector2 pos = t.Position;
+        // If tile exists on both edges it's a looper
+        // If the tile goes beyond the map bounds reduce or add to it to compensate
+        if (pos.x < 0) pos.x += width;
+        if (pos.x >= width) pos.x -= width;
+        // Set the tile position again
+        t.Position = pos;
+    }
+    private TileData BruteFindTile(Color searchColour)
+    {
+        string searchTerm = ColorUtility.ToHtmlStringRGB(searchColour);
+        foreach (ContinentData c in continents)
+        {
+            foreach (ProvinceData p in c.Provinces)
+            {
+                foreach (TileData t in p.Tiles)
+                {
+                    if (t.HexCode == searchTerm) 
+                    {
+                        return t;
+                    }
+                }
+            }
+        }
+        Debug.Log("Tile " + searchTerm + " not found");
+        return new TileData();
+    }
+    private List<Color> GetEdgeTiles(List<Color> tilePixels)
+    {
+        List<Color> leftEdge = tileMap.GetPixels(0, 0, 1, height).ToList();
+        List<Color> rightEdge = tileMap.GetPixels(width-1, 0, 1, height).ToList();
+        List<Color> bothEdges = new List<Color>();
+
+        // Remove same column duplicates and transparent cells
+        leftEdge = RemoveMapAlpha(UniqueMapColours(leftEdge));
+        rightEdge = RemoveMapAlpha(UniqueMapColours(rightEdge));
+
+        // Check for colours that appear in both columns
+        foreach (Color color in leftEdge)
+        {
+            if (rightEdge.Contains(color))
+            {
+                bothEdges.Add(color);
+            }
+        }
+
+        return bothEdges;
     }
     private Vector2 pixelSweep(List<Color> mapPixels, Color targetColor, int sweepArea, int sweepIncriment, float offset)
     {

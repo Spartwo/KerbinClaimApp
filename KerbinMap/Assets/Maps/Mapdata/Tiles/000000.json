@@ -2,15 +2,7 @@
     "Content": [
         {
             "HexCode": "000000",
-            "Provinces": [
-                {
-                    "HexCode": "089932",
-                    "ContinentParent": "000000",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
-                }
-            ]
+            "Provinces": []
         }
     ]
 }

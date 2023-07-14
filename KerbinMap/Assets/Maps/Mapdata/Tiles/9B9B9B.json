@@ -538,9 +538,56 @@
                 {
                     "HexCode": "0F6A5B",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 4126.955078125,
+                    "Population": 123808,
+                    "Tiles": [
+                        {
+                            "HexCode": "5700F0",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 108.80859375,
+                                "y": 79.1015625
+                            },
+                            "Position": {
+                                "x": 9858.0,
+                                "y": 5772.0
+                            },
+                            "FirstPosition": {
+                                "x": 9916.0,
+                                "y": 5693.0
+                            },
+                            "Altitude": 1000.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1602.8353271484375,
+                            "Population": 48085,
+                            "ProvinceParent": "0F6A5B",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2E54B2",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 125.5078125,
+                                "y": 77.138671875
+                            },
+                            "Position": {
+                                "x": 10428.0,
+                                "y": 5705.0
+                            },
+                            "FirstPosition": {
+                                "x": 10324.0,
+                                "y": 5652.0
+                            },
+                            "Altitude": 2700.0,
+                            "Terrain": "Tundra",
+                            "Area": 2524.119873046875,
+                            "Population": 75723,
+                            "ProvinceParent": "0F6A5B",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "6F74AE",
@@ -566,9 +613,102 @@
                 {
                     "HexCode": "8C610C",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 5266.701171875,
+                    "Population": 158000,
+                    "Tiles": [
+                        {
+                            "HexCode": "4E28F0",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 167.98828125,
+                                "y": 78.017578125
+                            },
+                            "Position": {
+                                "x": 11878.0,
+                                "y": 5735.0
+                            },
+                            "FirstPosition": {
+                                "x": 11936.0,
+                                "y": 5703.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 793.2759399414063,
+                            "Population": 23798,
+                            "ProvinceParent": "8C610C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "7B1EEC",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 141.03515625,
+                                "y": 76.9921875
+                            },
+                            "Position": {
+                                "x": 10958.0,
+                                "y": 5700.0
+                            },
+                            "FirstPosition": {
+                                "x": 10780.0,
+                                "y": 5665.0
+                            },
+                            "Altitude": 950.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1589.281494140625,
+                            "Population": 47678,
+                            "ProvinceParent": "8C610C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2F5ADA",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 152.548828125,
+                                "y": 75.615234375
+                            },
+                            "Position": {
+                                "x": 11351.0,
+                                "y": 5653.0
+                            },
+                            "FirstPosition": {
+                                "x": 11468.0,
+                                "y": 5614.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1584.66943359375,
+                            "Population": 47540,
+                            "ProvinceParent": "8C610C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "7D02E8",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 160.37109375,
+                                "y": 75.05859375
+                            },
+                            "Position": {
+                                "x": 11618.0,
+                                "y": 5634.0
+                            },
+                            "FirstPosition": {
+                                "x": 11672.0,
+                                "y": 5581.0
+                            },
+                            "Altitude": 3250.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1299.47412109375,
+                            "Population": 38984,
+                            "ProvinceParent": "8C610C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "86A590",
@@ -594,9 +734,33 @@
                 {
                     "HexCode": "FD73BA",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 2818.821533203125,
+                    "Population": 84564,
+                    "Tiles": [
+                        {
+                            "HexCode": "7128EC",
+                            "Culture": "1DC69F",
+                            "Coordinates": {
+                                "x": 45.41015625,
+                                "y": 75.3515625
+                            },
+                            "Position": {
+                                "x": 7694.0,
+                                "y": 5644.0
+                            },
+                            "FirstPosition": {
+                                "x": 7800.0,
+                                "y": 5625.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 2818.821533203125,
+                            "Population": 84564,
+                            "ProvinceParent": "FD73BA",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "549660",
@@ -608,9 +772,56 @@
                 {
                     "HexCode": "B69D29",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 3461.217041015625,
+                    "Population": 103836,
+                    "Tiles": [
+                        {
+                            "HexCode": "2E48CB",
+                            "Culture": "1AAD8B",
+                            "Coordinates": {
+                                "x": 94.6875,
+                                "y": 75.029296875
+                            },
+                            "Position": {
+                                "x": 9376.0,
+                                "y": 5633.0
+                            },
+                            "FirstPosition": {
+                                "x": 9500.0,
+                                "y": 5575.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Highlands",
+                            "Area": 2063.10107421875,
+                            "Population": 61893,
+                            "ProvinceParent": "B69D29",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "848190",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 102.94921875,
+                                "y": 72.978515625
+                            },
+                            "Position": {
+                                "x": 9658.0,
+                                "y": 5563.0
+                            },
+                            "FirstPosition": {
+                                "x": 9676.0,
+                                "y": 5548.0
+                            },
+                            "Altitude": 3000.0,
+                            "Terrain": "Tundra",
+                            "Area": 1398.115966796875,
+                            "Population": 41943,
+                            "ProvinceParent": "B69D29",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "65C353",
@@ -636,9 +847,79 @@
                 {
                     "HexCode": "85B4AC",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 4138.720703125,
+                    "Population": 124160,
+                    "Tiles": [
+                        {
+                            "HexCode": "7C1EF0",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 65.830078125,
+                                "y": 82.587890625
+                            },
+                            "Position": {
+                                "x": 8391.0,
+                                "y": 5891.0
+                            },
+                            "FirstPosition": {
+                                "x": 8268.0,
+                                "y": 5864.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 640.9835205078125,
+                            "Population": 19229,
+                            "ProvinceParent": "85B4AC",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2F453A",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 55.341796875,
+                                "y": 75.673828125
+                            },
+                            "Position": {
+                                "x": 8033.0,
+                                "y": 5655.0
+                            },
+                            "FirstPosition": {
+                                "x": 7956.0,
+                                "y": 5613.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1675.4990234375,
+                            "Population": 50264,
+                            "ProvinceParent": "85B4AC",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "7EA245",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 63.896484375,
+                                "y": 75.46875
+                            },
+                            "Position": {
+                                "x": 8325.0,
+                                "y": 5648.0
+                            },
+                            "FirstPosition": {
+                                "x": 8396.0,
+                                "y": 5583.0
+                            },
+                            "Altitude": 3150.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1822.238037109375,
+                            "Population": 54667,
+                            "ProvinceParent": "85B4AC",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "54993D",
@@ -650,58 +931,488 @@
                 {
                     "HexCode": "ED56AD",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 863.5864868164063,
+                    "Population": 25907,
+                    "Tiles": [
+                        {
+                            "HexCode": "32CF58",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -104.12109375,
+                                "y": 73.271484375
+                            },
+                            "Position": {
+                                "x": 2590.0,
+                                "y": 5573.0
+                            },
+                            "FirstPosition": {
+                                "x": 2524.0,
+                                "y": 5552.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 863.5864868164063,
+                            "Population": 25907,
+                            "ProvinceParent": "ED56AD",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "085182",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 2592.5478515625,
+                    "Population": 77776,
+                    "Tiles": [
+                        {
+                            "HexCode": "641EF4",
+                            "Culture": "1DC69F",
+                            "Coordinates": {
+                                "x": 28.623046875,
+                                "y": 79.951171875
+                            },
+                            "Position": {
+                                "x": 7121.0,
+                                "y": 5801.0
+                            },
+                            "FirstPosition": {
+                                "x": 7104.0,
+                                "y": 5767.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 692.93994140625,
+                            "Population": 20788,
+                            "ProvinceParent": "085182",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "B9D568",
+                            "Culture": "1DC69F",
+                            "Coordinates": {
+                                "x": 33.80859375,
+                                "y": 75.380859375
+                            },
+                            "Position": {
+                                "x": 7298.0,
+                                "y": 5645.0
+                            },
+                            "FirstPosition": {
+                                "x": 7268.0,
+                                "y": 5614.0
+                            },
+                            "Altitude": 3100.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1899.60791015625,
+                            "Population": 56988,
+                            "ProvinceParent": "085182",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "5433BF",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1006.4664916992188,
+                    "Population": 30193,
+                    "Tiles": [
+                        {
+                            "HexCode": "791EF8",
+                            "Culture": "1AAD8B",
+                            "Coordinates": {
+                                "x": 85.37109375,
+                                "y": 75.615234375
+                            },
+                            "Position": {
+                                "x": 9058.0,
+                                "y": 5653.0
+                            },
+                            "FirstPosition": {
+                                "x": 8968.0,
+                                "y": 5614.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1006.4664916992188,
+                            "Population": 30193,
+                            "ProvinceParent": "5433BF",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "177A25",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1947.2344970703125,
+                    "Population": 58416,
+                    "Tiles": [
+                        {
+                            "HexCode": "6100F0",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -124.892578125,
+                                "y": 77.080078125
+                            },
+                            "Position": {
+                                "x": 1881.0,
+                                "y": 5703.0
+                            },
+                            "FirstPosition": {
+                                "x": 1872.0,
+                                "y": 5656.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1283.6612548828125,
+                            "Population": 38509,
+                            "ProvinceParent": "177A25",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "B08D4D",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -110.830078125,
+                                "y": 74.8828125
+                            },
+                            "Position": {
+                                "x": 2361.0,
+                                "y": 5628.0
+                            },
+                            "FirstPosition": {
+                                "x": 2316.0,
+                                "y": 5618.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 663.5732421875,
+                            "Population": 19907,
+                            "ProvinceParent": "177A25",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "9B9E14",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 6217.72900390625,
+                    "Population": 186529,
+                    "Tiles": [
+                        {
+                            "HexCode": "7802E8",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -161.015625,
+                                "y": 77.63671875
+                            },
+                            "Position": {
+                                "x": 648.0,
+                                "y": 5722.0
+                            },
+                            "FirstPosition": {
+                                "x": 692.0,
+                                "y": 5691.0
+                            },
+                            "Altitude": 3300.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 997.618896484375,
+                            "Population": 29928,
+                            "ProvinceParent": "9B9E14",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "FBEBA2",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -138.8671875,
+                                "y": 76.201171875
+                            },
+                            "Position": {
+                                "x": 1404.0,
+                                "y": 5673.0
+                            },
+                            "FirstPosition": {
+                                "x": 1308.0,
+                                "y": 5659.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1130.6158447265625,
+                            "Population": 33918,
+                            "ProvinceParent": "9B9E14",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "710EE8",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -145.78125,
+                                "y": 76.376953125
+                            },
+                            "Position": {
+                                "x": 1168.0,
+                                "y": 5679.0
+                            },
+                            "FirstPosition": {
+                                "x": 1076.0,
+                                "y": 5648.0
+                            },
+                            "Altitude": 3300.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1311.6160888671875,
+                            "Population": 39348,
+                            "ProvinceParent": "9B9E14",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "7E02EC",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -132.48046875,
+                                "y": 75.615234375
+                            },
+                            "Position": {
+                                "x": 1622.0,
+                                "y": 5653.0
+                            },
+                            "FirstPosition": {
+                                "x": 1704.0,
+                                "y": 5642.0
+                            },
+                            "Altitude": 1350.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1091.0838623046875,
+                            "Population": 32732,
+                            "ProvinceParent": "9B9E14",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "849F2C",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -154.1015625,
+                                "y": 75.0
+                            },
+                            "Position": {
+                                "x": 884.0,
+                                "y": 5632.0
+                            },
+                            "FirstPosition": {
+                                "x": 988.0,
+                                "y": 5624.0
+                            },
+                            "Altitude": 900.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1686.7938232421875,
+                            "Population": 50603,
+                            "ProvinceParent": "9B9E14",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "325403",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1112.5440673828125,
+                    "Population": 33376,
+                    "Tiles": [
+                        {
+                            "HexCode": "3A9416",
+                            "Culture": "1DC69F",
+                            "Coordinates": {
+                                "x": 24.55078125,
+                                "y": 75.29296875
+                            },
+                            "Position": {
+                                "x": 6982.0,
+                                "y": 5642.0
+                            },
+                            "FirstPosition": {
+                                "x": 6876.0,
+                                "y": 5573.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1112.5440673828125,
+                            "Population": 33376,
+                            "ProvinceParent": "325403",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "61E80C",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 4889.45263671875,
+                    "Population": 146681,
+                    "Tiles": [
+                        {
+                            "HexCode": "771EF0",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -178.65234375,
+                                "y": 77.490234375
+                            },
+                            "Position": {
+                                "x": 46.0,
+                                "y": 5717.0
+                            },
+                            "FirstPosition": {
+                                "x": 144.0,
+                                "y": 5687.0
+                            },
+                            "Altitude": 2000.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 849.9385375976563,
+                            "Population": 25498,
+                            "ProvinceParent": "61E80C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "58CF47",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -169.16015625,
+                                "y": 76.845703125
+                            },
+                            "Position": {
+                                "x": 370.0,
+                                "y": 5695.0
+                            },
+                            "FirstPosition": {
+                                "x": 196.0,
+                                "y": 5658.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1420.7998046875,
+                            "Population": 42623,
+                            "ProvinceParent": "61E80C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "7EB700",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 174.580078125,
+                                "y": 74.4140625
+                            },
+                            "Position": {
+                                "x": 12103.0,
+                                "y": 5612.0
+                            },
+                            "FirstPosition": {
+                                "x": 12176.0,
+                                "y": 5573.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1589.657958984375,
+                            "Population": 47689,
+                            "ProvinceParent": "61E80C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "585733",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -178.7109375,
+                                "y": 73.505859375
+                            },
+                            "Position": {
+                                "x": 44.0,
+                                "y": 5581.0
+                            },
+                            "FirstPosition": {
+                                "x": 12204.0,
+                                "y": 5567.0
+                            },
+                            "Altitude": 3300.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1029.0562744140625,
+                            "Population": 30871,
+                            "ProvinceParent": "61E80C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
+                },
+                {
+                    "HexCode": "089932",
+                    "ContinentParent": "9B9B9B",
+                    "Area": 19.76601219177246,
+                    "Population": 592,
+                    "Tiles": [
+                        {
+                            "HexCode": "089932",
+                            "Culture": "001ECC",
+                            "Coordinates": {
+                                "x": -9.169921875,
+                                "y": 74.208984375
+                            },
+                            "Position": {
+                                "x": 5831.0,
+                                "y": 5605.0
+                            },
+                            "FirstPosition": {
+                                "x": 5836.0,
+                                "y": 5603.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 19.76601219177246,
+                            "Population": 592,
+                            "ProvinceParent": "089932",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "863645",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1786.470947265625,
+                    "Population": 53594,
+                    "Tiles": [
+                        {
+                            "HexCode": "0506EC",
+                            "Culture": "1DC69F",
+                            "Coordinates": {
+                                "x": 14.091796875,
+                                "y": 79.423828125
+                            },
+                            "Position": {
+                                "x": 6625.0,
+                                "y": 5783.0
+                            },
+                            "FirstPosition": {
+                                "x": 6804.0,
+                                "y": 5692.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1786.470947265625,
+                            "Population": 53594,
+                            "ProvinceParent": "863645",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 }
             ]
         }
