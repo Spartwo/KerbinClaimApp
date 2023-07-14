@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1961
     height: 977
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 203
     height: 629
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -411,9 +411,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b85a0000
-      m_LastClickedID: 23224
-      m_ExpandedIDs: 18fbffffac5a0000
+      m_SelectedIDs: ba5a0000
+      m_LastClickedID: 23226
+      m_ExpandedIDs: 0cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -906,7 +906,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Maps/Mapdata/VisualLayers
+    - Assets/Maps/Mapdata/DataMaps
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -914,16 +914,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Maps/Mapdata/VisualLayers
+  - Assets/Maps/Mapdata/DataMaps
   m_LastFoldersGridSize: 64
   m_LastProjectPath: E:\Users\Spartwo\Documents\UnityProjects\KerbinClaimAppSource\KerbinMap
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 6a5b0000
-    m_LastClickedID: 23402
-    m_ExpandedIDs: 000000001c5b00003a5b0000625b000000ca9a3bffffff7f
+    m_SelectedIDs: 965c0000
+    m_LastClickedID: 23702
+    m_ExpandedIDs: 000000001e5b00006a5c0000925c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -951,7 +951,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c5b0000
+    m_ExpandedIDs: 000000001e5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -976,8 +976,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b85a0000
-    m_LastClickedInstanceID: 23224
+    m_SelectedInstanceIDs: e85a0000
+    m_LastClickedInstanceID: 23272
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300006c5a0000
     m_RenameOverlay:

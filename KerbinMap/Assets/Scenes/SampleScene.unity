@@ -364,6 +364,7 @@ MonoBehaviour:
   generateMap: 1
   refreshData: 0
   bodyCircumferanceKilometres: 3769.911
+  biggestTile: {x: 750, y: 400}
   searchIncriment: 100
   populationScaler: 1
   continents: []

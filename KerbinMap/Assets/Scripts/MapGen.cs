@@ -146,11 +146,18 @@ public class MapGen : MonoBehaviour
         // Generate Tiles
         // Equal Area for size getting
         tileColoursRemaining = RemoveMapAlpha(SerialiseMap(tileAreaMap.GetPixels()));
+
+        // Give a little buffer
+        yield return new WaitForSeconds(0.01f);
+
         // Equirectangular for global position
         List<Color> tilePixels = SerialiseMap(tileMap.GetPixels());
         List<Color> tileColours = RemoveMapAlpha(UniqueMapColours(tilePixels));
         //Define Each Tile
         int tileCount = tileColours.Count;
+
+        // Give a little buffer
+        yield return new WaitForSeconds(0.01f);
 
         Debug.Log("Tiles: " + tileCount);
         int tileProgress = 0;
@@ -158,9 +165,6 @@ public class MapGen : MonoBehaviour
         {
             tileProgress++;
             Debug.Log(tileProgress + " / " + tileCount);
-            // ***
-            if (i < tileCount - 30) break; //temporary for only short test generations
-            // ***
             DefineTile(tileColours[i], tilePixels);
 
             // Give a little buffer

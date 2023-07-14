@@ -300,9 +300,79 @@
                 {
                     "HexCode": "5A23E7",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 6310.8173828125,
+                    "Population": 189324,
+                    "Tiles": [
+                        {
+                            "HexCode": "AF00C5",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -144.2578125,
+                                "y": 71.25
+                            },
+                            "Position": {
+                                "x": 1220.0,
+                                "y": 5504.0
+                            },
+                            "FirstPosition": {
+                                "x": 1168.0,
+                                "y": 5414.0
+                            },
+                            "Altitude": 3300.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1709.1011962890625,
+                            "Population": 51273,
+                            "ProvinceParent": "5A23E7",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2B8D62",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -151.787109375,
+                                "y": 67.587890625
+                            },
+                            "Position": {
+                                "x": 963.0,
+                                "y": 5379.0
+                            },
+                            "FirstPosition": {
+                                "x": 904.0,
+                                "y": 5342.0
+                            },
+                            "Altitude": 3150.0,
+                            "Terrain": "Grasslands",
+                            "Area": 2792.843505859375,
+                            "Population": 83785,
+                            "ProvinceParent": "5A23E7",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "339287",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -141.5625,
+                                "y": 66.97265625
+                            },
+                            "Position": {
+                                "x": 1312.0,
+                                "y": 5358.0
+                            },
+                            "FirstPosition": {
+                                "x": 1308.0,
+                                "y": 5334.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1808.8724365234375,
+                            "Population": 54266,
+                            "ProvinceParent": "5A23E7",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "8AD274",
@@ -370,9 +440,56 @@
                 {
                     "HexCode": "0B9BE5",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 3109.099609375,
+                    "Population": 93272,
+                    "Tiles": [
+                        {
+                            "HexCode": "740EF4",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -128.90625,
+                                "y": 71.89453125
+                            },
+                            "Position": {
+                                "x": 1744.0,
+                                "y": 5526.0
+                            },
+                            "FirstPosition": {
+                                "x": 1764.0,
+                                "y": 5522.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Highlands",
+                            "Area": 1261.918701171875,
+                            "Population": 37857,
+                            "ProvinceParent": "0B9BE5",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "54B742",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -122.8125,
+                                "y": 67.8515625
+                            },
+                            "Position": {
+                                "x": 1952.0,
+                                "y": 5388.0
+                            },
+                            "FirstPosition": {
+                                "x": 1828.0,
+                                "y": 5369.0
+                            },
+                            "Altitude": 1000.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1847.180908203125,
+                            "Population": 55415,
+                            "ProvinceParent": "0B9BE5",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "6CADEE",
@@ -433,9 +550,33 @@
                 {
                     "HexCode": "B998C1",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1928.9744873046875,
+                    "Population": 57869,
+                    "Tiles": [
+                        {
+                            "HexCode": "AD36D4",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 128.26171875,
+                                "y": 67.587890625
+                            },
+                            "Position": {
+                                "x": 10522.0,
+                                "y": 5379.0
+                            },
+                            "FirstPosition": {
+                                "x": 10548.0,
+                                "y": 5329.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1928.9744873046875,
+                            "Population": 57869,
+                            "ProvinceParent": "B998C1",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "54271A",
@@ -454,9 +595,102 @@
                 {
                     "HexCode": "45D0C5",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 7549.298828125,
+                    "Population": 226477,
+                    "Tiles": [
+                        {
+                            "HexCode": "4102F0",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -163.88671875,
+                                "y": 73.18359375
+                            },
+                            "Position": {
+                                "x": 550.0,
+                                "y": 5570.0
+                            },
+                            "FirstPosition": {
+                                "x": 580.0,
+                                "y": 5540.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1302.0155029296875,
+                            "Population": 39060,
+                            "ProvinceParent": "45D0C5",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "A93993",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -172.20703125,
+                                "y": 70.458984375
+                            },
+                            "Position": {
+                                "x": 266.0,
+                                "y": 5477.0
+                            },
+                            "FirstPosition": {
+                                "x": 296.0,
+                                "y": 5458.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1824.685302734375,
+                            "Population": 54740,
+                            "ProvinceParent": "45D0C5",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "4B3E89",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -158.876953125,
+                                "y": 69.462890625
+                            },
+                            "Position": {
+                                "x": 721.0,
+                                "y": 5443.0
+                            },
+                            "FirstPosition": {
+                                "x": 716.0,
+                                "y": 5393.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1753.4334716796875,
+                            "Population": 52603,
+                            "ProvinceParent": "45D0C5",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "06A52D",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -164.12109375,
+                                "y": 66.26953125
+                            },
+                            "Position": {
+                                "x": 542.0,
+                                "y": 5334.0
+                            },
+                            "FirstPosition": {
+                                "x": 664.0,
+                                "y": 5297.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 2669.16455078125,
+                            "Population": 80074,
+                            "ProvinceParent": "45D0C5",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "AFB963",
@@ -496,9 +730,33 @@
                 {
                     "HexCode": "F1938F",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1331.0997314453125,
+                    "Population": 39932,
+                    "Tiles": [
+                        {
+                            "HexCode": "B0602F",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -99.462890625,
+                                "y": 66.416015625
+                            },
+                            "Position": {
+                                "x": 2749.0,
+                                "y": 5339.0
+                            },
+                            "FirstPosition": {
+                                "x": 2720.0,
+                                "y": 5310.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1331.0997314453125,
+                            "Population": 39932,
+                            "ProvinceParent": "F1938F",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "9ACD24",
@@ -510,36 +768,201 @@
                 {
                     "HexCode": "32E0CE",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1111.320556640625,
+                    "Population": 33339,
+                    "Tiles": [
+                        {
+                            "HexCode": "AB3661",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -105.087890625,
+                                "y": 66.826171875
+                            },
+                            "Position": {
+                                "x": 2557.0,
+                                "y": 5353.0
+                            },
+                            "FirstPosition": {
+                                "x": 2484.0,
+                                "y": 5332.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1111.320556640625,
+                            "Population": 33339,
+                            "ProvinceParent": "32E0CE",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "2D3287",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 5065.65234375,
+                    "Population": 151968,
+                    "Tiles": [
+                        {
+                            "HexCode": "8230D6",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -179.619140625,
+                                "y": 68.818359375
+                            },
+                            "Position": {
+                                "x": 13.0,
+                                "y": 5421.0
+                            },
+                            "FirstPosition": {
+                                "x": 120.0,
+                                "y": 5385.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1438.1185302734375,
+                            "Population": 43143,
+                            "ProvinceParent": "2D3287",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "031FF4",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 173.701171875,
+                                "y": 67.265625
+                            },
+                            "Position": {
+                                "x": 12073.0,
+                                "y": 5368.0
+                            },
+                            "FirstPosition": {
+                                "x": 12144.0,
+                                "y": 5312.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 2289.845458984375,
+                            "Population": 68695,
+                            "ProvinceParent": "2D3287",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "F6942D",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 179.736328125,
+                                "y": 65.7421875
+                            },
+                            "Position": {
+                                "x": 12279.0,
+                                "y": 5316.0
+                            },
+                            "FirstPosition": {
+                                "x": 12252.0,
+                                "y": 5296.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1337.6883544921875,
+                            "Population": 40130,
+                            "ProvinceParent": "2D3287",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "F863C3",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1027.738525390625,
+                    "Population": 30832,
+                    "Tiles": [
+                        {
+                            "HexCode": "3215B2",
+                            "Culture": "A89935",
+                            "Coordinates": {
+                                "x": -76.875,
+                                "y": 67.587890625
+                            },
+                            "Position": {
+                                "x": 3520.0,
+                                "y": 5379.0
+                            },
+                            "FirstPosition": {
+                                "x": 3540.0,
+                                "y": 5370.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 612.369873046875,
+                            "Population": 18371,
+                            "ProvinceParent": "F863C3",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "DA5CFB",
+                            "Culture": "A89935",
+                            "Coordinates": {
+                                "x": -73.9453125,
+                                "y": 65.712890625
+                            },
+                            "Position": {
+                                "x": 3620.0,
+                                "y": 5315.0
+                            },
+                            "FirstPosition": {
+                                "x": 3624.0,
+                                "y": 5302.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 415.3686218261719,
+                            "Population": 12461,
+                            "ProvinceParent": "F863C3",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "B039C5",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 341.29315185546877,
+                    "Population": 10238,
+                    "Tiles": [
+                        {
+                            "HexCode": "5E210B",
+                            "Culture": "4F59CC",
+                            "Coordinates": {
+                                "x": 39.90234375,
+                                "y": 65.44921875
+                            },
+                            "Position": {
+                                "x": 7506.0,
+                                "y": 5306.0
+                            },
+                            "FirstPosition": {
+                                "x": 7552.0,
+                                "y": 5296.0
+                            },
+                            "Altitude": 900.0,
+                            "Terrain": "Grasslands",
+                            "Area": 341.29315185546877,
+                            "Population": 10238,
+                            "ProvinceParent": "B039C5",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "0F6A5B",
                     "ContinentParent": "9B9B9B",
-                    "Area": 4126.955078125,
-                    "Population": 123808,
+                    "Area": 14768.8818359375,
+                    "Population": 443063,
                     "Tiles": [
                         {
                             "HexCode": "5700F0",
@@ -586,35 +1009,337 @@
                             "ProvinceParent": "0F6A5B",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "EBBA76",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 110.419921875,
+                                "y": 72.94921875
+                            },
+                            "Position": {
+                                "x": 9913.0,
+                                "y": 5562.0
+                            },
+                            "FirstPosition": {
+                                "x": 9920.0,
+                                "y": 5535.0
+                            },
+                            "Altitude": 1500.0,
+                            "Terrain": "Tundra",
+                            "Area": 1210.3388671875,
+                            "Population": 36310,
+                            "ProvinceParent": "0F6A5B",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AE7802",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 128.96484375,
+                                "y": 72.861328125
+                            },
+                            "Position": {
+                                "x": 10546.0,
+                                "y": 5559.0
+                            },
+                            "FirstPosition": {
+                                "x": 10416.0,
+                                "y": 5518.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Tundra",
+                            "Area": 2020.8394775390625,
+                            "Population": 60625,
+                            "ProvinceParent": "0F6A5B",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "A38EA0",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 117.94921875,
+                                "y": 71.1328125
+                            },
+                            "Position": {
+                                "x": 10170.0,
+                                "y": 5500.0
+                            },
+                            "FirstPosition": {
+                                "x": 10044.0,
+                                "y": 5487.0
+                            },
+                            "Altitude": 900.0,
+                            "Terrain": "Highlands",
+                            "Area": 2094.7265625,
+                            "Population": 62841,
+                            "ProvinceParent": "0F6A5B",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "5B4B0B",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 106.904296875,
+                                "y": 68.935546875
+                            },
+                            "Position": {
+                                "x": 9793.0,
+                                "y": 5425.0
+                            },
+                            "FirstPosition": {
+                                "x": 9788.0,
+                                "y": 5374.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1500.4285888671875,
+                            "Population": 45012,
+                            "ProvinceParent": "0F6A5B",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "EB1F8D",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 111.2109375,
+                                "y": 67.08984375
+                            },
+                            "Position": {
+                                "x": 9940.0,
+                                "y": 5362.0
+                            },
+                            "FirstPosition": {
+                                "x": 9988.0,
+                                "y": 5349.0
+                            },
+                            "Altitude": 1350.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1329.781982421875,
+                            "Population": 39893,
+                            "ProvinceParent": "0F6A5B",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "847581",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 120.087890625,
+                                "y": 66.97265625
+                            },
+                            "Position": {
+                                "x": 10243.0,
+                                "y": 5358.0
+                            },
+                            "FirstPosition": {
+                                "x": 10196.0,
+                                "y": 5308.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 2485.811279296875,
+                            "Population": 74574,
+                            "ProvinceParent": "0F6A5B",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
                         }
                     ]
                 },
                 {
                     "HexCode": "6F74AE",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 2301.799072265625,
+                    "Population": 69052,
+                    "Tiles": [
+                        {
+                            "HexCode": "FF3878",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -115.1953125,
+                                "y": 68.115234375
+                            },
+                            "Position": {
+                                "x": 2212.0,
+                                "y": 5397.0
+                            },
+                            "FirstPosition": {
+                                "x": 2136.0,
+                                "y": 5353.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1352.4658203125,
+                            "Population": 40573,
+                            "ProvinceParent": "6F74AE",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "709089",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -110.7421875,
+                                "y": 66.62109375
+                            },
+                            "Position": {
+                                "x": 2364.0,
+                                "y": 5346.0
+                            },
+                            "FirstPosition": {
+                                "x": 2300.0,
+                                "y": 5325.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 949.3333129882813,
+                            "Population": 28479,
+                            "ProvinceParent": "6F74AE",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "74D000",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1333.3587646484375,
+                    "Population": 40000,
+                    "Tiles": [
+                        {
+                            "HexCode": "260CE8",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -92.75390625,
+                                "y": 67.412109375
+                            },
+                            "Position": {
+                                "x": 2978.0,
+                                "y": 5373.0
+                            },
+                            "FirstPosition": {
+                                "x": 2876.0,
+                                "y": 5348.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1333.3587646484375,
+                            "Population": 40000,
+                            "ProvinceParent": "74D000",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "25D5A4",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 2998.12744140625,
+                    "Population": 89942,
+                    "Tiles": [
+                        {
+                            "HexCode": "FF3728",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -82.001953125,
+                                "y": 69.404296875
+                            },
+                            "Position": {
+                                "x": 3345.0,
+                                "y": 5441.0
+                            },
+                            "FirstPosition": {
+                                "x": 3344.0,
+                                "y": 5387.0
+                            },
+                            "Altitude": 2550.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1118.75634765625,
+                            "Population": 33562,
+                            "ProvinceParent": "25D5A4",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "32BA4E",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -86.66015625,
+                                "y": 68.349609375
+                            },
+                            "Position": {
+                                "x": 3186.0,
+                                "y": 5405.0
+                            },
+                            "FirstPosition": {
+                                "x": 3232.0,
+                                "y": 5386.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Grasslands",
+                            "Area": 889.8470458984375,
+                            "Population": 26695,
+                            "ProvinceParent": "25D5A4",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "8266C2",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -82.44140625,
+                                "y": 66.533203125
+                            },
+                            "Position": {
+                                "x": 3330.0,
+                                "y": 5343.0
+                            },
+                            "FirstPosition": {
+                                "x": 3336.0,
+                                "y": 5328.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 423.83978271484377,
+                            "Population": 12715,
+                            "ProvinceParent": "25D5A4",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "877B54",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -87.158203125,
+                                "y": 66.09375
+                            },
+                            "Position": {
+                                "x": 3169.0,
+                                "y": 5328.0
+                            },
+                            "FirstPosition": {
+                                "x": 3216.0,
+                                "y": 5318.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 565.6844482421875,
+                            "Population": 16970,
+                            "ProvinceParent": "25D5A4",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "8C610C",
                     "ContinentParent": "9B9B9B",
-                    "Area": 5266.701171875,
-                    "Population": 158000,
+                    "Area": 15906.0859375,
+                    "Population": 477178,
                     "Tiles": [
                         {
                             "HexCode": "4E28F0",
@@ -707,35 +1432,268 @@
                             "ProvinceParent": "8C610C",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "6F4A7B",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 166.69921875,
+                                "y": 72.7734375
+                            },
+                            "Position": {
+                                "x": 11834.0,
+                                "y": 5556.0
+                            },
+                            "FirstPosition": {
+                                "x": 11752.0,
+                                "y": 5546.0
+                            },
+                            "Altitude": 3150.0,
+                            "Terrain": "Tundra",
+                            "Area": 1666.5572509765625,
+                            "Population": 49996,
+                            "ProvinceParent": "8C610C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "5DCB75",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 140.185546875,
+                                "y": 72.0703125
+                            },
+                            "Position": {
+                                "x": 10929.0,
+                                "y": 5532.0
+                            },
+                            "FirstPosition": {
+                                "x": 10672.0,
+                                "y": 5506.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 3255.462158203125,
+                            "Population": 97663,
+                            "ProvinceParent": "8C610C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "05B105",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 158.96484375,
+                                "y": 70.341796875
+                            },
+                            "Position": {
+                                "x": 11570.0,
+                                "y": 5473.0
+                            },
+                            "FirstPosition": {
+                                "x": 11468.0,
+                                "y": 5464.0
+                            },
+                            "Altitude": 4500.0,
+                            "Terrain": "Grasslands",
+                            "Area": 942.8388061523438,
+                            "Population": 28285,
+                            "ProvinceParent": "8C610C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "84B18B",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 153.57421875,
+                                "y": 71.3671875
+                            },
+                            "Position": {
+                                "x": 11386.0,
+                                "y": 5508.0
+                            },
+                            "FirstPosition": {
+                                "x": 11372.0,
+                                "y": 5456.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1042.7042236328125,
+                            "Population": 31281,
+                            "ProvinceParent": "8C610C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "043050",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 165.64453125,
+                                "y": 68.7890625
+                            },
+                            "Position": {
+                                "x": 11798.0,
+                                "y": 5420.0
+                            },
+                            "FirstPosition": {
+                                "x": 11712.0,
+                                "y": 5401.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1710.79541015625,
+                            "Population": 51323,
+                            "ProvinceParent": "8C610C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AD8161",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 148.388671875,
+                                "y": 67.939453125
+                            },
+                            "Position": {
+                                "x": 11209.0,
+                                "y": 5391.0
+                            },
+                            "FirstPosition": {
+                                "x": 11292.0,
+                                "y": 5341.0
+                            },
+                            "Altitude": 2700.0,
+                            "Terrain": "Grasslands",
+                            "Area": 2021.0277099609375,
+                            "Population": 60630,
+                            "ProvinceParent": "8C610C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
                         }
                     ]
                 },
                 {
                     "HexCode": "86A590",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 493.5855712890625,
+                    "Population": 14807,
+                    "Tiles": [
+                        {
+                            "HexCode": "0521D7",
+                            "Culture": "C13A38",
+                            "Coordinates": {
+                                "x": 51.796875,
+                                "y": 67.1484375
+                            },
+                            "Position": {
+                                "x": 7912.0,
+                                "y": 5364.0
+                            },
+                            "FirstPosition": {
+                                "x": 7892.0,
+                                "y": 5341.0
+                            },
+                            "Altitude": 1500.0,
+                            "Terrain": "Mountain",
+                            "Area": 493.5855712890625,
+                            "Population": 14807,
+                            "ProvinceParent": "86A590",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "329CB2",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 955.7337646484375,
+                    "Population": 28672,
+                    "Tiles": [
+                        {
+                            "HexCode": "5A8D92",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 57.36328125,
+                                "y": 67.880859375
+                            },
+                            "Position": {
+                                "x": 8102.0,
+                                "y": 5389.0
+                            },
+                            "FirstPosition": {
+                                "x": 8140.0,
+                                "y": 5370.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 955.7337646484375,
+                            "Population": 28672,
+                            "ProvinceParent": "329CB2",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "5C5783",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1510.3115234375,
+                    "Population": 45309,
+                    "Tiles": [
+                        {
+                            "HexCode": "163BF7",
+                            "Culture": "1AAD8B",
+                            "Coordinates": {
+                                "x": 36.62109375,
+                                "y": 68.349609375
+                            },
+                            "Position": {
+                                "x": 7394.0,
+                                "y": 5405.0
+                            },
+                            "FirstPosition": {
+                                "x": 7464.0,
+                                "y": 5372.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Shores",
+                            "Area": 674.3034057617188,
+                            "Population": 20229,
+                            "ProvinceParent": "5C5783",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "0E5A46",
+                            "Culture": "1AAD8B",
+                            "Coordinates": {
+                                "x": 41.513671875,
+                                "y": 67.44140625
+                            },
+                            "Position": {
+                                "x": 7561.0,
+                                "y": 5374.0
+                            },
+                            "FirstPosition": {
+                                "x": 7616.0,
+                                "y": 5368.0
+                            },
+                            "Altitude": 1350.0,
+                            "Terrain": "Grasslands",
+                            "Area": 836.0081787109375,
+                            "Population": 25080,
+                            "ProvinceParent": "5C5783",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "FD73BA",
                     "ContinentParent": "9B9B9B",
-                    "Area": 2818.821533203125,
-                    "Population": 84564,
+                    "Area": 6325.1240234375,
+                    "Population": 189752,
                     "Tiles": [
                         {
                             "HexCode": "7128EC",
@@ -759,21 +1717,160 @@
                             "ProvinceParent": "FD73BA",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "415806",
+                            "Culture": "1DC69F",
+                            "Coordinates": {
+                                "x": 43.30078125,
+                                "y": 72.158203125
+                            },
+                            "Position": {
+                                "x": 7622.0,
+                                "y": 5535.0
+                            },
+                            "FirstPosition": {
+                                "x": 7696.0,
+                                "y": 5508.0
+                            },
+                            "Altitude": 3000.0,
+                            "Terrain": "Highlands",
+                            "Area": 1092.21337890625,
+                            "Population": 32766,
+                            "ProvinceParent": "FD73BA",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "A0364A",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 50.80078125,
+                                "y": 69.7265625
+                            },
+                            "Position": {
+                                "x": 7878.0,
+                                "y": 5452.0
+                            },
+                            "FirstPosition": {
+                                "x": 7932.0,
+                                "y": 5436.0
+                            },
+                            "Altitude": 1350.0,
+                            "Terrain": "Highlands",
+                            "Area": 1443.483642578125,
+                            "Population": 43304,
+                            "ProvinceParent": "FD73BA",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "857EBD",
+                            "Culture": "1AAD8B",
+                            "Coordinates": {
+                                "x": 46.11328125,
+                                "y": 68.291015625
+                            },
+                            "Position": {
+                                "x": 7718.0,
+                                "y": 5403.0
+                            },
+                            "FirstPosition": {
+                                "x": 7660.0,
+                                "y": 5380.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Highlands",
+                            "Area": 970.6053466796875,
+                            "Population": 29118,
+                            "ProvinceParent": "FD73BA",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
                         }
                     ]
                 },
                 {
                     "HexCode": "549660",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1642.5556640625,
+                    "Population": 49276,
+                    "Tiles": [
+                        {
+                            "HexCode": "0648AB",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 78.955078125,
+                                "y": 70.3125
+                            },
+                            "Position": {
+                                "x": 8839.0,
+                                "y": 5472.0
+                            },
+                            "FirstPosition": {
+                                "x": 8856.0,
+                                "y": 5463.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Shores",
+                            "Area": 441.4409484863281,
+                            "Population": 13243,
+                            "ProvinceParent": "549660",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "541DE8",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 84.84375,
+                                "y": 69.9609375
+                            },
+                            "Position": {
+                                "x": 9040.0,
+                                "y": 5460.0
+                            },
+                            "FirstPosition": {
+                                "x": 9092.0,
+                                "y": 5441.0
+                            },
+                            "Altitude": 2700.0,
+                            "Terrain": "Tundra",
+                            "Area": 728.2363891601563,
+                            "Population": 21847,
+                            "ProvinceParent": "549660",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "9D8283",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 82.44140625,
+                                "y": 68.61328125
+                            },
+                            "Position": {
+                                "x": 8958.0,
+                                "y": 5414.0
+                            },
+                            "FirstPosition": {
+                                "x": 8912.0,
+                                "y": 5401.0
+                            },
+                            "Altitude": 800.0,
+                            "Terrain": "Grasslands",
+                            "Area": 472.8782958984375,
+                            "Population": 14186,
+                            "ProvinceParent": "549660",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "B69D29",
                     "ContinentParent": "9B9B9B",
-                    "Area": 3461.217041015625,
-                    "Population": 103836,
+                    "Area": 4911.10107421875,
+                    "Population": 147332,
                     "Tiles": [
                         {
                             "HexCode": "2E48CB",
@@ -820,35 +1917,222 @@
                             "ProvinceParent": "B69D29",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "009619",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": 98.73046875,
+                                "y": 69.90234375
+                            },
+                            "Position": {
+                                "x": 9514.0,
+                                "y": 5458.0
+                            },
+                            "FirstPosition": {
+                                "x": 9524.0,
+                                "y": 5427.0
+                            },
+                            "Altitude": 2550.0,
+                            "Terrain": "Mountain",
+                            "Area": 1449.884033203125,
+                            "Population": 43496,
+                            "ProvinceParent": "B69D29",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
                         }
                     ]
                 },
                 {
                     "HexCode": "65C353",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1415.24658203125,
+                    "Population": 42457,
+                    "Tiles": [
+                        {
+                            "HexCode": "7902EC",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 64.98046875,
+                                "y": 71.396484375
+                            },
+                            "Position": {
+                                "x": 8362.0,
+                                "y": 5509.0
+                            },
+                            "FirstPosition": {
+                                "x": 8392.0,
+                                "y": 5491.0
+                            },
+                            "Altitude": 2150.0,
+                            "Terrain": "Tundra",
+                            "Area": 452.6416931152344,
+                            "Population": 13579,
+                            "ProvinceParent": "65C353",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "30C6B2",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 68.84765625,
+                                "y": 70.576171875
+                            },
+                            "Position": {
+                                "x": 8494.0,
+                                "y": 5481.0
+                            },
+                            "FirstPosition": {
+                                "x": 8444.0,
+                                "y": 5462.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Shores",
+                            "Area": 349.670166015625,
+                            "Population": 10490,
+                            "ProvinceParent": "65C353",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "95A0F5",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 63.720703125,
+                                "y": 69.404296875
+                            },
+                            "Position": {
+                                "x": 8319.0,
+                                "y": 5441.0
+                            },
+                            "FirstPosition": {
+                                "x": 8296.0,
+                                "y": 5433.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 612.9346313476563,
+                            "Population": 18388,
+                            "ProvinceParent": "65C353",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "00933C",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 751.390869140625,
+                    "Population": 22541,
+                    "Tiles": [
+                        {
+                            "HexCode": "D83C26",
+                            "Culture": "1AAD8B",
+                            "Coordinates": {
+                                "x": 25.546875,
+                                "y": 71.865234375
+                            },
+                            "Position": {
+                                "x": 7016.0,
+                                "y": 5525.0
+                            },
+                            "FirstPosition": {
+                                "x": 7124.0,
+                                "y": 5502.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Tundra",
+                            "Area": 287.6425476074219,
+                            "Population": 8629,
+                            "ProvinceParent": "00933C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "44E18E",
+                            "Culture": "1AAD8B",
+                            "Coordinates": {
+                                "x": 31.7578125,
+                                "y": 70.224609375
+                            },
+                            "Position": {
+                                "x": 7228.0,
+                                "y": 5469.0
+                            },
+                            "FirstPosition": {
+                                "x": 7288.0,
+                                "y": 5449.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Shores",
+                            "Area": 463.748291015625,
+                            "Population": 13912,
+                            "ProvinceParent": "00933C",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "759E61",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1689.6175537109375,
+                    "Population": 50688,
+                    "Tiles": [
+                        {
+                            "HexCode": "A86CCF",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -90.703125,
+                                "y": 71.279296875
+                            },
+                            "Position": {
+                                "x": 3048.0,
+                                "y": 5505.0
+                            },
+                            "FirstPosition": {
+                                "x": 2904.0,
+                                "y": 5492.0
+                            },
+                            "Altitude": 3000.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 703.6700439453125,
+                            "Population": 21110,
+                            "ProvinceParent": "759E61",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "7EC63B",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -98.02734375,
+                                "y": 71.162109375
+                            },
+                            "Position": {
+                                "x": 2798.0,
+                                "y": 5501.0
+                            },
+                            "FirstPosition": {
+                                "x": 2836.0,
+                                "y": 5453.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 985.947509765625,
+                            "Population": 29578,
+                            "ProvinceParent": "759E61",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "85B4AC",
                     "ContinentParent": "9B9B9B",
-                    "Area": 4138.720703125,
-                    "Population": 124160,
+                    "Area": 5994.9375,
+                    "Population": 179846,
                     "Tiles": [
                         {
                             "HexCode": "7C1EF0",
@@ -918,21 +2202,137 @@
                             "ProvinceParent": "85B4AC",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "5945A6",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 55.95703125,
+                                "y": 71.103515625
+                            },
+                            "Position": {
+                                "x": 8054.0,
+                                "y": 5499.0
+                            },
+                            "FirstPosition": {
+                                "x": 8108.0,
+                                "y": 5459.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Highlands",
+                            "Area": 1060.7760009765625,
+                            "Population": 31823,
+                            "ProvinceParent": "85B4AC",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "B5A094",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 60.791015625,
+                                "y": 71.044921875
+                            },
+                            "Position": {
+                                "x": 8219.0,
+                                "y": 5497.0
+                            },
+                            "FirstPosition": {
+                                "x": 8172.0,
+                                "y": 5456.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Tundra",
+                            "Area": 795.4407958984375,
+                            "Population": 23863,
+                            "ProvinceParent": "85B4AC",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
                         }
                     ]
                 },
                 {
                     "HexCode": "54993D",
                     "ContinentParent": "9B9B9B",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1773.3876953125,
+                    "Population": 53200,
+                    "Tiles": [
+                        {
+                            "HexCode": "59ABC4",
+                            "Culture": "1AAD8B",
+                            "Coordinates": {
+                                "x": 91.93359375,
+                                "y": 72.48046875
+                            },
+                            "Position": {
+                                "x": 9282.0,
+                                "y": 5546.0
+                            },
+                            "FirstPosition": {
+                                "x": 9200.0,
+                                "y": 5525.0
+                            },
+                            "Altitude": 4100.0,
+                            "Terrain": "Mountain",
+                            "Area": 775.863037109375,
+                            "Population": 23275,
+                            "ProvinceParent": "54993D",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "DAE3B5",
+                            "Culture": "1AAD8B",
+                            "Coordinates": {
+                                "x": 86.07421875,
+                                "y": 72.3046875
+                            },
+                            "Position": {
+                                "x": 9082.0,
+                                "y": 5540.0
+                            },
+                            "FirstPosition": {
+                                "x": 9164.0,
+                                "y": 5497.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Tundra",
+                            "Area": 725.2244262695313,
+                            "Population": 21756,
+                            "ProvinceParent": "54993D",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "0590A9",
+                            "Culture": "6A86BA",
+                            "Coordinates": {
+                                "x": 91.7578125,
+                                "y": 70.634765625
+                            },
+                            "Position": {
+                                "x": 9276.0,
+                                "y": 5483.0
+                            },
+                            "FirstPosition": {
+                                "x": 9320.0,
+                                "y": 5460.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Mountain",
+                            "Area": 272.30035400390627,
+                            "Population": 8169,
+                            "ProvinceParent": "54993D",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "ED56AD",
                     "ContinentParent": "9B9B9B",
-                    "Area": 863.5864868164063,
-                    "Population": 25907,
+                    "Area": 2401.38232421875,
+                    "Population": 72040,
                     "Tiles": [
                         {
                             "HexCode": "32CF58",
@@ -956,14 +2356,60 @@
                             "ProvinceParent": "ED56AD",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "323FC6",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -103.125,
+                                "y": 71.19140625
+                            },
+                            "Position": {
+                                "x": 2624.0,
+                                "y": 5502.0
+                            },
+                            "FirstPosition": {
+                                "x": 2568.0,
+                                "y": 5489.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Tundra",
+                            "Area": 443.7940368652344,
+                            "Population": 13313,
+                            "ProvinceParent": "ED56AD",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "FF36A0",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -109.5703125,
+                                "y": 70.634765625
+                            },
+                            "Position": {
+                                "x": 2404.0,
+                                "y": 5483.0
+                            },
+                            "FirstPosition": {
+                                "x": 2356.0,
+                                "y": 5463.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1094.001708984375,
+                            "Population": 32820,
+                            "ProvinceParent": "ED56AD",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
                         }
                     ]
                 },
                 {
                     "HexCode": "085182",
                     "ContinentParent": "9B9B9B",
-                    "Area": 2592.5478515625,
-                    "Population": 77776,
+                    "Area": 3890.51611328125,
+                    "Population": 116715,
                     "Tiles": [
                         {
                             "HexCode": "641EF4",
@@ -1010,14 +2456,37 @@
                             "ProvinceParent": "085182",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "EE1E30",
+                            "Culture": "1AAD8B",
+                            "Coordinates": {
+                                "x": 36.97265625,
+                                "y": 71.162109375
+                            },
+                            "Position": {
+                                "x": 7406.0,
+                                "y": 5501.0
+                            },
+                            "FirstPosition": {
+                                "x": 7532.0,
+                                "y": 5486.0
+                            },
+                            "Altitude": 3550.0,
+                            "Terrain": "Grasslands",
+                            "Area": 1297.9681396484375,
+                            "Population": 38939,
+                            "ProvinceParent": "085182",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
                         }
                     ]
                 },
                 {
                     "HexCode": "5433BF",
                     "ContinentParent": "9B9B9B",
-                    "Area": 1006.4664916992188,
-                    "Population": 30193,
+                    "Area": 4962.1162109375,
+                    "Population": 148862,
                     "Tiles": [
                         {
                             "HexCode": "791EF8",
@@ -1041,14 +2510,83 @@
                             "ProvinceParent": "5433BF",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "7A0EF8",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 71.07421875,
+                                "y": 72.919921875
+                            },
+                            "Position": {
+                                "x": 8570.0,
+                                "y": 5561.0
+                            },
+                            "FirstPosition": {
+                                "x": 8556.0,
+                                "y": 5538.0
+                            },
+                            "Altitude": 900.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1893.3016357421875,
+                            "Population": 56799,
+                            "ProvinceParent": "5433BF",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "6AD196",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 79.39453125,
+                                "y": 72.861328125
+                            },
+                            "Position": {
+                                "x": 8854.0,
+                                "y": 5559.0
+                            },
+                            "FirstPosition": {
+                                "x": 8784.0,
+                                "y": 5532.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1487.439453125,
+                            "Population": 44623,
+                            "ProvinceParent": "5433BF",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "B0C3CF",
+                            "Culture": "1BBB97",
+                            "Coordinates": {
+                                "x": 74.00390625,
+                                "y": 71.220703125
+                            },
+                            "Position": {
+                                "x": 8670.0,
+                                "y": 5503.0
+                            },
+                            "FirstPosition": {
+                                "x": 8640.0,
+                                "y": 5495.0
+                            },
+                            "Altitude": 1000.0,
+                            "Terrain": "Tundra",
+                            "Area": 574.9085693359375,
+                            "Population": 17247,
+                            "ProvinceParent": "5433BF",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
                         }
                     ]
                 },
                 {
                     "HexCode": "177A25",
                     "ContinentParent": "9B9B9B",
-                    "Area": 1947.2344970703125,
-                    "Population": 58416,
+                    "Area": 4446.8818359375,
+                    "Population": 133404,
                     "Tiles": [
                         {
                             "HexCode": "6100F0",
@@ -1095,14 +2633,60 @@
                             "ProvinceParent": "177A25",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "3700E8",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -115.48828125,
+                                "y": 73.76953125
+                            },
+                            "Position": {
+                                "x": 2202.0,
+                                "y": 5590.0
+                            },
+                            "FirstPosition": {
+                                "x": 2228.0,
+                                "y": 5544.0
+                            },
+                            "Altitude": 3000.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1248.3648681640625,
+                            "Population": 37450,
+                            "ProvinceParent": "177A25",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "0890CD",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -120.0,
+                                "y": 72.36328125
+                            },
+                            "Position": {
+                                "x": 2048.0,
+                                "y": 5542.0
+                            },
+                            "FirstPosition": {
+                                "x": 2116.0,
+                                "y": 5518.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1251.28271484375,
+                            "Population": 37538,
+                            "ProvinceParent": "177A25",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
                         }
                     ]
                 },
                 {
                     "HexCode": "9B9E14",
                     "ContinentParent": "9B9B9B",
-                    "Area": 6217.72900390625,
-                    "Population": 186529,
+                    "Area": 7347.68603515625,
+                    "Population": 220427,
                     "Tiles": [
                         {
                             "HexCode": "7802E8",
@@ -1218,14 +2802,37 @@
                             "ProvinceParent": "9B9E14",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2AC935",
+                            "Culture": "000000",
+                            "Coordinates": {
+                                "x": -135.41015625,
+                                "y": 73.154296875
+                            },
+                            "Position": {
+                                "x": 1522.0,
+                                "y": 5569.0
+                            },
+                            "FirstPosition": {
+                                "x": 1424.0,
+                                "y": 5527.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Tundra",
+                            "Area": 1129.95703125,
+                            "Population": 33898,
+                            "ProvinceParent": "9B9E14",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
                         }
                     ]
                 },
                 {
                     "HexCode": "325403",
                     "ContinentParent": "9B9B9B",
-                    "Area": 1112.5440673828125,
-                    "Population": 33376,
+                    "Area": 2382.93408203125,
+                    "Population": 71487,
                     "Tiles": [
                         {
                             "HexCode": "3A9416",
@@ -1246,6 +2853,29 @@
                             "Terrain": "Ice Cap",
                             "Area": 1112.5440673828125,
                             "Population": 33376,
+                            "ProvinceParent": "325403",
+                            "ContinentParent": "9B9B9B",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "857B13",
+                            "Culture": "1DC69F",
+                            "Coordinates": {
+                                "x": 28.154296875,
+                                "y": 72.626953125
+                            },
+                            "Position": {
+                                "x": 7105.0,
+                                "y": 5551.0
+                            },
+                            "FirstPosition": {
+                                "x": 7108.0,
+                                "y": 5534.0
+                            },
+                            "Altitude": 3000.0,
+                            "Terrain": "Ice Cap",
+                            "Area": 1270.389892578125,
+                            "Population": 38111,
                             "ProvinceParent": "325403",
                             "ContinentParent": "9B9B9B",
                             "ClaimValue": 5
