@@ -361,10 +361,10 @@ MonoBehaviour:
   heightMap: {fileID: 2800000, guid: 36fb1a284cbe20d4aab634de765eb292, type: 3}
   populationMap: {fileID: 0}
   continentMap: {fileID: 2800000, guid: 221e1e57c1d310b4686daf4a99df0efc, type: 3}
-  generateMap: 1
+  generateMap: 0
   refreshData: 0
   bodyCircumferanceKilometres: 3769.911
-  biggestTile: {x: 750, y: 400}
+  biggestTile: {x: 750, y: 350}
   searchIncriment: 100
   populationScaler: 1
   continents: []

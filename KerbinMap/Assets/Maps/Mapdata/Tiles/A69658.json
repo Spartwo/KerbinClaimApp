@@ -6,121 +6,3312 @@
                 {
                     "HexCode": "4ACDB2",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 11.012492179870606,
+                    "Population": 330,
+                    "Tiles": [
+                        {
+                            "HexCode": "3C2547",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": -115.0,
+                                "y": -73.12000274658203
+                            },
+                            "Position": {
+                                "x": 2218.739990234375,
+                                "y": 576.3200073242188
+                            },
+                            "FirstPosition": {
+                                "x": 2212.0,
+                                "y": 576.0
+                            },
+                            "Altitude": 2600.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 11.012492179870606,
+                            "Population": 330,
+                            "ProvinceParent": "4ACDB2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "14E767",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1699.2183837890625,
+                    "Population": 50970,
+                    "Tiles": [
+                        {
+                            "HexCode": "63ECA0",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 167.3300018310547,
+                                "y": -71.56999969482422
+                            },
+                            "Position": {
+                                "x": 11855.5595703125,
+                                "y": 628.97998046875
+                            },
+                            "FirstPosition": {
+                                "x": 11844.0,
+                                "y": 612.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 75.48734283447266,
+                            "Population": 2264,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "5642FD",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 165.4600067138672,
+                                "y": -71.4000015258789
+                            },
+                            "Position": {
+                                "x": 11791.6796875,
+                                "y": 634.8800048828125
+                            },
+                            "FirstPosition": {
+                                "x": 11816.0,
+                                "y": 618.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 33.88459396362305,
+                            "Population": 1016,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "58DA13",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 169.7899932861328,
+                                "y": -71.47000122070313
+                            },
+                            "Position": {
+                                "x": 11939.3798828125,
+                                "y": 632.3900146484375
+                            },
+                            "FirstPosition": {
+                                "x": 11900.0,
+                                "y": 625.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 57.88617706298828,
+                            "Population": 1736,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "7034DF",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 170.97999572753907,
+                                "y": -70.37000274658203
+                            },
+                            "Position": {
+                                "x": 11980.25,
+                                "y": 670.0900268554688
+                            },
+                            "FirstPosition": {
+                                "x": 11984.0,
+                                "y": 632.0
+                            },
+                            "Altitude": 900.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 217.6143798828125,
+                            "Population": 6528,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "15C25A",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 166.27000427246095,
+                                "y": -70.33000183105469
+                            },
+                            "Position": {
+                                "x": 11819.490234375,
+                                "y": 671.5
+                            },
+                            "FirstPosition": {
+                                "x": 11820.0,
+                                "y": 635.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 209.1432342529297,
+                            "Population": 6274,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "1E8873",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 168.6199951171875,
+                                "y": -70.33000183105469
+                            },
+                            "Position": {
+                                "x": 11899.48046875,
+                                "y": 671.5
+                            },
+                            "FirstPosition": {
+                                "x": 11896.0,
+                                "y": 633.0
+                            },
+                            "Altitude": 1000.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 209.1432342529297,
+                            "Population": 6274,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "7B9DF5",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 164.24000549316407,
+                                "y": -70.20999908447266
+                            },
+                            "Position": {
+                                "x": 11750.1396484375,
+                                "y": 675.4400024414063
+                            },
+                            "FirstPosition": {
+                                "x": 11740.0,
+                                "y": 645.0
+                            },
+                            "Altitude": 2700.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 141.0916748046875,
+                            "Population": 4232,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "18C0F8",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 173.14999389648438,
+                                "y": -69.93000030517578
+                            },
+                            "Position": {
+                                "x": 12054.23046875,
+                                "y": 685.0999755859375
+                            },
+                            "FirstPosition": {
+                                "x": 12024.0,
+                                "y": 652.0
+                            },
+                            "Altitude": 2300.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 115.96060180664063,
+                            "Population": 3478,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "69A175",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 174.32000732421876,
+                                "y": -69.58999633789063
+                            },
+                            "Position": {
+                                "x": 12094.23046875,
+                                "y": 696.5599975585938
+                            },
+                            "FirstPosition": {
+                                "x": 12108.0,
+                                "y": 684.0
+                            },
+                            "Altitude": 2550.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 20.801374435424806,
+                            "Population": 624,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "D07E59",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 165.22000122070313,
+                                "y": -68.79000091552735
+                            },
+                            "Position": {
+                                "x": 11783.4296875,
+                                "y": 723.8099975585938
+                            },
+                            "FirstPosition": {
+                                "x": 11776.0,
+                                "y": 698.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 152.29241943359376,
+                            "Population": 4568,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "E95711",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 167.4199981689453,
+                                "y": -68.81999969482422
+                            },
+                            "Position": {
+                                "x": 11858.48046875,
+                                "y": 722.8699951171875
+                            },
+                            "FirstPosition": {
+                                "x": 11864.0,
+                                "y": 697.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 149.93931579589845,
+                            "Population": 4498,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "EF2244",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 169.74000549316407,
+                                "y": -68.83999633789063
+                            },
+                            "Position": {
+                                "x": 11937.9404296875,
+                                "y": 722.3499755859375
+                            },
+                            "FirstPosition": {
+                                "x": 11940.0,
+                                "y": 695.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 146.36260986328126,
+                            "Population": 4390,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "826BCE",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 172.00999450683595,
+                                "y": -69.0199966430664
+                            },
+                            "Position": {
+                                "x": 12015.2001953125,
+                                "y": 716.0999755859375
+                            },
+                            "FirstPosition": {
+                                "x": 12012.0,
+                                "y": 701.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 97.70057678222656,
+                            "Population": 2931,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "DFCA0F",
+                            "Culture": "A08B35",
+                            "Coordinates": {
+                                "x": 162.99000549316407,
+                                "y": -69.06999969482422
+                            },
+                            "Position": {
+                                "x": 11707.240234375,
+                                "y": 714.3900146484375
+                            },
+                            "FirstPosition": {
+                                "x": 11700.0,
+                                "y": 700.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Ice Sheet",
+                            "Area": 71.91063690185547,
+                            "Population": 2157,
+                            "ProvinceParent": "14E767",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "854D2B",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 2069.4072265625,
+                    "Population": 62077,
+                    "Tiles": [
+                        {
+                            "HexCode": "FF0278",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -145.82000732421876,
+                                "y": -56.9900016784668
+                            },
+                            "Position": {
+                                "x": 1166.77001953125,
+                                "y": 1126.81005859375
+                            },
+                            "FirstPosition": {
+                                "x": 1152.0,
+                                "y": 1096.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 228.43862915039063,
+                            "Population": 6853,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "084855",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -143.75999450683595,
+                                "y": -56.959999084472659
+                            },
+                            "Position": {
+                                "x": 1237.02001953125,
+                                "y": 1127.75
+                            },
+                            "FirstPosition": {
+                                "x": 1200.0,
+                                "y": 1100.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 235.0272979736328,
+                            "Population": 7050,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "A9B345",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -142.27000427246095,
+                                "y": -55.84000015258789
+                            },
+                            "Position": {
+                                "x": 1287.9000244140625,
+                                "y": 1165.9100341796875
+                            },
+                            "FirstPosition": {
+                                "x": 1296.0,
+                                "y": 1133.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 156.43386840820313,
+                            "Population": 4693,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2D24AD",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -144.6199951171875,
+                                "y": -55.970001220703128
+                            },
+                            "Position": {
+                                "x": 1207.530029296875,
+                                "y": 1161.489990234375
+                            },
+                            "FirstPosition": {
+                                "x": 1204.0,
+                                "y": 1142.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 144.48013305664063,
+                            "Population": 4334,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "306685",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -147.60000610351563,
+                                "y": -56.290000915527347
+                            },
+                            "Position": {
+                                "x": 1106.0400390625,
+                                "y": 1150.489990234375
+                            },
+                            "FirstPosition": {
+                                "x": 1112.0,
+                                "y": 1150.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Shores",
+                            "Area": 5.176812648773193,
+                            "Population": 155,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2D124E",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -143.3699951171875,
+                                "y": -55.34000015258789
+                            },
+                            "Position": {
+                                "x": 1250.4599609375,
+                                "y": 1182.9100341796875
+                            },
+                            "FirstPosition": {
+                                "x": 1244.0,
+                                "y": 1162.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 132.71466064453126,
+                            "Population": 3981,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "81184F",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -145.5399932861328,
+                                "y": -55.25
+                            },
+                            "Position": {
+                                "x": 1176.1700439453125,
+                                "y": 1186.280029296875
+                            },
+                            "FirstPosition": {
+                                "x": 1168.0,
+                                "y": 1164.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 134.31475830078126,
+                            "Population": 4029,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AB1EAC",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -141.47000122070313,
+                                "y": -54.7400016784668
+                            },
+                            "Position": {
+                                "x": 1315.010009765625,
+                                "y": 1203.3800048828125
+                            },
+                            "FirstPosition": {
+                                "x": 1308.0,
+                                "y": 1184.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 123.67876434326172,
+                            "Population": 3710,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AFCC93",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -147.1199951171875,
+                                "y": -54.56999969482422
+                            },
+                            "Position": {
+                                "x": 1122.3199462890625,
+                                "y": 1209.43994140625
+                            },
+                            "FirstPosition": {
+                                "x": 1108.0,
+                                "y": 1184.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 153.7042694091797,
+                            "Population": 4611,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "814509",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -144.39999389648438,
+                                "y": -54.06999969482422
+                            },
+                            "Position": {
+                                "x": 1215.1300048828125,
+                                "y": 1226.5799560546875
+                            },
+                            "FirstPosition": {
+                                "x": 1216.0,
+                                "y": 1193.0
+                            },
+                            "Altitude": 2550.0,
+                            "Terrain": "Grasslands",
+                            "Area": 307.8791809082031,
+                            "Population": 9236,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "8212D1",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -148.3699951171875,
+                                "y": -54.54999923706055
+                            },
+                            "Position": {
+                                "x": 1079.72998046875,
+                                "y": 1209.9300537109375
+                            },
+                            "FirstPosition": {
+                                "x": 1064.0,
+                                "y": 1197.0
+                            },
+                            "Altitude": 2050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 71.25177001953125,
+                            "Population": 2137,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "81068B",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -146.07000732421876,
+                                "y": -53.59000015258789
+                            },
+                            "Position": {
+                                "x": 1158.22998046875,
+                                "y": 1242.8499755859375
+                            },
+                            "FirstPosition": {
+                                "x": 1160.0,
+                                "y": 1205.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 231.26234436035157,
+                            "Population": 6937,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "574288",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -142.72000122070313,
+                                "y": -54.0
+                            },
+                            "Position": {
+                                "x": 1272.3399658203125,
+                                "y": 1228.8399658203125
+                            },
+                            "FirstPosition": {
+                                "x": 1272.0,
+                                "y": 1206.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 145.0448760986328,
+                            "Population": 4351,
+                            "ProvinceParent": "854D2B",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "D28CC2",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 822.26611328125,
+                    "Population": 24666,
+                    "Tiles": [
+                        {
+                            "HexCode": "812D8B",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -141.02000427246095,
+                                "y": -56.02000045776367
+                            },
+                            "Position": {
+                                "x": 1330.5699462890625,
+                                "y": 1159.780029296875
+                            },
+                            "FirstPosition": {
+                                "x": 1316.0,
+                                "y": 1143.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 159.6340789794922,
+                            "Population": 4789,
+                            "ProvinceParent": "D28CC2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "03212D",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -139.30999755859376,
+                                "y": -55.779998779296878
+                            },
+                            "Position": {
+                                "x": 1388.989990234375,
+                                "y": 1168.199951171875
+                            },
+                            "FirstPosition": {
+                                "x": 1364.0,
+                                "y": 1147.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 184.95339965820313,
+                            "Population": 5548,
+                            "ProvinceParent": "D28CC2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "049F05",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -139.8699951171875,
+                                "y": -54.540000915527347
+                            },
+                            "Position": {
+                                "x": 1369.77001953125,
+                                "y": 1210.4300537109375
+                            },
+                            "FirstPosition": {
+                                "x": 1360.0,
+                                "y": 1180.0
+                            },
+                            "Altitude": 1000.0,
+                            "Terrain": "Grasslands",
+                            "Area": 290.5603942871094,
+                            "Population": 8716,
+                            "ProvinceParent": "D28CC2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2E3C35",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -137.69000244140626,
+                                "y": -54.66999816894531
+                            },
+                            "Position": {
+                                "x": 1444.1500244140625,
+                                "y": 1205.9300537109375
+                            },
+                            "FirstPosition": {
+                                "x": 1436.0,
+                                "y": 1178.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 187.11825561523438,
+                            "Population": 5613,
+                            "ProvinceParent": "D28CC2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "17920D",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 2413.3359375,
+                    "Population": 72395,
+                    "Tiles": [
+                        {
+                            "HexCode": "55B981",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -136.25999450683595,
+                                "y": -54.95000076293945
+                            },
+                            "Position": {
+                                "x": 1493.0999755859375,
+                                "y": 1196.510009765625
+                            },
+                            "FirstPosition": {
+                                "x": 1468.0,
+                                "y": 1164.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 222.50881958007813,
+                            "Population": 6675,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2E639E",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -134.75999450683595,
+                                "y": -54.15999984741211
+                            },
+                            "Position": {
+                                "x": 1544.25,
+                                "y": 1223.3299560546875
+                            },
+                            "FirstPosition": {
+                                "x": 1584.0,
+                                "y": 1207.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 165.75213623046876,
+                            "Population": 4972,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "82729A",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -138.74000549316407,
+                                "y": -53.31999969482422
+                            },
+                            "Position": {
+                                "x": 1408.449951171875,
+                                "y": 1252.0699462890625
+                            },
+                            "FirstPosition": {
+                                "x": 1424.0,
+                                "y": 1227.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Highlands",
+                            "Area": 201.42507934570313,
+                            "Population": 6042,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "06B1D2",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -134.08999633789063,
+                                "y": -52.810001373291019
+                            },
+                            "Position": {
+                                "x": 1567.030029296875,
+                                "y": 1269.31005859375
+                            },
+                            "FirstPosition": {
+                                "x": 1584.0,
+                                "y": 1232.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 284.34820556640627,
+                            "Population": 8530,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "8133A9",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -135.77999877929688,
+                                "y": -53.22999954223633
+                            },
+                            "Position": {
+                                "x": 1509.3299560546875,
+                                "y": 1255.030029296875
+                            },
+                            "FirstPosition": {
+                                "x": 1496.0,
+                                "y": 1233.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 216.0142822265625,
+                            "Population": 6480,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "583FB5",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -137.3000030517578,
+                                "y": -53.09000015258789
+                            },
+                            "Position": {
+                                "x": 1457.6199951171875,
+                                "y": 1259.8800048828125
+                            },
+                            "FirstPosition": {
+                                "x": 1460.0,
+                                "y": 1230.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 167.4463653564453,
+                            "Population": 5023,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "0439B4",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -132.16000366210938,
+                                "y": -52.63999938964844
+                            },
+                            "Position": {
+                                "x": 1632.8399658203125,
+                                "y": 1275.25
+                            },
+                            "FirstPosition": {
+                                "x": 1624.0,
+                                "y": 1252.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 219.30860900878907,
+                            "Population": 6579,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "04601E",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -135.91000366210938,
+                                "y": -51.939998626708987
+                            },
+                            "Position": {
+                                "x": 1505.0,
+                                "y": 1299.219970703125
+                            },
+                            "FirstPosition": {
+                                "x": 1488.0,
+                                "y": 1274.0
+                            },
+                            "Altitude": 3700.0,
+                            "Terrain": "Grasslands",
+                            "Area": 176.67050170898438,
+                            "Population": 5300,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "82034F",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -137.44000244140626,
+                                "y": -51.83000183105469
+                            },
+                            "Position": {
+                                "x": 1452.550048828125,
+                                "y": 1302.8599853515625
+                            },
+                            "FirstPosition": {
+                                "x": 1436.0,
+                                "y": 1278.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 169.79945373535157,
+                            "Population": 5093,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2E9C62",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -133.5,
+                                "y": -51.349998474121097
+                            },
+                            "Position": {
+                                "x": 1587.1300048828125,
+                                "y": 1319.25
+                            },
+                            "FirstPosition": {
+                                "x": 1592.0,
+                                "y": 1291.0
+                            },
+                            "Altitude": 1350.0,
+                            "Terrain": "Grasslands",
+                            "Area": 253.0049591064453,
+                            "Population": 7590,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "DDE788",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -132.1199951171875,
+                                "y": -51.2599983215332
+                            },
+                            "Position": {
+                                "x": 1634.4300537109375,
+                                "y": 1322.47998046875
+                            },
+                            "FirstPosition": {
+                                "x": 1636.0,
+                                "y": 1303.0
+                            },
+                            "Altitude": 1600.0,
+                            "Terrain": "Grasslands",
+                            "Area": 91.11190032958985,
+                            "Population": 2733,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AC9C84",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -135.32000732421876,
+                                "y": -50.810001373291019
+                            },
+                            "Position": {
+                                "x": 1524.989990234375,
+                                "y": 1337.6500244140625
+                            },
+                            "FirstPosition": {
+                                "x": 1544.0,
+                                "y": 1312.0
+                            },
+                            "Altitude": 4950.0,
+                            "Terrain": "Grasslands",
+                            "Area": 245.94566345214845,
+                            "Population": 7378,
+                            "ProvinceParent": "17920D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "BF6047",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1636.7198486328125,
+                    "Population": 49097,
+                    "Tiles": [
+                        {
+                            "HexCode": "722933",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -158.66000366210938,
+                                "y": -54.25
+                            },
+                            "Position": {
+                                "x": 728.3200073242188,
+                                "y": 1220.27001953125
+                            },
+                            "FirstPosition": {
+                                "x": 700.0,
+                                "y": 1200.0
+                            },
+                            "Altitude": 1500.0,
+                            "Terrain": "Grasslands",
+                            "Area": 203.96641540527345,
+                            "Population": 6118,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "698D38",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -160.22000122070313,
+                                "y": -54.0
+                            },
+                            "Position": {
+                                "x": 675.1799926757813,
+                                "y": 1228.8199462890625
+                            },
+                            "FirstPosition": {
+                                "x": 672.0,
+                                "y": 1206.0
+                            },
+                            "Altitude": 950.0,
+                            "Terrain": "Grasslands",
+                            "Area": 147.6803436279297,
+                            "Population": 4430,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "66724C",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -156.5399932861328,
+                                "y": -53.97999954223633
+                            },
+                            "Position": {
+                                "x": 800.8099975585938,
+                                "y": 1229.469970703125
+                            },
+                            "FirstPosition": {
+                                "x": 780.0,
+                                "y": 1215.0
+                            },
+                            "Altitude": 1750.0,
+                            "Terrain": "Grasslands",
+                            "Area": 149.1863250732422,
+                            "Population": 4475,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "ED6F9A",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -161.60000610351563,
+                                "y": -53.439998626708987
+                            },
+                            "Position": {
+                                "x": 627.97998046875,
+                                "y": 1247.8699951171875
+                            },
+                            "FirstPosition": {
+                                "x": 600.0,
+                                "y": 1225.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 182.41204833984376,
+                            "Population": 5472,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2DB44C",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -155.57000732421876,
+                                "y": -53.15999984741211
+                            },
+                            "Position": {
+                                "x": 833.8599853515625,
+                                "y": 1257.449951171875
+                            },
+                            "FirstPosition": {
+                                "x": 844.0,
+                                "y": 1237.0
+                            },
+                            "Altitude": 3000.0,
+                            "Terrain": "Grasslands",
+                            "Area": 108.05419921875,
+                            "Population": 3241,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "3323A5",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -157.69000244140626,
+                                "y": -52.779998779296878
+                            },
+                            "Position": {
+                                "x": 761.5,
+                                "y": 1270.31005859375
+                            },
+                            "FirstPosition": {
+                                "x": 768.0,
+                                "y": 1239.0
+                            },
+                            "Altitude": 900.0,
+                            "Terrain": "Grasslands",
+                            "Area": 251.40484619140626,
+                            "Population": 7542,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "66C207",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -159.05999755859376,
+                                "y": -53.130001068115237
+                            },
+                            "Position": {
+                                "x": 714.5900268554688,
+                                "y": 1258.5999755859375
+                            },
+                            "FirstPosition": {
+                                "x": 716.0,
+                                "y": 1243.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 136.38548278808595,
+                            "Population": 4091,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "F037D1",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -154.3699951171875,
+                                "y": -52.349998474121097
+                            },
+                            "Position": {
+                                "x": 874.7000122070313,
+                                "y": 1284.949951171875
+                            },
+                            "FirstPosition": {
+                                "x": 868.0,
+                                "y": 1264.0
+                            },
+                            "Altitude": 3150.0,
+                            "Terrain": "Grasslands",
+                            "Area": 177.14111328125,
+                            "Population": 5314,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "D44C4C",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -156.32000732421876,
+                                "y": -52.25
+                            },
+                            "Position": {
+                                "x": 808.4199829101563,
+                                "y": 1288.469970703125
+                            },
+                            "FirstPosition": {
+                                "x": 804.0,
+                                "y": 1267.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 163.21078491210938,
+                            "Population": 4896,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "CE753E",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -152.72999572753907,
+                                "y": -52.63999938964844
+                            },
+                            "Position": {
+                                "x": 930.72998046875,
+                                "y": 1275.27001953125
+                            },
+                            "FirstPosition": {
+                                "x": 936.0,
+                                "y": 1278.0
+                            },
+                            "Altitude": 2550.0,
+                            "Terrain": "Shores",
+                            "Area": 5.741555690765381,
+                            "Population": 172,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "39630F",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -155.5500030517578,
+                                "y": -51.45000076293945
+                            },
+                            "Position": {
+                                "x": 834.6599731445313,
+                                "y": 1315.8499755859375
+                            },
+                            "FirstPosition": {
+                                "x": 852.0,
+                                "y": 1296.0
+                            },
+                            "Altitude": 3150.0,
+                            "Terrain": "Grasslands",
+                            "Area": 111.53678131103516,
+                            "Population": 3346,
+                            "ProvinceParent": "BF6047",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "531EF7",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 3740.48193359375,
+                    "Population": 112205,
+                    "Tiles": [
+                        {
+                            "HexCode": "046919",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -142.02999877929688,
+                                "y": -53.22999954223633
+                            },
+                            "Position": {
+                                "x": 1296.2099609375,
+                                "y": 1254.949951171875
+                            },
+                            "FirstPosition": {
+                                "x": 1308.0,
+                                "y": 1234.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 173.75265502929688,
+                            "Population": 5212,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "8130CC",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -140.6199951171875,
+                                "y": -52.95000076293945
+                            },
+                            "Position": {
+                                "x": 1344.1199951171875,
+                                "y": 1264.5799560546875
+                            },
+                            "FirstPosition": {
+                                "x": 1332.0,
+                                "y": 1236.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 230.1328582763672,
+                            "Population": 6903,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "5715CE",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -144.0500030517578,
+                                "y": -52.34000015258789
+                            },
+                            "Position": {
+                                "x": 1227.050048828125,
+                                "y": 1285.31005859375
+                            },
+                            "FirstPosition": {
+                                "x": 1208.0,
+                                "y": 1259.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 429.3930969238281,
+                            "Population": 12881,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "042137",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -139.10000610351563,
+                                "y": -52.11000061035156
+                            },
+                            "Position": {
+                                "x": 1396.030029296875,
+                                "y": 1293.3299560546875
+                            },
+                            "FirstPosition": {
+                                "x": 1376.0,
+                                "y": 1273.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 137.32672119140626,
+                            "Population": 4119,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "04CFCD",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -141.47000122070313,
+                                "y": -51.65999984741211
+                            },
+                            "Position": {
+                                "x": 1315.3199462890625,
+                                "y": 1308.75
+                            },
+                            "FirstPosition": {
+                                "x": 1292.0,
+                                "y": 1291.0
+                            },
+                            "Altitude": 2700.0,
+                            "Terrain": "Grasslands",
+                            "Area": 219.87335205078126,
+                            "Population": 6596,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "589683",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -139.80999755859376,
+                                "y": -51.06999969482422
+                            },
+                            "Position": {
+                                "x": 1371.97998046875,
+                                "y": 1328.8399658203125
+                            },
+                            "FirstPosition": {
+                                "x": 1356.0,
+                                "y": 1288.0
+                            },
+                            "Altitude": 3700.0,
+                            "Terrain": "Grasslands",
+                            "Area": 310.7969970703125,
+                            "Population": 9323,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "725338",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -137.5,
+                                "y": -50.599998474121097
+                            },
+                            "Position": {
+                                "x": 1450.72998046875,
+                                "y": 1344.8399658203125
+                            },
+                            "FirstPosition": {
+                                "x": 1444.0,
+                                "y": 1312.0
+                            },
+                            "Altitude": 4200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 240.48648071289063,
+                            "Population": 7214,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AC3634",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -141.97000122070313,
+                                "y": -50.59000015258789
+                            },
+                            "Position": {
+                                "x": 1298.1500244140625,
+                                "y": 1345.0699462890625
+                            },
+                            "FirstPosition": {
+                                "x": 1268.0,
+                                "y": 1314.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 173.0937957763672,
+                            "Population": 5192,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AC06CF",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -138.6699981689453,
+                                "y": -49.88999938964844
+                            },
+                            "Position": {
+                                "x": 1410.8900146484375,
+                                "y": 1368.9300537109375
+                            },
+                            "FirstPosition": {
+                                "x": 1420.0,
+                                "y": 1335.0
+                            },
+                            "Altitude": 3700.0,
+                            "Terrain": "Grasslands",
+                            "Area": 211.77870178222657,
+                            "Population": 6353,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "829904",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -140.69000244140626,
+                                "y": -49.66999816894531
+                            },
+                            "Position": {
+                                "x": 1341.68994140625,
+                                "y": 1376.6800537109375
+                            },
+                            "FirstPosition": {
+                                "x": 1336.0,
+                                "y": 1353.0
+                            },
+                            "Altitude": 4500.0,
+                            "Terrain": "Grasslands",
+                            "Area": 202.27218627929688,
+                            "Population": 6068,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "33C944",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -134.86000061035157,
+                                "y": -49.630001068115237
+                            },
+                            "Position": {
+                                "x": 1540.72998046875,
+                                "y": 1377.93994140625
+                            },
+                            "FirstPosition": {
+                                "x": 1572.0,
+                                "y": 1356.0
+                            },
+                            "Altitude": 3150.0,
+                            "Terrain": "Grasslands",
+                            "Area": 225.7090301513672,
+                            "Population": 6771,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "59B733",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -136.77999877929688,
+                                "y": -49.38999938964844
+                            },
+                            "Position": {
+                                "x": 1475.1099853515625,
+                                "y": 1386.280029296875
+                            },
+                            "FirstPosition": {
+                                "x": 1496.0,
+                                "y": 1358.0
+                            },
+                            "Altitude": 2050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 221.28521728515626,
+                            "Population": 6638,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "82B14F",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -139.6999969482422,
+                                "y": -48.5
+                            },
+                            "Position": {
+                                "x": 1375.5899658203125,
+                                "y": 1416.6400146484375
+                            },
+                            "FirstPosition": {
+                                "x": 1384.0,
+                                "y": 1382.0
+                            },
+                            "Altitude": 5350.0,
+                            "Terrain": "Grasslands",
+                            "Area": 211.5904541015625,
+                            "Population": 6347,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "528FA3",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -134.50999450683595,
+                                "y": -48.650001525878909
+                            },
+                            "Position": {
+                                "x": 1552.5999755859375,
+                                "y": 1411.47998046875
+                            },
+                            "FirstPosition": {
+                                "x": 1564.0,
+                                "y": 1397.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Grasslands",
+                            "Area": 109.5601806640625,
+                            "Population": 3286,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "595D24",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -136.0800018310547,
+                                "y": -48.11000061035156
+                            },
+                            "Position": {
+                                "x": 1499.18994140625,
+                                "y": 1429.949951171875
+                            },
+                            "FirstPosition": {
+                                "x": 1500.0,
+                                "y": 1400.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Grasslands",
+                            "Area": 279.17138671875,
+                            "Population": 8375,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2E24B7",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -138.1999969482422,
+                                "y": -48.25
+                            },
+                            "Position": {
+                                "x": 1426.699951171875,
+                                "y": 1424.9100341796875
+                            },
+                            "FirstPosition": {
+                                "x": 1400.0,
+                                "y": 1400.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Grasslands",
+                            "Area": 286.7012939453125,
+                            "Population": 8601,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "B6813E",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -134.85000610351563,
+                                "y": -47.54999923706055
+                            },
+                            "Position": {
+                                "x": 1540.989990234375,
+                                "y": 1449.050048828125
+                            },
+                            "FirstPosition": {
+                                "x": 1548.0,
+                                "y": 1429.0
+                            },
+                            "Altitude": 2300.0,
+                            "Terrain": "Grasslands",
+                            "Area": 77.55806732177735,
+                            "Population": 2326,
+                            "ProvinceParent": "531EF7",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "E67D42",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1936.22216796875,
+                    "Population": 58083,
+                    "Tiles": [
+                        {
+                            "HexCode": "1E9665",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -159.86000061035157,
+                                "y": -52.099998474121097
+                            },
+                            "Position": {
+                                "x": 687.5399780273438,
+                                "y": 1293.8199462890625
+                            },
+                            "FirstPosition": {
+                                "x": 668.0,
+                                "y": 1264.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 260.53485107421877,
+                            "Population": 7816,
+                            "ProvinceParent": "E67D42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "C7D3A2",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -161.52000427246095,
+                                "y": -51.369998931884769
+                            },
+                            "Position": {
+                                "x": 630.7899780273438,
+                                "y": 1318.5799560546875
+                            },
+                            "FirstPosition": {
+                                "x": 632.0,
+                                "y": 1286.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 231.92120361328126,
+                            "Population": 6957,
+                            "ProvinceParent": "E67D42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "A9C356",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -157.5800018310547,
+                                "y": -51.0
+                            },
+                            "Position": {
+                                "x": 765.3800048828125,
+                                "y": 1331.030029296875
+                            },
+                            "FirstPosition": {
+                                "x": 752.0,
+                                "y": 1296.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 371.41278076171877,
+                            "Population": 11142,
+                            "ProvinceParent": "E67D42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "E299F0",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -159.75,
+                                "y": -50.470001220703128
+                            },
+                            "Position": {
+                                "x": 691.3699951171875,
+                                "y": 1349.3900146484375
+                            },
+                            "FirstPosition": {
+                                "x": 656.0,
+                                "y": 1313.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 389.1080627441406,
+                            "Population": 11673,
+                            "ProvinceParent": "E67D42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "287D8D",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -163.1999969482422,
+                                "y": -49.4900016784668
+                            },
+                            "Position": {
+                                "x": 573.4600219726563,
+                                "y": 1382.800048828125
+                            },
+                            "FirstPosition": {
+                                "x": 600.0,
+                                "y": 1350.0
+                            },
+                            "Altitude": 800.0,
+                            "Terrain": "Grasslands",
+                            "Area": 214.22592163085938,
+                            "Population": 6426,
+                            "ProvinceParent": "E67D42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "76D37F",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -161.5500030517578,
+                                "y": -49.43000030517578
+                            },
+                            "Position": {
+                                "x": 629.6300048828125,
+                                "y": 1384.6500244140625
+                            },
+                            "FirstPosition": {
+                                "x": 636.0,
+                                "y": 1353.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 259.687744140625,
+                            "Population": 7790,
+                            "ProvinceParent": "E67D42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "4CBAF0",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -162.49000549316407,
+                                "y": -48.02000045776367
+                            },
+                            "Position": {
+                                "x": 597.6099853515625,
+                                "y": 1433.030029296875
+                            },
+                            "FirstPosition": {
+                                "x": 556.0,
+                                "y": 1413.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 209.33148193359376,
+                            "Population": 6279,
+                            "ProvinceParent": "E67D42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "AC2D39",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1655.4505615234375,
+                    "Population": 49659,
+                    "Tiles": [
+                        {
+                            "HexCode": "AC6698",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -130.8800048828125,
+                                "y": -51.81999969482422
+                            },
+                            "Position": {
+                                "x": 1676.510009765625,
+                                "y": 1303.1800537109375
+                            },
+                            "FirstPosition": {
+                                "x": 1676.0,
+                                "y": 1273.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 226.46202087402345,
+                            "Population": 6793,
+                            "ProvinceParent": "AC2D39",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "027237",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -129.39999389648438,
+                                "y": -51.7400016784668
+                            },
+                            "Position": {
+                                "x": 1726.97998046875,
+                                "y": 1305.7900390625
+                            },
+                            "FirstPosition": {
+                                "x": 1716.0,
+                                "y": 1293.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 132.14991760253907,
+                            "Population": 3964,
+                            "ProvinceParent": "AC2D39",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "56991A",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -127.83000183105469,
+                                "y": -51.13999938964844
+                            },
+                            "Position": {
+                                "x": 1780.9000244140625,
+                                "y": 1326.4599609375
+                            },
+                            "FirstPosition": {
+                                "x": 1760.0,
+                                "y": 1305.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 264.3939514160156,
+                            "Population": 7931,
+                            "ProvinceParent": "AC2D39",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "82C345",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -129.7899932861328,
+                                "y": -50.72999954223633
+                            },
+                            "Position": {
+                                "x": 1713.68994140625,
+                                "y": 1340.4100341796875
+                            },
+                            "FirstPosition": {
+                                "x": 1704.0,
+                                "y": 1317.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Grasslands",
+                            "Area": 157.75160217285157,
+                            "Population": 4732,
+                            "ProvinceParent": "AC2D39",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "046FA0",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -128.50999450683595,
+                                "y": -49.83000183105469
+                            },
+                            "Position": {
+                                "x": 1757.5799560546875,
+                                "y": 1371.1400146484375
+                            },
+                            "FirstPosition": {
+                                "x": 1764.0,
+                                "y": 1347.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 257.8052673339844,
+                            "Population": 7734,
+                            "ProvinceParent": "AC2D39",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2C75B7",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -126.63999938964844,
+                                "y": -49.970001220703128
+                            },
+                            "Position": {
+                                "x": 1821.47998046875,
+                                "y": 1366.219970703125
+                            },
+                            "FirstPosition": {
+                                "x": 1816.0,
+                                "y": 1343.0
+                            },
+                            "Altitude": 2150.0,
+                            "Terrain": "Grasslands",
+                            "Area": 114.64286804199219,
+                            "Population": 3439,
+                            "ProvinceParent": "AC2D39",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "836909",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -127.19999694824219,
+                                "y": -49.119998931884769
+                            },
+                            "Position": {
+                                "x": 1802.219970703125,
+                                "y": 1395.4200439453125
+                            },
+                            "FirstPosition": {
+                                "x": 1804.0,
+                                "y": 1367.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Grasslands",
+                            "Area": 173.84678649902345,
+                            "Population": 5215,
+                            "ProvinceParent": "AC2D39",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2ED24E",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -128.58999633789063,
+                                "y": -48.41999816894531
+                            },
+                            "Position": {
+                                "x": 1754.7099609375,
+                                "y": 1419.280029296875
+                            },
+                            "FirstPosition": {
+                                "x": 1764.0,
+                                "y": 1397.0
+                            },
+                            "Altitude": 1350.0,
+                            "Terrain": "Grasslands",
+                            "Area": 157.0927276611328,
+                            "Population": 4712,
+                            "ProvinceParent": "AC2D39",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AC2D39",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -127.22000122070313,
+                                "y": -48.02000045776367
+                            },
+                            "Position": {
+                                "x": 1801.6700439453125,
+                                "y": 1432.760009765625
+                            },
+                            "FirstPosition": {
+                                "x": 1792.0,
+                                "y": 1416.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 171.30543518066407,
+                            "Population": 5139,
+                            "ProvinceParent": "AC2D39",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "FCBB48",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 155.39849853515626,
+                    "Population": 4661,
+                    "Tiles": [
+                        {
+                            "HexCode": "44439A",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": 170.9600067138672,
+                                "y": -51.18000030517578
+                            },
+                            "Position": {
+                                "x": 11979.4697265625,
+                                "y": 1325.0400390625
+                            },
+                            "FirstPosition": {
+                                "x": 11988.0,
+                                "y": 1299.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 155.39849853515626,
+                            "Population": 4661,
+                            "ProvinceParent": "FCBB48",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "56C9E2",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1703.265625,
+                    "Population": 51094,
+                    "Tiles": [
+                        {
+                            "HexCode": "865C2C",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -124.30999755859375,
+                                "y": -51.56999969482422
+                            },
+                            "Position": {
+                                "x": 1901.030029296875,
+                                "y": 1311.6099853515625
+                            },
+                            "FirstPosition": {
+                                "x": 1900.0,
+                                "y": 1300.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 97.60645294189453,
+                            "Population": 2928,
+                            "ProvinceParent": "56C9E2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AA1BC5",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -124.13999938964844,
+                                "y": -50.40999984741211
+                            },
+                            "Position": {
+                                "x": 1906.6400146484375,
+                                "y": 1351.18994140625
+                            },
+                            "FirstPosition": {
+                                "x": 1928.0,
+                                "y": 1319.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 230.97996520996095,
+                            "Population": 6929,
+                            "ProvinceParent": "56C9E2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "809C9A",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -125.61000061035156,
+                                "y": -50.470001220703128
+                            },
+                            "Position": {
+                                "x": 1856.3599853515625,
+                                "y": 1349.4300537109375
+                            },
+                            "FirstPosition": {
+                                "x": 1864.0,
+                                "y": 1322.0
+                            },
+                            "Altitude": 900.0,
+                            "Terrain": "Grasslands",
+                            "Area": 197.75424194335938,
+                            "Population": 5932,
+                            "ProvinceParent": "56C9E2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "56C9E2",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -121.5,
+                                "y": -49.61000061035156
+                            },
+                            "Position": {
+                                "x": 1996.8699951171875,
+                                "y": 1378.6400146484375
+                            },
+                            "FirstPosition": {
+                                "x": 1984.0,
+                                "y": 1357.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 134.87950134277345,
+                            "Population": 4046,
+                            "ProvinceParent": "56C9E2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "FF3B78",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -123.0,
+                                "y": -49.70000076293945
+                            },
+                            "Position": {
+                                "x": 1945.550048828125,
+                                "y": 1375.6300048828125
+                            },
+                            "FirstPosition": {
+                                "x": 1932.0,
+                                "y": 1361.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 121.32566833496094,
+                            "Population": 3639,
+                            "ProvinceParent": "56C9E2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "023F28",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -124.80999755859375,
+                                "y": -48.630001068115237
+                            },
+                            "Position": {
+                                "x": 1883.9100341796875,
+                                "y": 1412.0899658203125
+                            },
+                            "FirstPosition": {
+                                "x": 1872.0,
+                                "y": 1381.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 453.77117919921877,
+                            "Population": 13613,
+                            "ProvinceParent": "56C9E2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AA9F1B",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -120.66999816894531,
+                                "y": -48.52000045776367
+                            },
+                            "Position": {
+                                "x": 2025.0899658203125,
+                                "y": 1415.77001953125
+                            },
+                            "FirstPosition": {
+                                "x": 2032.0,
+                                "y": 1386.0
+                            },
+                            "Altitude": 1750.0,
+                            "Terrain": "Grasslands",
+                            "Area": 229.6622314453125,
+                            "Population": 6889,
+                            "ProvinceParent": "56C9E2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "FF7F7F",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -122.62999725341797,
+                                "y": -48.599998474121097
+                            },
+                            "Position": {
+                                "x": 1958.0999755859375,
+                                "y": 1413.18994140625
+                            },
+                            "FirstPosition": {
+                                "x": 1928.0,
+                                "y": 1394.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 237.28627014160157,
+                            "Population": 7118,
+                            "ProvinceParent": "56C9E2",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "3DD166",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 1526.971435546875,
+                    "Population": 45804,
+                    "Tiles": [
+                        {
+                            "HexCode": "B1BD84",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -131.11000061035157,
+                                "y": -50.15999984741211
+                            },
+                            "Position": {
+                                "x": 1668.9100341796875,
+                                "y": 1359.97998046875
+                            },
+                            "FirstPosition": {
+                                "x": 1656.0,
+                                "y": 1338.0
+                            },
+                            "Altitude": 1500.0,
+                            "Terrain": "Grasslands",
+                            "Area": 230.1328582763672,
+                            "Population": 6903,
+                            "ProvinceParent": "3DD166",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "586F1A",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -133.1300048828125,
+                                "y": -50.119998931884769
+                            },
+                            "Position": {
+                                "x": 1599.8499755859375,
+                                "y": 1361.219970703125
+                            },
+                            "FirstPosition": {
+                                "x": 1616.0,
+                                "y": 1343.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 132.14991760253907,
+                            "Population": 3964,
+                            "ProvinceParent": "3DD166",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "572D4C",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -132.0500030517578,
+                                "y": -49.349998474121097
+                            },
+                            "Position": {
+                                "x": 1636.6800537109375,
+                                "y": 1387.68994140625
+                            },
+                            "FirstPosition": {
+                                "x": 1628.0,
+                                "y": 1369.0
+                            },
+                            "Altitude": 2550.0,
+                            "Terrain": "Grasslands",
+                            "Area": 174.22328186035157,
+                            "Population": 5226,
+                            "ProvinceParent": "3DD166",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2CC662",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -130.16000366210938,
+                                "y": -48.83000183105469
+                            },
+                            "Position": {
+                                "x": 1701.3399658203125,
+                                "y": 1405.4000244140625
+                            },
+                            "FirstPosition": {
+                                "x": 1696.0,
+                                "y": 1383.0
+                            },
+                            "Altitude": 2700.0,
+                            "Terrain": "Grasslands",
+                            "Area": 247.26339721679688,
+                            "Population": 7417,
+                            "ProvinceParent": "3DD166",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "077291",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -133.2100067138672,
+                                "y": -49.060001373291019
+                            },
+                            "Position": {
+                                "x": 1596.93994140625,
+                                "y": 1397.4000244140625
+                            },
+                            "FirstPosition": {
+                                "x": 1596.0,
+                                "y": 1383.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Grasslands",
+                            "Area": 99.11243438720703,
+                            "Population": 2973,
+                            "ProvinceParent": "3DD166",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "32D678",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -132.41000366210938,
+                                "y": -48.15999984741211
+                            },
+                            "Position": {
+                                "x": 1624.3399658203125,
+                                "y": 1428.1300048828125
+                            },
+                            "FirstPosition": {
+                                "x": 1620.0,
+                                "y": 1410.0
+                            },
+                            "Altitude": 4100.0,
+                            "Terrain": "Grasslands",
+                            "Area": 143.0682830810547,
+                            "Population": 4292,
+                            "ProvinceParent": "3DD166",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AB300C",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -133.7100067138672,
+                                "y": -47.81999969482422
+                            },
+                            "Position": {
+                                "x": 1580.1300048828125,
+                                "y": 1439.5999755859375
+                            },
+                            "FirstPosition": {
+                                "x": 1580.0,
+                                "y": 1415.0
+                            },
+                            "Altitude": 3000.0,
+                            "Terrain": "Grasslands",
+                            "Area": 187.21237182617188,
+                            "Population": 5616,
+                            "ProvinceParent": "3DD166",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "5615C4",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -130.9199981689453,
+                                "y": -47.849998474121097
+                            },
+                            "Position": {
+                                "x": 1675.4300537109375,
+                                "y": 1438.8599853515625
+                            },
+                            "FirstPosition": {
+                                "x": 1664.0,
+                                "y": 1422.0
+                            },
+                            "Altitude": 2700.0,
+                            "Terrain": "Grasslands",
+                            "Area": 192.48330688476563,
+                            "Population": 5774,
+                            "ProvinceParent": "3DD166",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2E272B",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -129.3000030517578,
+                                "y": -47.279998779296878
+                            },
+                            "Position": {
+                                "x": 1730.4100341796875,
+                                "y": 1458.0799560546875
+                            },
+                            "FirstPosition": {
+                                "x": 1708.0,
+                                "y": 1434.0
+                            },
+                            "Altitude": 1450.0,
+                            "Terrain": "Shores",
+                            "Area": 121.32566833496094,
+                            "Population": 3639,
+                            "ProvinceParent": "3DD166",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "1BD67D",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 2418.88916015625,
+                    "Population": 72563,
+                    "Tiles": [
+                        {
+                            "HexCode": "584E38",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -125.9800033569336,
+                                "y": -47.119998931884769
+                            },
+                            "Position": {
+                                "x": 1843.719970703125,
+                                "y": 1463.530029296875
+                            },
+                            "FirstPosition": {
+                                "x": 1836.0,
+                                "y": 1428.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 223.544189453125,
+                            "Population": 6706,
+                            "ProvinceParent": "1BD67D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "80CC63",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -121.70999908447266,
+                                "y": -47.27000045776367
+                            },
+                            "Position": {
+                                "x": 1989.68994140625,
+                                "y": 1458.4200439453125
+                            },
+                            "FirstPosition": {
+                                "x": 1996.0,
+                                "y": 1433.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 188.90660095214845,
+                            "Population": 5667,
+                            "ProvinceParent": "1BD67D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2C54D5",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -123.41999816894531,
+                                "y": -46.9900016784668
+                            },
+                            "Position": {
+                                "x": 1931.1500244140625,
+                                "y": 1468.0
+                            },
+                            "FirstPosition": {
+                                "x": 1928.0,
+                                "y": 1444.0
+                            },
+                            "Altitude": 1600.0,
+                            "Terrain": "Grasslands",
+                            "Area": 246.039794921875,
+                            "Population": 7381,
+                            "ProvinceParent": "1BD67D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AA0CAC",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -124.8499984741211,
+                                "y": -47.0
+                            },
+                            "Position": {
+                                "x": 1882.6199951171875,
+                                "y": 1467.699951171875
+                            },
+                            "FirstPosition": {
+                                "x": 1876.0,
+                                "y": 1448.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 119.06669616699219,
+                            "Population": 3572,
+                            "ProvinceParent": "1BD67D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "82811D",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -127.69999694824219,
+                                "y": -46.060001373291019
+                            },
+                            "Position": {
+                                "x": 1785.25,
+                                "y": 1499.81005859375
+                            },
+                            "FirstPosition": {
+                                "x": 1780.0,
+                                "y": 1465.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 279.3596496582031,
+                            "Population": 8380,
+                            "ProvinceParent": "1BD67D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "31570D",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -122.4000015258789,
+                                "y": -45.66999816894531
+                            },
+                            "Position": {
+                                "x": 1965.9200439453125,
+                                "y": 1513.280029296875
+                            },
+                            "FirstPosition": {
+                                "x": 1956.0,
+                                "y": 1488.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 239.1687469482422,
+                            "Population": 7175,
+                            "ProvinceParent": "1BD67D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "80092C",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -125.87000274658203,
+                                "y": -45.63999938964844
+                            },
+                            "Position": {
+                                "x": 1847.530029296875,
+                                "y": 1514.010009765625
+                            },
+                            "FirstPosition": {
+                                "x": 1856.0,
+                                "y": 1488.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 270.135498046875,
+                            "Population": 8104,
+                            "ProvinceParent": "1BD67D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AC1552",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -124.12999725341797,
+                                "y": -45.459999084472659
+                            },
+                            "Position": {
+                                "x": 1907.18994140625,
+                                "y": 1520.2099609375
+                            },
+                            "FirstPosition": {
+                                "x": 1904.0,
+                                "y": 1492.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 303.4553527832031,
+                            "Population": 9103,
+                            "ProvinceParent": "1BD67D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AC6C20",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -127.91000366210938,
+                                "y": -44.959999084472659
+                            },
+                            "Position": {
+                                "x": 1778.1400146484375,
+                                "y": 1537.4000244140625
+                            },
+                            "FirstPosition": {
+                                "x": 1748.0,
+                                "y": 1504.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 126.12598419189453,
+                            "Population": 3783,
+                            "ProvinceParent": "1BD67D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "567838",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -125.55999755859375,
+                                "y": -44.060001373291019
+                            },
+                            "Position": {
+                                "x": 1858.1199951171875,
+                                "y": 1567.9300537109375
+                            },
+                            "FirstPosition": {
+                                "x": 1868.0,
+                                "y": 1539.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 423.0867919921875,
+                            "Population": 12692,
+                            "ProvinceParent": "1BD67D",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "E39DAB",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 113.04277038574219,
+                    "Population": 3389,
+                    "Tiles": [
+                        {
+                            "HexCode": "5BE0C2",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -141.39999389648438,
+                                "y": -47.279998779296878
+                            },
+                            "Position": {
+                                "x": 1317.489990234375,
+                                "y": 1458.1600341796875
+                            },
+                            "FirstPosition": {
+                                "x": 1300.0,
+                                "y": 1450.0
+                            },
+                            "Altitude": 5050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 69.46341705322266,
+                            "Population": 2083,
+                            "ProvinceParent": "E39DAB",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "653B61",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -137.00999450683595,
+                                "y": -44.52000045776367
+                            },
+                            "Position": {
+                                "x": 1467.3699951171875,
+                                "y": 1552.219970703125
+                            },
+                            "FirstPosition": {
+                                "x": 1460.0,
+                                "y": 1555.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Shores",
+                            "Area": 7.059289932250977,
+                            "Population": 211,
+                            "ProvinceParent": "E39DAB",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "82699F",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -129.55999755859376,
+                                "y": -43.790000915527347
+                            },
+                            "Position": {
+                                "x": 1721.56005859375,
+                                "y": 1577.3499755859375
+                            },
+                            "FirstPosition": {
+                                "x": 1728.0,
+                                "y": 1569.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 36.52006149291992,
+                            "Population": 1095,
+                            "ProvinceParent": "E39DAB",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "57EE42",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 3296.029296875,
+                    "Population": 98875,
+                    "Tiles": [
+                        {
+                            "HexCode": "839690",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -117.19000244140625,
+                                "y": -46.72999954223633
+                            },
+                            "Position": {
+                                "x": 2144.010009765625,
+                                "y": 1476.8199462890625
+                            },
+                            "FirstPosition": {
+                                "x": 2132.0,
+                                "y": 1461.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Shores",
+                            "Area": 67.48681640625,
+                            "Population": 2024,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "050F41",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -118.55999755859375,
+                                "y": -46.25
+                            },
+                            "Position": {
+                                "x": 2097.2099609375,
+                                "y": 1493.27001953125
+                            },
+                            "FirstPosition": {
+                                "x": 2064.0,
+                                "y": 1472.0
+                            },
+                            "Altitude": 3950.0,
+                            "Terrain": "Grasslands",
+                            "Area": 276.3476867675781,
+                            "Population": 8290,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "596001",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -116.2300033569336,
+                                "y": -45.619998931884769
+                            },
+                            "Position": {
+                                "x": 2176.659912109375,
+                                "y": 1514.6800537109375
+                            },
+                            "FirstPosition": {
+                                "x": 2168.0,
+                                "y": 1489.0
+                            },
+                            "Altitude": 3150.0,
+                            "Terrain": "Grasslands",
+                            "Area": 333.6690979003906,
+                            "Population": 10010,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "5C45BA",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -118.58999633789063,
+                                "y": -44.959999084472659
+                            },
+                            "Position": {
+                                "x": 2096.239990234375,
+                                "y": 1537.27001953125
+                            },
+                            "FirstPosition": {
+                                "x": 2116.0,
+                                "y": 1518.0
+                            },
+                            "Altitude": 3150.0,
+                            "Terrain": "Grasslands",
+                            "Area": 155.2102508544922,
+                            "Population": 4656,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "5927A1",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -117.30999755859375,
+                                "y": -44.619998931884769
+                            },
+                            "Position": {
+                                "x": 2139.7900390625,
+                                "y": 1548.8900146484375
+                            },
+                            "FirstPosition": {
+                                "x": 2136.0,
+                                "y": 1528.0
+                            },
+                            "Altitude": 2550.0,
+                            "Terrain": "Grasslands",
+                            "Area": 154.73963928222657,
+                            "Population": 4642,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "822AB8",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -116.02999877929688,
+                                "y": -44.209999084472659
+                            },
+                            "Position": {
+                                "x": 2183.510009765625,
+                                "y": 1562.969970703125
+                            },
+                            "FirstPosition": {
+                                "x": 2192.0,
+                                "y": 1541.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Grasslands",
+                            "Area": 197.28363037109376,
+                            "Population": 5918,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2C2DB4",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -121.66000366210938,
+                                "y": -43.560001373291019
+                            },
+                            "Position": {
+                                "x": 1991.3800048828125,
+                                "y": 1585.0799560546875
+                            },
+                            "FirstPosition": {
+                                "x": 2000.0,
+                                "y": 1550.0
+                            },
+                            "Altitude": 900.0,
+                            "Terrain": "Grasslands",
+                            "Area": 216.39077758789063,
+                            "Population": 6491,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "059C91",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -120.12999725341797,
+                                "y": -43.91999816894531
+                            },
+                            "Position": {
+                                "x": 2043.719970703125,
+                                "y": 1572.9300537109375
+                            },
+                            "FirstPosition": {
+                                "x": 2036.0,
+                                "y": 1553.0
+                            },
+                            "Altitude": 1050.0,
+                            "Terrain": "Grasslands",
+                            "Area": 233.2389373779297,
+                            "Population": 6997,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2E398A",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -118.66000366210938,
+                                "y": -43.349998474121097
+                            },
+                            "Position": {
+                                "x": 2093.719970703125,
+                                "y": 1592.1800537109375
+                            },
+                            "FirstPosition": {
+                                "x": 2108.0,
+                                "y": 1559.0
+                            },
+                            "Altitude": 3650.0,
+                            "Terrain": "Grasslands",
+                            "Area": 382.7076416015625,
+                            "Population": 11481,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AD66CF",
+                            "Culture": "C80F2E",
+                            "Coordinates": {
+                                "x": -116.62999725341797,
+                                "y": -42.75
+                            },
+                            "Position": {
+                                "x": 2163.090087890625,
+                                "y": 1612.8699951171875
+                            },
+                            "FirstPosition": {
+                                "x": 2144.0,
+                                "y": 1587.0
+                            },
+                            "Altitude": 5350.0,
+                            "Terrain": "Grasslands",
+                            "Area": 272.7709655761719,
+                            "Population": 8183,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2F9F12",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -120.95999908447266,
+                                "y": -42.63999938964844
+                            },
+                            "Position": {
+                                "x": 2015.199951171875,
+                                "y": 1616.4100341796875
+                            },
+                            "FirstPosition": {
+                                "x": 2012.0,
+                                "y": 1601.0
+                            },
+                            "Altitude": 1600.0,
+                            "Terrain": "Grasslands",
+                            "Area": 180.7178192138672,
+                            "Population": 5421,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "5981B0",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -117.94999694824219,
+                                "y": -41.97999954223633
+                            },
+                            "Position": {
+                                "x": 2118.10009765625,
+                                "y": 1639.1800537109375
+                            },
+                            "FirstPosition": {
+                                "x": 2104.0,
+                                "y": 1617.0
+                            },
+                            "Altitude": 2550.0,
+                            "Terrain": "Grasslands",
+                            "Area": 239.4511260986328,
+                            "Population": 7183,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "2F12C1",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -119.4000015258789,
+                                "y": -40.95000076293945
+                            },
+                            "Position": {
+                                "x": 2068.389892578125,
+                                "y": 1674.1500244140625
+                            },
+                            "FirstPosition": {
+                                "x": 2076.0,
+                                "y": 1648.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 433.2521667480469,
+                            "Population": 12997,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "AD9911",
+                            "Culture": "E01137",
+                            "Coordinates": {
+                                "x": -117.22000122070313,
+                                "y": -40.72999954223633
+                            },
+                            "Position": {
+                                "x": 2142.739990234375,
+                                "y": 1681.8499755859375
+                            },
+                            "FirstPosition": {
+                                "x": 2132.0,
+                                "y": 1661.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 152.76303100585938,
+                            "Population": 4582,
+                            "ProvinceParent": "57EE42",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "5E5AB8",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 321.71539306640627,
+                    "Population": 9650,
+                    "Tiles": [
+                        {
+                            "HexCode": "32E178",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -171.22999572753907,
+                                "y": -45.380001068115237
+                            },
+                            "Position": {
+                                "x": 299.42999267578127,
+                                "y": 1523.1800537109375
+                            },
+                            "FirstPosition": {
+                                "x": 300.0,
+                                "y": 1500.0
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Shores",
+                            "Area": 108.90131378173828,
+                            "Population": 3267,
+                            "ProvinceParent": "5E5AB8",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "31A00A",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -171.80999755859376,
+                                "y": -44.18000030517578
+                            },
+                            "Position": {
+                                "x": 279.5400085449219,
+                                "y": 1563.8900146484375
+                            },
+                            "FirstPosition": {
+                                "x": 280.0,
+                                "y": 1540.0
+                            },
+                            "Altitude": 2450.0,
+                            "Terrain": "Grasslands",
+                            "Area": 174.41152954101563,
+                            "Population": 5232,
+                            "ProvinceParent": "5E5AB8",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "6900E8",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -176.6999969482422,
+                                "y": -44.38999938964844
+                            },
+                            "Position": {
+                                "x": 112.51000213623047,
+                                "y": 1556.719970703125
+                            },
+                            "FirstPosition": {
+                                "x": 108.0,
+                                "y": 1559.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Shores",
+                            "Area": 17.50704002380371,
+                            "Population": 525,
+                            "ProvinceParent": "5E5AB8",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "32D671",
+                            "Culture": "AD0D2B",
+                            "Coordinates": {
+                                "x": -175.67999267578126,
+                                "y": -44.06999969482422
+                            },
+                            "Position": {
+                                "x": 147.38999938964845,
+                                "y": 1567.7900390625
+                            },
+                            "FirstPosition": {
+                                "x": 144.0,
+                                "y": 1562.0
+                            },
+                            "Altitude": 2850.0,
+                            "Terrain": "Grasslands",
+                            "Area": 20.895498275756837,
+                            "Population": 626,
+                            "ProvinceParent": "5E5AB8",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 },
                 {
                     "HexCode": "3D98CD",
                     "ContinentParent": "A69658",
-                    "Area": 0.0,
-                    "Population": 0,
-                    "Tiles": []
+                    "Area": 118.69019317626953,
+                    "Population": 3560,
+                    "Tiles": [
+                        {
+                            "HexCode": "879479",
+                            "Culture": "005999",
+                            "Coordinates": {
+                                "x": -124.11000061035156,
+                                "y": -21.559999465942384
+                            },
+                            "Position": {
+                                "x": 1907.81005859375,
+                                "y": 2335.93994140625
+                            },
+                            "FirstPosition": {
+                                "x": 1904.0,
+                                "y": 2317.0
+                            },
+                            "Altitude": 900.0,
+                            "Terrain": "Grasslands",
+                            "Area": 118.69019317626953,
+                            "Population": 3560,
+                            "ProvinceParent": "3D98CD",
+                            "ContinentParent": "A69658",
+                            "ClaimValue": 5
+                        }
+                    ]
                 }
             ]
         }

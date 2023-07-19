@@ -53,7 +53,9 @@ public class MapGen : MonoBehaviour
     [SerializeField] private int populationScaler = 1;
     #endregion
 
-    private List<Color> tileColoursRemaining = new List<Color>();
+    private Dictionary<Color, int> tileColoursCount= new Dictionary<Color, int>();
+    // Declare the Texture2D for tile painting
+    private Texture2D meanPositionTexture;
 
     // The actual data
     public List<ContinentData> continents = new List<ContinentData>();
@@ -72,6 +74,15 @@ public class MapGen : MonoBehaviour
         // Store central position
         centerX = width / 2f;
         centerY = height / 2f;
+
+        // Initialize the meanPositionTexture with the same dimensions as the map image
+        meanPositionTexture = new Texture2D(width, height, TextureFormat.ARGB32, false);
+        Color[] colors = new Color[width * height];
+        // Fill the texture with transparent pixels
+        for (int i = 0; i < colors.Length; i++)
+        {
+            colors[i] = Color.clear;
+        }
 
         // Import Localisation in both cases
         continentNames = ImportNamesJson(Application.dataPath + "/Maps/Localisation/Continents.json");
@@ -120,9 +131,9 @@ public class MapGen : MonoBehaviour
         for (int i = 0; i < continentCount; i++)
         {
             DefineContinent(continentColours[i]);
+            // Give a little buffer
+            yield return new WaitForSeconds(0.01f);
         }
-        // Give a little buffer
-        yield return new WaitForSeconds(0.01f);
 
 
         // Generate Provinces
@@ -144,8 +155,22 @@ public class MapGen : MonoBehaviour
 
 
         // Generate Tiles
-        // Equal Area for size getting
-        tileColoursRemaining = RemoveMapAlpha(SerialiseMap(tileAreaMap.GetPixels()));
+
+        // Get area using the true area map and store colour based counts in a dictionary
+        List<Color> tileColoursSerialised = RemoveMapAlpha(SerialiseMap(tileAreaMap.GetPixels()));
+        // Count occurrences of each color in myList
+        foreach (Color color in tileColoursSerialised)
+        {
+            if (tileColoursCount.ContainsKey(color))
+            {
+                tileColoursCount[color]++;
+            }
+            else
+            {
+                tileColoursCount[color] = 1;
+            }
+        }
+        Debug.Log("Surface Area Serialised");
 
         // Give a little buffer
         yield return new WaitForSeconds(0.01f);
@@ -155,34 +180,30 @@ public class MapGen : MonoBehaviour
         List<Color> tileColours = RemoveMapAlpha(UniqueMapColours(tilePixels));
         //Define Each Tile
         int tileCount = tileColours.Count;
-
-        // Give a little buffer
-        yield return new WaitForSeconds(0.01f);
-
         Debug.Log("Tiles: " + tileCount);
         int tileProgress = 0;
-        for (int i = tileCount - 1; i >= 0; i--)
+        for (int i = 0; i < tileCount; i++)
+        //for (int i = tileCount - 1; i >= 0; i--) //Reverse order
         {
             tileProgress++;
             Debug.Log(tileProgress + " / " + tileCount);
             DefineTile(tileColours[i], tilePixels);
-
             // Give a little buffer
             yield return new WaitForSeconds(0.01f);
         }
 
         // Give a little buffer
         yield return new WaitForSeconds(0.1f);
+
         //Adjust position of edge tiles
         List<Color> edgeColours = GetEdgeTiles(tilePixels);
         int edgeCount = edgeColours.Count;
-
         Debug.Log("Edge Tiles: " + edgeCount);
         int edgeProgress = 0;
         for (int i = 0; i < edgeCount; i++)
         {
             edgeProgress++;
-            Debug.Log(edgeProgress + " / " + tileCount);
+            Debug.Log("Edge " + edgeProgress + " / " + tileCount);
             OffsetMean(BruteFindTile(edgeColours[i]));
 
             // Give a little buffer
@@ -193,6 +214,13 @@ public class MapGen : MonoBehaviour
         // write all to json
         WriteToJson(Application.dataPath + "/Maps/MapData/Tiles/");
         SaveNamesJson();
+
+        // Save the final texture to a file when the object is destroyed (you can adjust this to your needs)
+        string filePath = Application.dataPath + "/Maps/MeanPosition.png";
+        byte[] pngBytes = meanPositionTexture.EncodeToPNG();
+        File.WriteAllBytes(filePath, pngBytes);
+
+        //TODO: Destroy stuff for memory purposes
 
         yield return null;
     }
@@ -259,6 +287,7 @@ public class MapGen : MonoBehaviour
 
     void DefineTile(Color targetColor, List<Color> tilePixels)
     {
+        Debug.Log("Tile: " + targetColor);
         // Count the number of pixels that match the target color
         int matchingArea = 0;
         int matchingPixels = 0;
@@ -267,18 +296,14 @@ public class MapGen : MonoBehaviour
         // First for retrieving province, centre of tile can sometimes be a lake
 
         // Get area using the true area map
-        for (int i = tileColoursRemaining.Count - 1; i > 0; i--)
+        if (tileColoursCount.ContainsKey(targetColor))
         {
-            if (targetColor == tileColoursRemaining[i])
-            {
-                matchingArea++;
-                // Remove the matching element from the array to cut down subsequent searches
-                tileColoursRemaining.RemoveAt(i);
-            }
+            matchingArea = tileColoursCount[targetColor];
         }
         // Convert the number to area
         float newArea = matchingArea * (pixelWidthKilometres * pixelWidthKilometres);
         Debug.Log("Area: " + matchingArea + "px / "+ newArea + "km^2");
+        
 
         // Calculate the mean position of the tile
         // Find a matching pixel somewhere, try increasing levels of detail 
@@ -287,30 +312,13 @@ public class MapGen : MonoBehaviour
         if (firstPosition == Vector2.zero) firstPosition = pixelSweep(tilePixels, targetColor, mapArea, searchIncriment/10, 0.5f);
         if (firstPosition == Vector2.zero) firstPosition = pixelSweep(tilePixels, targetColor, mapArea, 1, 0);
 
-        // This is massively inefficent even still but the position is good to know
-        /*for (int x = 0; x < width; x++)
-        {
-            for (int y = 0; y < height; y++)
-            {
-                int pixelIndex = y * width + x;
-
-                if (tilePixels[pixelIndex] == targetColor)
-                {
-                    totalX += x;
-                    totalY += y;
-                    matchingPixels++;
-                    break;
-                }
-            }
-        }*/
-
         // Adjust the search area around the first position
-        int startX = Mathf.RoundToInt(firstPosition.x) - (int)biggestTile.x;
-        int endX = startX + ((int)biggestTile.x * 2);
-        int startY = Mathf.Max(Mathf.RoundToInt(firstPosition.y) - (int)biggestTile.y, 0);
-        int endY = Mathf.Min(startY + ((int)biggestTile.y*2), height);
+        int startX = Mathf.RoundToInt(firstPosition.x) - Mathf.RoundToInt(biggestTile.x);
+        int endX = Mathf.RoundToInt(firstPosition.x) + Mathf.RoundToInt(biggestTile.x);
+        int startY = Mathf.Max(Mathf.RoundToInt(firstPosition.y) - Mathf.RoundToInt(biggestTile.y), 0);
+        int endY = Mathf.Min(Mathf.RoundToInt(firstPosition.y) + Mathf.RoundToInt(biggestTile.y), height);
 
-        // This is massively inefficient even still but the position is good to know
+        // This is massively performance intensive but the most efficient way to find the mean centre
         for (int x = startX; x < endX; x++)
         {
             for (int y = startY; y < endY; y++)
@@ -322,14 +330,13 @@ public class MapGen : MonoBehaviour
                     totalX += x;
                     totalY += y;
                     matchingPixels++;
-                    break;
                 }
             }
         }
         // Get mean pixel position for tile center
-        float meanX = Mathf.RoundToInt(totalX / matchingPixels);
-        float meanY = Mathf.RoundToInt(totalY / matchingPixels);
-        Vector2 meanPosition = new Vector2(meanX, meanY);
+        float meanX = (float)Math.Round(totalX / matchingPixels, 2);
+        float meanY = (float)Math.Round(totalY / matchingPixels, 2);
+        Vector2 averagePosition = new Vector2(meanX, meanY);
 
         // Get Province of the tile
         ProvinceData newParent = getProvinceParent(firstPosition);
@@ -338,12 +345,14 @@ public class MapGen : MonoBehaviour
         TileData newTile = new TileData
         {
             HexCode = ColorUtility.ToHtmlStringRGB(targetColor),
-            Position = meanPosition,
+            Position = averagePosition,
             FirstPosition = firstPosition,
             Area = newArea,
             ProvinceParent = newParent.HexCode,
             ContinentParent = newParent.ContinentParent,
         };
+
+        PaintMean(averagePosition);
 
         // Chuck tile into right province
         newParent.Tiles.Add(newTile);
@@ -471,6 +480,7 @@ public class MapGen : MonoBehaviour
     }
     private TileData BruteFindTile(Color searchColour)
     {
+        // It's only called for edge tiles so can afford to be inefficient
         string searchTerm = ColorUtility.ToHtmlStringRGB(searchColour);
         foreach (ContinentData c in continents)
         {
@@ -531,8 +541,8 @@ public class MapGen : MonoBehaviour
         float pixelX = position.x; 
         float pixelY = position.y;
 
-        float longitude = (pixelX - centerX) / centerX * (180f);
-        float latitude = (pixelY - centerY) / centerY * (90f);
+        float longitude = (float)Math.Round((pixelX - centerX) / centerX * (180f), 2);
+        float latitude = (float)Math.Round((pixelY - centerY) / centerY * (90f), 2);
 
         return new Vector2(longitude, latitude);
     }
@@ -710,6 +720,20 @@ public class MapGen : MonoBehaviour
         }
 
         return colors;
+    }
+
+    void PaintMean(Vector2 position)
+    {
+        // Calculate the pixel position of the mean position
+        int meanPixelX = Mathf.RoundToInt(position.x);
+        int meanPixelY = Mathf.RoundToInt(position.y);
+
+        // Set the mean position pixel to white
+        int meanPixelIndex = meanPixelY * width + meanPixelX;
+        meanPositionTexture.SetPixel(meanPixelX, meanPixelY, Color.white);
+
+        // Apply the change to the texture
+        meanPositionTexture.Apply();
     }
 
     List<Color> RemoveMapAlpha(List<Color> colors) 
