@@ -16,6 +16,7 @@ public class TileData
     public string Terrain;
     // Size
     public float Area;
+    public int ProjectedArea;
     public int Population;
     // Positional
     public String ProvinceParent;

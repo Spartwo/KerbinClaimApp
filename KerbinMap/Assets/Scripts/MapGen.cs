@@ -27,12 +27,12 @@ public class MapGen : MonoBehaviour
 {
     #region Accessibles
     [SerializeField] public Texture2D tileMap;
-    [SerializeField] private Texture2D tileAreaMap;
+    private Texture2D tileAreaMap;
     [SerializeField] public Texture2D provinceMap;
-    [SerializeField] private Texture2D languageMap;
-    [SerializeField] public Texture2D biomeMap;
-    [SerializeField] private Texture2D heightMap;
-    [SerializeField] private Texture2D populationMap;
+    private Texture2D languageMap;
+    private Texture2D biomeMap;
+    private Texture2D heightMap;
+    private Texture2D populationMap;
     [SerializeField] public Texture2D continentMap;
 
     // When true will produce new definitions from the map, takes ages
@@ -77,17 +77,11 @@ public class MapGen : MonoBehaviour
 
         // Initialize the meanPositionTexture with the same dimensions as the map image
         meanPositionTexture = new Texture2D(width, height, TextureFormat.ARGB32, false);
-        Color[] colors = new Color[width * height];
-        // Fill the texture with transparent pixels
-        for (int i = 0; i < colors.Length; i++)
-        {
-            colors[i] = Color.clear;
-        }
 
         // Import Localisation in both cases
-        continentNames = ImportNamesJson(Application.dataPath + "/Maps/Localisation/Continents.json");
-        provinceNames = ImportNamesJson(Application.dataPath + "/Maps/Localisation/Provinces.json");
-        culturesList = ImportCultureJson(Application.dataPath + "/Maps/Localisation/Cultures.json");
+        continentNames = ImportNamesJson(Application.dataPath + "/Resources/Localisation/Continents.json");
+        provinceNames = ImportNamesJson(Application.dataPath + "/Resources/Localisation/Provinces.json");
+        culturesList = ImportCultureJson(Application.dataPath + "/Resources/Localisation/Cultures.json");
 
         if (generateMap)
         {
@@ -100,7 +94,7 @@ public class MapGen : MonoBehaviour
         {
             // Load map data from config files
             Debug.Log("Loading Map Data");
-            ImportContinentsJson(Application.dataPath + "/Maps/MapData/Tiles/");
+            ImportContinentsJson(Application.dataPath + "/Resources/Maps/Tiles/");
         }
 
         // This cannot be enabled simultaneous with generateMap
@@ -109,8 +103,6 @@ public class MapGen : MonoBehaviour
             Debug.Log("Updating Map Data");
             StartCoroutine(UpdateTileData());
 
-            // write all to json
-            WriteToJson(Application.dataPath + "/Maps/MapData/Tiles/");
         }
     }
 
@@ -155,9 +147,15 @@ public class MapGen : MonoBehaviour
 
 
         // Generate Tiles
-
+        // Load in the tile area texture
+        tileAreaMap = new Texture2D(width, height, TextureFormat.RGBA32, false);
+        tileAreaMap.SetPixels(Resources.Load<Texture2D>("Maps/DataLayers/TilesArea").GetPixels());
+        tileAreaMap.Apply();
         // Get area using the true area map and store colour based counts in a dictionary
         List<Color> tileColoursSerialised = RemoveMapAlpha(SerialiseMap(tileAreaMap.GetPixels()));
+        // Destroy the no longer required tileAreasMap
+        Destroy(tileAreaMap);
+
         // Count occurrences of each color in myList
         foreach (Color color in tileColoursSerialised)
         {
@@ -212,7 +210,7 @@ public class MapGen : MonoBehaviour
 
 
         // write all to json
-        WriteToJson(Application.dataPath + "/Maps/MapData/Tiles/");
+        WriteToJson(Application.dataPath + "/Resources/Maps/Tiles/");
         SaveNamesJson();
 
         // Save the final texture to a file when the object is destroyed (you can adjust this to your needs)
@@ -348,6 +346,7 @@ public class MapGen : MonoBehaviour
             Position = averagePosition,
             FirstPosition = firstPosition,
             Area = newArea,
+            ProjectedArea = matchingPixels,
             ProvinceParent = newParent.HexCode,
             ContinentParent = newParent.ContinentParent,
         };
@@ -360,6 +359,20 @@ public class MapGen : MonoBehaviour
 
     IEnumerator UpdateTileData()
     {
+        biomeMap = new Texture2D(width, height, TextureFormat.RGBA32, false);
+        biomeMap.SetPixels(Resources.Load<Texture2D>("Maps/DataLayers/Biomes").GetPixels());
+        biomeMap.Apply();
+
+        heightMap = new Texture2D(width, height, TextureFormat.RGBA32, false);
+        heightMap.SetPixels(Resources.Load<Texture2D>("Maps/DataLayers/Height").GetPixels());
+        heightMap.Apply();
+
+        languageMap = new Texture2D(width, height, TextureFormat.RGBA32, false);
+        languageMap.SetPixels(Resources.Load<Texture2D>("Maps/DataLayers/Language").GetPixels());
+        languageMap.Apply();
+
+        //private Texture2D populationMap;
+
         int tileProgress = 0;
 
         foreach (ContinentData c in continents)
@@ -432,9 +445,14 @@ public class MapGen : MonoBehaviour
 
             }
         }
+        // Textures are no longer required
+        Destroy(biomeMap);
+        Destroy(languageMap);
+        Destroy(heightMap);
+        Destroy(populationMap);
 
         // write all to json
-        WriteToJson(Application.dataPath + "/Maps/MapData/Tiles/");
+        WriteToJson(Application.dataPath + "/Resources/Maps/Tiles/");
 
         yield return null;
     }
@@ -570,7 +588,7 @@ public class MapGen : MonoBehaviour
         Debug.Log("Writing Localisation to Files");
 
         // Write Continents File
-        string filePath = Application.dataPath + "/Maps/Localisation/Continents.json";
+        string filePath = Application.dataPath + "/Resources/Localisation/Continents.json";
         FileStream fileStream = new FileStream(filePath, FileMode.Create);
         string jsonOutput = JsonHelper.ToJson<MapLocalisation>(continentNames.ToArray(), true);
 
@@ -581,7 +599,7 @@ public class MapGen : MonoBehaviour
         }
 
         // Write Provinces File
-        string filePath2 = Application.dataPath + "/Maps/Localisation/Provinces.json";
+        string filePath2 = Application.dataPath + "/Resources/Localisation/Provinces.json";
         FileStream nordStream2 = new FileStream(filePath2, FileMode.Create);
         string jsonOutput2 = JsonHelper.ToJson<MapLocalisation>(provinceNames.ToArray(), true);
 
@@ -707,7 +725,7 @@ public class MapGen : MonoBehaviour
     #endregion
 
     #region Colours
-    List<Color> SerialiseMap(Color[] pixels)
+    public List<Color> SerialiseMap(Color[] pixels)
     {
         List<Color> colors = new List<Color>();
         int pixelCount = pixels.Length;
@@ -729,7 +747,6 @@ public class MapGen : MonoBehaviour
         int meanPixelY = Mathf.RoundToInt(position.y);
 
         // Set the mean position pixel to white
-        int meanPixelIndex = meanPixelY * width + meanPixelX;
         meanPositionTexture.SetPixel(meanPixelX, meanPixelY, Color.white);
 
         // Apply the change to the texture

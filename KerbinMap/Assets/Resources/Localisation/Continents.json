@@ -1,0 +1,32 @@
+{
+    "Content": [
+        {
+            "HexCode": "000000",
+            "Name": "Generic"
+        },
+        {
+            "HexCode": "7921A6",
+            "Name": "Veiid"
+        },
+        {
+            "HexCode": "A69658",
+            "Name": "Caledon"
+        },
+        {
+            "HexCode": "8E2525",
+            "Name": "Doren"
+        },
+        {
+            "HexCode": "215E8A",
+            "Name": "Kolus"
+        },
+        {
+            "HexCode": "327243",
+            "Name": "Kafrica"
+        },
+        {
+            "HexCode": "9B9B9B",
+            "Name": "Firesvar"
+        }
+    ]
+}
