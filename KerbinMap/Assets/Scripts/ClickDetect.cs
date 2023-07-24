@@ -1,20 +1,10 @@
-using System;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using System.Linq;
 using UnityEngine;
-using System.IO;
 
 using Color = UnityEngine.Color;
 using ColorUtility = UnityEngine.ColorUtility;
 using Debug = UnityEngine.Debug;
 using Input = UnityEngine.Input;
-using File = System.IO.File;
-
-using System.Collections;
-using System.Diagnostics;
-using UnityEngine.UIElements;
-using static UnityEngine.EventSystems.EventTrigger;
 
 //this method handles click detection action and the stages involved in generating map data
 public class ClickDetect : MonoBehaviour
@@ -35,6 +25,9 @@ public class ClickDetect : MonoBehaviour
 
     private Texture2D selectionTexture;
     private Texture2D claimingTexture;
+    Color clearColour;
+    Color[] clearColours;
+
 
     private List<Color> tilePixels= new List<Color>();
     int width;
@@ -55,6 +48,12 @@ public class ClickDetect : MonoBehaviour
         selectionTexture = new Texture2D(width, tileMap.height, TextureFormat.ARGB32, false);
         claimingTexture = new Texture2D(width, tileMap.height, TextureFormat.ARGB32, false);
 
+        // Create a predefined selection remover
+        clearColours = new Color[width * tileMap.height];
+        for (int i = 0; i < clearColours.Length; i++)
+        {
+            clearColours[i] = Color.clear;
+        }
     }
 
     void Update()
@@ -85,9 +84,11 @@ public class ClickDetect : MonoBehaviour
         switch (situation)
         {
             case 0: //Inspect Mode
+                Debug.Log("Selecting");
                 if (selectedTile != null && selectedProvince != null) //Clear Old selection
                 {
-                    PaintProvince(selectionTexture, Color.clear);
+                    //PaintProvince(selectionTexture, clearColour);
+                    selectionTexture.SetPixels(0, 0, width, tileMap.height, clearColours);
                 }
                 SelectTile(x, y);
                 selectedTileCulture = FindCulture(selectedTile.Culture);
@@ -102,19 +103,28 @@ public class ClickDetect : MonoBehaviour
                 }
                 // Paint the main one after so it's differently coloured
                 PaintTile(selectedTile, selectionTexture, Color.cyan);
-                //selectionDisplayPlane.GetComponent<Renderer>().material.mainTexture = selectionTexture;
-
 
                 Debug.Log("Printing Test Image");
+                UpdatePlaneTexture();
                 // Save the final texture to a file when the object is destroyed (you can adjust this to your needs)
-                string filePath = Application.dataPath + "/Exports/Maps/Selection.png";
-                byte[] pngBytes = selectionTexture.EncodeToPNG();
-                File.WriteAllBytes(filePath, pngBytes);
+                //string filePath = Application.dataPath + "/Exports/Maps/Selection.png";
+                //byte[] pngBytes = selectionTexture.EncodeToPNG();
+                //File.WriteAllBytes(filePath, pngBytes);
                 break;
             default:
                 //nothing
                 break;
         }
+    }
+
+    // Call this function to update the visible texture of the plane
+    public void UpdatePlaneTexture()
+    {
+        Renderer planeRenderer = selectionDisplayPlane.GetComponent<Renderer>();
+        Material planeMaterial = planeRenderer.material;
+
+        // Assign the new texture to the material's main texture
+        planeMaterial.mainTexture = selectionTexture;
     }
 
     void PaintTile(TileData tile, Texture2D targetTex, Color paintColor)
@@ -123,13 +133,12 @@ public class ClickDetect : MonoBehaviour
         int pixelX = Mathf.RoundToInt(tile.Position.x);
         int pixelY = Mathf.RoundToInt(tile.Position.y);
         int totalArea = tile.ProjectedArea;
-        int foundArea = 1;
 
         int searchOffset = 1;
         Color targetColor = tileMap.GetPixel(pixelX, pixelY);
 
         targetTex.SetPixel(pixelX, pixelY, paintColor);
-        targetTex.Apply();
+        int foundArea = 1;
 
         while (foundArea < totalArea)
         {
@@ -184,15 +193,6 @@ public class ClickDetect : MonoBehaviour
         }
     }
 
-    void ClearProvince(Vector2 searchPosition, Texture2D targetTex)
-    {
-
-    }
-
-    void ClearTile(Vector2 paintPosition, Texture2D targetTex)
-    {
-
-    }
 
     #region Finders
     void SelectTile(int x, int y)

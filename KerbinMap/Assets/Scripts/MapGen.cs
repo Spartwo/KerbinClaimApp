@@ -1,26 +1,18 @@
 using System;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using System.Linq;
 using UnityEngine;
 using System.IO;
-using UnityEngine.Windows;
 
 using Color = UnityEngine.Color;
 using ColorUtility = UnityEngine.ColorUtility;
-using Input = UnityEngine.Input;
 using Debug = UnityEngine.Debug;
 using File = System.IO.File;
 
 using System.Collections;
-using System.Xml.Linq;
-using static UnityEditor.Timeline.TimelinePlaybackControls;
-using System.Diagnostics;
-using UnityEngine.Analytics;
-using UnityEditor;
-using System.Drawing;
+using System.Buffers.Text;
 using UnityEngine.UIElements;
-using static UnityEngine.GraphicsBuffer;
+using UnityEditor;
 
 //this method handles click detection action and the stages involved in generating map data
 public class MapGen : MonoBehaviour
@@ -334,7 +326,17 @@ public class MapGen : MonoBehaviour
         // Get mean pixel position for tile center
         float meanX = (float)Math.Round(totalX / matchingPixels, 2);
         float meanY = (float)Math.Round(totalY / matchingPixels, 2);
-        Vector2 averagePosition = new Vector2(meanX, meanY);
+
+        Vector2 position = new Vector2(meanX, meanY);
+        // Paint using OG location for manual adjustment
+        PaintMean(position);
+
+        // If transparent(not land) then use the first position as a temporary fallback location
+        if (tilePixels[(int)meanY * width + (int)meanX].a < 0.5f)
+        {
+            position = new Vector2(firstPosition.x, firstPosition.y);
+        }
+
 
         // Get Province of the tile
         ProvinceData newParent = getProvinceParent(firstPosition);
@@ -343,15 +345,13 @@ public class MapGen : MonoBehaviour
         TileData newTile = new TileData
         {
             HexCode = ColorUtility.ToHtmlStringRGB(targetColor),
-            Position = averagePosition,
-            FirstPosition = firstPosition,
+            Position = position,
             Area = newArea,
             ProjectedArea = matchingPixels,
             ProvinceParent = newParent.HexCode,
             ContinentParent = newParent.ContinentParent,
         };
 
-        PaintMean(averagePosition);
 
         // Chuck tile into right province
         newParent.Tiles.Add(newTile);
@@ -406,14 +406,6 @@ public class MapGen : MonoBehaviour
                     Vector2 position = t.Position;
                     int baseX = (int)position.x;
                     int baseY = (int)position.y;
-
-                    // If transparent(not land)
-                    if (continentMap.GetPixel(baseX, baseY).a < 0.5f) 
-                    {
-                        position = t.FirstPosition;
-                        baseX = (int)position.x;
-                        baseY = (int)position.y;
-                    }
 
                     // Correct the kerbin coordinates of the man, regardless of water
                     t.Coordinates = getCoordinates(t.Position);

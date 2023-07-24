@@ -10,7 +10,6 @@ public class TileData
     // Positional
     public UnityEngine.Vector2 Coordinates;
     public UnityEngine.Vector2 Position;
-    public UnityEngine.Vector2 FirstPosition;
     public float Altitude;
     // KSP Biome effects movement
     public string Terrain;
