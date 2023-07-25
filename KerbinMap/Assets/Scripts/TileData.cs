@@ -7,6 +7,8 @@ public class TileData
     public string HexCode;
     // Conditions
     public string Culture;
+    // Resource
+    public ResourceDef LocalResources;
     // Positional
     public UnityEngine.Vector2 Coordinates;
     public UnityEngine.Vector2 Position;
@@ -61,4 +63,11 @@ public class CultureDef
     public string SubGroup;
     public string Group;
     public string Family;
+}
+
+[Serializable]
+public class ResourceDef
+{
+    public string Resource;
+    public int Quantity;
 }

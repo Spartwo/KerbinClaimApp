@@ -1,5 +1,8 @@
+using System;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 using Color = UnityEngine.Color;
 using ColorUtility = UnityEngine.ColorUtility;
@@ -10,50 +13,63 @@ using Input = UnityEngine.Input;
 public class ClickDetect : MonoBehaviour
 {
     [SerializeField] private GameObject tileScanTarget;
-    [SerializeField] private GameObject selectionDisplayPlane;
+    [SerializeField] private Material selectedMaterial;
 
-    public TileData selectedTile;
-    public CultureDef selectedTileCulture;
-    public ProvinceData selectedProvince;
     public string selectedProvName;
     public string selectedContName;
+    public ProvinceData selectedProvince;
+    public TileData selectedTile;
+    public CultureDef selectedTileCulture;
 
     private MapGen mapSource;
-    private Texture2D tileMap;
 
     private List<CultureDef> culturesList;
 
-    private Texture2D selectionTexture;
-    private Texture2D claimingTexture;
-    Color clearColour;
-    Color[] clearColours;
+    private Texture2D highlightTexture;
+    private Color clearColour;
+    private Color[] clearColours;
+    private Color[] highlightColours;
 
+    // Claim Data
+    private HashSet<string> selectedTiles = new HashSet<string>();
+    public float totalArea = 0;
+    public int totalPopulation = 0;
+    public int claimValue = 0;
+    public List<ResourceDef> resources = new List<ResourceDef>();
 
-    private List<Color> tilePixels= new List<Color>();
-    int width;
+    [SerializeField] private UIControl UICanvas;
+
+    private List<Color> tilePixels = new List<Color>();
+    int width, height;
 
     // Start is called before the first frame update
     void Start()
     {
         mapSource = GetComponent<MapGen>();
-        tileMap = mapSource.tileMap;
         // Import Culture Definitions
         culturesList = mapSource.culturesList;
 
         // Gotta store these for painting
-        tilePixels = mapSource.SerialiseMap(Resources.Load<Texture2D>("Maps/DataLayers/Tiles").GetPixels());
-        width = tileMap.width;
+        tilePixels = mapSource.SerialiseMap(mapSource.tileMap.GetPixels());
+        
+        width = mapSource.tileMap.width; 
+        height = mapSource.tileMap.height;
 
-        // Initialize the meanPositionTexture with the same dimensions as the map image
-        selectionTexture = new Texture2D(width, tileMap.height, TextureFormat.ARGB32, false);
-        claimingTexture = new Texture2D(width, tileMap.height, TextureFormat.ARGB32, false);
+        // Initialize the hightlight Texture with the same dimensions as the map image
+        highlightTexture = new Texture2D(width, height, TextureFormat.ARGB32, false);
 
-        // Create a predefined selection remover
-        clearColours = new Color[width * tileMap.height];
+        // Create a predefined empty image
+        clearColour = new Color(0, 0, 0, 0);
+        clearColours = new Color[width * height];
         for (int i = 0; i < clearColours.Length; i++)
         {
-            clearColours[i] = Color.clear;
+            clearColours[i] = clearColour;
         }
+        // Copy the empty aray into the highlight array by default
+        highlightColours = new Color[width * height];
+        Array.Copy(clearColours, highlightColours, clearColours.Length);
+        UpdatePlaneTexture();
+
     }
 
     void Update()
@@ -70,9 +86,27 @@ public class ClickDetect : MonoBehaviour
                 //get the position where the ray hit
                 Vector2 textureCoord = hit.textureCoord;
                 // Convert texture coordinates to pixel coordinates
-                int x = Mathf.RoundToInt(textureCoord.x * tileMap.width * 2);
-                int y = Mathf.RoundToInt(textureCoord.y * tileMap.height);
+                int x = Mathf.RoundToInt(textureCoord.x * width * 2);
+                int y = Mathf.RoundToInt(textureCoord.y * height);
                 GameModeLC(x, y);
+            }
+        }
+
+        // Check for right mouse button click
+        if (Input.GetMouseButtonDown(1))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            // Perform the raycast and check for collision with the tiles
+            if (Physics.Raycast(ray, out hit) && hit.collider.gameObject == tileScanTarget)
+            {
+                //get the position where the ray hit
+                Vector2 textureCoord = hit.textureCoord;
+                // Convert texture coordinates to pixel coordinates
+                int x = Mathf.RoundToInt(textureCoord.x * width * 2);
+                int y = Mathf.RoundToInt(textureCoord.y * height);
+                GameModeRC(x, y);
             }
         }
 
@@ -80,36 +114,97 @@ public class ClickDetect : MonoBehaviour
 
     void GameModeLC (int x, int y)
     {
-        int situation = 0;
+        int situation = UICanvas.mapModeValue;
         switch (situation)
         {
             case 0: //Inspect Mode
-                Debug.Log("Selecting");
-                if (selectedTile != null && selectedProvince != null) //Clear Old selection
+                if (selectedTile != null) //Clear Old selection
                 {
-                    //PaintProvince(selectionTexture, clearColour);
-                    selectionTexture.SetPixels(0, 0, width, tileMap.height, clearColours);
+                    //Clear the whole map cause only one selection at a time
+                    Array.Copy(clearColours, highlightColours, clearColours.Length);
                 }
                 SelectTile(x, y);
+                // Retrieve the cultural index and get its full tree
                 selectedTileCulture = FindCulture(selectedTile.Culture);
+                // Get the localised name from the MapGen script
+                selectedProvName = mapSource.RetrieveName(false, selectedTile.ProvinceParent);
+                selectedContName = mapSource.RetrieveName(true, selectedTile.ContinentParent);
 
                 // if shift clicked then highlight all tiles in province
                 if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
                 {
-                    PaintProvince(selectionTexture, Color.blue);
-                    // Get the localised name from the MapGen script
-                    selectedProvName = mapSource.RetrieveName(false, selectedTile.ProvinceParent);
-                    selectedContName = mapSource.RetrieveName(true, selectedTile.ContinentParent);
+                    PaintProvince(highlightTexture, Color.blue);
                 }
                 // Paint the main one after so it's differently coloured
-                PaintTile(selectedTile, selectionTexture, Color.cyan);
+                PaintTile(selectedTile, highlightTexture, Color.cyan);
 
-                Debug.Log("Printing Test Image");
                 UpdatePlaneTexture();
-                // Save the final texture to a file when the object is destroyed (you can adjust this to your needs)
-                //string filePath = Application.dataPath + "/Exports/Maps/Selection.png";
-                //byte[] pngBytes = selectionTexture.EncodeToPNG();
-                //File.WriteAllBytes(filePath, pngBytes);
+                //PrintMap("Selection.png");
+                break;
+            case 1:
+                SelectTile(x, y);
+                // if shift clicked then add all tiles in province
+                if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+                {
+                    foreach (TileData t in selectedProvince.Tiles)
+                    {
+                        if (!selectedTiles.Contains(t.HexCode))
+                        {
+                            TileClaim(t, true);
+                        }
+                    }
+                } 
+                else //else just do the one
+                {
+                    if (!selectedTiles.Contains(selectedTile.HexCode))
+                    {
+                        TileClaim(selectedTile, true);
+                    }
+                }
+                //UICanvas.updateClaimDisplay();
+                UpdatePlaneTexture();
+                break;
+            case 2:
+                Debug.Log("Distance calc is a work in progress");
+                break;
+            default:
+                //nothing
+                break;
+        }
+    }
+    void GameModeRC(int x, int y)
+    {
+        int situation = UICanvas.mapModeValue;
+        switch (situation)
+        {
+            case 0: //Inspect Mode
+                //Right click doesn't do anything
+                break;
+            case 1:
+                SelectTile(x, y);
+                // if shift clicked then add all tiles in province
+                if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+                {
+                    foreach (TileData t in selectedProvince.Tiles)
+                    {
+                        if (selectedTiles.Contains(t.HexCode))
+                        {
+                            TileClaim(t, false);
+                        }
+                    }
+                }
+                else //else just do the one
+                {
+                    if (selectedTiles.Contains(selectedTile.HexCode))
+                    {
+                        TileClaim(selectedTile, false);
+                    }
+                }
+                //UICanvas.updateClaimDisplay();
+                UpdatePlaneTexture();
+                break;
+            case 2:
+                Debug.Log("Distance calc is a work in progress");
                 break;
             default:
                 //nothing
@@ -117,14 +212,50 @@ public class ClickDetect : MonoBehaviour
         }
     }
 
+    void TileClaim(TileData t, bool add)
+    {
+        if (add)
+        {
+            totalArea += t.Area;
+            totalPopulation += t.Population;
+            claimValue += t.ClaimValue;
+
+            PaintTile(t, highlightTexture, Color.red);
+            selectedTiles.Add(t.HexCode);
+        }
+        else
+        {
+            totalArea -= t.Area;
+            totalPopulation -= t.Population;
+            claimValue -= t.ClaimValue;
+
+            PaintTile(t, highlightTexture, clearColour);
+            selectedTiles.Remove(t.HexCode);
+        }
+    }
+
     // Call this function to update the visible texture of the plane
     public void UpdatePlaneTexture()
     {
-        Renderer planeRenderer = selectionDisplayPlane.GetComponent<Renderer>();
-        Material planeMaterial = planeRenderer.material;
+        // Set the map to the currently stored highlights array
+        highlightTexture.SetPixels(0, 0, width, height, highlightColours);
+        highlightTexture.Apply();
 
-        // Assign the new texture to the material's main texture
-        planeMaterial.mainTexture = selectionTexture;
+        // Update the visible plane material for the new highlight
+        selectedMaterial.mainTexture = highlightTexture;
+    }
+
+    void PrintMap(string filename)
+    {
+        // Save the final texture to a file 
+        string filePath = Application.dataPath + "/Exports/Maps/" + filename;
+        byte[] pngBytes = highlightTexture.EncodeToPNG();
+        File.WriteAllBytes(filePath, pngBytes);
+    }
+
+    public void exportClaim()
+    {
+        PrintMap("Territory.png");
     }
 
     void PaintTile(TileData tile, Texture2D targetTex, Color paintColor)
@@ -135,9 +266,10 @@ public class ClickDetect : MonoBehaviour
         int totalArea = tile.ProjectedArea;
 
         int searchOffset = 1;
-        Color targetColor = tileMap.GetPixel(pixelX, pixelY);
+        Color targetColor = tilePixels[pixelY * width + pixelX];
 
-        targetTex.SetPixel(pixelX, pixelY, paintColor);
+        // Set the mean painted
+        highlightColours[pixelY * width + pixelX] = paintColor;
         int foundArea = 1;
 
         while (foundArea < totalArea)
@@ -147,17 +279,24 @@ public class ClickDetect : MonoBehaviour
             int startY = pixelY - searchOffset;
             int endY = pixelY + searchOffset;
 
+            // Limit startY and endY to be within the texture's height boundaries
+            // The heigh extremes are all icecap so won't flag as duplicates
+            startY = Mathf.Clamp(startY, 0, height - 1);
+            endY = Mathf.Clamp(endY, 0, height - 1);
+
             // Check top and bottom edges
             for (int x = startX; x <= endX; x++)
             {
-                if (tilePixels[startY * width + x] == targetColor)
+                int topIndex = startY * width + x;
+                int bottomIndex = endY * width + x;
+                if (tilePixels[topIndex] == targetColor)
                 {
-                    targetTex.SetPixel(x, startY, paintColor);
+                    highlightColours[topIndex] = paintColor;
                     foundArea++;
                 }
-                if (tilePixels[endY * width + x] == targetColor)
+                if (tilePixels[bottomIndex] == targetColor)
                 {
-                    targetTex.SetPixel(x, endY, paintColor);
+                    highlightColours[bottomIndex] = paintColor;
                     foundArea++;
                 }
             }
@@ -165,23 +304,22 @@ public class ClickDetect : MonoBehaviour
             // Check left and right edges
             for (int y = startY + 1; y < endY; y++) // Start from startY + 1 to avoid rechecking the corners
             {
-                if (tilePixels[y * width + startX] == targetColor)
+                int leftIndex = y * width + startX;
+                int rightIndex = y * width + endX;
+                if (tilePixels[leftIndex] == targetColor)
                 {
-                    targetTex.SetPixel(startX, y, paintColor);
+                    highlightColours[leftIndex] = paintColor;
                     foundArea++;
                 }
-                if (tilePixels[y * width + endX] == targetColor)
+                if (tilePixels[rightIndex] == targetColor)
                 {
-                    targetTex.SetPixel(endX, y, paintColor);
+                    highlightColours[rightIndex] = paintColor;
                     foundArea++;
                 }
             }
 
             searchOffset++;
         }
-
-        targetTex.Apply();
-
     }
 
 
@@ -204,7 +342,7 @@ public class ClickDetect : MonoBehaviour
         textureColor = mapSource.provinceMap.GetPixel(x, y);
         string provinceColour = ColorUtility.ToHtmlStringRGB(textureColor);
         // Get the hexcode of the tile pixel
-        textureColor = tileMap.GetPixel(x, y);
+        textureColor = tilePixels[y * width + x];
         string tileColour = ColorUtility.ToHtmlStringRGB(textureColor);
 
         FindTile(provinceColour, tileColour);
@@ -235,26 +373,6 @@ public class ClickDetect : MonoBehaviour
         }
 
         Debug.Log("Tile " + tileColour + " not Found");
-    }
-    ProvinceData FindProvince(string continentColour, string provinceColour)
-    {
-        //method searches an appropriate subdatabase for the right tile data, reduces search time
-        // Find right continent
-        foreach (ContinentData c in mapSource.continents)
-        {
-            if (c.HexCode != continentColour) continue;
-            // Find right province inside continent
-            foreach (ProvinceData p in c.Provinces)
-            {
-                if (p.HexCode == provinceColour)
-                {
-                    return p;
-                }
-                
-            }
-        }
-
-        return null;
     }
 
     private CultureDef FindCulture(string hexCode)
