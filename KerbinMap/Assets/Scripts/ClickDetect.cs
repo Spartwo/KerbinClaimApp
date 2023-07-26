@@ -1,7 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Security.Claims;
+using Unity.Properties;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 using Color = UnityEngine.Color;
@@ -35,7 +39,10 @@ public class ClickDetect : MonoBehaviour
     public float totalArea = 0;
     public int totalPopulation = 0;
     public int claimValue = 0;
+    public string claimName;
     public List<ResourceDef> resources = new List<ResourceDef>();
+
+    [SerializeField] private int claimLimit = 100;
 
     [SerializeField] private UIControl UICanvas;
 
@@ -74,8 +81,10 @@ public class ClickDetect : MonoBehaviour
 
     void Update()
     {
+        bool isOverUI = EventSystem.current.IsPointerOverGameObject();
+
         // Check for left mouse button click
-        if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetMouseButtonDown(0) && !isOverUI) 
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -93,7 +102,7 @@ public class ClickDetect : MonoBehaviour
         }
 
         // Check for right mouse button click
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && !isOverUI)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -161,7 +170,7 @@ public class ClickDetect : MonoBehaviour
                         TileClaim(selectedTile, true);
                     }
                 }
-                //UICanvas.updateClaimDisplay();
+                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation + "\n\n" + "NaN");
                 UpdatePlaneTexture();
                 break;
             case 2:
@@ -200,7 +209,7 @@ public class ClickDetect : MonoBehaviour
                         TileClaim(selectedTile, false);
                     }
                 }
-                //UICanvas.updateClaimDisplay();
+                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation + "\n\n" + "NaN");
                 UpdatePlaneTexture();
                 break;
             case 2:
@@ -234,7 +243,62 @@ public class ClickDetect : MonoBehaviour
         }
     }
 
-    // Call this function to update the visible texture of the plane
+    public void clearSelection()
+    {
+        totalArea = 0;
+        totalPopulation = 0;
+        claimValue = 0;
+        selectedTiles.Clear();
+        resources.Clear();
+
+        UICanvas.UpdateClaimUI(0, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation + "\n\n" + "NaN");
+
+        Array.Copy(clearColours, highlightColours, clearColours.Length);
+        UpdatePlaneTexture();
+    }
+    void SaveClaimData()
+    {
+        // Create a list to store the lines of the text
+        List<string> lines = new List<string>();
+
+        // Add the claim data to the list
+        lines.Add("{{MinorNation");
+        lines.Add("| nation = " + claimName);
+        lines.Add("| localized_name = " + "[Unknown]");
+        lines.Add("| flag = " + claimName + "_flag.png");
+        lines.Add("| flagdesc = ");
+        lines.Add("| full_name = " + claimName);
+        lines.Add("| map = " + claimName + "_Globe.png");
+        lines.Add("| mapdesc = ");
+        lines.Add("| government = " + "[Unknown]");
+        //lines.Add("| foundation = " + GetDate(DateTime.UtcNow));
+        lines.Add("| population = " + totalPopulation.ToString());
+        lines.Add("| denonym = " + claimName + "ian");
+        lines.Add("| area = " + totalArea.ToString("N0"));
+        lines.Add("| predecessor = " + "[Unknown]");
+        lines.Add("| successor = " + "");
+        lines.Add("| capital = " + mapSource.RetrieveName(false, selectedTile.ProvinceParent));
+        lines.Add("}}");
+
+        // Add an empty line after the claim data
+        lines.Add("");
+
+        // Add the selectedTiles hashset to the list
+        lines.Add("Selected Tiles: " + string.Join(", ", selectedTiles));
+
+        // Save the lines to a file 
+        string filePath = Application.dataPath + "/Exports/Maps/Claim.txt";
+        File.WriteAllLines(filePath, lines);
+    }
+
+    public void exportClaim()
+    {
+        SaveClaimData();
+        PrintMap("Territory.png");
+    }
+
+    #region Painters
+
     public void UpdatePlaneTexture()
     {
         // Set the map to the currently stored highlights array
@@ -251,11 +315,6 @@ public class ClickDetect : MonoBehaviour
         string filePath = Application.dataPath + "/Exports/Maps/" + filename;
         byte[] pngBytes = highlightTexture.EncodeToPNG();
         File.WriteAllBytes(filePath, pngBytes);
-    }
-
-    public void exportClaim()
-    {
-        PrintMap("Territory.png");
     }
 
     void PaintTile(TileData tile, Texture2D targetTex, Color paintColor)
@@ -322,7 +381,6 @@ public class ClickDetect : MonoBehaviour
         }
     }
 
-
     void PaintProvince(Texture2D targetTex, Color paintColor)
     {
         foreach (TileData t in selectedProvince.Tiles) 
@@ -330,9 +388,33 @@ public class ClickDetect : MonoBehaviour
             PaintTile(t, targetTex, paintColor);
         }
     }
-
+    #endregion
 
     #region Finders
+
+    public DateTime GetDate(DateTime inputDate)
+    { 
+        // Define the starting date for the sped-up calendar
+        DateTime startingDate = new DateTime(2200, 1, 1);
+
+        // Calculate the difference in days between the inputDate and the startingDate
+        TimeSpan timeDifference = inputDate - startingDate;
+        int daysElapsed = (int)timeDifference.TotalDays;
+
+        // Calculate the year and day in the sped-up calendar
+        int spedUpYear = daysElapsed / 14;
+        int spedUpDay = daysElapsed % 14;
+
+        // Create the sped-up calendar date
+        DateTime spedUpDate = startingDate.AddDays(daysElapsed);
+
+        // Set the year and day in the sped-up calendar
+        spedUpDate = spedUpDate.AddYears(spedUpYear);
+        spedUpDate = spedUpDate.AddDays(spedUpDay);
+
+        return inputDate;
+    }
+
     void SelectTile(int x, int y)
     {
         // Get the hexcode of the continent pixel
@@ -393,4 +475,5 @@ public class ClickDetect : MonoBehaviour
         };
     }
     #endregion
+
 }

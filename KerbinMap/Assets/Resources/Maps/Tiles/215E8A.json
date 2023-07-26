@@ -17213,13 +17213,33 @@
                                 "y": 22.25
                             },
                             "Position": {
-                                "x": 774.1699829101563,
-                                "y": 3831.4599609375
+                                "x": 737.1699829101563,
+                                "y": 3797.4599609375
                             },
                             "Altitude": 1200.0,
                             "Terrain": "Grasslands",
-                            "Area": 582.4384765625,
-                            "ProjectedArea": 5015,
+                            "Area": 316.632681829,
+                            "ProjectedArea": 2712,
+                            "Population": 17473,
+                            "ProvinceParent": "845F73",
+                            "ContinentParent": "215E8A",
+                            "ClaimValue": 5
+                        },
+                        {
+                            "HexCode": "892360",
+                            "Culture": "727272",
+                            "Coordinates": {
+                                "x": -157.32000732421876,
+                                "y": 22.25
+                            },
+                            "Position": {
+                                "x": 821.1699829101563,
+                                "y": 3876.4599609375
+                            },
+                            "Altitude": 1200.0,
+                            "Terrain": "Grasslands",
+                            "Area": 265.805794734,
+                            "ProjectedArea": 2303,
                             "Population": 17473,
                             "ProvinceParent": "845F73",
                             "ContinentParent": "215E8A",

@@ -3,12 +3,24 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UIControl : MonoBehaviour
 {
 
     // Values made accessible
     public int mapModeValue = 0;
+
+    public GameObject claimPanel;
+    public GameObject claimContextPanel;
+    public GameObject provincePanel;
+    public GameObject tilePanel;
+    public GameObject distancePanel;
+
+    public GameObject claimDataField;
+
+    public GameObject fillFullBar;
+    public Slider fillSlider;
 
     // Start is called before the first frame update
     void Start()
@@ -17,9 +29,56 @@ public class UIControl : MonoBehaviour
 
     }
 
+    public void UpdateClaimUI(float claimBar, string displayData)
+    {
+        if (claimBar > 1)
+        {
+            fillFullBar.SetActive(true);
+        }
+        else
+        {
+            fillFullBar.SetActive(false);
+            fillSlider.value = claimBar;
+        }
+
+        claimDataField.GetComponent<TextMeshProUGUI>().text = displayData;
+    }
+
     public void onDropdownValueChanged(int value)
     {
         mapModeValue = value;
+
+        switch(mapModeValue) 
+        {
+            case 0:
+                tilePanel.SetActive(true);
+                provincePanel.SetActive(true);
+                distancePanel.SetActive(false);
+                claimPanel.SetActive(false);
+                claimContextPanel.SetActive(false);
+                break;
+            case 1:
+                tilePanel.SetActive(false);
+                provincePanel.SetActive(false);
+                distancePanel.SetActive(false);
+                claimPanel.SetActive(true);
+                claimContextPanel.SetActive(true);
+                break;
+            case 3:
+                tilePanel.SetActive(false);
+                provincePanel.SetActive(false);
+                distancePanel.SetActive(true);
+                claimPanel.SetActive(false);
+                claimContextPanel.SetActive(false);
+                break;
+            default:
+                tilePanel.SetActive(false);
+                provincePanel.SetActive(false);
+                distancePanel.SetActive(false);
+                claimPanel.SetActive(false);
+                claimContextPanel.SetActive(false);
+                break;
+        }
     }
 
     // Update is called once per frame
