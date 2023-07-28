@@ -1,0 +1,476 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16307 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/Users/Spartwo/Documents/UnityProjects/KerbinClaimAppSource/KerbinMap
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49927
+Successfully changed project path to: E:/Users/Spartwo/Documents/UnityProjects/KerbinClaimAppSource/KerbinMap
+E:/Users/Spartwo/Documents/UnityProjects/KerbinClaimAppSource/KerbinMap
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8628] Host "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 775368840 [EditorId] 775368840 [Version] 1048832 [Id] WindowsEditor(7,Betsy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8628] Host "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 775368840 [EditorId] 775368840 [Version] 1048832 [Id] WindowsEditor(7,Betsy) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Users/Spartwo/Documents/UnityProjects/KerbinClaimAppSource/KerbinMap/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006619 seconds.
+- Loaded All Assemblies, in  0.247 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.202 seconds
+Domain Reload Profiling: 448ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (63ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (93ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (202ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (158ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\Spartwo\Documents\UnityProjects\KerbinClaimAppSource\KerbinMap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\Spartwo\Documents\UnityProjects\KerbinClaimAppSource\KerbinMap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.511 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.421 seconds
+Domain Reload Profiling: 931ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (422ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3279 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (0.6 MB). Loaded Objects now: 3762.
+Memory consumption went from 147.1 MB to 146.5 MB.
+Total: 2.838500 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.134200 ms MarkObjects: 2.268700 ms  DeleteObjects: 0.193900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LayerToggle.cs: 52c801f7d20e69ea5d6e09b6279086eb -> ed78bd2e5851fcd1dfb4ab4930fb8a61
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23961.970625 seconds.
+  path: Assets/UI/Button_City - Copy.png
+  artifactKey: Guid(50b4cef06193469459d3595bdec3f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Button_City - Copy.png using Guid(50b4cef06193469459d3595bdec3f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527bef75692a1c86cd91740fee60052f') in 0.055460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/Button_Climate 1.png
+  artifactKey: Guid(c459fe9232cc02948a6cb940110d8215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Button_Climate 1.png using Guid(c459fe9232cc02948a6cb940110d8215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702735fdb724633140867279535cd3bf') in 0.004654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Button_Culture - Copy.png
+  artifactKey: Guid(10c8c39416b7a4240a4bf19ed326ebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Button_Culture - Copy.png using Guid(10c8c39416b7a4240a4bf19ed326ebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef54fef772c66f291807077e9e57fba8') in 0.011161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UI/Button_Exit - Copy.png
+  artifactKey: Guid(4093d8793e4b3b243a471712de9375d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Button_Exit - Copy.png using Guid(4093d8793e4b3b243a471712de9375d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dc38f75502f573bfc308f838e0246b') in 0.013619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UI/Button_Temp - Copy.png
+  artifactKey: Guid(9692f19c0308e5f45a7fe9a4a9806aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Button_Temp - Copy.png using Guid(9692f19c0308e5f45a7fe9a4a9806aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2edfa07975600078148cf7989f5562') in 0.012040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Button_Temp 1.png
+  artifactKey: Guid(acddf049b834978498289bd363891759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Button_Temp 1.png using Guid(acddf049b834978498289bd363891759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edec06c59ed44f22623b8eac7c24f205') in 0.013592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.507992 seconds.
+  path: Assets/UI/Button_Temp.png
+  artifactKey: Guid(ee22499887702c044aca0f83fb657235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Button_Temp.png using Guid(ee22499887702c044aca0f83fb657235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8356431b8f124b93beef7ad55fe847f') in 0.008946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 196.312409 seconds.
+  path: Assets/Resources/UI/Button_City.png
+  artifactKey: Guid(82a4a5dc5305f3545bce8fcf46bd22f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_City.png using Guid(82a4a5dc5305f3545bce8fcf46bd22f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acce820e89f16196cd71133be634da4c') in 0.016938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/UI/Button_Globe - Copy.png
+  artifactKey: Guid(b11a09f15a5ba4d43a359a37caccaea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Globe - Copy.png using Guid(b11a09f15a5ba4d43a359a37caccaea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8c7cdba5717b68f9d06913d0a4bdf4') in 0.017287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/UI/Button_Save - Copy.png
+  artifactKey: Guid(0968e61ebc73ae5409eb150105c4107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Save - Copy.png using Guid(0968e61ebc73ae5409eb150105c4107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae3bb90df17c1ee46b85e29c756b838') in 0.011584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/UI/Button_Globe.png
+  artifactKey: Guid(d6135f686fe983f44a734ae88e5d2ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Globe.png using Guid(d6135f686fe983f44a734ae88e5d2ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0435291a3a50ca2d1f9536e0bb527bed') in 0.020395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/UI/Button_Climate.png
+  artifactKey: Guid(4cf1f5c87a3bbfd439a36f3cebdfd01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Climate.png using Guid(4cf1f5c87a3bbfd439a36f3cebdfd01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa83d3936d9a5a6f2b01ad56c9d3cca') in 0.012856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/UI/Button_Exit - Copy.png
+  artifactKey: Guid(4093d8793e4b3b243a471712de9375d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Exit - Copy.png using Guid(4093d8793e4b3b243a471712de9375d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f876d3d5449a87c0918980d18f533b9f') in 0.011528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/UI/Button_Erase - Copy.png
+  artifactKey: Guid(1c9a66d2d715cb04590c716491bd57ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Erase - Copy.png using Guid(1c9a66d2d715cb04590c716491bd57ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42376823174e5b2cfceb69cec251cc1f') in 0.012254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/UI/Button_Exit.png
+  artifactKey: Guid(bc9db876d8ec7e943ac4760922d3ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Exit.png using Guid(bc9db876d8ec7e943ac4760922d3ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0720c2dc72cd6ad439e8e2faadc50189') in 0.011378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/UI/Button_Save.png
+  artifactKey: Guid(36e4aeff1c243e24eaa09aca82efe2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Save.png using Guid(36e4aeff1c243e24eaa09aca82efe2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a78720b276a8163fe35ff99a7f3b5d4') in 0.013025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.116900 seconds.
+  path: Assets/Resources/UI/Button_City - Copy.png
+  artifactKey: Guid(50b4cef06193469459d3595bdec3f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_City - Copy.png using Guid(50b4cef06193469459d3595bdec3f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d23bfbc67fd41ea612d98bd0e678a9a') in 0.044758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/UI/Button_Save - Copy.png
+  artifactKey: Guid(0968e61ebc73ae5409eb150105c4107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Save - Copy.png using Guid(0968e61ebc73ae5409eb150105c4107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59152fa738d842b449cb5bf04b9a97ac') in 0.019135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/UI/Button_Globe.png
+  artifactKey: Guid(d6135f686fe983f44a734ae88e5d2ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Globe.png using Guid(d6135f686fe983f44a734ae88e5d2ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693bccf49fcafa6d810074e401635aba') in 0.012077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/UI/Button_Culture - Copy.png
+  artifactKey: Guid(10c8c39416b7a4240a4bf19ed326ebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Culture - Copy.png using Guid(10c8c39416b7a4240a4bf19ed326ebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccc362d3bc911ab96074d2884bdf322') in 0.033830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/UI/Button_Erase - Copy.png
+  artifactKey: Guid(1c9a66d2d715cb04590c716491bd57ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Erase - Copy.png using Guid(1c9a66d2d715cb04590c716491bd57ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e98cefc1fda90f026bd8372822094f') in 0.017778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/UI/Button_Exit.png
+  artifactKey: Guid(bc9db876d8ec7e943ac4760922d3ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Exit.png using Guid(bc9db876d8ec7e943ac4760922d3ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0c5eddcbf08400b485d1c32415ecf1') in 0.014294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 98.117344 seconds.
+  path: Assets/Resources/UI/Button_Climate 1.png
+  artifactKey: Guid(8cc3c999170125f409261ab0bee320dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Climate 1.png using Guid(8cc3c999170125f409261ab0bee320dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003143f4c713a8b93ed28b3760297973') in 0.007231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/UI/Button_Save 1.png
+  artifactKey: Guid(1ab327b0e049f7a4e8eb40a080250e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Save 1.png using Guid(1ab327b0e049f7a4e8eb40a080250e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2969b8ed2a32db7b5b08824038f18ee7') in 0.047438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/UI/Button_Erase 1.png
+  artifactKey: Guid(d95330bf22c0abe478a2d1a0579fff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Erase 1.png using Guid(d95330bf22c0abe478a2d1a0579fff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b2d2efb1d997519b934fa7226ebe6b') in 0.014259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/UI/Button_Exit 1.png
+  artifactKey: Guid(0b5ee6d656ccb28478756ff44ba1524a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Exit 1.png using Guid(0b5ee6d656ccb28478756ff44ba1524a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4411f8145f15f0ae1d6938fd5ba00edc') in 0.014782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 31.782277 seconds.
+  path: Assets/Resources/UI/Button_Climate 1.png
+  artifactKey: Guid(8cc3c999170125f409261ab0bee320dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Climate 1.png using Guid(8cc3c999170125f409261ab0bee320dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b36c8120ef96c714dc47f7c9251eae6') in 0.015600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/UI/Button_Save 1.png
+  artifactKey: Guid(1ab327b0e049f7a4e8eb40a080250e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Save 1.png using Guid(1ab327b0e049f7a4e8eb40a080250e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2895afadfac298fbe2955a1f69d8fc3') in 0.016371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/UI/Button_Erase 1.png
+  artifactKey: Guid(d95330bf22c0abe478a2d1a0579fff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/Button_Erase 1.png using Guid(d95330bf22c0abe478a2d1a0579fff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16eeb64f03385cb21fcc0995198a0cc7') in 0.015022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Users\Spartwo\Documents\UnityProjects\KerbinClaimAppSource\KerbinMap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Users\Spartwo\Documents\UnityProjects\KerbinClaimAppSource\KerbinMap\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.809 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.908 seconds
+Domain Reload Profiling: 1714ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (505ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (275ms)
+				TypeCache.ScanAssembly (261ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (909ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (451ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3221 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.6 MB). Loaded Objects now: 3771.
+Memory consumption went from 138.6 MB to 138.0 MB.
+Total: 3.730600 ms (FindLiveObjects: 0.500100 ms CreateObjectMapping: 0.258000 ms MarkObjects: 2.690700 ms  DeleteObjects: 0.280300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LayerToggle.cs: 52c801f7d20e69ea5d6e09b6279086eb -> ed78bd2e5851fcd1dfb4ab4930fb8a61
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

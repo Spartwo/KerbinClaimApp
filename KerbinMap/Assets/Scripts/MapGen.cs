@@ -71,9 +71,9 @@ public class MapGen : MonoBehaviour
         meanPositionTexture = new Texture2D(width, height, TextureFormat.ARGB32, false);
 
         // Import Localisation in both cases
-        continentNames = ImportNamesJson(Application.dataPath + "/Resources/Localisation/Continents.json");
-        provinceNames = ImportNamesJson(Application.dataPath + "/Resources/Localisation/Provinces.json");
-        culturesList = ImportCultureJson(Application.dataPath + "/Resources/Localisation/Cultures.json");
+        continentNames = ImportNamesJson(Application.streamingAssetsPath + "/Localisation/Continents.json");
+        provinceNames = ImportNamesJson(Application.streamingAssetsPath + "/Localisation/Provinces.json");
+        culturesList = ImportCultureJson(Application.streamingAssetsPath + "/Localisation/Cultures.json");
 
         if (generateMap)
         {
@@ -86,7 +86,7 @@ public class MapGen : MonoBehaviour
         {
             // Load map data from config files
             Debug.Log("Loading Map Data");
-            ImportContinentsJson(Application.dataPath + "/Resources/Maps/Tiles/");
+            ImportContinentsJson(Application.streamingAssetsPath + "/MapGen/Tiles/");
         }
 
         // This cannot be enabled simultaneous with generateMap
@@ -94,7 +94,6 @@ public class MapGen : MonoBehaviour
         {
             Debug.Log("Updating Map Data");
             StartCoroutine(UpdateTileData());
-
         }
     }
 
@@ -202,11 +201,11 @@ public class MapGen : MonoBehaviour
 
 
         // write all to json
-        WriteToJson(Application.dataPath + "/Resources/Maps/Tiles/");
+        WriteToJson(Application.streamingAssetsPath + "/MapGen/Tiles/");
         SaveNamesJson();
 
         // Save the final texture to a file when the object is destroyed (you can adjust this to your needs)
-        string filePath = Application.dataPath + "/Maps/MeanPosition.png";
+        string filePath = Application.streamingAssetsPath + "/Exports/MeanPosition.png";
         byte[] pngBytes = meanPositionTexture.EncodeToPNG();
         File.WriteAllBytes(filePath, pngBytes);
 
@@ -444,7 +443,7 @@ public class MapGen : MonoBehaviour
         Destroy(populationMap);
 
         // write all to json
-        WriteToJson(Application.dataPath + "/Resources/Maps/Tiles/");
+        WriteToJson(Application.streamingAssetsPath + "/MapGen/Tiles/");
 
         yield return null;
     }
@@ -580,7 +579,7 @@ public class MapGen : MonoBehaviour
         Debug.Log("Writing Localisation to Files");
 
         // Write Continents File
-        string filePath = Application.dataPath + "/Resources/Localisation/Continents.json";
+        string filePath = Application.streamingAssetsPath + "/Localisation/Continents.json";
         FileStream fileStream = new FileStream(filePath, FileMode.Create);
         string jsonOutput = JsonHelper.ToJson<MapLocalisation>(continentNames.ToArray(), true);
 
@@ -591,7 +590,7 @@ public class MapGen : MonoBehaviour
         }
 
         // Write Provinces File
-        string filePath2 = Application.dataPath + "/Resources/Localisation/Provinces.json";
+        string filePath2 = Application.streamingAssetsPath + "/Localisation/Provinces.json";
         FileStream nordStream2 = new FileStream(filePath2, FileMode.Create);
         string jsonOutput2 = JsonHelper.ToJson<MapLocalisation>(provinceNames.ToArray(), true);
 
@@ -666,7 +665,7 @@ public class MapGen : MonoBehaviour
     #region json
     void ImportContinentsJson(string filePath)
     {
-        string[] files = System.IO.Directory.GetFiles(filePath, $"*.json");
+        string[] files = Directory.GetFiles(filePath, $"*.json");
         string content;
         continents = new List<ContinentData>();
 

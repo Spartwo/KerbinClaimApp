@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Security.Claims;
+using TMPro;
 using Unity.Properties;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -98,6 +99,7 @@ public class ClickDetect : MonoBehaviour
                 int x = Mathf.RoundToInt(textureCoord.x * width * 2);
                 int y = Mathf.RoundToInt(textureCoord.y * height);
                 GameModeLC(x, y);
+
             }
         }
 
@@ -116,6 +118,7 @@ public class ClickDetect : MonoBehaviour
                 int x = Mathf.RoundToInt(textureCoord.x * width * 2);
                 int y = Mathf.RoundToInt(textureCoord.y * height);
                 GameModeRC(x, y);
+
             }
         }
 
@@ -170,7 +173,7 @@ public class ClickDetect : MonoBehaviour
                         TileClaim(selectedTile, true);
                     }
                 }
-                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation + "\n\n" + "NaN");
+                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation.ToString("N0") + "\n\n" + "NaN");
                 UpdatePlaneTexture();
                 break;
             case 2:
@@ -209,7 +212,7 @@ public class ClickDetect : MonoBehaviour
                         TileClaim(selectedTile, false);
                     }
                 }
-                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation + "\n\n" + "NaN");
+                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation.ToString("N0") + "\n\n" + "NaN");
                 UpdatePlaneTexture();
                 break;
             case 2:
@@ -287,7 +290,7 @@ public class ClickDetect : MonoBehaviour
         lines.Add("Selected Tiles: " + string.Join(", ", selectedTiles));
 
         // Save the lines to a file 
-        string filePath = Application.dataPath + "/Exports/Maps/Claim.txt";
+        string filePath = Application.streamingAssetsPath + "/Exports/Claim.txt";
         File.WriteAllLines(filePath, lines);
     }
 
@@ -312,7 +315,7 @@ public class ClickDetect : MonoBehaviour
     void PrintMap(string filename)
     {
         // Save the final texture to a file 
-        string filePath = Application.dataPath + "/Exports/Maps/" + filename;
+        string filePath = Application.streamingAssetsPath + "/Exports/" + filename;
         byte[] pngBytes = highlightTexture.EncodeToPNG();
         File.WriteAllBytes(filePath, pngBytes);
     }
