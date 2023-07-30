@@ -1,0 +1,24 @@
+{{Nation
+| nation = Carbombya
+| localized_name = 
+| full_name = Carbombya
+| flag = Carbombya_flag.png
+| flagdesc = Flag of Carbombya
+| motto = [Unknown]
+| anthem = [Unknown]
+| anthem_MP3 = [Unknown.mp3]
+| map = Carbombya_Globe.png
+| mapdesc = Map of Carbombya
+| denonym = Carbombyaian
+| capital = Bal
+| languages = Kostel<br/>
+| currency = Carbombyaian Fund
+| government = [Unknown]
+| ethnicity = 100.0% West Kafrican<br/>
+| population = 386,272
+| area = 12,876
+| predecessor = 
+| successor = 
+}}
+
+Claim Value: 180/500

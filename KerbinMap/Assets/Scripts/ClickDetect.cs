@@ -35,19 +35,22 @@ public class ClickDetect : MonoBehaviour
     private Color[] clearColours;
     private Color[] highlightColours;
 
+    private Dictionary<string, int> culturalPopulation = new Dictionary<string, int>();
+    private Dictionary<string, int> speakingPopulation = new Dictionary<string, int>();
+
     // Claim Data
-    private HashSet<string> selectedTiles = new HashSet<string>();
+    private HashSet<TileData> selectedTiles = new HashSet<TileData>();
     public float totalArea = 0;
     public int totalPopulation = 0;
     public int claimValue = 0;
     public string claimName;
     public List<ResourceDef> resources = new List<ResourceDef>();
 
-    [SerializeField] private int claimLimit = 100;
-
+    [SerializeField] private int claimLimit = 500;
     [SerializeField] private UIControl UICanvas;
+    [SerializeField] GameObject nameField;
 
-    private List<Color> tilePixels = new List<Color>();
+    private Color[] tilePixels;
     int width, height;
 
     // Start is called before the first frame update
@@ -58,7 +61,7 @@ public class ClickDetect : MonoBehaviour
         culturesList = mapSource.culturesList;
 
         // Gotta store these for painting
-        tilePixels = mapSource.SerialiseMap(mapSource.tileMap.GetPixels());
+        tilePixels = mapSource.tileMap.GetPixels();
         
         width = mapSource.tileMap.width; 
         height = mapSource.tileMap.height;
@@ -123,13 +126,13 @@ public class ClickDetect : MonoBehaviour
         }
 
     }
-
     void GameModeLC (int x, int y)
     {
         int situation = UICanvas.mapModeValue;
         switch (situation)
         {
             case 0: //Inspect Mode
+                bool showProvince = false;
                 if (selectedTile != null) //Clear Old selection
                 {
                     //Clear the whole map cause only one selection at a time
@@ -146,12 +149,15 @@ public class ClickDetect : MonoBehaviour
                 if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
                 {
                     PaintProvince(highlightTexture, Color.blue);
+                    // Also show the province data
+                    showProvince = true;
                 }
                 // Paint the main one after so it's differently coloured
                 PaintTile(selectedTile, highlightTexture, Color.cyan);
-
                 UpdatePlaneTexture();
-                //PrintMap("Selection.png");
+
+                // Pass info to UI
+                UICanvas.UpdateInspectUI(showProvince, selectedProvince, selectedTile);
                 break;
             case 1:
                 SelectTile(x, y);
@@ -160,7 +166,7 @@ public class ClickDetect : MonoBehaviour
                 {
                     foreach (TileData t in selectedProvince.Tiles)
                     {
-                        if (!selectedTiles.Contains(t.HexCode))
+                        if (!selectedTiles.Contains(t))
                         {
                             TileClaim(t, true);
                         }
@@ -168,7 +174,7 @@ public class ClickDetect : MonoBehaviour
                 } 
                 else //else just do the one
                 {
-                    if (!selectedTiles.Contains(selectedTile.HexCode))
+                    if (!selectedTiles.Contains(selectedTile))
                     {
                         TileClaim(selectedTile, true);
                     }
@@ -199,7 +205,7 @@ public class ClickDetect : MonoBehaviour
                 {
                     foreach (TileData t in selectedProvince.Tiles)
                     {
-                        if (selectedTiles.Contains(t.HexCode))
+                        if (selectedTiles.Contains(t))
                         {
                             TileClaim(t, false);
                         }
@@ -207,7 +213,7 @@ public class ClickDetect : MonoBehaviour
                 }
                 else //else just do the one
                 {
-                    if (selectedTiles.Contains(selectedTile.HexCode))
+                    if (selectedTiles.Contains(selectedTile))
                     {
                         TileClaim(selectedTile, false);
                     }
@@ -233,7 +239,7 @@ public class ClickDetect : MonoBehaviour
             claimValue += t.ClaimValue;
 
             PaintTile(t, highlightTexture, Color.red);
-            selectedTiles.Add(t.HexCode);
+            selectedTiles.Add(t);
         }
         else
         {
@@ -242,7 +248,7 @@ public class ClickDetect : MonoBehaviour
             claimValue -= t.ClaimValue;
 
             PaintTile(t, highlightTexture, clearColour);
-            selectedTiles.Remove(t.HexCode);
+            selectedTiles.Remove(t);
         }
     }
 
@@ -261,33 +267,93 @@ public class ClickDetect : MonoBehaviour
     }
     void SaveClaimData()
     {
+        claimName = nameField.GetComponent<TMP_InputField>().text;
+
+        // Get culture percentiles
+        string percentiles = "";
+        string languages = "";
+        // Count populations of each subgroup definition
+        foreach (TileData td in selectedTiles)
+        {
+            string SubGroup = FindCulture(td.Culture).SubGroup;
+            string Language = FindCulture(td.Culture).Language;
+            if (speakingPopulation.ContainsKey(Language))
+            {
+                speakingPopulation[Language] += td.Population;
+            }
+            else
+            {
+                speakingPopulation[Language] = td.Population;
+            }
+
+            if (culturalPopulation.ContainsKey(SubGroup))
+            {
+                culturalPopulation[SubGroup] += td.Population;
+            }
+            else
+            {
+                culturalPopulation[SubGroup] = td.Population;
+            }
+        }
+
+        // For each value in the dictionary slap it onto the bottom of the printout
+        foreach (KeyValuePair<string, int> entry in speakingPopulation)
+        {
+            float thisPercent = (entry.Value / (float)totalPopulation);
+            if (thisPercent > 0.25f)
+            {
+                languages += entry.Key + "<br/>";
+            }
+        }
+
+        if (languages.Equals(""))
+        {
+            languages = "None";
+        }
+
+        // For each value in the dictionary slap it onto the bottom of the printout
+        foreach (KeyValuePair<string, int> entry in culturalPopulation)
+        {
+            string thisPercent = ((entry.Value / (float)totalPopulation) * 100f).ToString("N1");
+            percentiles += thisPercent + "% " + entry.Key + "<br/>";
+        }
+
+        speakingPopulation.Clear();
+        culturalPopulation.Clear();
+
         // Create a list to store the lines of the text
         List<string> lines = new List<string>();
 
         // Add the claim data to the list
-        lines.Add("{{MinorNation");
+        lines.Add("{{Nation");
         lines.Add("| nation = " + claimName);
-        lines.Add("| localized_name = " + "[Unknown]");
-        lines.Add("| flag = " + claimName + "_flag.png");
-        lines.Add("| flagdesc = ");
+        lines.Add("| localized_name = ");
         lines.Add("| full_name = " + claimName);
+        lines.Add("| flag = " + claimName + "_flag.png");
+        lines.Add("| flagdesc = Flag of " + claimName);
+        lines.Add("| motto = " + "[Unknown]");
+        lines.Add("| anthem = " + "[Unknown]");
+        lines.Add("| anthem_MP3 = " + "[Unknown.mp3]");
         lines.Add("| map = " + claimName + "_Globe.png");
-        lines.Add("| mapdesc = ");
+        lines.Add("| mapdesc = " + "Map of " + claimName);
+        lines.Add("| denonym = " + claimName + "ian");
+        lines.Add("| capital = " + mapSource.RetrieveName(false, selectedTile.ProvinceParent));
+        lines.Add("| languages = " + languages);
+        lines.Add("| currency = " + claimName + "ian Fund");
         lines.Add("| government = " + "[Unknown]");
         //lines.Add("| foundation = " + GetDate(DateTime.UtcNow));
-        lines.Add("| population = " + totalPopulation.ToString());
-        lines.Add("| denonym = " + claimName + "ian");
+        lines.Add("| ethnicity = " + percentiles);
+        lines.Add("| population = " + totalPopulation.ToString("N0"));
         lines.Add("| area = " + totalArea.ToString("N0"));
-        lines.Add("| predecessor = " + "[Unknown]");
-        lines.Add("| successor = " + "");
-        lines.Add("| capital = " + mapSource.RetrieveName(false, selectedTile.ProvinceParent));
+        lines.Add("| predecessor = ");
+        lines.Add("| successor = ");
         lines.Add("}}");
 
         // Add an empty line after the claim data
         lines.Add("");
 
         // Add the selectedTiles hashset to the list
-        lines.Add("Selected Tiles: " + string.Join(", ", selectedTiles));
+        lines.Add("Claim Value: " + claimValue + "/" + claimLimit);
 
         // Save the lines to a file 
         string filePath = Application.streamingAssetsPath + "/Exports/Claim.txt";
@@ -421,10 +487,10 @@ public class ClickDetect : MonoBehaviour
     void SelectTile(int x, int y)
     {
         // Get the hexcode of the continent pixel
-        Color textureColor = mapSource.continentMap.GetPixel(x, y);
-        string continentColour = ColorUtility.ToHtmlStringRGB(textureColor);
+        //Color textureColor = mapSource.continentMap.GetPixel(x, y);
+        //string continentColour = ColorUtility.ToHtmlStringRGB(textureColor);
         // Get the hexcode of the province pixel
-        textureColor = mapSource.provinceMap.GetPixel(x, y);
+        Color textureColor = mapSource.provinceMap.GetPixel(x, y);
         string provinceColour = ColorUtility.ToHtmlStringRGB(textureColor);
         // Get the hexcode of the tile pixel
         textureColor = tilePixels[y * width + x];
@@ -460,7 +526,7 @@ public class ClickDetect : MonoBehaviour
         Debug.Log("Tile " + tileColour + " not Found");
     }
 
-    private CultureDef FindCulture(string hexCode)
+    public CultureDef FindCulture(string hexCode)
     {
         foreach (CultureDef c in culturesList)
         {

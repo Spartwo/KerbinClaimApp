@@ -21,10 +21,10 @@ public class MapGen : MonoBehaviour
     [SerializeField] public Texture2D tileMap;
     private Texture2D tileAreaMap;
     [SerializeField] public Texture2D provinceMap;
-    private Texture2D languageMap;
-    private Texture2D biomeMap;
-    private Texture2D heightMap;
-    private Texture2D populationMap;
+    private Color[] languageMap;
+    private Color[] biomeMap;
+    private Color[] heightMap;
+    private Color[] populationMap;
     [SerializeField] public Texture2D continentMap;
 
     // When true will produce new definitions from the map, takes ages
@@ -36,6 +36,8 @@ public class MapGen : MonoBehaviour
     private int width;
     private int height;
     private int mapArea, mapLandArea; //Pixel area
+    [SerializeField] private float zeroAlt = -1393;
+    [SerializeField] private float maxAlt = 6768;
     // XY of the map center
     private float centerX;
     private float centerY;
@@ -43,6 +45,7 @@ public class MapGen : MonoBehaviour
     [SerializeField] private Vector2 biggestTile = new Vector2(750,400);
     [SerializeField] private int searchIncriment = 100;
     [SerializeField] private int populationScaler = 1;
+    [SerializeField] private AnimationCurve densityOutputCurve;
     #endregion
 
     private Dictionary<Color, int> tileColoursCount= new Dictionary<Color, int>();
@@ -358,19 +361,17 @@ public class MapGen : MonoBehaviour
 
     IEnumerator UpdateTileData()
     {
-        biomeMap = new Texture2D(width, height, TextureFormat.RGBA32, false);
-        biomeMap.SetPixels(Resources.Load<Texture2D>("Maps/DataLayers/Biomes").GetPixels());
-        biomeMap.Apply();
+        biomeMap = new Color[width * height];
+        biomeMap = Resources.Load<Texture2D>("Maps/DataLayers/Biomes").GetPixels();
 
-        heightMap = new Texture2D(width, height, TextureFormat.RGBA32, false);
-        heightMap.SetPixels(Resources.Load<Texture2D>("Maps/DataLayers/Height").GetPixels());
-        heightMap.Apply();
+        heightMap = new Color[width * height];
+        heightMap = Resources.Load<Texture2D>("Maps/DataLayers/Height").GetPixels();
 
-        languageMap = new Texture2D(width, height, TextureFormat.RGBA32, false);
-        languageMap.SetPixels(Resources.Load<Texture2D>("Maps/DataLayers/Language").GetPixels());
-        languageMap.Apply();
+        languageMap = new Color[width * height];
+        languageMap = Resources.Load<Texture2D>("Maps/DataLayers/Language").GetPixels();
 
-        //private Texture2D populationMap;
+        populationMap = new Color[width * height];
+        populationMap = Resources.Load<Texture2D>("Maps/DataLayers/Density").GetPixels();
 
         int tileProgress = 0;
 
@@ -399,6 +400,7 @@ public class MapGen : MonoBehaviour
 
                 p.Population = 0;
                 p.Area = 0;
+
                 foreach (TileData t in p.Tiles)
                 {
                     // Use first position as the data peg if the mean position is over water
@@ -411,17 +413,18 @@ public class MapGen : MonoBehaviour
                     // Add tile area to province area
                     p.Area += t.Area;
                     // Get Culture by finding the undertile value in a comparitive object
-                    Color cultureValue = languageMap.GetPixel(baseX, baseY);
+                    Color cultureValue = languageMap[baseY * width + baseX];
                     t.Culture = ColorUtility.ToHtmlStringRGB(cultureValue);
                     // Get altitude by converting the heightmap brightness
-                    int colorValue = (int)(heightMap.GetPixel(baseX, baseY).r * 255);
-                    t.Altitude = colorValue * 50f;
+                    float heightValue = heightMap[baseY * width + baseX].r;
+                    t.Altitude = Mathf.Lerp(zeroAlt, maxAlt, heightValue);
                     // Get Biome by comparing the biomemap with a dictionary
-                    Color biomeValue = biomeMap.GetPixel(baseX, baseY);
+                    Color biomeValue = biomeMap[baseY * width + baseX];
                     t.Terrain = biomeCodeMappings[ColorUtility.ToHtmlStringRGB(biomeValue)];
                     // Get Population of the tile by scaling the true area against the heatmap
-                    //Color heatValue = populationMap.GetPixel(meanX, meanY);
-                    int newPopulation = (int)(30 * populationScaler * t.Area); //30 is a standin heatmap value for persons per km
+                    float heatValue = populationMap[baseY * width + baseX].r;
+                    float density = densityOutputCurve.Evaluate(heatValue);
+                    int newPopulation = (int)(density* populationScaler * t.Area); //30 is a standin heatmap value for persons per km
                     p.Population += newPopulation;
                     t.Population = newPopulation;
                     // Claim Value is an aggregate of local values
@@ -429,18 +432,24 @@ public class MapGen : MonoBehaviour
                     t.ClaimValue = claimValue;
 
                     tileProgress++;
-                    Debug.Log(t.HexCode + "Updated (#" + tileProgress + ")");
+                    Debug.Log(t.HexCode + " Updated (#" + tileProgress + ")");
                     // Give a little buffer
-                    yield return new WaitForSeconds(0.01f);
+                    //yield return new WaitForSeconds(0.01f);
                 }
 
             }
         }
+
+        // Give a little buffer
+        yield return new WaitForSeconds(0.1f);
         // Textures are no longer required
-        Destroy(biomeMap);
-        Destroy(languageMap);
-        Destroy(heightMap);
-        Destroy(populationMap);
+        biomeMap = null;
+        languageMap = null;
+        heightMap = null;
+        //populationMap = null;
+        Debug.Log("Cleared Arrays");
+        // Give a little buffer
+        yield return new WaitForSeconds(0.1f);
 
         // write all to json
         WriteToJson(Application.streamingAssetsPath + "/MapGen/Tiles/");

@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class UIControl : MonoBehaviour
 {
@@ -19,8 +20,15 @@ public class UIControl : MonoBehaviour
 
     public GameObject claimDataField;
 
+    public GameObject inspectTileDataField;
+    public GameObject inspectProvinceDataField;
+
     public GameObject fillFullBar;
     public Slider fillSlider;
+
+    private Dictionary<string, int> speakingPopulation = new Dictionary<string, int>();
+
+    [SerializeField] ClickDetect cd;
 
     // Start is called before the first frame update
     public void Exit()
@@ -43,14 +51,72 @@ public class UIControl : MonoBehaviour
         claimDataField.GetComponent<TextMeshProUGUI>().text = displayData;
     }
 
+    public void UpdateInspectUI(bool showProvince, ProvinceData p, TileData t)
+    {
+        if (showProvince) 
+        { 
+            provincePanel.SetActive(true);
+
+            // Get culture percentiles
+            string percentiles = "";
+            // Count populations of each subgroup definition
+            foreach (TileData tp in p.Tiles)
+            {
+                string SubGroup = cd.FindCulture(tp.Culture).SubGroup;
+                if (speakingPopulation.ContainsKey(SubGroup))
+                {
+                    speakingPopulation[SubGroup] += tp.Population;
+                }
+                else
+                {
+                    speakingPopulation[SubGroup] = tp.Population;
+                }
+            }
+
+            // For each value in the dictionary slap it onto the bottom of the printout
+            foreach (KeyValuePair<string, int> entry in speakingPopulation)
+            {
+                string thisPercent = ((entry.Value / (float)p.Population) * 100f).ToString("N1");
+                percentiles += entry.Key + "\n(" + thisPercent + "%)\n";
+            }
+
+            string provData = ""
+                + cd.selectedProvName + "\n\n"
+                + p.Tiles.Count + "\n\n"
+                + p.Area.ToString("N0") + "km^2\n\n" 
+                + p.Population.ToString("N0") + "\n\n"
+                + cd.selectedContName + "\n\n"
+                + percentiles;
+
+            inspectProvinceDataField.GetComponent<TextMeshProUGUI>().text = provData;
+            speakingPopulation.Clear();
+        }
+        else
+        {
+            provincePanel.SetActive(false);
+        }
+
+        tilePanel.SetActive(true);
+        string tileData = ""
+                + t.Area.ToString("N0") + "km^2\n\n"
+                + t.Coordinates.x.ToString("N3") + "°N\n" + t.Coordinates.y.ToString("N3") + "°E\n\n"
+                + t.Altitude.ToString("N1") + "m\n\n"
+                + t.Terrain + "\n\n"
+                + t.Population.ToString("N0") + "\n\n"
+                + cd.selectedTileCulture.Dialect + "\n(" + cd.selectedTileCulture.Language  + ")" + "\n\n"
+                + "NaN";
+        inspectTileDataField.GetComponent<TextMeshProUGUI>().text = tileData;
+
+    }
+
     public void onDropdownValueChanged(int value)
     {
         mapModeValue = value;
         switch(mapModeValue) 
         {
             case 0:
-                tilePanel.SetActive(true);
-                provincePanel.SetActive(true);
+                tilePanel.SetActive(false);
+                provincePanel.SetActive(false);
                 inspectContextPanel.SetActive(true);
                 claimPanel.SetActive(false);
                 claimContextPanel.SetActive(false);
