@@ -25,6 +25,7 @@ public class MapGen : MonoBehaviour
     private Color[] biomeMap;
     private Color[] heightMap;
     private Color[] populationMap;
+    private Color[] resourceMap;
     [SerializeField] public Texture2D continentMap;
 
     // When true will produce new definitions from the map, takes ages
@@ -46,7 +47,9 @@ public class MapGen : MonoBehaviour
     [SerializeField] private int searchIncriment = 100;
     [SerializeField] private int populationScaler = 1;
     [SerializeField] private AnimationCurve densityOutputCurve;
+    
     #endregion
+
 
     private Dictionary<Color, int> tileColoursCount= new Dictionary<Color, int>();
     // Declare the Texture2D for tile painting
@@ -78,6 +81,22 @@ public class MapGen : MonoBehaviour
         provinceNames = ImportNamesJson(Application.streamingAssetsPath + "/Localisation/Provinces.json");
         culturesList = ImportCultureJson(Application.streamingAssetsPath + "/Localisation/Cultures.json");
 
+        /*
+        // Pop curve tester
+        double[] densityTargets = new double[] { 0.5, 2, 5, 10, 20, 75, 125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 4000, 5000, 6000, 8000, 10000, 15000, 20000, 25000 };
+        // Create an inverted curve
+        AnimationCurve invertedCurve = new AnimationCurve();
+        foreach (Keyframe key in densityOutputCurve.keys)
+        {
+            invertedCurve.AddKey(new Keyframe(key.value, key.time));
+        }
+
+        for (int i = 0; i < densityTargets.Length; i++)
+        {
+            float RValue = invertedCurve.Evaluate((float)densityTargets[i]);
+            Debug.Log("Density: " + densityTargets[i] + ", R: " + RValue*255);
+        }*/
+
         if (generateMap)
         {
             // Create new map data using images
@@ -92,13 +111,15 @@ public class MapGen : MonoBehaviour
             ImportContinentsJson(Application.streamingAssetsPath + "/MapGen/Tiles/");
         }
 
-        // This cannot be enabled simultaneous with generateMap
+        // Without resources
         if (refreshData)
         {
             Debug.Log("Updating Map Data");
             StartCoroutine(UpdateTileData());
         }
     }
+
+
 
     IEnumerator delayBuild()
     {
@@ -359,6 +380,7 @@ public class MapGen : MonoBehaviour
         newParent.Tiles.Add(newTile);
     }
 
+
     IEnumerator UpdateTileData()
     {
         biomeMap = new Color[width * height];
@@ -372,6 +394,11 @@ public class MapGen : MonoBehaviour
 
         populationMap = new Color[width * height];
         populationMap = Resources.Load<Texture2D>("Maps/DataLayers/Density").GetPixels();
+
+        resourceMap = new Color[width * height];
+        resourceMap = Resources.Load<Texture2D>("Maps/DataLayers/Resources").GetPixels();
+
+        yield return new WaitForSeconds(0.1f);
 
         int tileProgress = 0;
 
@@ -446,6 +473,7 @@ public class MapGen : MonoBehaviour
         biomeMap = null;
         languageMap = null;
         heightMap = null;
+        resourceMap = null;
         //populationMap = null;
         Debug.Log("Cleared Arrays");
         // Give a little buffer

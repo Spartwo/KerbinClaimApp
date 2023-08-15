@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -81,6 +82,7 @@ public class ClickDetect : MonoBehaviour
         Array.Copy(clearColours, highlightColours, clearColours.Length);
         UpdatePlaneTexture();
 
+        //StartCoroutine(MakeYieldTiles());
     }
 
     void Update()
@@ -126,6 +128,64 @@ public class ClickDetect : MonoBehaviour
         }
 
     }
+
+    IEnumerator MakeYieldTiles()
+    {
+        yield return new WaitForSeconds(3.1f);
+        Color[] resourceMap = new Color[width * height];
+        resourceMap = Resources.Load<Texture2D>("Maps/DataLayers/Density").GetPixels();
+
+        yield return new WaitForSeconds(0.1f);
+
+        Color[] resourceTiles = new Color[width * height];
+        Array.Copy(clearColours, resourceTiles, clearColours.Length);
+
+        yield return new WaitForSeconds(0.1f);
+
+        int tileProgress = 0;
+
+        foreach (ContinentData c in mapSource.continents)
+        {
+            foreach (ProvinceData p in c.Provinces)
+            {
+                foreach (TileData t in p.Tiles)
+                {
+                    // Use first position as the data peg if the mean position is over water
+                    Vector2 position = t.Position;
+                    int baseX = (int)position.x;
+                    int baseY = (int)position.y;
+
+
+                    // Get altitude by converting the heightmap brightness
+                    Color yieldValue = resourceMap[baseY * width + baseX];
+
+                    PaintTile(t, resourceTiles, yieldValue);
+                    tileProgress++;
+                    Debug.Log("Painted " + tileProgress + "/ 6474");
+                }
+                yield return new WaitForSeconds(0.1f);
+
+            }
+        }
+
+        yield return new WaitForSeconds(1.1f);
+
+        // Initialize the hightlight Texture with the same dimensions as the map image
+        Texture2D resourceTexture = new Texture2D(width, height, TextureFormat.ARGB32, false);
+
+        yield return new WaitForSeconds(0.1f);
+
+        // Set the map to the currently stored highlights array
+        resourceTexture.SetPixels(0, 0, width, height, resourceTiles);
+        resourceTexture.Apply();
+        // Save the final texture to a file 
+        string filePath = Application.streamingAssetsPath + "/Exports/" + "Resource.png";
+        byte[] pngBytes = resourceTexture.EncodeToPNG();
+        File.WriteAllBytes(filePath, pngBytes);
+
+        yield return null;
+    }
+
     void GameModeLC (int x, int y)
     {
         int situation = UICanvas.mapModeValue;
@@ -148,12 +208,12 @@ public class ClickDetect : MonoBehaviour
                 // if shift clicked then highlight all tiles in province
                 if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
                 {
-                    PaintProvince(highlightTexture, Color.blue);
+                    PaintProvince(highlightColours, Color.blue);
                     // Also show the province data
                     showProvince = true;
                 }
                 // Paint the main one after so it's differently coloured
-                PaintTile(selectedTile, highlightTexture, Color.cyan);
+                PaintTile(selectedTile, highlightColours, Color.cyan);
                 UpdatePlaneTexture();
 
                 // Pass info to UI
@@ -238,7 +298,7 @@ public class ClickDetect : MonoBehaviour
             totalPopulation += t.Population;
             claimValue += t.ClaimValue;
 
-            PaintTile(t, highlightTexture, Color.red);
+            PaintTile(t, highlightColours, Color.red);
             selectedTiles.Add(t);
         }
         else
@@ -247,7 +307,7 @@ public class ClickDetect : MonoBehaviour
             totalPopulation -= t.Population;
             claimValue -= t.ClaimValue;
 
-            PaintTile(t, highlightTexture, clearColour);
+            PaintTile(t, highlightColours, clearColour);
             selectedTiles.Remove(t);
         }
     }
@@ -386,7 +446,7 @@ public class ClickDetect : MonoBehaviour
         File.WriteAllBytes(filePath, pngBytes);
     }
 
-    void PaintTile(TileData tile, Texture2D targetTex, Color paintColor)
+    void PaintTile(TileData tile, Color[] targetTex, Color paintColor)
     {
         // Calculate the pixel position of the mean position
         int pixelX = Mathf.RoundToInt(tile.Position.x);
@@ -397,7 +457,7 @@ public class ClickDetect : MonoBehaviour
         Color targetColor = tilePixels[pixelY * width + pixelX];
 
         // Set the mean painted
-        highlightColours[pixelY * width + pixelX] = paintColor;
+        targetTex[pixelY * width + pixelX] = paintColor;
         int foundArea = 1;
 
         while (foundArea < totalArea)
@@ -419,12 +479,12 @@ public class ClickDetect : MonoBehaviour
                 int bottomIndex = endY * width + x;
                 if (tilePixels[topIndex] == targetColor)
                 {
-                    highlightColours[topIndex] = paintColor;
+                    targetTex[topIndex] = paintColor;
                     foundArea++;
                 }
                 if (tilePixels[bottomIndex] == targetColor)
                 {
-                    highlightColours[bottomIndex] = paintColor;
+                    targetTex[bottomIndex] = paintColor;
                     foundArea++;
                 }
             }
@@ -436,12 +496,12 @@ public class ClickDetect : MonoBehaviour
                 int rightIndex = y * width + endX;
                 if (tilePixels[leftIndex] == targetColor)
                 {
-                    highlightColours[leftIndex] = paintColor;
+                    targetTex[leftIndex] = paintColor;
                     foundArea++;
                 }
                 if (tilePixels[rightIndex] == targetColor)
                 {
-                    highlightColours[rightIndex] = paintColor;
+                    targetTex[rightIndex] = paintColor;
                     foundArea++;
                 }
             }
@@ -450,7 +510,7 @@ public class ClickDetect : MonoBehaviour
         }
     }
 
-    void PaintProvince(Texture2D targetTex, Color paintColor)
+    void PaintProvince(Color[] targetTex, Color paintColor)
     {
         foreach (TileData t in selectedProvince.Tiles) 
         {

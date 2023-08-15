@@ -14299,7 +14299,7 @@
                             "Altitude": 98.01573181152344,
                             "Terrain": "Grasslands",
                             "Area": 688.892578125,
-                            "ProjectedArea": 13732,
+                            "ProjectedArea": 13730,
                             "Population": 189989,
                             "ProvinceParent": "AFB963",
                             "ContinentParent": "9B9B9B",
@@ -14318,12 +14318,12 @@
                             },
                             "Position": {
                                 "x": 9068.6201171875,
-                                "y": 5371.75
+                                "y": 5372.75
                             },
                             "Altitude": 5.803974151611328,
                             "Terrain": "Freshwater",
                             "Area": 920.060791015625,
-                            "ProjectedArea": 19088,
+                            "ProjectedArea": 19090,
                             "Population": 23001519,
                             "ProvinceParent": "AFB963",
                             "ContinentParent": "9B9B9B",

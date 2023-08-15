@@ -1,24 +1,24 @@
 {{Nation
-| nation = Carbombya
+| nation = 
 | localized_name = 
-| full_name = Carbombya
-| flag = Carbombya_flag.png
-| flagdesc = Flag of Carbombya
+| full_name = 
+| flag = _flag.png
+| flagdesc = Flag of 
 | motto = [Unknown]
 | anthem = [Unknown]
 | anthem_MP3 = [Unknown.mp3]
-| map = Carbombya_Globe.png
-| mapdesc = Map of Carbombya
-| denonym = Carbombyaian
-| capital = Bal
-| languages = Kostel<br/>
-| currency = Carbombyaian Fund
+| map = _Globe.png
+| mapdesc = Map of 
+| denonym = ian
+| capital = Vanad
+| languages = Zokesian<br/>
+| currency = ian Fund
 | government = [Unknown]
-| ethnicity = 100.0% West Kafrican<br/>
-| population = 386,272
-| area = 12,876
+| ethnicity = 23.8% Iridian<br/>76.2% Zokesi<br/>
+| population = 3,732,236
+| area = 14,906
 | predecessor = 
 | successor = 
 }}
 
-Claim Value: 180/500
+Claim Value: 65/500
