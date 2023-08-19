@@ -7,15 +7,17 @@
                     "HexCode": "4ACDB2",
                     "ContinentParent": "A69658",
                     "Area": 11.012492179870606,
-                    "Population": 275312,
+                    "Population": 724,
                     "Tiles": [
                         {
                             "HexCode": "3C2547",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -115.0,
                                 "y": -73.12000274658203
@@ -28,10 +30,10 @@
                             "Terrain": "Ice Sheet",
                             "Area": 11.012492179870606,
                             "ProjectedArea": 320,
-                            "Population": 275312,
+                            "Population": 724,
                             "ProvinceParent": "4ACDB2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 73
                         }
                     ]
                 },
@@ -39,15 +41,17 @@
                     "HexCode": "14E767",
                     "ContinentParent": "A69658",
                     "Area": 1699.2183837890625,
-                    "Population": 42480446,
+                    "Population": 111858,
                     "Tiles": [
                         {
                             "HexCode": "63ECA0",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 167.3300018310547,
                                 "y": -71.56999969482422
@@ -60,18 +64,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 75.48734283447266,
                             "ProjectedArea": 1886,
-                            "Population": 1887183,
+                            "Population": 4969,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 505
                         },
                         {
                             "HexCode": "5642FD",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 165.4600067138672,
                                 "y": -71.4000015258789
@@ -84,18 +90,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 33.88459396362305,
                             "ProjectedArea": 851,
-                            "Population": 847114,
+                            "Population": 2230,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 226
                         },
                         {
                             "HexCode": "58DA13",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 169.7899932861328,
                                 "y": -71.47000122070313
@@ -108,18 +116,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 57.88617706298828,
                             "ProjectedArea": 1440,
-                            "Population": 1447154,
+                            "Population": 3810,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 387
                         },
                         {
                             "HexCode": "7034DF",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 170.97999572753907,
                                 "y": -70.37000274658203
@@ -132,18 +142,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 217.6143798828125,
                             "ProjectedArea": 5172,
-                            "Population": 5440359,
+                            "Population": 14326,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 1455
                         },
                         {
                             "HexCode": "15C25A",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 166.27000427246095,
                                 "y": -70.33000183105469
@@ -156,18 +168,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 209.1432342529297,
                             "ProjectedArea": 4960,
-                            "Population": 5228580,
+                            "Population": 13768,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 1398
                         },
                         {
                             "HexCode": "1E8873",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 168.6199951171875,
                                 "y": -70.33000183105469
@@ -180,18 +194,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 209.1432342529297,
                             "ProjectedArea": 4960,
-                            "Population": 5228580,
+                            "Population": 13768,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 1398
                         },
                         {
                             "HexCode": "7B9DF5",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 164.24000549316407,
                                 "y": -70.20999908447266
@@ -204,18 +220,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 141.0916748046875,
                             "ProjectedArea": 3320,
-                            "Population": 3527291,
+                            "Population": 9288,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 943
                         },
                         {
                             "HexCode": "18C0F8",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 173.14999389648438,
                                 "y": -69.93000030517578
@@ -228,18 +246,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 115.96060180664063,
                             "ProjectedArea": 2698,
-                            "Population": 2899015,
+                            "Population": 7634,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 775
                         },
                         {
                             "HexCode": "69A175",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 174.32000732421876,
                                 "y": -69.58999633789063
@@ -252,18 +272,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 20.801374435424806,
                             "ProjectedArea": 471,
-                            "Population": 520034,
+                            "Population": 1369,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 139
                         },
                         {
                             "HexCode": "D07E59",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 165.22000122070313,
                                 "y": -68.79000091552735
@@ -276,18 +298,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 152.29241943359376,
                             "ProjectedArea": 3364,
-                            "Population": 3807310,
+                            "Population": 10025,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 1017
                         },
                         {
                             "HexCode": "E95711",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 167.4199981689453,
                                 "y": -68.81999969482422
@@ -300,18 +324,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 149.93931579589845,
                             "ProjectedArea": 3309,
-                            "Population": 3748482,
+                            "Population": 9871,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 1002
                         },
                         {
                             "HexCode": "EF2244",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 169.74000549316407,
                                 "y": -68.83999633789063
@@ -324,18 +350,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 146.36260986328126,
                             "ProjectedArea": 3224,
-                            "Population": 3659065,
+                            "Population": 9635,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 979
                         },
                         {
                             "HexCode": "826BCE",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 172.00999450683595,
                                 "y": -69.0199966430664
@@ -348,18 +376,20 @@
                             "Terrain": "Ice Sheet",
                             "Area": 97.70057678222656,
                             "ProjectedArea": 2188,
-                            "Population": 2442514,
+                            "Population": 6431,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 653
                         },
                         {
                             "HexCode": "DFCA0F",
                             "Culture": "A08B35",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 162.99000549316407,
                                 "y": -69.06999969482422
@@ -372,10 +402,10 @@
                             "Terrain": "Ice Sheet",
                             "Area": 71.91063690185547,
                             "ProjectedArea": 1616,
-                            "Population": 1797765,
+                            "Population": 4734,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 480
                         }
                     ]
                 },
@@ -383,15 +413,17 @@
                     "HexCode": "854D2B",
                     "ContinentParent": "A69658",
                     "Area": 2069.4072265625,
-                    "Population": 583885,
+                    "Population": 1654717,
                     "Tiles": [
                         {
                             "HexCode": "FF0278",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -145.82000732421876,
                                 "y": -56.9900016784668
@@ -404,18 +436,20 @@
                             "Terrain": "Grasslands",
                             "Area": 228.43862915039063,
                             "ProjectedArea": 3347,
-                            "Population": 65252,
+                            "Population": 188685,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 18891
                         },
                         {
                             "HexCode": "084855",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -143.75999450683595,
                                 "y": -56.959999084472659
@@ -428,18 +462,20 @@
                             "Terrain": "Grasslands",
                             "Area": 235.0272979736328,
                             "ProjectedArea": 3443,
-                            "Population": 67134,
+                            "Population": 169357,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 16960
                         },
                         {
                             "HexCode": "A9B345",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -142.27000427246095,
                                 "y": -55.84000015258789
@@ -452,18 +488,20 @@
                             "Terrain": "Grasslands",
                             "Area": 156.43386840820313,
                             "ProjectedArea": 2223,
-                            "Population": 43142,
+                            "Population": 112724,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 11288
                         },
                         {
                             "HexCode": "2D24AD",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -144.6199951171875,
                                 "y": -55.970001220703128
@@ -476,18 +514,20 @@
                             "Terrain": "Grasslands",
                             "Area": 144.48013305664063,
                             "ProjectedArea": 2052,
-                            "Population": 41270,
+                            "Population": 104110,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 10425
                         },
                         {
                             "HexCode": "306685",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -147.60000610351563,
                                 "y": -56.290000915527347
@@ -500,18 +540,20 @@
                             "Terrain": "Shores",
                             "Area": 5.176812648773193,
                             "ProjectedArea": 80,
-                            "Population": 1478,
+                            "Population": 4275,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 429
                         },
                         {
                             "HexCode": "2D124E",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -143.3699951171875,
                                 "y": -55.34000015258789
@@ -524,18 +566,20 @@
                             "Terrain": "Grasslands",
                             "Area": 132.71466064453126,
                             "ProjectedArea": 1863,
-                            "Population": 37909,
+                            "Population": 95632,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 9576
                         },
                         {
                             "HexCode": "81184F",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -145.5399932861328,
                                 "y": -55.25
@@ -548,18 +592,20 @@
                             "Terrain": "Grasslands",
                             "Area": 134.31475830078126,
                             "ProjectedArea": 1866,
-                            "Population": 38366,
+                            "Population": 110941,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 11107
                         },
                         {
                             "HexCode": "AB1EAC",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -141.47000122070313,
                                 "y": -54.7400016784668
@@ -572,18 +618,20 @@
                             "Terrain": "Grasslands",
                             "Area": 123.67876434326172,
                             "ProjectedArea": 1706,
-                            "Population": 34109,
+                            "Population": 89121,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 8924
                         },
                         {
                             "HexCode": "AFCC93",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -147.1199951171875,
                                 "y": -54.56999969482422
@@ -596,18 +644,20 @@
                             "Terrain": "Grasslands",
                             "Area": 153.7042694091797,
                             "ProjectedArea": 2115,
-                            "Population": 43904,
+                            "Population": 160485,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 16063
                         },
                         {
                             "HexCode": "814509",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -144.39999389648438,
                                 "y": -54.06999969482422
@@ -620,18 +670,20 @@
                             "Terrain": "Grasslands",
                             "Area": 307.8791809082031,
                             "ProjectedArea": 4177,
-                            "Population": 84910,
+                            "Population": 254302,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 25461
                         },
                         {
                             "HexCode": "8212D1",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -148.3699951171875,
                                 "y": -54.54999923706055
@@ -644,18 +696,20 @@
                             "Terrain": "Grasslands",
                             "Area": 71.25177001953125,
                             "ProjectedArea": 963,
-                            "Population": 20352,
+                            "Population": 65838,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 6591
                         },
                         {
                             "HexCode": "81068B",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -146.07000732421876,
                                 "y": -53.59000015258789
@@ -668,18 +722,20 @@
                             "Terrain": "Grasslands",
                             "Area": 231.26234436035157,
                             "ProjectedArea": 3109,
-                            "Population": 66058,
+                            "Population": 213690,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 21392
                         },
                         {
                             "HexCode": "574288",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -142.72000122070313,
                                 "y": -54.0
@@ -692,10 +748,10 @@
                             "Terrain": "Grasslands",
                             "Area": 145.0448760986328,
                             "ProjectedArea": 1967,
-                            "Population": 40001,
+                            "Population": 85557,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 8571
                         }
                     ]
                 },
@@ -703,15 +759,17 @@
                     "HexCode": "D28CC2",
                     "ContinentParent": "A69658",
                     "Area": 822.26611328125,
-                    "Population": 236315,
+                    "Population": 648550,
                     "Tiles": [
                         {
                             "HexCode": "812D8B",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -141.02000427246095,
                                 "y": -56.02000045776367
@@ -724,18 +782,20 @@
                             "Terrain": "Grasslands",
                             "Area": 159.6340789794922,
                             "ProjectedArea": 2270,
-                            "Population": 45598,
+                            "Population": 131854,
                             "ProvinceParent": "D28CC2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 13201
                         },
                         {
                             "HexCode": "03212D",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -139.30999755859376,
                                 "y": -55.779998779296878
@@ -748,18 +808,20 @@
                             "Terrain": "Grasslands",
                             "Area": 184.95339965820313,
                             "ProjectedArea": 2606,
-                            "Population": 54970,
+                            "Population": 152767,
                             "ProvinceParent": "D28CC2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 15295
                         },
                         {
                             "HexCode": "049F05",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -139.8699951171875,
                                 "y": -54.540000915527347
@@ -772,18 +834,20 @@
                             "Terrain": "Grasslands",
                             "Area": 290.5603942871094,
                             "ProjectedArea": 3996,
-                            "Population": 80133,
+                            "Population": 209374,
                             "ProvinceParent": "D28CC2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 20966
                         },
                         {
                             "HexCode": "2E3C35",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -137.69000244140626,
                                 "y": -54.66999816894531
@@ -796,10 +860,10 @@
                             "Terrain": "Grasslands",
                             "Area": 187.11825561523438,
                             "ProjectedArea": 2573,
-                            "Population": 55614,
+                            "Population": 154555,
                             "ProvinceParent": "D28CC2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 15475
                         }
                     ]
                 },
@@ -807,15 +871,17 @@
                     "HexCode": "17920D",
                     "ContinentParent": "A69658",
                     "Area": 2413.3359375,
-                    "Population": 660637,
+                    "Population": 1453785,
                     "Tiles": [
                         {
                             "HexCode": "55B981",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -136.25999450683595,
                                 "y": -54.95000076293945
@@ -828,18 +894,20 @@
                             "Terrain": "Grasslands",
                             "Area": 222.50881958007813,
                             "ProjectedArea": 3100,
-                            "Population": 63558,
+                            "Population": 160337,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 16056
                         },
                         {
                             "HexCode": "2E639E",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -134.75999450683595,
                                 "y": -54.15999984741211
@@ -852,18 +920,20 @@
                             "Terrain": "Grasslands",
                             "Area": 165.75213623046876,
                             "ProjectedArea": 2242,
-                            "Population": 47346,
+                            "Population": 119439,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 11961
                         },
                         {
                             "HexCode": "82729A",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -138.74000549316407,
                                 "y": -53.31999969482422
@@ -876,18 +946,20 @@
                             "Terrain": "Highlands",
                             "Area": 201.42507934570313,
                             "ProjectedArea": 2685,
-                            "Population": 53527,
+                            "Population": 92484,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 9268
                         },
                         {
                             "HexCode": "06B1D2",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -134.08999633789063,
                                 "y": -52.810001373291019
@@ -900,18 +972,20 @@
                             "Terrain": "Grasslands",
                             "Area": 284.34820556640627,
                             "ProjectedArea": 3764,
-                            "Population": 78420,
+                            "Population": 167728,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 16801
                         },
                         {
                             "HexCode": "8133A9",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -135.77999877929688,
                                 "y": -53.22999954223633
@@ -924,18 +998,20 @@
                             "Terrain": "Grasslands",
                             "Area": 216.0142822265625,
                             "ProjectedArea": 2856,
-                            "Population": 59574,
+                            "Population": 127420,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 12764
                         },
                         {
                             "HexCode": "583FB5",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -137.3000030517578,
                                 "y": -53.09000015258789
@@ -948,18 +1024,20 @@
                             "Terrain": "Grasslands",
                             "Area": 167.4463653564453,
                             "ProjectedArea": 2223,
-                            "Population": 44498,
+                            "Population": 98771,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 9894
                         },
                         {
                             "HexCode": "0439B4",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -132.16000366210938,
                                 "y": -52.63999938964844
@@ -972,18 +1050,20 @@
                             "Terrain": "Grasslands",
                             "Area": 219.30860900878907,
                             "ProjectedArea": 2892,
-                            "Population": 60483,
+                            "Population": 158031,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 15825
                         },
                         {
                             "HexCode": "04601E",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -135.91000366210938,
                                 "y": -51.939998626708987
@@ -996,18 +1076,20 @@
                             "Terrain": "Grasslands",
                             "Area": 176.67050170898438,
                             "ProjectedArea": 2278,
-                            "Population": 46949,
+                            "Population": 81118,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 8130
                         },
                         {
                             "HexCode": "82034F",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -137.44000244140626,
                                 "y": -51.83000183105469
@@ -1020,18 +1102,20 @@
                             "Terrain": "Grasslands",
                             "Area": 169.79945373535157,
                             "ProjectedArea": 2189,
-                            "Population": 45123,
+                            "Population": 77963,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 7813
                         },
                         {
                             "HexCode": "2E9C62",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -133.5,
                                 "y": -51.349998474121097
@@ -1044,18 +1128,20 @@
                             "Terrain": "Grasslands",
                             "Area": 253.0049591064453,
                             "ProjectedArea": 3223,
-                            "Population": 69776,
+                            "Population": 182312,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 18256
                         },
                         {
                             "HexCode": "DDE788",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -132.1199951171875,
                                 "y": -51.2599983215332
@@ -1068,18 +1154,20 @@
                             "Terrain": "Grasslands",
                             "Area": 91.11190032958985,
                             "ProjectedArea": 1161,
-                            "Population": 26025,
+                            "Population": 75256,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 7535
                         },
                         {
                             "HexCode": "AC9C84",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -135.32000732421876,
                                 "y": -50.810001373291019
@@ -1092,10 +1180,10 @@
                             "Terrain": "Grasslands",
                             "Area": 245.94566345214845,
                             "ProjectedArea": 3110,
-                            "Population": 65358,
+                            "Population": 112926,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 11318
                         }
                     ]
                 },
@@ -1103,15 +1191,21 @@
                     "HexCode": "BF6047",
                     "ContinentParent": "A69658",
                     "Area": 1636.7198486328125,
-                    "Population": 459616,
+                    "Population": 1166360,
                     "Tiles": [
                         {
                             "HexCode": "722933",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -158.66000366210938,
                                 "y": -54.25
@@ -1124,18 +1218,28 @@
                             "Terrain": "Grasslands",
                             "Area": 203.96641540527345,
                             "ProjectedArea": 2784,
-                            "Population": 56251,
+                            "Population": 146975,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 14718
                         },
                         {
                             "HexCode": "698D38",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -160.22000122070313,
                                 "y": -54.0
@@ -1148,18 +1252,20 @@
                             "Terrain": "Grasslands",
                             "Area": 147.6803436279297,
                             "ProjectedArea": 2008,
-                            "Population": 42184,
+                            "Population": 106416,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 10657
                         },
                         {
                             "HexCode": "66724C",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -156.5399932861328,
                                 "y": -53.97999954223633
@@ -1172,18 +1278,28 @@
                             "Terrain": "Grasslands",
                             "Area": 149.1863250732422,
                             "ProjectedArea": 2025,
-                            "Population": 41144,
+                            "Population": 107501,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 10765
                         },
                         {
                             "HexCode": "ED6F9A",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -161.60000610351563,
                                 "y": -53.439998626708987
@@ -1196,18 +1312,24 @@
                             "Terrain": "Grasslands",
                             "Area": 182.41204833984376,
                             "ProjectedArea": 2442,
-                            "Population": 52105,
+                            "Population": 150668,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 15085
                         },
                         {
                             "HexCode": "2DB44C",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -155.57000732421876,
                                 "y": -53.15999984741211
@@ -1220,18 +1342,24 @@
                             "Terrain": "Grasslands",
                             "Area": 108.05419921875,
                             "ProjectedArea": 1420,
-                            "Population": 29800,
+                            "Population": 77862,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 7797
                         },
                         {
                             "HexCode": "3323A5",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -157.69000244140626,
                                 "y": -52.779998779296878
@@ -1244,18 +1372,24 @@
                             "Terrain": "Grasslands",
                             "Area": 251.40484619140626,
                             "ProjectedArea": 3315,
-                            "Population": 71812,
+                            "Population": 148295,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 14855
                         },
                         {
                             "HexCode": "66C207",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -159.05999755859376,
                                 "y": -53.130001068115237
@@ -1268,18 +1402,24 @@
                             "Terrain": "Grasslands",
                             "Area": 136.38548278808595,
                             "ProjectedArea": 1805,
-                            "Population": 38957,
+                            "Population": 98277,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 9842
                         },
                         {
                             "HexCode": "F037D1",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 3
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -154.3699951171875,
                                 "y": -52.349998474121097
@@ -1292,18 +1432,24 @@
                             "Terrain": "Grasslands",
                             "Area": 177.14111328125,
                             "ProjectedArea": 2324,
-                            "Population": 48853,
+                            "Population": 127645,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 12782
                         },
                         {
                             "HexCode": "D44C4C",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -156.32000732421876,
                                 "y": -52.25
@@ -1316,18 +1462,24 @@
                             "Terrain": "Grasslands",
                             "Area": 163.21078491210938,
                             "ProjectedArea": 2128,
-                            "Population": 45011,
+                            "Population": 117607,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 11777
                         },
                         {
                             "HexCode": "CE753E",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 3
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -152.72999572753907,
                                 "y": -52.4900016784668
@@ -1340,18 +1492,28 @@
                             "Terrain": "Shores",
                             "Area": 5.741555690765381,
                             "ProjectedArea": 75,
-                            "Population": 1640,
+                            "Population": 4742,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 475
                         },
                         {
                             "HexCode": "39630F",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 3
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -155.5500030517578,
                                 "y": -51.45000076293945
@@ -1364,10 +1526,10 @@
                             "Terrain": "Grasslands",
                             "Area": 111.53678131103516,
                             "ProjectedArea": 1416,
-                            "Population": 31859,
+                            "Population": 80372,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 8048
                         }
                     ]
                 },
@@ -1375,15 +1537,17 @@
                     "HexCode": "531EF7",
                     "ContinentParent": "A69658",
                     "Area": 3740.48193359375,
-                    "Population": 1041506,
+                    "Population": 2863970,
                     "Tiles": [
                         {
                             "HexCode": "046919",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -142.02999877929688,
                                 "y": -53.22999954223633
@@ -1396,18 +1560,20 @@
                             "Terrain": "Grasslands",
                             "Area": 173.75265502929688,
                             "ProjectedArea": 2312,
-                            "Population": 46173,
+                            "Population": 102491,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 10266
                         },
                         {
                             "HexCode": "8130CC",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -140.6199951171875,
                                 "y": -52.95000076293945
@@ -1420,18 +1586,20 @@
                             "Terrain": "Grasslands",
                             "Area": 230.1328582763672,
                             "ProjectedArea": 3046,
-                            "Population": 63468,
+                            "Population": 135748,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 13598
                         },
                         {
                             "HexCode": "5715CE",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -144.0500030517578,
                                 "y": -52.34000015258789
@@ -1444,18 +1612,20 @@
                             "Terrain": "Grasslands",
                             "Area": 429.3930969238281,
                             "ProjectedArea": 5599,
-                            "Population": 122654,
+                            "Population": 354670,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 35510
                         },
                         {
                             "HexCode": "042137",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -139.10000610351563,
                                 "y": -52.11000061035156
@@ -1468,18 +1638,20 @@
                             "Terrain": "Grasslands",
                             "Area": 137.32672119140626,
                             "ProjectedArea": 1780,
-                            "Population": 36493,
+                            "Population": 63053,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 6319
                         },
                         {
                             "HexCode": "04CFCD",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -141.47000122070313,
                                 "y": -51.65999984741211
@@ -1492,18 +1664,20 @@
                             "Terrain": "Grasslands",
                             "Area": 219.87335205078126,
                             "ProjectedArea": 2812,
-                            "Population": 62805,
+                            "Population": 181611,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 18183
                         },
                         {
                             "HexCode": "589683",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -139.80999755859376,
                                 "y": -51.06999969482422
@@ -1516,18 +1690,20 @@
                             "Terrain": "Grasslands",
                             "Area": 310.7969970703125,
                             "ProjectedArea": 3954,
-                            "Population": 85714,
+                            "Population": 223956,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 22427
                         },
                         {
                             "HexCode": "725338",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -137.5,
                                 "y": -50.599998474121097
@@ -1540,18 +1716,20 @@
                             "Terrain": "Grasslands",
                             "Area": 240.48648071289063,
                             "ProjectedArea": 3025,
-                            "Population": 63908,
+                            "Population": 110419,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 11066
                         },
                         {
                             "HexCode": "AC3634",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -141.97000122070313,
                                 "y": -50.59000015258789
@@ -1564,18 +1742,20 @@
                             "Terrain": "Grasslands",
                             "Area": 173.0937957763672,
                             "ProjectedArea": 2176,
-                            "Population": 49443,
+                            "Population": 180730,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 18090
                         },
                         {
                             "HexCode": "AC06CF",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -138.6699981689453,
                                 "y": -49.88999938964844
@@ -1588,18 +1768,20 @@
                             "Terrain": "Grasslands",
                             "Area": 211.77870178222657,
                             "ProjectedArea": 2613,
-                            "Population": 60493,
+                            "Population": 174925,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 17513
                         },
                         {
                             "HexCode": "829904",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -140.69000244140626,
                                 "y": -49.66999816894531
@@ -1612,18 +1794,20 @@
                             "Terrain": "Grasslands",
                             "Area": 202.27218627929688,
                             "ProjectedArea": 2491,
-                            "Population": 60118,
+                            "Population": 250857,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 25106
                         },
                         {
                             "HexCode": "33C944",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -134.86000061035157,
                                 "y": -49.630001068115237
@@ -1636,18 +1820,20 @@
                             "Terrain": "Grasslands",
                             "Area": 225.7090301513672,
                             "ProjectedArea": 2778,
-                            "Population": 62248,
+                            "Population": 133138,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 13337
                         },
                         {
                             "HexCode": "59B733",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -136.77999877929688,
                                 "y": -49.38999938964844
@@ -1660,18 +1846,20 @@
                             "Terrain": "Grasslands",
                             "Area": 221.28521728515626,
                             "ProjectedArea": 2696,
-                            "Population": 58805,
+                            "Population": 130529,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 13075
                         },
                         {
                             "HexCode": "82B14F",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -139.6999969482422,
                                 "y": -48.5
@@ -1684,18 +1872,20 @@
                             "Terrain": "Grasslands",
                             "Area": 211.5904541015625,
                             "ProjectedArea": 2546,
-                            "Population": 60439,
+                            "Population": 220925,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 22113
                         },
                         {
                             "HexCode": "528FA3",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -134.50999450683595,
                                 "y": -48.650001525878909
@@ -1708,18 +1898,20 @@
                             "Terrain": "Grasslands",
                             "Area": 109.5601806640625,
                             "ProjectedArea": 1322,
-                            "Population": 31295,
+                            "Population": 78947,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 7906
                         },
                         {
                             "HexCode": "595D24",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -136.0800018310547,
                                 "y": -48.11000061035156
@@ -1732,18 +1924,20 @@
                             "Terrain": "Grasslands",
                             "Area": 279.17138671875,
                             "ProjectedArea": 3333,
-                            "Population": 76992,
+                            "Population": 201167,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 20145
                         },
                         {
                             "HexCode": "2E24B7",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -138.1999969482422,
                                 "y": -48.25
@@ -1756,18 +1950,20 @@
                             "Terrain": "Grasslands",
                             "Area": 286.7012939453125,
                             "ProjectedArea": 3435,
-                            "Population": 79069,
+                            "Population": 264917,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 26521
                         },
                         {
                             "HexCode": "B6813E",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -134.85000610351563,
                                 "y": -47.54999923706055
@@ -1780,10 +1976,10 @@
                             "Terrain": "Grasslands",
                             "Area": 77.55806732177735,
                             "ProjectedArea": 920,
-                            "Population": 21389,
+                            "Population": 55887,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 5597
                         }
                     ]
                 },
@@ -1791,15 +1987,21 @@
                     "HexCode": "E67D42",
                     "ContinentParent": "A69658",
                     "Area": 1936.22216796875,
-                    "Population": 545768,
+                    "Population": 1421053,
                     "Tiles": [
                         {
                             "HexCode": "1E9665",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -159.86000061035157,
                                 "y": -52.099998474121097
@@ -1812,18 +2014,24 @@
                             "Terrain": "Grasslands",
                             "Area": 260.53485107421877,
                             "ProjectedArea": 3382,
-                            "Population": 74420,
+                            "Population": 187738,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 18800
                         },
                         {
                             "HexCode": "C7D3A2",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -161.52000427246095,
                                 "y": -51.369998931884769
@@ -1836,18 +2044,24 @@
                             "Terrain": "Grasslands",
                             "Area": 231.92120361328126,
                             "ProjectedArea": 2956,
-                            "Population": 63961,
+                            "Population": 191562,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 19179
                         },
                         {
                             "HexCode": "A9C356",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -157.5800018310547,
                                 "y": -51.0
@@ -1860,18 +2074,24 @@
                             "Terrain": "Grasslands",
                             "Area": 371.41278076171877,
                             "ProjectedArea": 4707,
-                            "Population": 102432,
+                            "Population": 219084,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 21945
                         },
                         {
                             "HexCode": "E299F0",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -159.75,
                                 "y": -50.470001220703128
@@ -1884,18 +2104,28 @@
                             "Terrain": "Grasslands",
                             "Area": 389.1080627441406,
                             "ProjectedArea": 4881,
-                            "Population": 107312,
+                            "Population": 280386,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 28078
                         },
                         {
                             "HexCode": "287D8D",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 3
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 3
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -163.1999969482422,
                                 "y": -49.4900016784668
@@ -1908,18 +2138,24 @@
                             "Terrain": "Grasslands",
                             "Area": 214.22592163085938,
                             "ProjectedArea": 2613,
-                            "Population": 63671,
+                            "Population": 176946,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 17716
                         },
                         {
                             "HexCode": "76D37F",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 3
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 3
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -161.5500030517578,
                                 "y": -49.43000030517578
@@ -1932,18 +2168,28 @@
                             "Terrain": "Grasslands",
                             "Area": 259.687744140625,
                             "ProjectedArea": 3177,
-                            "Population": 74178,
+                            "Population": 214496,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 21476
                         },
                         {
                             "HexCode": "4CBAF0",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 3
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 3
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -162.49000549316407,
                                 "y": -48.02000045776367
@@ -1956,10 +2202,10 @@
                             "Terrain": "Grasslands",
                             "Area": 209.33148193359376,
                             "ProjectedArea": 2518,
-                            "Population": 59794,
+                            "Population": 150841,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 15105
                         }
                     ]
                 },
@@ -1967,15 +2213,17 @@
                     "HexCode": "AC2D39",
                     "ContinentParent": "A69658",
                     "Area": 1655.4505615234375,
-                    "Population": 464187,
+                    "Population": 1218964,
                     "Tiles": [
                         {
                             "HexCode": "AC6698",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -130.8800048828125,
                                 "y": -51.81999969482422
@@ -1988,18 +2236,20 @@
                             "Terrain": "Grasslands",
                             "Area": 226.46202087402345,
                             "ProjectedArea": 2931,
-                            "Population": 62456,
+                            "Population": 163185,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 16341
                         },
                         {
                             "HexCode": "027237",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -129.39999389648438,
                                 "y": -51.7400016784668
@@ -2012,18 +2262,20 @@
                             "Terrain": "Grasslands",
                             "Area": 132.14991760253907,
                             "ProjectedArea": 1697,
-                            "Population": 36445,
+                            "Population": 95225,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 9535
                         },
                         {
                             "HexCode": "56991A",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -127.83000183105469,
                                 "y": -51.13999938964844
@@ -2036,18 +2288,20 @@
                             "Terrain": "Grasslands",
                             "Area": 264.3939514160156,
                             "ProjectedArea": 3370,
-                            "Population": 72917,
+                            "Population": 190519,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 19078
                         },
                         {
                             "HexCode": "82C345",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -129.7899932861328,
                                 "y": -50.72999954223633
@@ -2060,18 +2314,20 @@
                             "Terrain": "Grasslands",
                             "Area": 157.75160217285157,
                             "ProjectedArea": 1988,
-                            "Population": 45060,
+                            "Population": 93052,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 9321
                         },
                         {
                             "HexCode": "046FA0",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -128.50999450683595,
                                 "y": -49.83000183105469
@@ -2084,18 +2340,20 @@
                             "Terrain": "Grasslands",
                             "Area": 257.8052673339844,
                             "ProjectedArea": 3173,
-                            "Population": 71100,
+                            "Population": 185771,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 18603
                         },
                         {
                             "HexCode": "2C75B7",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -126.63999938964844,
                                 "y": -49.970001220703128
@@ -2108,18 +2366,20 @@
                             "Terrain": "Grasslands",
                             "Area": 114.64286804199219,
                             "ProjectedArea": 1427,
-                            "Population": 32747,
+                            "Population": 94692,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 9480
                         },
                         {
                             "HexCode": "836909",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -127.19999694824219,
                                 "y": -49.119998931884769
@@ -2132,18 +2392,20 @@
                             "Terrain": "Grasslands",
                             "Area": 173.84678649902345,
                             "ProjectedArea": 2109,
-                            "Population": 49658,
+                            "Population": 125271,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 12544
                         },
                         {
                             "HexCode": "2ED24E",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -128.58999633789063,
                                 "y": -48.41999816894531
@@ -2156,18 +2418,20 @@
                             "Terrain": "Grasslands",
                             "Area": 157.0927276611328,
                             "ProjectedArea": 1897,
-                            "Population": 44872,
+                            "Population": 129755,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 12992
                         },
                         {
                             "HexCode": "AC2D39",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -127.22000122070313,
                                 "y": -48.02000045776367
@@ -2180,10 +2444,10 @@
                             "Terrain": "Grasslands",
                             "Area": 171.30543518066407,
                             "ProjectedArea": 2049,
-                            "Population": 48932,
+                            "Population": 141494,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 14166
                         }
                     ]
                 },
@@ -2191,15 +2455,21 @@
                     "HexCode": "FCBB48",
                     "ContinentParent": "A69658",
                     "Area": 155.39849853515626,
-                    "Population": 44388,
+                    "Population": 111978,
                     "Tiles": [
                         {
                             "HexCode": "44439A",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": 170.9600067138672,
                                 "y": -51.18000030517578
@@ -2212,10 +2482,10 @@
                             "Terrain": "Grasslands",
                             "Area": 155.39849853515626,
                             "ProjectedArea": 1978,
-                            "Population": 44388,
+                            "Population": 111978,
                             "ProvinceParent": "FCBB48",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 11214
                         }
                     ]
                 },
@@ -2223,15 +2493,17 @@
                     "HexCode": "56C9E2",
                     "ContinentParent": "A69658",
                     "Area": 1703.265625,
-                    "Population": 480790,
+                    "Population": 1237635,
                     "Tiles": [
                         {
                             "HexCode": "865C2C",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -124.30999755859375,
                                 "y": -51.56999969482422
@@ -2244,18 +2516,20 @@
                             "Terrain": "Grasslands",
                             "Area": 97.60645294189453,
                             "ProjectedArea": 1245,
-                            "Population": 27880,
+                            "Population": 80620,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 8072
                         },
                         {
                             "HexCode": "AA1BC5",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -124.13999938964844,
                                 "y": -50.40999984741211
@@ -2268,18 +2542,20 @@
                             "Terrain": "Grasslands",
                             "Area": 230.97996520996095,
                             "ProjectedArea": 2881,
-                            "Population": 63702,
+                            "Population": 166441,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 16667
                         },
                         {
                             "HexCode": "809C9A",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -125.61000061035156,
                                 "y": -50.470001220703128
@@ -2292,18 +2568,20 @@
                             "Terrain": "Grasslands",
                             "Area": 197.75424194335938,
                             "ProjectedArea": 2472,
-                            "Population": 56487,
+                            "Population": 142499,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 14270
                         },
                         {
                             "HexCode": "56C9E2",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -121.5,
                                 "y": -49.61000061035156
@@ -2316,18 +2594,20 @@
                             "Terrain": "Grasslands",
                             "Area": 134.87950134277345,
                             "ProjectedArea": 1657,
-                            "Population": 38527,
+                            "Population": 97192,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 9732
                         },
                         {
                             "HexCode": "FF3B78",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -123.0,
                                 "y": -49.70000076293945
@@ -2340,18 +2620,20 @@
                             "Terrain": "Grasslands",
                             "Area": 121.32566833496094,
                             "ProjectedArea": 1495,
-                            "Population": 33460,
+                            "Population": 87425,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 8754
                         },
                         {
                             "HexCode": "023F28",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -124.80999755859375,
                                 "y": -48.630001068115237
@@ -2364,18 +2646,20 @@
                             "Terrain": "Grasslands",
                             "Area": 453.77117919921877,
                             "ProjectedArea": 5456,
-                            "Population": 129617,
+                            "Population": 326982,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 32743
                         },
                         {
                             "HexCode": "AA9F1B",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -120.66999816894531,
                                 "y": -48.52000045776367
@@ -2388,18 +2672,20 @@
                             "Terrain": "Grasslands",
                             "Area": 229.6622314453125,
                             "ProjectedArea": 2777,
-                            "Population": 63338,
+                            "Population": 165491,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 16572
                         },
                         {
                             "HexCode": "FF7F7F",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -122.62999725341797,
                                 "y": -48.599998474121097
@@ -2412,10 +2698,10 @@
                             "Terrain": "Grasslands",
                             "Area": 237.28627014160157,
                             "ProjectedArea": 2886,
-                            "Population": 67779,
+                            "Population": 170985,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 17122
                         }
                     ]
                 },
@@ -2423,15 +2709,17 @@
                     "HexCode": "3DD166",
                     "ContinentParent": "A69658",
                     "Area": 1526.971435546875,
-                    "Population": 432428,
+                    "Population": 1267853,
                     "Tiles": [
                         {
                             "HexCode": "B1BD84",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -131.11000061035157,
                                 "y": -50.15999984741211
@@ -2444,18 +2732,20 @@
                             "Terrain": "Grasslands",
                             "Area": 230.1328582763672,
                             "ProjectedArea": 2864,
-                            "Population": 65736,
+                            "Population": 165831,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 16606
                         },
                         {
                             "HexCode": "586F1A",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -133.1300048828125,
                                 "y": -50.119998931884769
@@ -2468,18 +2758,20 @@
                             "Terrain": "Grasslands",
                             "Area": 132.14991760253907,
                             "ProjectedArea": 1636,
-                            "Population": 36445,
+                            "Population": 95225,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 9535
                         },
                         {
                             "HexCode": "572D4C",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -132.0500030517578,
                                 "y": -49.349998474121097
@@ -2492,18 +2784,20 @@
                             "Terrain": "Grasslands",
                             "Area": 174.22328186035157,
                             "ProjectedArea": 2118,
-                            "Population": 49766,
+                            "Population": 143904,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 14407
                         },
                         {
                             "HexCode": "2CC662",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -130.16000366210938,
                                 "y": -48.83000183105469
@@ -2516,18 +2810,20 @@
                             "Terrain": "Grasslands",
                             "Area": 247.26339721679688,
                             "ProjectedArea": 2983,
-                            "Population": 68192,
+                            "Population": 204234,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 20448
                         },
                         {
                             "HexCode": "077291",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -133.2100067138672,
                                 "y": -49.060001373291019
@@ -2540,18 +2836,20 @@
                             "Terrain": "Grasslands",
                             "Area": 99.11243438720703,
                             "ProjectedArea": 1207,
-                            "Population": 28310,
+                            "Population": 81864,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 8196
                         },
                         {
                             "HexCode": "32D678",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -132.41000366210938,
                                 "y": -48.15999984741211
@@ -2564,18 +2862,20 @@
                             "Terrain": "Grasslands",
                             "Area": 143.0682830810547,
                             "ProjectedArea": 1712,
-                            "Population": 40866,
+                            "Population": 132197,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 13234
                         },
                         {
                             "HexCode": "AB300C",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -133.7100067138672,
                                 "y": -47.81999969482422
@@ -2588,18 +2888,20 @@
                             "Terrain": "Grasslands",
                             "Area": 187.21237182617188,
                             "ProjectedArea": 2218,
-                            "Population": 53476,
+                            "Population": 154633,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 15482
                         },
                         {
                             "HexCode": "5615C4",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -130.9199981689453,
                                 "y": -47.849998474121097
@@ -2612,18 +2914,20 @@
                             "Terrain": "Grasslands",
                             "Area": 192.48330688476563,
                             "ProjectedArea": 2282,
-                            "Population": 54981,
+                            "Population": 177858,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 17805
                         },
                         {
                             "HexCode": "2E272B",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -129.3000030517578,
                                 "y": -47.279998779296878
@@ -2636,10 +2940,10 @@
                             "Terrain": "Shores",
                             "Area": 121.32566833496094,
                             "ProjectedArea": 1423,
-                            "Population": 34656,
+                            "Population": 112107,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 11223
                         }
                     ]
                 },
@@ -2647,15 +2951,17 @@
                     "HexCode": "1BD67D",
                     "ContinentParent": "A69658",
                     "Area": 2418.88916015625,
-                    "Population": 691342,
+                    "Population": 1948611,
                     "Tiles": [
                         {
                             "HexCode": "584E38",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -125.9800033569336,
                                 "y": -47.119998931884769
@@ -2668,18 +2974,20 @@
                             "Terrain": "Grasslands",
                             "Area": 223.544189453125,
                             "ProjectedArea": 2628,
-                            "Population": 63854,
+                            "Population": 184643,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 18486
                         },
                         {
                             "HexCode": "80CC63",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -121.70999908447266,
                                 "y": -47.27000045776367
@@ -2692,18 +3000,20 @@
                             "Terrain": "Grasslands",
                             "Area": 188.90660095214845,
                             "ProjectedArea": 2228,
-                            "Population": 53960,
+                            "Population": 136123,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 13631
                         },
                         {
                             "HexCode": "2C54D5",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -123.41999816894531,
                                 "y": -46.9900016784668
@@ -2716,18 +3026,20 @@
                             "Terrain": "Grasslands",
                             "Area": 246.039794921875,
                             "ProjectedArea": 2882,
-                            "Population": 67855,
+                            "Population": 177293,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 17754
                         },
                         {
                             "HexCode": "AA0CAC",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -124.8499984741211,
                                 "y": -47.0
@@ -2740,18 +3052,20 @@
                             "Terrain": "Grasslands",
                             "Area": 119.06669616699219,
                             "ProjectedArea": 1393,
-                            "Population": 32837,
+                            "Population": 85798,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 8592
                         },
                         {
                             "HexCode": "82811D",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -127.69999694824219,
                                 "y": -46.060001373291019
@@ -2764,18 +3078,20 @@
                             "Terrain": "Grasslands",
                             "Area": 279.3596496582031,
                             "ProjectedArea": 3209,
-                            "Population": 83029,
+                            "Population": 258133,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 25841
                         },
                         {
                             "HexCode": "31570D",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -122.4000015258789,
                                 "y": -45.66999816894531
@@ -2788,18 +3104,20 @@
                             "Terrain": "Grasslands",
                             "Area": 239.1687469482422,
                             "ProjectedArea": 2722,
-                            "Population": 65960,
+                            "Population": 172342,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 17258
                         },
                         {
                             "HexCode": "80092C",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -125.87000274658203,
                                 "y": -45.63999938964844
@@ -2812,18 +3130,20 @@
                             "Terrain": "Grasslands",
                             "Area": 270.135498046875,
                             "ProjectedArea": 3074,
-                            "Population": 80288,
+                            "Population": 249610,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 24988
                         },
                         {
                             "HexCode": "AC1552",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -124.12999725341797,
                                 "y": -45.459999084472659
@@ -2836,18 +3156,20 @@
                             "Terrain": "Grasslands",
                             "Area": 303.4553527832031,
                             "ProjectedArea": 3443,
-                            "Population": 86680,
+                            "Population": 218666,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 21897
                         },
                         {
                             "HexCode": "AC6C20",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -127.91000366210938,
                                 "y": -44.959999084472659
@@ -2860,18 +3182,20 @@
                             "Terrain": "Grasslands",
                             "Area": 126.12598419189453,
                             "ProjectedArea": 1401,
-                            "Population": 36027,
+                            "Population": 116542,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 11667
                         },
                         {
                             "HexCode": "567838",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -125.55999755859375,
                                 "y": -44.060001373291019
@@ -2884,10 +3208,10 @@
                             "Terrain": "Grasslands",
                             "Area": 423.0867919921875,
                             "ProjectedArea": 4711,
-                            "Population": 120852,
+                            "Population": 349461,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 34988
                         }
                     ]
                 },
@@ -2895,15 +3219,17 @@
                     "HexCode": "E39DAB",
                     "ContinentParent": "A69658",
                     "Area": 113.04277038574219,
-                    "Population": 31604,
+                    "Population": 100179,
                     "Tiles": [
                         {
                             "HexCode": "5BE0C2",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -141.39999389648438,
                                 "y": -47.279998779296878
@@ -2916,18 +3242,20 @@
                             "Terrain": "Grasslands",
                             "Area": 69.46341705322266,
                             "ProjectedArea": 808,
-                            "Population": 19157,
+                            "Population": 64185,
                             "ProvinceParent": "E39DAB",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 6425
                         },
                         {
                             "HexCode": "653B61",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -137.00999450683595,
                                 "y": -44.52000045776367
@@ -2940,18 +3268,20 @@
                             "Terrain": "Shores",
                             "Area": 7.059289932250977,
                             "ProjectedArea": 78,
-                            "Population": 2016,
+                            "Population": 5830,
                             "ProvinceParent": "E39DAB",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 584
                         },
                         {
                             "HexCode": "82699F",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -129.55999755859376,
                                 "y": -43.790000915527347
@@ -2964,10 +3294,10 @@
                             "Terrain": "Grasslands",
                             "Area": 36.52006149291992,
                             "ProjectedArea": 397,
-                            "Population": 10431,
+                            "Population": 30164,
                             "ProvinceParent": "E39DAB",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 3020
                         }
                     ]
                 },
@@ -2975,39 +3305,43 @@
                     "HexCode": "57EE42",
                     "ContinentParent": "A69658",
                     "Area": 3296.029296875,
-                    "Population": 2621535,
+                    "Population": 2695579,
                     "Tiles": [
                         {
                             "HexCode": "839690",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -117.19000244140625,
-                                "y": -46.650001525878909
+                                "y": -46.619998931884769
                             },
                             "Position": {
                                 "x": 2144.010009765625,
                                 "y": 1480.8199462890625
                             },
-                            "Altitude": 5.803974151611328,
-                            "Terrain": "Freshwater",
+                            "Altitude": 67.27848052978516,
+                            "Terrain": "Grasslands",
                             "Area": 67.48681640625,
                             "ProjectedArea": 789,
-                            "Population": 1687170,
+                            "Population": 48630,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 4870
                         },
                         {
                             "HexCode": "050F41",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -118.55999755859375,
                                 "y": -46.25
@@ -3020,18 +3354,24 @@
                             "Terrain": "Grasslands",
                             "Area": 276.3476867675781,
                             "ProjectedArea": 3198,
-                            "Population": 76214,
+                            "Population": 199132,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 19941
                         },
                         {
                             "HexCode": "596001",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -116.2300033569336,
                                 "y": -45.619998931884769
@@ -3044,18 +3384,24 @@
                             "Terrain": "Grasslands",
                             "Area": 333.6690979003906,
                             "ProjectedArea": 3798,
-                            "Population": 95310,
+                            "Population": 240437,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 24077
                         },
                         {
                             "HexCode": "5C45BA",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -118.58999633789063,
                                 "y": -44.959999084472659
@@ -3068,18 +3414,24 @@
                             "Terrain": "Grasslands",
                             "Area": 155.2102508544922,
                             "ProjectedArea": 1749,
-                            "Population": 44335,
+                            "Population": 128200,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 12836
                         },
                         {
                             "HexCode": "5927A1",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -117.30999755859375,
                                 "y": -44.619998931884769
@@ -3092,18 +3444,24 @@
                             "Terrain": "Grasslands",
                             "Area": 154.73963928222657,
                             "ProjectedArea": 1746,
-                            "Population": 44200,
+                            "Population": 127811,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 12796
                         },
                         {
                             "HexCode": "822AB8",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -116.02999877929688,
                                 "y": -44.209999084472659
@@ -3116,18 +3474,20 @@
                             "Terrain": "Grasslands",
                             "Area": 197.28363037109376,
                             "ProjectedArea": 2173,
-                            "Population": 56353,
+                            "Population": 162952,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 16315
                         },
                         {
                             "HexCode": "2C2DB4",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -121.66000366210938,
                                 "y": -43.560001373291019
@@ -3140,18 +3500,24 @@
                             "Terrain": "Grasslands",
                             "Area": 216.39077758789063,
                             "ProjectedArea": 2387,
-                            "Population": 64314,
+                            "Population": 199949,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 20017
                         },
                         {
                             "HexCode": "059C91",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -120.12999725341797,
                                 "y": -43.91999816894531
@@ -3164,18 +3530,24 @@
                             "Terrain": "Grasslands",
                             "Area": 233.2389373779297,
                             "ProjectedArea": 2563,
-                            "Population": 69321,
+                            "Population": 192650,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 19288
                         },
                         {
                             "HexCode": "2E398A",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -118.66000366210938,
                                 "y": -43.349998474121097
@@ -3188,18 +3560,24 @@
                             "Terrain": "Grasslands",
                             "Area": 382.7076416015625,
                             "ProjectedArea": 4195,
-                            "Population": 113746,
+                            "Population": 316108,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 31649
                         },
                         {
                             "HexCode": "AD66CF",
                             "Culture": "C80F2E",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -116.62999725341797,
                                 "y": -42.75
@@ -3212,18 +3590,20 @@
                             "Terrain": "Grasslands",
                             "Area": 272.7709655761719,
                             "ProjectedArea": 2960,
-                            "Population": 81071,
+                            "Population": 225303,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 22557
                         },
                         {
                             "HexCode": "2F9F12",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -120.95999908447266,
                                 "y": -42.63999938964844
@@ -3236,18 +3616,28 @@
                             "Terrain": "Grasslands",
                             "Area": 180.7178192138672,
                             "ProjectedArea": 1936,
-                            "Population": 53711,
+                            "Population": 188690,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 18887
                         },
                         {
                             "HexCode": "5981B0",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -117.94999694824219,
                                 "y": -41.97999954223633
@@ -3260,18 +3650,28 @@
                             "Terrain": "Grasslands",
                             "Area": 239.4511260986328,
                             "ProjectedArea": 2544,
-                            "Population": 68398,
+                            "Population": 197781,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 19802
                         },
                         {
                             "HexCode": "2F12C1",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -119.4000015258789,
                                 "y": -40.95000076293945
@@ -3284,18 +3684,28 @@
                             "Terrain": "Grasslands",
                             "Area": 433.2521667480469,
                             "ProjectedArea": 4603,
-                            "Population": 123756,
+                            "Population": 357857,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 35829
                         },
                         {
                             "HexCode": "AD9911",
                             "Culture": "E01137",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Rare Ore",
+                                    "Yield": 3
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -117.22000122070313,
                                 "y": -40.72999954223633
@@ -3308,10 +3718,10 @@
                             "Terrain": "Grasslands",
                             "Area": 152.76303100585938,
                             "ProjectedArea": 1623,
-                            "Population": 43636,
+                            "Population": 110079,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 11023
                         }
                     ]
                 },
@@ -3319,15 +3729,25 @@
                     "HexCode": "5E5AB8",
                     "ContinentParent": "A69658",
                     "Area": 321.71539306640627,
-                    "Population": 92982,
+                    "Population": 231822,
                     "Tiles": [
                         {
                             "HexCode": "32E178",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -171.22999572753907,
                                 "y": -45.459999084472659
@@ -3340,18 +3760,28 @@
                             "Terrain": "Shores",
                             "Area": 108.90131378173828,
                             "ProjectedArea": 1228,
-                            "Population": 32367,
+                            "Population": 78472,
                             "ProvinceParent": "5E5AB8",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 7858
                         },
                         {
                             "HexCode": "31A00A",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Common Ore",
+                                    "Yield": 1
+                                },
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -171.80999755859376,
                                 "y": -44.18000030517578
@@ -3364,18 +3794,24 @@
                             "Terrain": "Grasslands",
                             "Area": 174.41152954101563,
                             "ProjectedArea": 1943,
-                            "Population": 49819,
+                            "Population": 125678,
                             "ProvinceParent": "5E5AB8",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 12585
                         },
                         {
                             "HexCode": "6900E8",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -176.6999969482422,
                                 "y": -44.38999938964844
@@ -3388,18 +3824,24 @@
                             "Terrain": "Shores",
                             "Area": 17.50704002380371,
                             "ProjectedArea": 186,
-                            "Population": 4828,
+                            "Population": 12615,
                             "ProvinceParent": "5E5AB8",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 1264
                         },
                         {
                             "HexCode": "32D671",
                             "Culture": "AD0D2B",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                },
+                                {
+                                    "Resource": "Hydrates",
+                                    "Yield": 1
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -175.67999267578126,
                                 "y": -44.06999969482422
@@ -3412,10 +3854,10 @@
                             "Terrain": "Grasslands",
                             "Area": 20.895498275756837,
                             "ProjectedArea": 228,
-                            "Population": 5968,
+                            "Population": 15057,
                             "ProvinceParent": "5E5AB8",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 1508
                         }
                     ]
                 },
@@ -3423,15 +3865,17 @@
                     "HexCode": "3D98CD",
                     "ContinentParent": "A69658",
                     "Area": 118.69019317626953,
-                    "Population": 32733,
+                    "Population": 85526,
                     "Tiles": [
                         {
                             "HexCode": "879479",
                             "Culture": "005999",
-                            "LocalResources": {
-                                "Resource": "",
-                                "Quantity": 0
-                            },
+                            "LocalResources": [
+                                {
+                                    "Resource": "Food",
+                                    "Yield": 2
+                                }
+                            ],
                             "Coordinates": {
                                 "x": -124.11000061035156,
                                 "y": -21.559999465942384
@@ -3444,10 +3888,10 @@
                             "Terrain": "Grasslands",
                             "Area": 118.69019317626953,
                             "ProjectedArea": 1016,
-                            "Population": 32733,
+                            "Population": 85526,
                             "ProvinceParent": "3D98CD",
                             "ContinentParent": "A69658",
-                            "ClaimValue": 5
+                            "ClaimValue": 8565
                         }
                     ]
                 }

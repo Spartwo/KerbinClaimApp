@@ -26,11 +26,14 @@ public class MapGen : MonoBehaviour
     private Color[] heightMap;
     private Color[] populationMap;
     private Color[] resourceMap;
+    private Color[] foodMap;
+    private Color[] hydrateMap;
     [SerializeField] public Texture2D continentMap;
 
     // When true will produce new definitions from the map, takes ages
     [SerializeField] private bool generateMap = true;
     [SerializeField] private bool refreshData = true;
+    [SerializeField] private bool refreshResources = true;
     // Defined map scaling
     private float pixelWidthKilometres;
     public float bodyCircumferanceKilometres = 3769.911f;
@@ -111,8 +114,13 @@ public class MapGen : MonoBehaviour
             ImportContinentsJson(Application.streamingAssetsPath + "/MapGen/Tiles/");
         }
 
-        // Without resources
-        if (refreshData)
+        if (refreshResources)
+        {
+            Debug.Log("Updating Resource Distribution");
+            StartCoroutine(UpdateTileResources());
+        }
+
+        if (refreshData && !refreshResources)
         {
             Debug.Log("Updating Map Data");
             StartCoroutine(UpdateTileData());
@@ -381,6 +389,81 @@ public class MapGen : MonoBehaviour
     }
 
 
+    IEnumerator UpdateTileResources() 
+    {
+
+        resourceMap = new Color[width * height];
+        resourceMap = Resources.Load<Texture2D>("Maps/DataLayers/Resource/Ores").GetPixels();
+
+        foodMap = new Color[width * height];
+        foodMap = Resources.Load<Texture2D>("Maps/DataLayers/Resource/Food").GetPixels();
+
+        hydrateMap = new Color[width * height];
+        hydrateMap = Resources.Load<Texture2D>("Maps/DataLayers/Resource/Hydrates").GetPixels();
+
+
+        yield return new WaitForSeconds(0.1f);
+
+        int tileProgress = 0;
+
+        foreach (ContinentData c in continents)
+        {
+            foreach (ProvinceData p in c.Provinces)
+            {
+                foreach (TileData t in p.Tiles)
+                {
+                    // Use first position as the data peg if the mean position is over water
+                    Vector2 position = t.Position;
+                    int baseX = (int)position.x;
+                    int baseY = (int)position.y;
+
+                    t.LocalResources.Clear();
+
+                    // Get Ores
+                    Color oreValue = resourceMap[baseY * width + baseX];
+                    if (resourceCodeMappings.TryGetValue(ColorUtility.ToHtmlStringRGB(oreValue), out Tuple<string, int> existingValue))
+                    {
+                        t.LocalResources.Add(new ResourceDef(existingValue.Item1, existingValue.Item2));
+                    }
+                    // Get Food
+                    Color foodValue = foodMap[baseY * width + baseX];
+                    if (resourceCodeMappings.TryGetValue(ColorUtility.ToHtmlStringRGB(foodValue), out Tuple<string, int> existingValue2))
+                    {
+                        t.LocalResources.Add(new ResourceDef(existingValue2.Item1, existingValue2.Item2));
+                    }
+                    // Get Hydrates
+                    Color hydrateValue = hydrateMap[baseY * width + baseX];
+                    if (resourceCodeMappings.TryGetValue(ColorUtility.ToHtmlStringRGB(hydrateValue), out Tuple<string, int> existingValue3))
+                    {
+                        t.LocalResources.Add(new ResourceDef(existingValue3.Item1, existingValue3.Item2));
+                    }
+
+                    tileProgress++;
+                    Debug.Log(t.HexCode + " Updated (#" + tileProgress + ")");
+                    // Give a little buffer
+                    //yield return new WaitForSeconds(0.01f);
+                }
+                yield return new WaitForSeconds(0.01f);
+            }
+        }
+
+        // Give a little buffer
+        yield return new WaitForSeconds(0.1f);
+        // Textures are no longer required
+        resourceMap = null;
+        foodMap = null;
+        hydrateMap = null;
+        //populationMap = null;
+        Debug.Log("Cleared Arrays");
+        // Give a little buffer
+        yield return new WaitForSeconds(0.1f);
+
+        // write all to json
+        WriteToJson(Application.streamingAssetsPath + "/MapGen/Tiles/");
+
+        yield return null;
+    }
+
     IEnumerator UpdateTileData()
     {
         biomeMap = new Color[width * height];
@@ -395,8 +478,6 @@ public class MapGen : MonoBehaviour
         populationMap = new Color[width * height];
         populationMap = Resources.Load<Texture2D>("Maps/DataLayers/Density").GetPixels();
 
-        resourceMap = new Color[width * height];
-        resourceMap = Resources.Load<Texture2D>("Maps/DataLayers/Resources").GetPixels();
 
         yield return new WaitForSeconds(0.1f);
 
@@ -455,7 +536,30 @@ public class MapGen : MonoBehaviour
                     p.Population += newPopulation;
                     t.Population = newPopulation;
                     // Claim Value is an aggregate of local values
-                    int claimValue = 5;
+                    int claimValue = 0;
+                    claimValue += Mathf.RoundToInt(newPopulation * 0.1f);
+                    claimValue += Mathf.RoundToInt(t.Area * 0.1f);
+                    foreach (ResourceDef r in t.LocalResources)
+                    {
+                        int resourceValue;
+                        switch (r.Resource)
+                        {
+                            case "Common Ore":
+                                resourceValue = 1; break;
+                            case "Rare Ore":
+                                resourceValue = 1; break;
+                            case "Nuclear Ore":
+                                resourceValue = 1; break;
+                            case "Food":
+                                resourceValue = 1; break;
+                            case "Hydrates":
+                                resourceValue = 1; break;
+                            default: 
+                                resourceValue = 0; break;
+                        }
+                        claimValue += Mathf.RoundToInt(r.Yield * resourceValue * 0.1f);
+                    }
+
                     t.ClaimValue = claimValue;
 
                     tileProgress++;
@@ -473,7 +577,6 @@ public class MapGen : MonoBehaviour
         biomeMap = null;
         languageMap = null;
         heightMap = null;
-        resourceMap = null;
         //populationMap = null;
         Debug.Log("Cleared Arrays");
         // Give a little buffer
@@ -592,6 +695,25 @@ public class MapGen : MonoBehaviour
 
         return new Vector2(longitude, latitude);
     }
+
+    private Dictionary<string, Tuple<string, int>> resourceCodeMappings = new Dictionary<string, Tuple<string, int>>()
+    {
+        { "ECAEA4", Tuple.Create("Common Ore", 1) },
+        { "DB6551", Tuple.Create("Common Ore", 2) },
+        { "8D4134", Tuple.Create("Common Ore", 3) },
+        { "F3C99C", Tuple.Create("Rare Ore", 1) },
+        { "E99942", Tuple.Create("Rare Ore", 2) },
+        { "96632A", Tuple.Create("Rare Ore", 3) },
+        { "A4E4A4", Tuple.Create("Nuclear Ore", 1) },
+        { "51CC51", Tuple.Create("Nuclear Ore", 2) },
+        { "348434", Tuple.Create("Nuclear Ore", 3) },
+        { "B7D0F6", Tuple.Create("Hydrates", 1) },
+        { "75A6EF", Tuple.Create("Hydrates", 2) },
+        { "4B6B9A", Tuple.Create("Hydrates", 3) },
+        { "D8EAD3", Tuple.Create("Food", 1) },
+        { "B6D7AB", Tuple.Create("Food", 2) },
+        { "758B6E", Tuple.Create("Food", 3) },
+    };
 
     private Dictionary<string, string> biomeCodeMappings = new Dictionary<string, string>()
     {

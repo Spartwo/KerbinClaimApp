@@ -501,7 +501,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 77.5, y: 115}
-  m_SizeDelta: {x: 150, y: 225}
+  m_SizeDelta: {x: 150, y: 260}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &178659672
 MonoBehaviour:
@@ -759,7 +759,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 230, y: 115}
-  m_SizeDelta: {x: 150, y: 225}
+  m_SizeDelta: {x: 150, y: 260}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &257664329
 GameObject:
@@ -1733,7 +1733,7 @@ MonoBehaviour:
   continentMap: {fileID: 2800000, guid: 221e1e57c1d310b4686daf4a99df0efc, type: 3}
   generateMap: 0
   refreshData: 0
-  regenerateResources: 0
+  refreshResources: 0
   bodyCircumferanceKilometres: 3769.911
   zeroAlt: -1070
   maxAlt: 6768
@@ -1983,8 +1983,10 @@ MonoBehaviour:
     HexCode: 
     Culture: 
     LocalResources:
-      Resource: 
-      Quantity: 0
+    - Resource: 
+      Yield: 0
+    - Resource: 
+      Yield: 0
     Coordinates: {x: 0, y: 0}
     Position: {x: 0, y: 0}
     Altitude: 0

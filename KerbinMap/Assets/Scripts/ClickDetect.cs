@@ -82,7 +82,7 @@ public class ClickDetect : MonoBehaviour
         Array.Copy(clearColours, highlightColours, clearColours.Length);
         UpdatePlaneTexture();
 
-        //StartCoroutine(MakeYieldTiles());
+        //StartCoroutine(TiliseMap());
     }
 
     void Update()
@@ -129,16 +129,16 @@ public class ClickDetect : MonoBehaviour
 
     }
 
-    IEnumerator MakeYieldTiles()
+    IEnumerator TiliseMap()
     {
-        yield return new WaitForSeconds(3.1f);
-        Color[] resourceMap = new Color[width * height];
-        resourceMap = Resources.Load<Texture2D>("Maps/DataLayers/Density").GetPixels();
+        yield return new WaitForSeconds(2.1f);
+        Color[] mapMap = new Color[width * height];
+        mapMap = Resources.Load<Texture2D>("Maps/DataLayers/Density").GetPixels();
 
         yield return new WaitForSeconds(0.1f);
 
-        Color[] resourceTiles = new Color[width * height];
-        Array.Copy(clearColours, resourceTiles, clearColours.Length);
+        Color[] mapTiles = new Color[width * height];
+        Array.Copy(clearColours, mapTiles, clearColours.Length);
 
         yield return new WaitForSeconds(0.1f);
 
@@ -157,9 +157,9 @@ public class ClickDetect : MonoBehaviour
 
 
                     // Get altitude by converting the heightmap brightness
-                    Color yieldValue = resourceMap[baseY * width + baseX];
+                    Color sampleValue = mapMap[baseY * width + baseX];
 
-                    PaintTile(t, resourceTiles, yieldValue);
+                    PaintTile(t, mapTiles, sampleValue);
                     tileProgress++;
                     Debug.Log("Painted " + tileProgress + "/ 6474");
                 }
@@ -171,16 +171,16 @@ public class ClickDetect : MonoBehaviour
         yield return new WaitForSeconds(1.1f);
 
         // Initialize the hightlight Texture with the same dimensions as the map image
-        Texture2D resourceTexture = new Texture2D(width, height, TextureFormat.ARGB32, false);
+        Texture2D mapTexture = new Texture2D(width, height, TextureFormat.ARGB32, false);
 
         yield return new WaitForSeconds(0.1f);
 
         // Set the map to the currently stored highlights array
-        resourceTexture.SetPixels(0, 0, width, height, resourceTiles);
-        resourceTexture.Apply();
+        mapTexture.SetPixels(0, 0, width, height, mapTiles);
+        mapTexture.Apply();
         // Save the final texture to a file 
         string filePath = Application.streamingAssetsPath + "/Exports/" + "Resource.png";
-        byte[] pngBytes = resourceTexture.EncodeToPNG();
+        byte[] pngBytes = mapTexture.EncodeToPNG();
         File.WriteAllBytes(filePath, pngBytes);
 
         yield return null;

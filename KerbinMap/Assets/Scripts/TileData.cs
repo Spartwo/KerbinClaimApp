@@ -8,7 +8,7 @@ public class TileData
     // Conditions
     public string Culture;
     // Resource
-    public ResourceDef LocalResources;
+    public List<ResourceDef> LocalResources = new List<ResourceDef>();
     // Positional
     public UnityEngine.Vector2 Coordinates;
     public UnityEngine.Vector2 Position;
@@ -69,5 +69,11 @@ public class CultureDef
 public class ResourceDef
 {
     public string Resource;
-    public int Quantity;
+    public int Yield;
+
+    public ResourceDef(string type, int yield)
+    {
+        this.Resource = type;
+        this.Yield = yield;
+    }
 }

@@ -97,6 +97,17 @@ public class UIControl : MonoBehaviour
         }
 
         tilePanel.SetActive(true);
+
+        string tileResources = "None";
+        if (t.LocalResources.Count > 0) 
+        {
+            tileResources = "";
+            foreach(ResourceDef r in t.LocalResources) 
+            {
+                tileResources += r.Resource + " (" + r.Yield + ")\n";
+            }
+        }
+
         string tileData = ""
                 + t.Area.ToString("N0") + "km^2\n\n"
                 + t.Coordinates.x.ToString("N3") + "°N\n" + t.Coordinates.y.ToString("N3") + "°E\n\n"
@@ -104,7 +115,7 @@ public class UIControl : MonoBehaviour
                 + t.Terrain + "\n\n"
                 + t.Population.ToString("N0") + "\n\n"
                 + cd.selectedTileCulture.Dialect + "\n(" + cd.selectedTileCulture.Language  + ")" + "\n\n"
-                + "NaN";
+                + tileResources;
         inspectTileDataField.GetComponent<TextMeshProUGUI>().text = tileData;
 
     }
