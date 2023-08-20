@@ -129,6 +129,41 @@ public class ClickDetect : MonoBehaviour
 
     }
 
+    public void ClaimAllTiles()
+    {
+        StartCoroutine(ClaimAll());
+    }
+
+    IEnumerator ClaimAll()
+    {
+        foreach (ContinentData c in mapSource.continents)
+        {
+            foreach (ProvinceData p in c.Provinces)
+            {
+                foreach (TileData t in p.Tiles)
+                {
+                    TileClaim(t, true);
+                }
+                yield return new WaitForSeconds(0.1f);
+                string resourcesString = "none";
+                if (resources.Count > 0)
+                {
+                    resourcesString = "";
+                    foreach (ResourceDef r in resources)
+                    {
+                        resourcesString += r.Resource + " (" + r.Yield + ")\n";
+                    }
+                }
+                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation.ToString("N0") + "\n\n" + resourcesString);
+                UpdatePlaneTexture();
+            }
+        }
+
+        Debug.Log("Selected all tiles");
+
+        yield return null;
+    }
+
     IEnumerator TiliseMap()
     {
         yield return new WaitForSeconds(2.1f);
@@ -239,7 +274,16 @@ public class ClickDetect : MonoBehaviour
                         TileClaim(selectedTile, true);
                     }
                 }
-                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation.ToString("N0") + "\n\n" + "NaN");
+                string resourcesString = "none";
+                if (resources.Count > 0)
+                {
+                    resourcesString = "";
+                    foreach (ResourceDef r in resources)
+                    {
+                        resourcesString += r.Resource + " (" + r.Yield + ")\n";
+                    }
+                }
+                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation.ToString("N0") + "\n\n" + resourcesString);
                 UpdatePlaneTexture();
                 break;
             case 2:
@@ -278,8 +322,16 @@ public class ClickDetect : MonoBehaviour
                         TileClaim(selectedTile, false);
                     }
                 }
-                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation.ToString("N0") + "\n\n" + "NaN");
-                UpdatePlaneTexture();
+                string resourcesString = "none";
+                if (resources.Count > 0)
+                {
+                    resourcesString = "";
+                    foreach (ResourceDef r in resources)
+                    {
+                        resourcesString += r.Resource + " (" + r.Yield + ")\n";
+                    }
+                }
+                UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation.ToString("N0") + "\n\n" + resourcesString); UpdatePlaneTexture();
                 break;
             case 2:
                 Debug.Log("Distance calc is a work in progress");
@@ -297,6 +349,7 @@ public class ClickDetect : MonoBehaviour
             totalArea += t.Area;
             totalPopulation += t.Population;
             claimValue += t.ClaimValue;
+            AddResource(t, false);
 
             PaintTile(t, highlightColours, Color.red);
             selectedTiles.Add(t);
@@ -306,9 +359,29 @@ public class ClickDetect : MonoBehaviour
             totalArea -= t.Area;
             totalPopulation -= t.Population;
             claimValue -= t.ClaimValue;
+            AddResource(t, true);
 
             PaintTile(t, highlightColours, clearColour);
             selectedTiles.Remove(t);
+        }
+    }
+
+    void AddResource(TileData t, bool remove)
+    {
+        foreach (ResourceDef r in t.LocalResources)
+        {  // Check if resources list contains a ResourceDef with the same Type
+            ResourceDef existingResource = resources.Find(res => res.Resource == r.Resource);
+
+            if (existingResource == null)
+            {
+                // If not found, add the new resource to the list
+                resources.Add(new ResourceDef( r.Resource, r.Yield ));
+            }
+            else
+            {
+                // If found, adjust the Yield value based on the remove flag
+                existingResource.Yield += remove ? -r.Yield : r.Yield;
+            }
         }
     }
 
@@ -412,6 +485,13 @@ public class ClickDetect : MonoBehaviour
         // Add an empty line after the claim data
         lines.Add("");
 
+
+        lines.Add("Resources");
+        foreach (ResourceDef r in resources)
+        {
+            lines.Add(r.Resource + " (" + r.Yield + ")");
+        }
+        lines.Add("");
         // Add the selectedTiles hashset to the list
         lines.Add("Claim Value: " + claimValue + "/" + claimLimit);
 

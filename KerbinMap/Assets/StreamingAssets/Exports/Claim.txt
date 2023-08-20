@@ -10,15 +10,20 @@
 | map = _Globe.png
 | mapdesc = Map of 
 | denonym = ian
-| capital = Vanad
-| languages = Zokesian<br/>
+| capital = Rhudbeal
+| languages = Tekkian<br/>
 | currency = ian Fund
 | government = [Unknown]
-| ethnicity = 23.8% Iridian<br/>76.2% Zokesi<br/>
-| population = 3,732,236
-| area = 14,906
+| ethnicity = 99.8% Aontan<br/>0.2% Iridian<br/>
+| population = 20,566,367
+| area = 47,127
 | predecessor = 
 | successor = 
 }}
 
-Claim Value: 65/500
+Resources
+Food (218)
+Common Ore (44)
+Hydrates (13)
+
+Claim Value: 2061357/500
