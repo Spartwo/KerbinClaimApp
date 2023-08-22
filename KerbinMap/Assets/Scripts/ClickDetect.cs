@@ -47,7 +47,7 @@ public class ClickDetect : MonoBehaviour
     public string claimName;
     public List<ResourceDef> resources = new List<ResourceDef>();
 
-    [SerializeField] private int claimLimit = 500;
+    [SerializeField] private int claimLimit = 750000;
     [SerializeField] private UIControl UICanvas;
     [SerializeField] GameObject nameField;
 
@@ -136,6 +136,10 @@ public class ClickDetect : MonoBehaviour
 
     IEnumerator ClaimAll()
     {
+        totalArea = 0;
+        totalPopulation = 0;
+        claimValue = 0;
+        resources.Clear();
         foreach (ContinentData c in mapSource.continents)
         {
             foreach (ProvinceData p in c.Provinces)

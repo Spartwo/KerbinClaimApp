@@ -10,20 +10,22 @@
 | map = _Globe.png
 | mapdesc = Map of 
 | denonym = ian
-| capital = Rhudbeal
-| languages = Tekkian<br/>
+| capital = Tatar
+| languages = None
 | currency = ian Fund
 | government = [Unknown]
-| ethnicity = 99.8% Aontan<br/>0.2% Iridian<br/>
-| population = 20,566,367
-| area = 47,127
+| ethnicity = 3.0% Greater<br/>11.5% Doreno<br/>0.9% Sanctome<br/>4.9% Baskay<br/>3.7% Zokesi<br/>3.7% Surnic<br/>1.2% Iridian<br/>0.8% Rithadar<br/>5.3% Aontan<br/>1.9% Koloan<br/>3.8% Samagi<br/>0.7% Central Kafrican<br/>1.4% Mambic Burrean<br/>4.7% Kostel<br/>6.8% East Kafrican<br/>16.4% Undefined<br/>0.5% Comorri<br/>2.2% North Kafrican<br/>1.1% Arvene<br/>0.3% Ketan<br/>1.5% Mercantile<br/>1.0% Yugveiid<br/>2.0% Kalban<br/>4.0% Forsetti<br/>1.9% Aquarian<br/>1.4% Coast Dorvic<br/>0.5% West Dorvic<br/>4.8% Dorvic<br/>3.0% Feguan<br/>2.9% Reciprocal<br/>2.3% Burric<br/>0.1% Iceolated<br/>
+| population = 764,587,997
+| area = 2,748,312
 | predecessor = 
 | successor = 
 }}
 
 Resources
-Food (218)
-Common Ore (44)
-Hydrates (13)
+Food (9936)
+Nuclear Ore (167)
+Hydrates (1696)
+Common Ore (1197)
+Rare Ore (413)
 
-Claim Value: 2061357/500
+Claim Value: 37974200/750000

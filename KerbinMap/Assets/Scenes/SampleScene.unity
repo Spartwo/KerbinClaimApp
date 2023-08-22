@@ -2009,7 +2009,7 @@ MonoBehaviour:
   claimValue: 0
   claimName: 
   resources: []
-  claimLimit: 500
+  claimLimit: 1250000
   UICanvas: {fileID: 1746948805}
   nameField: {fileID: 1316696809}
 --- !u!1 &686077885
@@ -5301,12 +5301,12 @@ GameObject:
   - component: {fileID: 1541615583}
   - component: {fileID: 1541615582}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ClaimAllButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1541615581
 RectTransform:
   m_ObjectHideFlags: 0

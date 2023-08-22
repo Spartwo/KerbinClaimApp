@@ -538,29 +538,28 @@ public class MapGen : MonoBehaviour
                     // Claim Value is an aggregate of local values
                     int claimValue = 0;
                     claimValue += Mathf.RoundToInt(newPopulation * 0.1f);
-                    claimValue += Mathf.RoundToInt(t.Area * 0.1f);
+                    claimValue += Mathf.RoundToInt(t.Area * 10f);
+                    int resourceValue = 0;
                     foreach (ResourceDef r in t.LocalResources)
                     {
-                        int resourceValue;
                         switch (r.Resource)
                         {
                             case "Common Ore":
-                                resourceValue = 1; break;
+                                resourceValue += r.Yield * 15; break;
                             case "Rare Ore":
-                                resourceValue = 1; break;
+                                resourceValue += r.Yield * 35; break;
                             case "Nuclear Ore":
-                                resourceValue = 1; break;
+                                resourceValue += r.Yield * 100; break;
                             case "Food":
-                                resourceValue = 1; break;
+                                resourceValue += r.Yield * 2; break;
                             case "Hydrates":
-                                resourceValue = 1; break;
+                                resourceValue += r.Yield * 10; break;
                             default: 
-                                resourceValue = 0; break;
+                                resourceValue += 0; break;
                         }
-                        claimValue += Mathf.RoundToInt(r.Yield * resourceValue * 0.1f);
                     }
 
-                    t.ClaimValue = claimValue;
+                    t.ClaimValue = ((claimValue + (resourceValue*1000)) / 5);
 
                     tileProgress++;
                     Debug.Log(t.HexCode + " Updated (#" + tileProgress + ")");
