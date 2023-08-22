@@ -489,15 +489,18 @@ public class ClickDetect : MonoBehaviour
         // Add an empty line after the claim data
         lines.Add("");
 
+        lines.Add("Population Density: " + (totalPopulation / totalArea).ToString("N2") + "/km^2");
+        lines.Add("");
 
         lines.Add("Resources");
+        lines.Add("Population (" + totalPopulation + ")");
         foreach (ResourceDef r in resources)
         {
             lines.Add(r.Resource + " (" + r.Yield + ")");
         }
         lines.Add("");
         // Add the selectedTiles hashset to the list
-        lines.Add("Claim Value: " + claimValue + "/" + claimLimit);
+        lines.Add("Claim Value: " + claimValue.ToString("N0") + "/" + claimLimit.ToString("N0"));
 
         // Save the lines to a file 
         string filePath = Application.streamingAssetsPath + "/Exports/Claim.txt";
@@ -509,6 +512,7 @@ public class ClickDetect : MonoBehaviour
         SaveClaimData();
         PrintMap("Territory.png");
     }
+
 
     #region Painters
 

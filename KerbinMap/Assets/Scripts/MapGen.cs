@@ -32,6 +32,7 @@ public class MapGen : MonoBehaviour
 
     // When true will produce new definitions from the map, takes ages
     [SerializeField] private bool generateMap = true;
+    [SerializeField] private bool balanceClaimCost = true;
     [SerializeField] private bool refreshData = true;
     [SerializeField] private bool refreshResources = true;
     // Defined map scaling
@@ -124,6 +125,12 @@ public class MapGen : MonoBehaviour
         {
             Debug.Log("Updating Map Data");
             StartCoroutine(UpdateTileData());
+        }
+
+        if (balanceClaimCost && !refreshData && !refreshResources)
+        {
+            Debug.Log("Setting Claim Values");
+            StartCoroutine(BalanceClaimCosts());
         }
     }
 
@@ -535,31 +542,6 @@ public class MapGen : MonoBehaviour
                     int newPopulation = (int)(density* populationScaler * t.Area); //30 is a standin heatmap value for persons per km
                     p.Population += newPopulation;
                     t.Population = newPopulation;
-                    // Claim Value is an aggregate of local values
-                    int claimValue = 0;
-                    claimValue += Mathf.RoundToInt(newPopulation * 0.1f);
-                    claimValue += Mathf.RoundToInt(t.Area * 10f);
-                    int resourceValue = 0;
-                    foreach (ResourceDef r in t.LocalResources)
-                    {
-                        switch (r.Resource)
-                        {
-                            case "Common Ore":
-                                resourceValue += r.Yield * 15; break;
-                            case "Rare Ore":
-                                resourceValue += r.Yield * 35; break;
-                            case "Nuclear Ore":
-                                resourceValue += r.Yield * 100; break;
-                            case "Food":
-                                resourceValue += r.Yield * 2; break;
-                            case "Hydrates":
-                                resourceValue += r.Yield * 10; break;
-                            default: 
-                                resourceValue += 0; break;
-                        }
-                    }
-
-                    t.ClaimValue = ((claimValue + (resourceValue*1000)) / 5);
 
                     tileProgress++;
                     Debug.Log(t.HexCode + " Updated (#" + tileProgress + ")");
@@ -579,6 +561,58 @@ public class MapGen : MonoBehaviour
         //populationMap = null;
         Debug.Log("Cleared Arrays");
         // Give a little buffer
+        yield return new WaitForSeconds(0.1f);
+
+        // write all to json
+        WriteToJson(Application.streamingAssetsPath + "/MapGen/Tiles/");
+
+        yield return null;
+    }
+    IEnumerator BalanceClaimCosts()
+    {
+        int tileProgress = 0;
+
+        foreach (ContinentData c in continents)
+        {
+            foreach (ProvinceData p in c.Provinces)
+            {
+                foreach (TileData t in p.Tiles)
+                {
+                    
+                    // Claim Value is an aggregate of local values
+                    int claimValue = 0;
+                    claimValue += Mathf.RoundToInt(t.Population * 0.1f);
+                    claimValue += Mathf.RoundToInt(t.Area * 10f);
+                    int resourceValue = 0;
+                    foreach (ResourceDef r in t.LocalResources)
+                    {
+                        switch (r.Resource)
+                        {
+                            case "Common Ore":
+                                resourceValue += r.Yield * 15; break;
+                            case "Rare Ore":
+                                resourceValue += r.Yield * 35; break;
+                            case "Nuclear Ore":
+                                resourceValue += r.Yield * 100; break;
+                            case "Food":
+                                resourceValue += r.Yield * 2; break;
+                            case "Hydrates":
+                                resourceValue += r.Yield * 10; break;
+                            default:
+                                resourceValue += 0; break;
+                        }
+                    }
+
+                    t.ClaimValue = ((claimValue + (resourceValue * 1000)) / 5);
+
+                    tileProgress++;
+                    Debug.Log(t.HexCode + " Updated (#" + tileProgress + ")");
+                    // Give a little buffer
+                    //yield return new WaitForSeconds(0.01f);
+                }
+            }
+        }
+
         yield return new WaitForSeconds(0.1f);
 
         // write all to json

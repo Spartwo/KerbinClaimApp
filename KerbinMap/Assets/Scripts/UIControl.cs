@@ -19,12 +19,14 @@ public class UIControl : MonoBehaviour
     public GameObject tilePanel;
 
     public GameObject claimDataField;
+    public GameObject claimSaveMessagePanel;
 
     public GameObject inspectTileDataField;
     public GameObject inspectProvinceDataField;
 
     public GameObject fillFullBar;
     public Slider fillSlider;
+
 
     private Dictionary<string, int> speakingPopulation = new Dictionary<string, int>();
 
@@ -51,6 +53,16 @@ public class UIControl : MonoBehaviour
         claimDataField.GetComponent<TextMeshProUGUI>().text = displayData;
     }
 
+    //Show a user message so they saved
+    public void StartSaveMessage()
+    {
+        claimSaveMessagePanel.SetActive(true);
+    }
+
+    public void EndSaveMessage()
+    {
+        claimSaveMessagePanel.SetActive(false);
+    }
     public void UpdateInspectUI(bool showProvince, ProvinceData p, TileData t)
     {
         if (showProvince) 
