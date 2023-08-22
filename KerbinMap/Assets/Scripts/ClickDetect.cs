@@ -397,7 +397,16 @@ public class ClickDetect : MonoBehaviour
         selectedTiles.Clear();
         resources.Clear();
 
-        UICanvas.UpdateClaimUI(0, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation + "\n\n" + "NaN");
+        // Add your preset entries here
+        resources.Add(new ResourceDef("Food", 0));
+        resources.Add(new ResourceDef("Hydrates", 0));
+        resources.Add(new ResourceDef("Common Ore", 0));
+        resources.Add(new ResourceDef("Rare Ore", 0));
+        resources.Add(new ResourceDef("Nuclear Ore", 0));
+
+        string resourcesString = "Food (0)\nHydrates (0)\nCommon Ore (0)\nRare Ore (0)\nNuclear Ore (0)";
+
+        UICanvas.UpdateClaimUI(0, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation + "\n\n" + resourcesString);
 
         Array.Copy(clearColours, highlightColours, clearColours.Length);
         UpdatePlaneTexture();

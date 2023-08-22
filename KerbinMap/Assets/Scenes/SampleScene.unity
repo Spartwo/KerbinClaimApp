@@ -2089,7 +2089,7 @@ MonoBehaviour:
   provinceMap: {fileID: 2800000, guid: 949a96c716054ec4c924329c6c2159c6, type: 3}
   continentMap: {fileID: 2800000, guid: 221e1e57c1d310b4686daf4a99df0efc, type: 3}
   generateMap: 0
-  balanceClaimCost: 1
+  balanceClaimCost: 0
   refreshData: 0
   refreshResources: 0
   bodyCircumferanceKilometres: 3769.911
@@ -4291,7 +4291,7 @@ GameObject:
   - component: {fileID: 1190781959}
   - component: {fileID: 1190781958}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: PercentileText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6515,6 +6515,7 @@ MonoBehaviour:
   inspectProvinceDataField: {fileID: 73391403}
   fillFullBar: {fileID: 1547728039}
   fillSlider: {fileID: 1931984471}
+  fillPercentageText: {fileID: 1190781956}
   cd: {fileID: 661798360}
 --- !u!1 &1789432015
 GameObject:

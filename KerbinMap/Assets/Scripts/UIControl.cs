@@ -26,6 +26,7 @@ public class UIControl : MonoBehaviour
 
     public GameObject fillFullBar;
     public Slider fillSlider;
+    public GameObject fillPercentageText;
 
 
     private Dictionary<string, int> speakingPopulation = new Dictionary<string, int>();
@@ -49,6 +50,8 @@ public class UIControl : MonoBehaviour
             fillFullBar.SetActive(false);
             fillSlider.value = claimBar;
         }
+
+        fillPercentageText.GetComponent<TextMeshProUGUI>().text = (claimBar * 100).ToString("N1") + "%";
 
         claimDataField.GetComponent<TextMeshProUGUI>().text = displayData;
     }

@@ -10,21 +10,25 @@
 | map = _Globe.png
 | mapdesc = Map of 
 | denonym = ian
-| capital = Deir
-| languages = Tekkian<br/>
+| capital = Soltem
+| languages = Solten<br/>
 | currency = ian Fund
 | government = [Unknown]
-| ethnicity = 100.0% Aontan<br/>
-| population = 1,584,135
-| area = 5,158
+| ethnicity = 100.0% Iceolated<br/>
+| population = 447,009
+| area = 1,699
 | predecessor = 
 | successor = 
 }}
 
-Population Density: 307.11/km^2
+Population Density: 263.07/km^2
 
 Resources
-Population (1584135)
-Food (1)
+Population (447009)
+Food (0)
+Hydrates (42)
+Common Ore (0)
+Rare Ore (0)
+Nuclear Ore (0)
 
-Claim Value: 42,396/1,250,000
+Claim Value: 114,186/1,250,000
