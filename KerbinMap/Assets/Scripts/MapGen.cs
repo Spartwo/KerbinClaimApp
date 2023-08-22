@@ -581,8 +581,8 @@ public class MapGen : MonoBehaviour
                     
                     // Claim Value is an aggregate of local values
                     int claimValue = 0;
-                    claimValue += Mathf.RoundToInt(t.Population * 0.1f);
-                    claimValue += Mathf.RoundToInt(t.Area * 10f);
+                    claimValue += Mathf.RoundToInt(t.Population * 0.08f);
+                    claimValue += Mathf.RoundToInt(t.Area * 6f);
                     int resourceValue = 0;
                     foreach (ResourceDef r in t.LocalResources)
                     {
@@ -603,7 +603,7 @@ public class MapGen : MonoBehaviour
                         }
                     }
 
-                    t.ClaimValue = ((claimValue + (resourceValue * 1000)) / 5);
+                    t.ClaimValue = ((claimValue + (resourceValue * 1250)) / 5);
 
                     tileProgress++;
                     Debug.Log(t.HexCode + " Updated (#" + tileProgress + ")");

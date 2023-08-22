@@ -2089,7 +2089,7 @@ MonoBehaviour:
   provinceMap: {fileID: 2800000, guid: 949a96c716054ec4c924329c6c2159c6, type: 3}
   continentMap: {fileID: 2800000, guid: 221e1e57c1d310b4686daf4a99df0efc, type: 3}
   generateMap: 0
-  balanceClaimCost: 0
+  balanceClaimCost: 1
   refreshData: 0
   refreshResources: 0
   bodyCircumferanceKilometres: 3769.911
