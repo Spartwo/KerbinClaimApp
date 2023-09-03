@@ -13,6 +13,7 @@ using System.Collections;
 using System.Buffers.Text;
 using UnityEngine.UIElements;
 using UnityEditor;
+using System.IO.Pipes;
 
 //this method handles click detection action and the stages involved in generating map data
 public class MapGen : MonoBehaviour
@@ -582,7 +583,7 @@ public class MapGen : MonoBehaviour
                     // Claim Value is an aggregate of local values
                     int claimValue = 0;
                     claimValue += Mathf.RoundToInt(t.Population * 0.08f);
-                    claimValue += Mathf.RoundToInt(t.Area * 6f);
+                    claimValue += Mathf.RoundToInt(t.Area * 12f);
                     int resourceValue = 0;
                     foreach (ResourceDef r in t.LocalResources)
                     {
@@ -593,7 +594,7 @@ public class MapGen : MonoBehaviour
                             case "Rare Ore":
                                 resourceValue += r.Yield * 35; break;
                             case "Nuclear Ore":
-                                resourceValue += r.Yield * 100; break;
+                                resourceValue += r.Yield * 60; break;
                             case "Food":
                                 resourceValue += r.Yield * 2; break;
                             case "Hydrates":
@@ -603,7 +604,7 @@ public class MapGen : MonoBehaviour
                         }
                     }
 
-                    t.ClaimValue = ((claimValue + (resourceValue * 1250)) / 5);
+                    t.ClaimValue = ((claimValue + (resourceValue * 900)) / 5);
 
                     tileProgress++;
                     Debug.Log(t.HexCode + " Updated (#" + tileProgress + ")");
@@ -904,7 +905,10 @@ public class MapGen : MonoBehaviour
                 writer.Write(jsonOutput);
             }
         }
+
     }
+
+   
     #endregion
 
     #region Colours

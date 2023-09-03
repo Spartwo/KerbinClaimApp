@@ -1,34 +1,34 @@
 {{Nation
-| nation = 
+| nation = Tekkia
 | localized_name = 
-| full_name = 
-| flag = _flag.png
-| flagdesc = Flag of 
+| full_name = Tekkia
+| flag = Tekkia_flag.png
+| flagdesc = Flag of Tekkia
 | motto = [Unknown]
 | anthem = [Unknown]
 | anthem_MP3 = [Unknown.mp3]
-| map = _Globe.png
-| mapdesc = Map of 
-| denonym = ian
-| capital = Soltem
-| languages = Solten<br/>
-| currency = ian Fund
+| map = Tekkia_Globe.png
+| mapdesc = Map of Tekkia
+| denonym = Tekkiaian
+| capital = Slèibh
+| languages = Tekkian<br/>
+| currency = Tekkiaian Fund
 | government = [Unknown]
-| ethnicity = 100.0% Iceolated<br/>
-| population = 447,009
-| area = 1,699
+| ethnicity = 99.8% Aontan<br/>0.2% Iridian<br/>
+| population = 20,566,367
+| area = 47,127
 | predecessor = 
 | successor = 
 }}
 
-Population Density: 263.07/km^2
+Population Density: 436.40/km^2
 
 Resources
-Population (447009)
-Food (0)
-Hydrates (42)
-Common Ore (0)
+Population (20566367)
+Food (218)
+Hydrates (13)
+Common Ore (44)
 Rare Ore (0)
 Nuclear Ore (0)
 
-Claim Value: 114,186/1,250,000
+Claim Value: 692,058/750,000

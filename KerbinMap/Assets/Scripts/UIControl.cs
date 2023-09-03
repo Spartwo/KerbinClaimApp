@@ -21,6 +21,9 @@ public class UIControl : MonoBehaviour
     public GameObject claimDataField;
     public GameObject claimSaveMessagePanel;
 
+    public GameObject claimExportedPanel;
+    public Slider exportImportProgressbar;
+
     public GameObject inspectTileDataField;
     public GameObject inspectProvinceDataField;
 
@@ -54,6 +57,21 @@ public class UIControl : MonoBehaviour
         fillPercentageText.GetComponent<TextMeshProUGUI>().text = (claimBar * 100).ToString("N1") + "%";
 
         claimDataField.GetComponent<TextMeshProUGUI>().text = displayData;
+    }
+
+    public void UpdateImportProgress(int progress)
+    {
+        exportImportProgressbar.value = progress;
+
+        if (progress == 0 || progress == 6474)
+        {
+            exportImportProgressbar.gameObject.SetActive(false);
+        }
+        else
+        {
+            exportImportProgressbar.gameObject.SetActive(true);
+            exportImportProgressbar.value = progress;
+        }
     }
 
     //Show a user message so they saved
@@ -146,6 +164,7 @@ public class UIControl : MonoBehaviour
                 inspectContextPanel.SetActive(true);
                 claimPanel.SetActive(false);
                 claimContextPanel.SetActive(false);
+                claimExportedPanel.SetActive(false);
                 break;
             case 1:
                 tilePanel.SetActive(false);
@@ -153,6 +172,7 @@ public class UIControl : MonoBehaviour
                 inspectContextPanel.SetActive(false);
                 claimPanel.SetActive(true);
                 claimContextPanel.SetActive(true);
+                claimExportedPanel.SetActive(true);
                 break;
             case 3:
                 tilePanel.SetActive(false);
@@ -160,6 +180,7 @@ public class UIControl : MonoBehaviour
                 inspectContextPanel.SetActive(false);
                 claimPanel.SetActive(false);
                 claimContextPanel.SetActive(false);
+                claimExportedPanel.SetActive(false);
                 break;
             default:
                 tilePanel.SetActive(false);
@@ -167,6 +188,7 @@ public class UIControl : MonoBehaviour
                 inspectContextPanel.SetActive(false);
                 claimPanel.SetActive(false);
                 claimContextPanel.SetActive(false);
+                claimExportedPanel.SetActive(false);
                 break;
         }
     }

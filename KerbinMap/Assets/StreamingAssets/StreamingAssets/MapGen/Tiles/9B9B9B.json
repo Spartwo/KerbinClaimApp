@@ -3085,7 +3085,7 @@
                             "Population": 263104,
                             "ProvinceParent": "7E871D",
                             "ContinentParent": "9B9B9B",
-                            "ClaimValue": 25897
+                            "ClaimValue": 35897
                         },
                         {
                             "HexCode": "00181E",
@@ -5067,7 +5067,7 @@
                             "Population": 130083,
                             "ProvinceParent": "7E12B3",
                             "ContinentParent": "9B9B9B",
-                            "ClaimValue": 23898
+                            "ClaimValue": 33898
                         },
                         {
                             "HexCode": "014E0A",
@@ -5131,7 +5131,7 @@
                             "Population": 114039,
                             "ProvinceParent": "7E12B3",
                             "ContinentParent": "9B9B9B",
-                            "ClaimValue": 23556
+                            "ClaimValue": 33556
                         },
                         {
                             "HexCode": "6920E8",
@@ -5195,7 +5195,7 @@
                             "Population": 156099,
                             "ProvinceParent": "7E12B3",
                             "ContinentParent": "9B9B9B",
-                            "ClaimValue": 24378
+                            "ClaimValue": 34378
                         },
                         {
                             "HexCode": "55BD9C",
@@ -9621,7 +9621,7 @@
                             "Population": 69115,
                             "ProvinceParent": "D979A9",
                             "ContinentParent": "9B9B9B",
-                            "ClaimValue": 34274
+                            "ClaimValue": 54274
                         },
                         {
                             "HexCode": "057BAF",
@@ -9685,7 +9685,7 @@
                             "Population": 123237,
                             "ProvinceParent": "D979A9",
                             "ContinentParent": "9B9B9B",
-                            "ClaimValue": 20177
+                            "ClaimValue": 30177
                         },
                         {
                             "HexCode": "B10934",
@@ -9715,7 +9715,7 @@
                             "Population": 34461,
                             "ProvinceParent": "D979A9",
                             "ContinentParent": "9B9B9B",
-                            "ClaimValue": 16247
+                            "ClaimValue": 26247
                         },
                         {
                             "HexCode": "338A26",
@@ -10085,7 +10085,7 @@
                             "Population": 706116,
                             "ProvinceParent": "39E086",
                             "ContinentParent": "9B9B9B",
-                            "ClaimValue": 28318
+                            "ClaimValue": 38318
                         },
                         {
                             "HexCode": "3109A3",

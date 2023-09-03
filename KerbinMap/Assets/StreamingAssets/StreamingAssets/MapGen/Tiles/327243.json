@@ -981,7 +981,7 @@
                             "Population": 318078,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 21365
+                            "ClaimValue": 31365
                         },
                         {
                             "HexCode": "85AE22",
@@ -1011,7 +1011,7 @@
                             "Population": 137457,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 33495
+                            "ClaimValue": 53495
                         },
                         {
                             "HexCode": "66C7CB",
@@ -1045,7 +1045,7 @@
                             "Population": 188296,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 24005
+                            "ClaimValue": 34005
                         },
                         {
                             "HexCode": "244C4A",
@@ -1075,7 +1075,7 @@
                             "Population": 128647,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 32835
+                            "ClaimValue": 52835
                         },
                         {
                             "HexCode": "39C236",
@@ -1105,7 +1105,7 @@
                             "Population": 194109,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 19197
+                            "ClaimValue": 29197
                         },
                         {
                             "HexCode": "8B9510",
@@ -1135,7 +1135,7 @@
                             "Population": 225617,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 35095
+                            "ClaimValue": 55095
                         },
                         {
                             "HexCode": "5A346F",
@@ -1169,7 +1169,7 @@
                             "Population": 130962,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 35415
+                            "ClaimValue": 55415
                         },
                         {
                             "HexCode": "722F2B",
@@ -1199,7 +1199,7 @@
                             "Population": 28644,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 16240
+                            "ClaimValue": 26240
                         },
                         {
                             "HexCode": "77B1D1",
@@ -1233,7 +1233,7 @@
                             "Population": 195819,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 36611
+                            "ClaimValue": 56611
                         },
                         {
                             "HexCode": "B5F0B5",
@@ -1267,7 +1267,7 @@
                             "Population": 158476,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 35949
+                            "ClaimValue": 55949
                         },
                         {
                             "HexCode": "0A5D3B",
@@ -1327,7 +1327,7 @@
                             "Population": 120257,
                             "ProvinceParent": "8B9510",
                             "ContinentParent": "327243",
-                            "ClaimValue": 36168
+                            "ClaimValue": 56168
                         }
                     ]
                 },
@@ -3566,7 +3566,7 @@
                             "Population": 149824,
                             "ProvinceParent": "30C3D5",
                             "ContinentParent": "327243",
-                            "ClaimValue": 21146
+                            "ClaimValue": 31146
                         },
                         {
                             "HexCode": "83C03B",

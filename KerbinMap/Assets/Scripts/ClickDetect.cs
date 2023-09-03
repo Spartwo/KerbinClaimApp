@@ -8,6 +8,7 @@ using TMPro;
 using Unity.Properties;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 
 using Color = UnityEngine.Color;
@@ -83,6 +84,7 @@ public class ClickDetect : MonoBehaviour
         UpdatePlaneTexture();
 
         //StartCoroutine(TiliseMap());
+        LoadClaimLimit();
     }
 
     void Update()
@@ -128,6 +130,37 @@ public class ClickDetect : MonoBehaviour
         }
 
     }
+    public void SaveClaimLimit(int claimLimit)
+    {
+        Debug.Log("Writing Claim Limit to Config File");
+        string newPath = Application.streamingAssetsPath + "/MapGen/Limit.json";
+
+        int[] toSend = new int[1];
+        toSend[0] = claimLimit;
+
+        string jsonOutput = JsonHelper.ToJson<int>(toSend, true);
+        File.WriteAllText(newPath, jsonOutput);
+    }
+    public void LoadClaimLimit()
+    {
+        Debug.Log("Reading Claim Limit from Config File");
+        string filePath = Application.streamingAssetsPath + "/MapGen/Limit.json";
+        if (File.Exists(filePath))
+        {
+            string content = File.ReadAllText(filePath);
+
+                int[] loadedValues = JsonHelper.FromJson<int>(content);
+                if (loadedValues.Length > 0)
+                {
+                    claimLimit = loadedValues[0];
+                }
+
+        } 
+        else
+        {
+            SaveClaimLimit(750000);
+        }
+    }
 
     public void ClaimAllTiles()
     {
@@ -168,11 +201,81 @@ public class ClickDetect : MonoBehaviour
         yield return null;
     }
 
+    public void ClaimTerritory()
+    {
+        StartCoroutine(ClaimFromExport());
+    }
+
+    IEnumerator ClaimFromExport()
+    {
+        //Color[] expMap = new Color[width * height];
+        //expMap = Resources.Load<Texture2D>(Application.streamingAssetsPath + "/Exports/Territory.png").GetPixels();
+
+        string texturePath = Application.streamingAssetsPath + "/Exports/Territory.png";
+        Texture2D expTexture = new Texture2D(width, height, TextureFormat.RGBA32, false);
+
+        ImageConversion.LoadImage(expTexture, File.ReadAllBytes(texturePath));
+
+        Color[] expMap = expTexture.GetPixels();
+
+        yield return new WaitForSeconds(0.1f);
+
+        int tileProgress = 0;
+
+        foreach (ContinentData c in mapSource.continents)
+        {
+            foreach (ProvinceData p in c.Provinces)
+            {
+                foreach (TileData t in p.Tiles)
+                {
+                    // Use first position as the data peg if the mean position is over water
+                    Vector2 position = t.Position;
+                    int baseX = (int)position.x;
+                    int baseY = (int)position.y;
+
+                    // Get transparency by sampling the map
+                    Color sampleValue = expMap[baseY * width + baseX];
+
+                    if (sampleValue.r > 0f)
+                    {
+                        TileClaim(t, true);
+                    }
+                    
+
+                    tileProgress++;
+                    UICanvas.UpdateImportProgress(tileProgress);
+                    Debug.Log("Checked " + tileProgress + "/ 6474");
+                }
+                yield return new WaitForSeconds(0.1f);
+            }
+        }
+
+        yield return new WaitForSeconds(0.1f); 
+        string resourcesString = "none";
+        if (resources.Count > 0)
+        {
+            resourcesString = "";
+            foreach (ResourceDef r in resources)
+            {
+                resourcesString += r.Resource + " (" + r.Yield + ")\n";
+            }
+        }
+        UICanvas.UpdateClaimUI((float)claimValue / claimLimit, totalArea.ToString("N0") + "km^2\n\n" + totalPopulation.ToString("N0") + "\n\n" + resourcesString);
+        UpdatePlaneTexture();
+
+        //reset progress bar
+        UICanvas.UpdateImportProgress(0);
+
+        Debug.Log("Loaded Claim from Export Folder");
+
+        yield return null;
+    }
+
     IEnumerator TiliseMap()
     {
         yield return new WaitForSeconds(2.1f);
         Color[] mapMap = new Color[width * height];
-        mapMap = Resources.Load<Texture2D>("Maps/DataLayers/Density").GetPixels();
+        mapMap = Resources.Load<Texture2D>("Maps/DataLayers/Language").GetPixels();
 
         yield return new WaitForSeconds(0.1f);
 
