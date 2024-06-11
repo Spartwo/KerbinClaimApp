@@ -1,34 +1,34 @@
 {{Nation
-| nation = Tekkia
+| nation = swwwwwwwwwwwwwwwwww
 | localized_name = 
-| full_name = Tekkia
-| flag = Tekkia_flag.png
-| flagdesc = Flag of Tekkia
+| full_name = swwwwwwwwwwwwwwwwww
+| flag = swwwwwwwwwwwwwwwwww_flag.png
+| flagdesc = Flag of swwwwwwwwwwwwwwwwww
 | motto = [Unknown]
 | anthem = [Unknown]
 | anthem_MP3 = [Unknown.mp3]
-| map = Tekkia_Globe.png
-| mapdesc = Map of Tekkia
-| denonym = Tekkiaian
-| capital = Slèibh
-| languages = Tekkian<br/>
-| currency = Tekkiaian Fund
+| map = swwwwwwwwwwwwwwwwww_Globe.png
+| mapdesc = Map of swwwwwwwwwwwwwwwwww
+| denonym = swwwwwwwwwwwwwwwwwwian
+| capital = Kobyeda
+| languages = Zeouli<br/>Tavan<br/>
+| currency = swwwwwwwwwwwwwwwwwwian Fund
 | government = [Unknown]
-| ethnicity = 99.8% Aontan<br/>0.2% Iridian<br/>
-| population = 20,566,367
-| area = 47,127
+| ethnicity = 65.6% Aquarian<br/>27.8% Dorvic<br/>2.1% West Dorvic<br/>4.6% Undefined<br/>
+| population = 59,760,880
+| area = 80,089
 | predecessor = 
 | successor = 
 }}
 
-Population Density: 436.40/km^2
+Population Density: 746.19/km^2
 
 Resources
-Population (20566367)
-Food (218)
-Hydrates (13)
-Common Ore (44)
-Rare Ore (0)
+Population (59760880)
+Food (353)
+Hydrates (64)
+Common Ore (33)
+Rare Ore (15)
 Nuclear Ore (0)
 
-Claim Value: 692,058/750,000
+Claim Value: 1,239,538/750,000

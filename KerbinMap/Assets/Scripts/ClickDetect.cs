@@ -453,6 +453,12 @@ public class ClickDetect : MonoBehaviour
     {
         if (add)
         {
+            if(UICanvas.GetComponent<UIControl>().claimOverlapToggle.isOn)
+            {
+                // if the tile shows as claimed don't add it
+                if (SearchTuple(t.HexCode)) return;
+            }
+            
             totalArea += t.Area;
             totalPopulation += t.Population;
             claimValue += t.ClaimValue;
@@ -470,6 +476,20 @@ public class ClickDetect : MonoBehaviour
 
             PaintTile(t, highlightColours, clearColour);
             selectedTiles.Remove(t);
+        }
+    }
+
+    bool SearchTuple(string searchTerm)
+    {
+        var tuple = mapSource.claimedList.Find(t => t.Item1 == searchTerm);
+        if (tuple != default((string, bool)))
+        {
+            return tuple.Item2;
+        }
+        else
+        {
+            Debug.LogWarning("String not found in tuple list: " + searchTerm);
+            return false; // Or any default value you prefer
         }
     }
 

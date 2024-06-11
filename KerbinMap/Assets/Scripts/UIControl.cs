@@ -12,6 +12,7 @@ public class UIControl : MonoBehaviour
     // Values made accessible
     public int mapModeValue = 0;
 
+    public GameObject claimsMap;
     public GameObject claimPanel;
     public GameObject claimContextPanel;
     public GameObject inspectContextPanel;
@@ -22,6 +23,7 @@ public class UIControl : MonoBehaviour
     public GameObject claimSaveMessagePanel;
 
     public GameObject claimExportedPanel;
+    public Toggle claimOverlapToggle;
     public Slider exportImportProgressbar;
 
     public GameObject inspectTileDataField;
@@ -165,6 +167,7 @@ public class UIControl : MonoBehaviour
                 claimPanel.SetActive(false);
                 claimContextPanel.SetActive(false);
                 claimExportedPanel.SetActive(false);
+                claimsMap.SetActive(false);
                 break;
             case 1:
                 tilePanel.SetActive(false);
@@ -173,6 +176,7 @@ public class UIControl : MonoBehaviour
                 claimPanel.SetActive(true);
                 claimContextPanel.SetActive(true);
                 claimExportedPanel.SetActive(true);
+                claimsMap.SetActive(true);
                 break;
             case 3:
                 tilePanel.SetActive(false);
@@ -181,6 +185,7 @@ public class UIControl : MonoBehaviour
                 claimPanel.SetActive(false);
                 claimContextPanel.SetActive(false);
                 claimExportedPanel.SetActive(false);
+                claimsMap.SetActive(false);
                 break;
             default:
                 tilePanel.SetActive(false);
@@ -189,6 +194,7 @@ public class UIControl : MonoBehaviour
                 claimPanel.SetActive(false);
                 claimContextPanel.SetActive(false);
                 claimExportedPanel.SetActive(false);
+                claimsMap.SetActive(false);
                 break;
         }
     }

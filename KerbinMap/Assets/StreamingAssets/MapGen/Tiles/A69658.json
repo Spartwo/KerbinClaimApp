@@ -7,7 +7,7 @@
                     "HexCode": "4ACDB2",
                     "ContinentParent": "A69658",
                     "Area": 11.012492179870606,
-                    "Population": 8,
+                    "Population": 0,
                     "Tiles": [
                         {
                             "HexCode": "3C2547",
@@ -30,7 +30,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 11.012492179870606,
                             "ProjectedArea": 320,
-                            "Population": 8,
+                            "Population": 0,
                             "ProvinceParent": "4ACDB2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 7513
@@ -41,7 +41,7 @@
                     "HexCode": "14E767",
                     "ContinentParent": "A69658",
                     "Area": 1699.2183837890625,
-                    "Population": 447009,
+                    "Population": 1460031,
                     "Tiles": [
                         {
                             "HexCode": "63ECA0",
@@ -64,7 +64,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 75.48734283447266,
                             "ProjectedArea": 1886,
-                            "Population": 19858,
+                            "Population": 64201,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 7908
@@ -90,7 +90,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 33.88459396362305,
                             "ProjectedArea": 851,
-                            "Population": 8914,
+                            "Population": 28818,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 7683
@@ -116,7 +116,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 57.88617706298828,
                             "ProjectedArea": 1440,
-                            "Population": 15228,
+                            "Population": 49231,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 7813
@@ -142,7 +142,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 217.6143798828125,
                             "ProjectedArea": 5172,
-                            "Population": 57248,
+                            "Population": 190412,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 8677
@@ -168,7 +168,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 209.1432342529297,
                             "ProjectedArea": 4960,
-                            "Population": 55019,
+                            "Population": 177874,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 8631
@@ -194,7 +194,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 209.1432342529297,
                             "ProjectedArea": 4960,
-                            "Population": 55019,
+                            "Population": 177874,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 8631
@@ -220,7 +220,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 141.0916748046875,
                             "ProjectedArea": 3320,
-                            "Population": 37117,
+                            "Population": 119997,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 8263
@@ -246,7 +246,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 115.96060180664063,
                             "ProjectedArea": 2698,
-                            "Population": 30505,
+                            "Population": 98623,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 8127
@@ -272,7 +272,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 20.801374435424806,
                             "ProjectedArea": 471,
-                            "Population": 5472,
+                            "Population": 18201,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 7612
@@ -298,7 +298,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 152.29241943359376,
                             "ProjectedArea": 3364,
-                            "Population": 40063,
+                            "Population": 129523,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 8323
@@ -324,7 +324,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 149.93931579589845,
                             "ProjectedArea": 3309,
-                            "Population": 39444,
+                            "Population": 131196,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 8311
@@ -350,7 +350,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 146.36260986328126,
                             "ProjectedArea": 3224,
-                            "Population": 38503,
+                            "Population": 128067,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 8291
@@ -376,7 +376,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 97.70057678222656,
                             "ProjectedArea": 2188,
-                            "Population": 25702,
+                            "Population": 83093,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 8028
@@ -402,7 +402,7 @@
                             "Terrain": "Ice Sheet",
                             "Area": 71.91063690185547,
                             "ProjectedArea": 1616,
-                            "Population": 18917,
+                            "Population": 62921,
                             "ProvinceParent": "14E767",
                             "ContinentParent": "A69658",
                             "ClaimValue": 7888
@@ -413,7 +413,7 @@
                     "HexCode": "854D2B",
                     "ContinentParent": "A69658",
                     "Area": 2069.4072265625,
-                    "Population": 1330192,
+                    "Population": 2627352,
                     "Tiles": [
                         {
                             "HexCode": "FF0278",
@@ -436,7 +436,7 @@
                             "Terrain": "Grasslands",
                             "Area": 228.43862915039063,
                             "ProjectedArea": 3347,
-                            "Population": 134748,
+                            "Population": 283308,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2930
@@ -462,7 +462,7 @@
                             "Terrain": "Grasslands",
                             "Area": 235.0272979736328,
                             "ProjectedArea": 3443,
-                            "Population": 115593,
+                            "Population": 199888,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2631
@@ -488,7 +488,7 @@
                             "Terrain": "Grasslands",
                             "Area": 156.43386840820313,
                             "ProjectedArea": 2223,
-                            "Population": 76938,
+                            "Population": 133045,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1918
@@ -514,7 +514,7 @@
                             "Terrain": "Grasslands",
                             "Area": 144.48013305664063,
                             "ProjectedArea": 2052,
-                            "Population": 80502,
+                            "Population": 137043,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1961
@@ -540,7 +540,7 @@
                             "Terrain": "Shores",
                             "Area": 5.176812648773193,
                             "ProjectedArea": 80,
-                            "Population": 3053,
+                            "Population": 6420,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1055
@@ -566,7 +566,7 @@
                             "Terrain": "Grasslands",
                             "Area": 132.71466064453126,
                             "ProjectedArea": 1863,
-                            "Population": 73947,
+                            "Population": 125883,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1842
@@ -592,7 +592,7 @@
                             "Terrain": "Grasslands",
                             "Area": 134.31475830078126,
                             "ProjectedArea": 1866,
-                            "Population": 104357,
+                            "Population": 192912,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2331
@@ -618,7 +618,7 @@
                             "Terrain": "Grasslands",
                             "Area": 123.67876434326172,
                             "ProjectedArea": 1706,
-                            "Population": 56787,
+                            "Population": 99124,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1557
@@ -644,7 +644,7 @@
                             "Terrain": "Grasslands",
                             "Area": 153.7042694091797,
                             "ProjectedArea": 2115,
-                            "Population": 142025,
+                            "Population": 346588,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2956
@@ -670,7 +670,7 @@
                             "Terrain": "Grasslands",
                             "Area": 307.8791809082031,
                             "ProjectedArea": 4177,
-                            "Population": 221853,
+                            "Population": 412014,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 4419
@@ -696,7 +696,7 @@
                             "Terrain": "Grasslands",
                             "Area": 71.25177001953125,
                             "ProjectedArea": 963,
-                            "Population": 57106,
+                            "Population": 133771,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1499
@@ -722,7 +722,7 @@
                             "Terrain": "Grasslands",
                             "Area": 231.26234436035157,
                             "ProjectedArea": 3109,
-                            "Population": 196686,
+                            "Population": 467059,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3924
@@ -748,7 +748,7 @@
                             "Terrain": "Grasslands",
                             "Area": 145.0448760986328,
                             "ProjectedArea": 1967,
-                            "Population": 66597,
+                            "Population": 90297,
                             "ProvinceParent": "854D2B",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1739
@@ -759,7 +759,7 @@
                     "HexCode": "D28CC2",
                     "ContinentParent": "A69658",
                     "Area": 822.26611328125,
-                    "Population": 480719,
+                    "Population": 923965,
                     "Tiles": [
                         {
                             "HexCode": "812D8B",
@@ -782,7 +782,7 @@
                             "Terrain": "Grasslands",
                             "Area": 159.6340789794922,
                             "ProjectedArea": 2270,
-                            "Population": 94163,
+                            "Population": 190152,
                             "ProvinceParent": "D28CC2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2198
@@ -808,7 +808,7 @@
                             "Terrain": "Grasslands",
                             "Area": 184.95339965820313,
                             "ProjectedArea": 2606,
-                            "Population": 133275,
+                            "Population": 247510,
                             "ProvinceParent": "D28CC2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2854
@@ -834,7 +834,7 @@
                             "Terrain": "Grasslands",
                             "Area": 290.5603942871094,
                             "ProjectedArea": 3996,
-                            "Population": 142906,
+                            "Population": 254240,
                             "ProvinceParent": "D28CC2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3135
@@ -860,7 +860,7 @@
                             "Terrain": "Grasslands",
                             "Area": 187.11825561523438,
                             "ProjectedArea": 2573,
-                            "Population": 110375,
+                            "Population": 232063,
                             "ProvinceParent": "D28CC2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2490
@@ -871,7 +871,7 @@
                     "HexCode": "17920D",
                     "ContinentParent": "A69658",
                     "Area": 2413.3359375,
-                    "Population": 981593,
+                    "Population": 1430354,
                     "Tiles": [
                         {
                             "HexCode": "55B981",
@@ -894,7 +894,7 @@
                             "Terrain": "Grasslands",
                             "Area": 222.50881958007813,
                             "ProjectedArea": 3100,
-                            "Population": 123979,
+                            "Population": 211056,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2750
@@ -920,7 +920,7 @@
                             "Terrain": "Grasslands",
                             "Area": 165.75213623046876,
                             "ProjectedArea": 2242,
-                            "Population": 92355,
+                            "Population": 157220,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2176
@@ -946,7 +946,7 @@
                             "Terrain": "Highlands",
                             "Area": 201.42507934570313,
                             "ProjectedArea": 2685,
-                            "Population": 52989,
+                            "Population": 42457,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1589
@@ -972,7 +972,7 @@
                             "Terrain": "Grasslands",
                             "Area": 284.34820556640627,
                             "ProjectedArea": 3764,
-                            "Population": 130558,
+                            "Population": 177020,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2930
@@ -998,7 +998,7 @@
                             "Terrain": "Grasslands",
                             "Area": 216.0142822265625,
                             "ProjectedArea": 2856,
-                            "Population": 99182,
+                            "Population": 134479,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2346
@@ -1024,7 +1024,7 @@
                             "Terrain": "Grasslands",
                             "Area": 167.4463653564453,
                             "ProjectedArea": 2223,
-                            "Population": 49522,
+                            "Population": 76882,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1493
@@ -1050,7 +1050,7 @@
                             "Terrain": "Grasslands",
                             "Area": 219.30860900878907,
                             "ProjectedArea": 2892,
-                            "Population": 107862,
+                            "Population": 186519,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2489
@@ -1076,7 +1076,7 @@
                             "Terrain": "Grasslands",
                             "Area": 176.67050170898438,
                             "ProjectedArea": 2278,
-                            "Population": 46476,
+                            "Population": 37239,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1455
@@ -1102,7 +1102,7 @@
                             "Terrain": "Grasslands",
                             "Area": 169.79945373535157,
                             "ProjectedArea": 2189,
-                            "Population": 35790,
+                            "Population": 27467,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1276
@@ -1128,7 +1128,7 @@
                             "Terrain": "Grasslands",
                             "Area": 253.0049591064453,
                             "ProjectedArea": 3223,
-                            "Population": 124435,
+                            "Population": 215178,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2794
@@ -1154,7 +1154,7 @@
                             "Terrain": "Grasslands",
                             "Area": 91.11190032958985,
                             "ProjectedArea": 1161,
-                            "Population": 53744,
+                            "Population": 112996,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1469
@@ -1180,7 +1180,7 @@
                             "Terrain": "Grasslands",
                             "Area": 245.94566345214845,
                             "ProjectedArea": 3110,
-                            "Population": 64701,
+                            "Population": 51841,
                             "ProvinceParent": "17920D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1830
@@ -1191,7 +1191,7 @@
                     "HexCode": "BF6047",
                     "ContinentParent": "A69658",
                     "Area": 1636.7198486328125,
-                    "Population": 815281,
+                    "Population": 1408235,
                     "Tiles": [
                         {
                             "HexCode": "722933",
@@ -1218,7 +1218,7 @@
                             "Terrain": "Grasslands",
                             "Area": 203.96641540527345,
                             "ProjectedArea": 2784,
-                            "Population": 93651,
+                            "Population": 158473,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 6493
@@ -1252,7 +1252,7 @@
                             "Terrain": "Grasslands",
                             "Area": 147.6803436279297,
                             "ProjectedArea": 2008,
-                            "Population": 82285,
+                            "Population": 140079,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 11243
@@ -1278,7 +1278,7 @@
                             "Terrain": "Grasslands",
                             "Area": 149.1863250732422,
                             "ProjectedArea": 2025,
-                            "Population": 68498,
+                            "Population": 115911,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2275
@@ -1312,7 +1312,7 @@
                             "Terrain": "Grasslands",
                             "Area": 182.41204833984376,
                             "ProjectedArea": 2442,
-                            "Population": 107599,
+                            "Population": 217284,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 11690
@@ -1342,7 +1342,7 @@
                             "Terrain": "Grasslands",
                             "Area": 108.05419921875,
                             "ProjectedArea": 1420,
-                            "Population": 53144,
+                            "Population": 94547,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 6980
@@ -1372,7 +1372,7 @@
                             "Terrain": "Grasslands",
                             "Area": 251.40484619140626,
                             "ProjectedArea": 3315,
-                            "Population": 115432,
+                            "Population": 164727,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 11898
@@ -1402,7 +1402,7 @@
                             "Terrain": "Grasslands",
                             "Area": 136.38548278808595,
                             "ProjectedArea": 1805,
-                            "Population": 67078,
+                            "Population": 119337,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 5986
@@ -1432,7 +1432,7 @@
                             "Terrain": "Grasslands",
                             "Area": 177.14111328125,
                             "ProjectedArea": 2324,
-                            "Population": 87123,
+                            "Population": 154998,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 8106
@@ -1462,7 +1462,7 @@
                             "Terrain": "Grasslands",
                             "Area": 163.21078491210938,
                             "ProjectedArea": 2128,
-                            "Population": 74938,
+                            "Population": 130808,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 11144
@@ -1492,7 +1492,7 @@
                             "Terrain": "Shores",
                             "Area": 5.741555690765381,
                             "ProjectedArea": 75,
-                            "Population": 3386,
+                            "Population": 6276,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 6561
@@ -1526,7 +1526,7 @@
                             "Terrain": "Grasslands",
                             "Area": 111.53678131103516,
                             "ProjectedArea": 1416,
-                            "Population": 62147,
+                            "Population": 105795,
                             "ProvinceParent": "BF6047",
                             "ContinentParent": "A69658",
                             "ClaimValue": 16378
@@ -1537,7 +1537,7 @@
                     "HexCode": "531EF7",
                     "ContinentParent": "A69658",
                     "Area": 3740.48193359375,
-                    "Population": 2243180,
+                    "Population": 4380260,
                     "Tiles": [
                         {
                             "HexCode": "046919",
@@ -1560,7 +1560,7 @@
                             "Terrain": "Grasslands",
                             "Area": 173.75265502929688,
                             "ProjectedArea": 2312,
-                            "Population": 68422,
+                            "Population": 102491,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1803
@@ -1586,7 +1586,7 @@
                             "Terrain": "Grasslands",
                             "Area": 230.1328582763672,
                             "ProjectedArea": 3046,
-                            "Population": 90624,
+                            "Population": 135748,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2226
@@ -1612,7 +1612,7 @@
                             "Terrain": "Grasslands",
                             "Area": 429.3930969238281,
                             "ProjectedArea": 5599,
-                            "Population": 309415,
+                            "Population": 595677,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 5965
@@ -1638,7 +1638,7 @@
                             "Terrain": "Grasslands",
                             "Area": 137.32672119140626,
                             "ProjectedArea": 1780,
-                            "Population": 28946,
+                            "Population": 25580,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1128
@@ -1664,7 +1664,7 @@
                             "Terrain": "Grasslands",
                             "Area": 219.87335205078126,
                             "ProjectedArea": 2812,
-                            "Population": 158438,
+                            "Population": 305020,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3298
@@ -1690,7 +1690,7 @@
                             "Terrain": "Grasslands",
                             "Area": 310.7969970703125,
                             "ProjectedArea": 3954,
-                            "Population": 173172,
+                            "Population": 287182,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3643
@@ -1716,7 +1716,7 @@
                             "Terrain": "Grasslands",
                             "Area": 240.48648071289063,
                             "ProjectedArea": 3025,
-                            "Population": 63265,
+                            "Population": 50690,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1800
@@ -1742,7 +1742,7 @@
                             "Terrain": "Grasslands",
                             "Area": 173.0937957763672,
                             "ProjectedArea": 2176,
-                            "Population": 155699,
+                            "Population": 376733,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3199
@@ -1768,7 +1768,7 @@
                             "Terrain": "Grasslands",
                             "Area": 211.77870178222657,
                             "ProjectedArea": 2613,
-                            "Population": 124921,
+                            "Population": 252265,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2753
@@ -1794,7 +1794,7 @@
                             "Terrain": "Grasslands",
                             "Area": 202.27218627929688,
                             "ProjectedArea": 2491,
-                            "Population": 196818,
+                            "Population": 523032,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3891
@@ -1820,7 +1820,7 @@
                             "Terrain": "Grasslands",
                             "Area": 225.7090301513672,
                             "ProjectedArea": 2778,
-                            "Population": 88882,
+                            "Population": 125762,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2193
@@ -1846,7 +1846,7 @@
                             "Terrain": "Grasslands",
                             "Area": 221.28521728515626,
                             "ProjectedArea": 2696,
-                            "Population": 87139,
+                            "Population": 130529,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2159
@@ -1872,7 +1872,7 @@
                             "Terrain": "Grasslands",
                             "Area": 211.5904541015625,
                             "ProjectedArea": 2546,
-                            "Population": 205885,
+                            "Population": 502008,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 4548
@@ -1898,7 +1898,7 @@
                             "Terrain": "Grasslands",
                             "Area": 109.5601806640625,
                             "ProjectedArea": 1322,
-                            "Population": 53884,
+                            "Population": 93179,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1493
@@ -1924,7 +1924,7 @@
                             "Terrain": "Grasslands",
                             "Area": 279.17138671875,
                             "ProjectedArea": 3333,
-                            "Population": 164674,
+                            "Population": 278486,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3469
@@ -1950,7 +1950,7 @@
                             "Terrain": "Grasslands",
                             "Area": 286.7012939453125,
                             "ProjectedArea": 3435,
-                            "Population": 229782,
+                            "Population": 524213,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 4520
@@ -1976,7 +1976,7 @@
                             "Terrain": "Grasslands",
                             "Area": 77.55806732177735,
                             "ProjectedArea": 920,
-                            "Population": 43214,
+                            "Population": 71665,
                             "ProvinceParent": "531EF7",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1284
@@ -1987,7 +1987,7 @@
                     "HexCode": "E67D42",
                     "ContinentParent": "A69658",
                     "Area": 1936.22216796875,
-                    "Population": 1023032,
+                    "Population": 1843871,
                     "Tiles": [
                         {
                             "HexCode": "1E9665",
@@ -2014,7 +2014,7 @@
                             "Terrain": "Grasslands",
                             "Area": 260.53485107421877,
                             "ProjectedArea": 3382,
-                            "Population": 128138,
+                            "Population": 221582,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 7112
@@ -2044,7 +2044,7 @@
                             "Terrain": "Grasslands",
                             "Area": 231.92120361328126,
                             "ProjectedArea": 2956,
-                            "Population": 136803,
+                            "Population": 264890,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 11467
@@ -2074,7 +2074,7 @@
                             "Terrain": "Grasslands",
                             "Area": 371.41278076171877,
                             "ProjectedArea": 4707,
-                            "Population": 170534,
+                            "Population": 243360,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 13424
@@ -2104,7 +2104,7 @@
                             "Terrain": "Grasslands",
                             "Area": 389.1080627441406,
                             "ProjectedArea": 4881,
-                            "Population": 191374,
+                            "Population": 340469,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 13779
@@ -2138,7 +2138,7 @@
                             "Terrain": "Grasslands",
                             "Area": 214.22592163085938,
                             "ProjectedArea": 2613,
-                            "Population": 126365,
+                            "Population": 265681,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 20028
@@ -2168,7 +2168,7 @@
                             "Terrain": "Grasslands",
                             "Area": 259.687744140625,
                             "ProjectedArea": 3177,
-                            "Population": 153181,
+                            "Population": 309333,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 15512
@@ -2202,7 +2202,7 @@
                             "Terrain": "Grasslands",
                             "Area": 209.33148193359376,
                             "ProjectedArea": 2518,
-                            "Population": 116637,
+                            "Population": 198556,
                             "ProvinceParent": "E67D42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 19867
@@ -2213,7 +2213,7 @@
                     "HexCode": "AC2D39",
                     "ContinentParent": "A69658",
                     "Area": 1655.4505615234375,
-                    "Population": 912149,
+                    "Population": 1625589,
                     "Tiles": [
                         {
                             "HexCode": "AC6698",
@@ -2236,7 +2236,7 @@
                             "Terrain": "Grasslands",
                             "Area": 226.46202087402345,
                             "ProjectedArea": 2931,
-                            "Population": 111380,
+                            "Population": 192603,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2553
@@ -2262,7 +2262,7 @@
                             "Terrain": "Grasslands",
                             "Area": 132.14991760253907,
                             "ProjectedArea": 1697,
-                            "Population": 73632,
+                            "Population": 125348,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1836
@@ -2288,7 +2288,7 @@
                             "Terrain": "Grasslands",
                             "Area": 264.3939514160156,
                             "ProjectedArea": 3370,
-                            "Population": 147317,
+                            "Population": 244305,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3174
@@ -2314,7 +2314,7 @@
                             "Terrain": "Grasslands",
                             "Area": 157.75160217285157,
                             "ProjectedArea": 1988,
-                            "Population": 72431,
+                            "Population": 98208,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1848
@@ -2340,7 +2340,7 @@
                             "Terrain": "Grasslands",
                             "Area": 257.8052673339844,
                             "ProjectedArea": 3173,
-                            "Population": 126796,
+                            "Population": 225579,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2838
@@ -2366,7 +2366,7 @@
                             "Terrain": "Grasslands",
                             "Area": 114.64286804199219,
                             "ProjectedArea": 1427,
-                            "Population": 67624,
+                            "Population": 142179,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1719
@@ -2392,7 +2392,7 @@
                             "Terrain": "Grasslands",
                             "Area": 173.84678649902345,
                             "ProjectedArea": 2109,
-                            "Population": 96865,
+                            "Population": 164898,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2258
@@ -2418,7 +2418,7 @@
                             "Terrain": "Grasslands",
                             "Area": 157.0927276611328,
                             "ProjectedArea": 1897,
-                            "Population": 92664,
+                            "Population": 194825,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2171
@@ -2444,7 +2444,7 @@
                             "Terrain": "Grasslands",
                             "Area": 171.30543518066407,
                             "ProjectedArea": 2049,
-                            "Population": 123440,
+                            "Population": 237644,
                             "ProvinceParent": "AC2D39",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2680
@@ -2455,7 +2455,7 @@
                     "HexCode": "FCBB48",
                     "ContinentParent": "A69658",
                     "Area": 155.39849853515626,
-                    "Population": 76429,
+                    "Population": 135973,
                     "Tiles": [
                         {
                             "HexCode": "44439A",
@@ -2482,7 +2482,7 @@
                             "Terrain": "Grasslands",
                             "Area": 155.39849853515626,
                             "ProjectedArea": 1978,
-                            "Population": 76429,
+                            "Population": 135973,
                             "ProvinceParent": "FCBB48",
                             "ContinentParent": "A69658",
                             "ClaimValue": 5659
@@ -2493,7 +2493,7 @@
                     "HexCode": "56C9E2",
                     "ContinentParent": "A69658",
                     "Area": 1703.265625,
-                    "Population": 928788,
+                    "Population": 1602400,
                     "Tiles": [
                         {
                             "HexCode": "865C2C",
@@ -2516,7 +2516,7 @@
                             "Terrain": "Grasslands",
                             "Area": 97.60645294189453,
                             "ProjectedArea": 1245,
-                            "Population": 57574,
+                            "Population": 116266,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1538
@@ -2542,7 +2542,7 @@
                             "Terrain": "Grasslands",
                             "Area": 230.97996520996095,
                             "ProjectedArea": 2881,
-                            "Population": 128699,
+                            "Population": 213429,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2836
@@ -2568,7 +2568,7 @@
                             "Terrain": "Grasslands",
                             "Area": 197.75424194335938,
                             "ProjectedArea": 2472,
-                            "Population": 110186,
+                            "Population": 182728,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2500
@@ -2594,7 +2594,7 @@
                             "Terrain": "Grasslands",
                             "Area": 134.87950134277345,
                             "ProjectedArea": 1657,
-                            "Population": 75153,
+                            "Population": 127937,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1864
@@ -2620,7 +2620,7 @@
                             "Terrain": "Grasslands",
                             "Area": 121.32566833496094,
                             "ProjectedArea": 1495,
-                            "Population": 59671,
+                            "Population": 106159,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1600
@@ -2646,7 +2646,7 @@
                             "Terrain": "Grasslands",
                             "Area": 453.77117919921877,
                             "ProjectedArea": 5456,
-                            "Population": 252836,
+                            "Population": 430415,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 5090
@@ -2672,7 +2672,7 @@
                             "Terrain": "Grasslands",
                             "Area": 229.6622314453125,
                             "ProjectedArea": 2777,
-                            "Population": 127965,
+                            "Population": 217841,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2823
@@ -2698,7 +2698,7 @@
                             "Terrain": "Grasslands",
                             "Area": 237.28627014160157,
                             "ProjectedArea": 2886,
-                            "Population": 116704,
+                            "Population": 207625,
                             "ProvinceParent": "56C9E2",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2652
@@ -2709,7 +2709,7 @@
                     "HexCode": "3DD166",
                     "ContinentParent": "A69658",
                     "Area": 1526.971435546875,
-                    "Population": 1048453,
+                    "Population": 2149566,
                     "Tiles": [
                         {
                             "HexCode": "B1BD84",
@@ -2732,7 +2732,7 @@
                             "Terrain": "Grasslands",
                             "Area": 230.1328582763672,
                             "ProjectedArea": 2864,
-                            "Population": 128227,
+                            "Population": 212647,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2827
@@ -2758,7 +2758,7 @@
                             "Terrain": "Grasslands",
                             "Area": 132.14991760253907,
                             "ProjectedArea": 1636,
-                            "Population": 64995,
+                            "Population": 115631,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1698
@@ -2784,7 +2784,7 @@
                             "Terrain": "Grasslands",
                             "Area": 174.22328186035157,
                             "ProjectedArea": 2118,
-                            "Population": 125543,
+                            "Population": 241692,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2717
@@ -2810,7 +2810,7 @@
                             "Terrain": "Grasslands",
                             "Area": 247.26339721679688,
                             "ProjectedArea": 2983,
-                            "Population": 178174,
+                            "Population": 343017,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3647
@@ -2836,7 +2836,7 @@
                             "Terrain": "Grasslands",
                             "Area": 99.11243438720703,
                             "ProjectedArea": 1207,
-                            "Population": 58463,
+                            "Population": 122918,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1554
@@ -2862,7 +2862,7 @@
                             "Terrain": "Grasslands",
                             "Area": 143.0682830810547,
                             "ProjectedArea": 1712,
-                            "Population": 121678,
+                            "Population": 282629,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2618
@@ -2888,7 +2888,7 @@
                             "Terrain": "Grasslands",
                             "Area": 187.21237182617188,
                             "ProjectedArea": 2218,
-                            "Population": 110430,
+                            "Population": 223002,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2491
@@ -2914,7 +2914,7 @@
                             "Terrain": "Grasslands",
                             "Area": 192.48330688476563,
                             "ProjectedArea": 2282,
-                            "Population": 163705,
+                            "Population": 380248,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3350
@@ -2940,7 +2940,7 @@
                             "Terrain": "Shores",
                             "Area": 121.32566833496094,
                             "ProjectedArea": 1423,
-                            "Population": 97238,
+                            "Population": 227782,
                             "ProvinceParent": "3DD166",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2201
@@ -2951,7 +2951,7 @@
                     "HexCode": "1BD67D",
                     "ContinentParent": "A69658",
                     "Area": 2418.88916015625,
-                    "Population": 1570795,
+                    "Population": 3090338,
                     "Tiles": [
                         {
                             "HexCode": "584E38",
@@ -2974,7 +2974,7 @@
                             "Terrain": "Grasslands",
                             "Area": 223.544189453125,
                             "ProjectedArea": 2628,
-                            "Population": 131861,
+                            "Population": 266280,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2878
@@ -3000,7 +3000,7 @@
                             "Terrain": "Grasslands",
                             "Area": 188.90660095214845,
                             "ProjectedArea": 2228,
-                            "Population": 105256,
+                            "Population": 179183,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2410
@@ -3026,7 +3026,7 @@
                             "Terrain": "Grasslands",
                             "Area": 246.039794921875,
                             "ProjectedArea": 2882,
-                            "Population": 121009,
+                            "Population": 215284,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2731
@@ -3052,7 +3052,7 @@
                             "Terrain": "Grasslands",
                             "Area": 119.06669616699219,
                             "ProjectedArea": 1393,
-                            "Population": 66342,
+                            "Population": 112938,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1704
@@ -3078,7 +3078,7 @@
                             "Terrain": "Grasslands",
                             "Area": 279.3596496582031,
                             "ProjectedArea": 3209,
-                            "Population": 237592,
+                            "Population": 551872,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 4636
@@ -3104,7 +3104,7 @@
                             "Terrain": "Grasslands",
                             "Area": 239.1687469482422,
                             "ProjectedArea": 2722,
-                            "Population": 117630,
+                            "Population": 209272,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2669
@@ -3130,7 +3130,7 @@
                             "Terrain": "Grasslands",
                             "Area": 270.135498046875,
                             "ProjectedArea": 3074,
-                            "Population": 209884,
+                            "Population": 454198,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 4182
@@ -3156,7 +3156,7 @@
                             "Terrain": "Grasslands",
                             "Area": 303.4553527832031,
                             "ProjectedArea": 3443,
-                            "Population": 169082,
+                            "Population": 280398,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3569
@@ -3182,7 +3182,7 @@
                             "Terrain": "Grasslands",
                             "Area": 126.12598419189453,
                             "ProjectedArea": 1401,
-                            "Population": 107268,
+                            "Population": 254724,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2867
@@ -3208,7 +3208,7 @@
                             "Terrain": "Grasslands",
                             "Area": 423.0867919921875,
                             "ProjectedArea": 4711,
-                            "Population": 304871,
+                            "Population": 566189,
                             "ProvinceParent": "1BD67D",
                             "ContinentParent": "A69658",
                             "ClaimValue": 6385
@@ -3219,7 +3219,7 @@
                     "HexCode": "E39DAB",
                     "ContinentParent": "A69658",
                     "Area": 113.04277038574219,
-                    "Population": 86151,
+                    "Population": 189484,
                     "Tiles": [
                         {
                             "HexCode": "5BE0C2",
@@ -3242,7 +3242,7 @@
                             "Terrain": "Grasslands",
                             "Area": 69.46341705322266,
                             "ProjectedArea": 808,
-                            "Population": 55672,
+                            "Population": 130414,
                             "ProvinceParent": "E39DAB",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1974
@@ -3268,7 +3268,7 @@
                             "Terrain": "Shores",
                             "Area": 7.059289932250977,
                             "ProjectedArea": 78,
-                            "Population": 4164,
+                            "Population": 8408,
                             "ProvinceParent": "E39DAB",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1075
@@ -3294,7 +3294,7 @@
                             "Terrain": "Grasslands",
                             "Area": 36.52006149291992,
                             "ProjectedArea": 397,
-                            "Population": 26315,
+                            "Population": 50662,
                             "ProvinceParent": "E39DAB",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1464
@@ -3305,7 +3305,7 @@
                     "HexCode": "57EE42",
                     "ContinentParent": "A69658",
                     "Area": 3296.029296875,
-                    "Population": 2150678,
+                    "Population": 4223342,
                     "Tiles": [
                         {
                             "HexCode": "839690",
@@ -3328,7 +3328,7 @@
                             "Terrain": "Grasslands",
                             "Area": 67.48681640625,
                             "ProjectedArea": 789,
-                            "Population": 37602,
+                            "Population": 64013,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 1182
@@ -3354,7 +3354,7 @@
                             "Terrain": "Grasslands",
                             "Area": 276.3476867675781,
                             "ProjectedArea": 3198,
-                            "Population": 153977,
+                            "Population": 262123,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3295
@@ -3384,7 +3384,7 @@
                             "Terrain": "Grasslands",
                             "Area": 333.6690979003906,
                             "ProjectedArea": 3798,
-                            "Population": 185916,
+                            "Population": 308316,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 12625
@@ -3414,7 +3414,7 @@
                             "Terrain": "Grasslands",
                             "Area": 155.2102508544922,
                             "ProjectedArea": 1749,
-                            "Population": 91553,
+                            "Population": 192490,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 10901
@@ -3444,7 +3444,7 @@
                             "Terrain": "Grasslands",
                             "Area": 154.73963928222657,
                             "ProjectedArea": 1746,
-                            "Population": 91276,
+                            "Population": 176736,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 10896
@@ -3474,7 +3474,7 @@
                             "Terrain": "Grasslands",
                             "Area": 197.28363037109376,
                             "ProjectedArea": 2173,
-                            "Population": 116371,
+                            "Population": 234999,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 11348
@@ -3500,7 +3500,7 @@
                             "Terrain": "Grasslands",
                             "Area": 216.39077758789063,
                             "ProjectedArea": 2387,
-                            "Population": 168127,
+                            "Population": 374440,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3449
@@ -3530,7 +3530,7 @@
                             "Terrain": "Grasslands",
                             "Area": 233.2389373779297,
                             "ProjectedArea": 2563,
-                            "Population": 168069,
+                            "Population": 323561,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 12219
@@ -3560,7 +3560,7 @@
                             "Terrain": "Grasslands",
                             "Area": 382.7076416015625,
                             "ProjectedArea": 4195,
-                            "Population": 275774,
+                            "Population": 512152,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 14121
@@ -3590,7 +3590,7 @@
                             "Terrain": "Grasslands",
                             "Area": 272.7709655761719,
                             "ProjectedArea": 2960,
-                            "Population": 160899,
+                            "Population": 338289,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 20901
@@ -3616,7 +3616,7 @@
                             "Terrain": "Grasslands",
                             "Area": 180.7178192138672,
                             "ProjectedArea": 1936,
-                            "Population": 162557,
+                            "Population": 393326,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3317
@@ -3650,7 +3650,7 @@
                             "Terrain": "Grasslands",
                             "Area": 239.4511260986328,
                             "ProjectedArea": 2544,
-                            "Population": 141244,
+                            "Population": 296966,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 25547
@@ -3684,7 +3684,7 @@
                             "Terrain": "Grasslands",
                             "Area": 433.2521667480469,
                             "ProjectedArea": 4603,
-                            "Population": 312196,
+                            "Population": 601031,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 29015
@@ -3718,7 +3718,7 @@
                             "Terrain": "Grasslands",
                             "Area": 152.76303100585938,
                             "ProjectedArea": 1623,
-                            "Population": 85117,
+                            "Population": 144900,
                             "ProvinceParent": "57EE42",
                             "ContinentParent": "A69658",
                             "ClaimValue": 33795
@@ -3729,7 +3729,7 @@
                     "HexCode": "5E5AB8",
                     "ContinentParent": "A69658",
                     "Area": 321.71539306640627,
-                    "Population": 165345,
+                    "Population": 281621,
                     "Tiles": [
                         {
                             "HexCode": "32E178",
@@ -3760,7 +3760,7 @@
                             "Terrain": "Shores",
                             "Area": 108.90131378173828,
                             "ProjectedArea": 1228,
-                            "Population": 60678,
+                            "Population": 100626,
                             "ProvinceParent": "5E5AB8",
                             "ContinentParent": "A69658",
                             "ClaimValue": 10851
@@ -3794,7 +3794,7 @@
                             "Terrain": "Grasslands",
                             "Area": 174.41152954101563,
                             "ProjectedArea": 1943,
-                            "Population": 85780,
+                            "Population": 148335,
                             "ProvinceParent": "5E5AB8",
                             "ContinentParent": "A69658",
                             "ClaimValue": 11331
@@ -3824,7 +3824,7 @@
                             "Terrain": "Shores",
                             "Area": 17.50704002380371,
                             "ProjectedArea": 186,
-                            "Population": 8610,
+                            "Population": 14889,
                             "ProvinceParent": "5E5AB8",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3658
@@ -3854,7 +3854,7 @@
                             "Terrain": "Grasslands",
                             "Area": 20.895498275756837,
                             "ProjectedArea": 228,
-                            "Population": 10277,
+                            "Population": 17771,
                             "ProvinceParent": "5E5AB8",
                             "ContinentParent": "A69658",
                             "ClaimValue": 3689
@@ -3865,7 +3865,7 @@
                     "HexCode": "3D98CD",
                     "ContinentParent": "A69658",
                     "Area": 118.69019317626953,
-                    "Population": 58375,
+                    "Population": 100944,
                     "Tiles": [
                         {
                             "HexCode": "879479",
@@ -3888,7 +3888,7 @@
                             "Terrain": "Grasslands",
                             "Area": 118.69019317626953,
                             "ProjectedArea": 1016,
-                            "Population": 58375,
+                            "Population": 100944,
                             "ProvinceParent": "3D98CD",
                             "ContinentParent": "A69658",
                             "ClaimValue": 2076

@@ -14,11 +14,18 @@ using System.Buffers.Text;
 using UnityEngine.UIElements;
 using UnityEditor;
 using System.IO.Pipes;
+using Unity.VisualScripting;
+using static Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetrics;
+using UnityEngine.Networking;
+using System.Drawing;
 
 //this method handles click detection action and the stages involved in generating map data
 public class MapGen : MonoBehaviour
 {
     #region Accessibles
+    [SerializeField] private string claimedMapURL;
+    public Texture2D claimedMapTex;
+    public List<(string, bool)> claimedList;
     [SerializeField] public Texture2D tileMap;
     private Texture2D tileAreaMap;
     [SerializeField] public Texture2D provinceMap;
@@ -86,6 +93,9 @@ public class MapGen : MonoBehaviour
         provinceNames = ImportNamesJson(Application.streamingAssetsPath + "/Localisation/Provinces.json");
         culturesList = ImportCultureJson(Application.streamingAssetsPath + "/Localisation/Cultures.json");
 
+        // Generate claimed list
+
+
         /*
         // Pop curve tester
         double[] densityTargets = new double[] { 0.5, 2, 5, 10, 20, 75, 125, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 4000, 5000, 6000, 8000, 10000, 15000, 20000, 25000 };
@@ -106,7 +116,7 @@ public class MapGen : MonoBehaviour
         {
             // Create new map data using images
             Debug.Log("Generating Map Data");
-            StartCoroutine(delayBuild());
+            StartCoroutine(DelayBuild());
 
         }
         else
@@ -133,11 +143,16 @@ public class MapGen : MonoBehaviour
             Debug.Log("Setting Claim Values");
             StartCoroutine(BalanceClaimCosts());
         }
+
+        // Create new map data using online images
+        Debug.Log("Storing Claim Overlaps");
+        StartCoroutine(UpdateClaimedTiles());
+
     }
 
 
 
-    IEnumerator delayBuild()
+    IEnumerator DelayBuild()
     {
         // Generate Continents
         List<Color> continentPixels = SerialiseMap(continentMap.GetPixels());
@@ -254,8 +269,51 @@ public class MapGen : MonoBehaviour
         yield return null;
     }
 
-    #region Definitions
-    void DefineContinent(Color targetColor)
+    IEnumerator UpdateClaimedTiles()
+    {
+        // Define the claimed map
+        Color[] claimedMap = new Color[width * height];
+        // Try to get the wiki colourmap
+        UnityWebRequest request = UnityWebRequestTexture.GetTexture(claimedMapURL);
+        yield return request.SendWebRequest();
+
+
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            claimedMapTex = DownloadHandlerTexture.GetContent(request);
+            claimedMap = claimedMapTex.GetPixels();
+            Debug.Log("Downloaded image from: " + claimedMapURL);
+        }
+        else
+        {
+            Debug.LogError("Failed to download image: " + request.error);
+        }
+
+        bool claimed;
+        claimedList = new List<(string, bool)>();
+        foreach (ContinentData c in continents)
+        {
+            foreach (ProvinceData p in c.Provinces)
+            {
+                foreach (TileData t in p.Tiles)
+                {
+                    Vector2 position = t.Position;
+                    int baseX = (int)position.x;
+                    int baseY = (int)position.y;
+                    int index = baseY * width + baseX;
+
+                    claimed = claimedMap[index].a > 0;
+                    var newTuple = (t.HexCode, claimed);
+                    claimedList.Add(newTuple);
+                }
+            }
+        }
+        
+        yield return null;
+    }
+
+        #region Definitions
+        void DefineContinent(Color targetColor)
     {
         string newHex = ColorUtility.ToHtmlStringRGB(targetColor);
         // Create the continent object
